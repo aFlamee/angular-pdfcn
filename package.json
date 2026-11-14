@@ -12,7 +12,7 @@
     "test": "pnpm --filter web test",
     "registry:build": "turbo run registry:build --filter=web",
     "install:check": "pnpm --filter web install:check",
-    "verify": "pnpm check && pnpm typecheck && pnpm test && pnpm build && pnpm install:check",
+    "verify": "node scripts/verify.mjs",
     "check": "ultracite check",
     "fix": "ultracite fix",
     "prepare": "lefthook install"
