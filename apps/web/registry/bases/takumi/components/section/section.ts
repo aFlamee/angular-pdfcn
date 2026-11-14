@@ -157,6 +157,8 @@ export class PdfSection {
   readonly border = input(false, { transform: booleanAttribute });
   readonly variant = input<SectionVariant>("default");
   readonly accentColor = input<string>();
+  /** Part of the props API but unused, as in the original. */
+  readonly noWrap = input(false, { transform: booleanAttribute });
   readonly style = input<SectionProps["style"]>();
 
   private readonly theme = injectPdfcnTheme();

@@ -170,7 +170,7 @@ const giftCertificateLayout = (
       <takumi-page [size]="{ height: 595, width: 841 }" [style]="styles.page">
         <takumi-view [style]="styles.decorativeBorder">
           <takumi-view [style]="styles.innerBorder">
-            <pdf-section [style]="styles.header">
+            <pdf-section noWrap [style]="styles.header">
               @if (data.companyLogo) {
                 <pdf-image
                   [src]="data.companyLogo ?? '/favicon.png'"
@@ -195,7 +195,7 @@ const giftCertificateLayout = (
               }
             </pdf-section>
 
-            <pdf-section [style]="styles.amountContainer">
+            <pdf-section noWrap [style]="styles.amountContainer">
               <pdf-text [style]="styles.amount" noMargin
                 >{{ layout().currencySymbol
                 }}{{ data.amount.toFixed(2) }}</pdf-text
@@ -203,6 +203,7 @@ const giftCertificateLayout = (
             </pdf-section>
 
             <pdf-section
+              noWrap
               [style]="{
                 flexDirection: 'row',
                 gap: 28,
@@ -224,7 +225,7 @@ const giftCertificateLayout = (
             </pdf-section>
 
             @if (data.message) {
-              <pdf-section [style]="styles.messageBox">
+              <pdf-section noWrap [style]="styles.messageBox">
                 <pdf-text
                   [style]="{
                     color: theme.colors.foreground,
@@ -239,7 +240,7 @@ const giftCertificateLayout = (
               </pdf-section>
             }
 
-            <pdf-section [style]="styles.codeBox">
+            <pdf-section noWrap [style]="styles.codeBox">
               <pdf-text [style]="styles.fieldLabel" noMargin
                 >Certificate Code</pdf-text
               >
@@ -249,6 +250,7 @@ const giftCertificateLayout = (
             </pdf-section>
 
             <pdf-section
+              noWrap
               [style]="{
                 alignItems: 'center',
                 marginBottom: 8,
@@ -269,7 +271,7 @@ const giftCertificateLayout = (
             </pdf-section>
 
             @if (data.redemptionInstructions) {
-              <pdf-section [style]="styles.instructionsBox">
+              <pdf-section noWrap [style]="styles.instructionsBox">
                 <pdf-text
                   [style]="{
                     color: theme.colors.foreground,
@@ -285,6 +287,7 @@ const giftCertificateLayout = (
 
             @if (data.terms) {
               <pdf-section
+                noWrap
                 [style]="{
                   marginTop: 10,
                 }"

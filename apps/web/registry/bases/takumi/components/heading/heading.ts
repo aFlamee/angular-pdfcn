@@ -195,6 +195,8 @@ export class PdfHeading {
   readonly weight = input<HeadingWeight>();
   readonly tracking = input<HeadingTracking>();
   readonly noMargin = input(false, { transform: booleanAttribute });
+  /** Part of the props API but unused, as in the original. */
+  readonly keepWithNext = input(false, { transform: booleanAttribute });
   readonly style = input<HeadingProps["style"]>();
 
   private readonly theme = injectPdfcnTheme();

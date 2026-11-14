@@ -1,4 +1,4 @@
-import { Component, computed, input } from "@angular/core";
+import { booleanAttribute, Component, computed, input } from "@angular/core";
 
 import { injectPdfcnTheme } from "@/registry/bases/forme/components/theme-provider";
 import {
@@ -81,6 +81,9 @@ export class PdfWatermark {
   readonly fontSize = input(60);
   readonly color = input("mutedForeground");
   readonly angle = input(-45);
+  /** Part of the props API but unused, as in the original. */
+  readonly position = input<PdfWatermarkProps["position"]>();
+  readonly fixed = input(false, { transform: booleanAttribute });
   readonly style = input<PdfWatermarkProps["style"]>();
 
   private readonly theme = injectPdfcnTheme();

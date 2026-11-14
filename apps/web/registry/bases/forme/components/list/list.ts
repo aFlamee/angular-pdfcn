@@ -1,5 +1,5 @@
 import { NgTemplateOutlet } from "@angular/common";
-import { Component, computed, input } from "@angular/core";
+import { booleanAttribute, Component, computed, input } from "@angular/core";
 
 import { injectPdfcnTheme } from "@/registry/bases/forme/components/theme-provider";
 import {
@@ -327,6 +327,8 @@ export class PdfList {
   readonly items = input.required<ListItem[]>();
   readonly variant = input<ListVariant>("bullet");
   readonly gap = input<GapProp>("sm");
+  /** Part of the props API but unused, as in the original. */
+  readonly noWrap = input(false, { transform: booleanAttribute });
   readonly style = input<PdfListProps["style"]>();
   readonly _level = input(0);
 
