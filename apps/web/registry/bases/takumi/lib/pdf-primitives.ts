@@ -210,8 +210,13 @@ export class TakumiView extends TakumiPrimitive {
   }
 }
 
+/**
+ * Text node. With `ifString`, it only wraps plain text content and
+ * passes element content through unchanged.
+ */
 @Directive({ selector: "takumi-text" })
 export class TakumiText extends TakumiPrimitive {
+  readonly ifString = input(false, { transform: booleanAttribute });
   readonly style = input<StyleInput>();
   readonly className = input<string>();
   readonly href = input<string>();

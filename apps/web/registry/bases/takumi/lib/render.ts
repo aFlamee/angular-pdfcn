@@ -2,7 +2,10 @@ import type { Type } from "@angular/core";
 import { container, image, text } from "@takumi-rs/helpers";
 import type { Node } from "@takumi-rs/helpers";
 
-import { TakumiPrimitive } from "@/registry/bases/takumi/lib/pdf-primitives";
+import {
+  TakumiPrimitive,
+  TakumiText,
+} from "@/registry/bases/takumi/lib/pdf-primitives";
 import type { TakumiHost } from "@/registry/bases/takumi/lib/pdf-primitives";
 import {
   PdfElement,
@@ -147,6 +150,13 @@ const serializeElement = (element: PdfElement): Node[] => {
   if (!(primitive instanceof TakumiPrimitive)) {
     return [];
   }
+  const content = contentOf(element);
+  const textOnly =
+    content.length > 0 &&
+    content.every((child) => child instanceof PdfTextNode);
+  if (primitive instanceof TakumiText && primitive.ifString() && !textOnly) {
+    return serializeChildren(element);
+  }
   const host = primitive.host();
   const description = describe(host);
 
@@ -171,11 +181,7 @@ const serializeElement = (element: PdfElement): Node[] => {
     ];
   }
 
-  const content = contentOf(element);
-  if (
-    content.length > 0 &&
-    content.every((child) => child instanceof PdfTextNode)
-  ) {
+  if (textOnly) {
     return [
       text({
         text: content.map((child) => child.value).join(""),
