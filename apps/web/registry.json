@@ -359,7 +359,7 @@
       "dependencies": [
         "takumi-pdf@^0.11.0",
         "@takumi-rs/helpers@^2.10.0",
-        "qrcode"
+        "qrcode@^1.5.4"
       ],
       "description": "QR code PDF component (takumi)",
       "files": [
@@ -372,7 +372,8 @@
       "name": "takumi/qrcode",
       "registryDependencies": ["@angular-pdfcn/takumi/utils"],
       "title": "QR Code",
-      "type": "registry:ui"
+      "type": "registry:ui",
+      "devDependencies": ["@types/qrcode@^1.5.6"]
     },
     {
       "dependencies": ["takumi-pdf@^0.11.0", "@takumi-rs/helpers@^2.10.0"],
@@ -478,7 +479,7 @@
       "dependencies": [
         "takumi-pdf@^0.11.0",
         "@takumi-rs/helpers@^2.10.0",
-        "qrcode"
+        "qrcode@^1.5.4"
       ],
       "description": "Event Ticket PDF block (takumi)",
       "files": [
@@ -501,7 +502,8 @@
         "@angular-pdfcn/takumi/utils"
       ],
       "title": "Event Ticket",
-      "type": "registry:block"
+      "type": "registry:block",
+      "devDependencies": ["@types/qrcode@^1.5.6"]
     },
     {
       "dependencies": ["takumi-pdf@^0.11.0", "@takumi-rs/helpers@^2.10.0"],
@@ -991,7 +993,7 @@
       "dependencies": [
         "takumi-pdf@^0.11.0",
         "@takumi-rs/helpers@^2.10.0",
-        "qrcode"
+        "qrcode@^1.5.4"
       ],
       "description": "Shipping Label PDF block (takumi)",
       "files": [
@@ -1014,7 +1016,8 @@
         "@angular-pdfcn/takumi/text"
       ],
       "title": "Shipping Label",
-      "type": "registry:block"
+      "type": "registry:block",
+      "devDependencies": ["@types/qrcode@^1.5.6"]
     },
     {
       "dependencies": ["takumi-pdf@^0.11.0", "@takumi-rs/helpers@^2.10.0"],
@@ -1683,7 +1686,7 @@
       "dependencies": [
         "@formepdf/core@^0.25.0",
         "@formepdf/shared@^0.25.0",
-        "qrcode"
+        "qrcode@^1.5.4"
       ],
       "description": "QR code PDF component (forme)",
       "files": [
@@ -1696,7 +1699,8 @@
       "name": "forme/qrcode",
       "registryDependencies": ["@angular-pdfcn/forme/utils"],
       "title": "QR Code",
-      "type": "registry:ui"
+      "type": "registry:ui",
+      "devDependencies": ["@types/qrcode@^1.5.6"]
     },
     {
       "dependencies": ["@formepdf/core@^0.25.0", "@formepdf/shared@^0.25.0"],
@@ -2136,7 +2140,7 @@
       "dependencies": [
         "@formepdf/core@^0.25.0",
         "@formepdf/shared@^0.25.0",
-        "qrcode"
+        "qrcode@^1.5.4"
       ],
       "description": "Shipping Label PDF block (forme)",
       "files": [
@@ -2158,13 +2162,14 @@
         "@angular-pdfcn/forme/text"
       ],
       "title": "Shipping Label",
-      "type": "registry:block"
+      "type": "registry:block",
+      "devDependencies": ["@types/qrcode@^1.5.6"]
     },
     {
       "dependencies": [
         "@formepdf/core@^0.25.0",
         "@formepdf/shared@^0.25.0",
-        "qrcode"
+        "qrcode@^1.5.4"
       ],
       "description": "Event Ticket PDF block (forme)",
       "files": [
@@ -2187,7 +2192,8 @@
         "@angular-pdfcn/forme/utils"
       ],
       "title": "Event Ticket",
-      "type": "registry:block"
+      "type": "registry:block",
+      "devDependencies": ["@types/qrcode@^1.5.6"]
     },
     {
       "dependencies": ["@formepdf/core@^0.25.0", "@formepdf/shared@^0.25.0"],

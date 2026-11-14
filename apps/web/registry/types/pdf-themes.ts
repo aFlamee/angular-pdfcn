@@ -137,7 +137,7 @@ export interface PrimitiveTokens {
 /**
  * Semantic color tokens using the foreground/background pair convention.
  * All values must be hex strings (e.g., '#1a1a1a').
- * react-pdf supports hex, rgb(), and hsl() — but NOT oklch.
+ * Forme and Takumi accept hex, rgb(), and hsl() colors, but not oklch.
  */
 export interface ColorTokens {
   /** Primary text and content color */
