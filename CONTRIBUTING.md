@@ -1,106 +1,73 @@
-# Contributing to pdfcn
+# Contributing to angular-pdfcn
 
-Thanks for your interest in contributing! This guide covers everything you need to get the repo running locally and land a change.
+This guide covers how the port works, how to run it locally, and how to add a component.
 
 ## Prerequisites
 
-- **Node.js 20+**
-- **pnpm** — version pinned in [`package.json`](./package.json)
+- Node.js 22.22 or later
+- pnpm, at the version pinned in [`package.json`](./package.json)
 
 ## Getting started
 
 ```bash
-git clone https://github.com/shadcn-labs/pdfcn.git
-cd pdfcn
+git clone https://github.com/aFlamee/angular-pdfcn.git
+cd angular-pdfcn
 pnpm install
-```
-
-## Development
-
-```bash
 pnpm dev
 ```
 
-This starts the Next.js dev server with the documentation site at [http://localhost:3000](http://localhost:3000).
+`pnpm dev` starts the documentation site from `apps/web`.
 
-## Building
+## How it works
 
-```bash
-pnpm build
-```
+Everything lives in `apps/web`.
 
-This builds the shadcn registry first, then the Next.js app.
+- **Renderer.** `registry/lib/pdf-renderer.ts` is a custom Angular `RendererFactory2`. It renders a component into a plain node tree instead of the DOM.
+- **Primitives.** Each base has directives in `registry/bases/{forme,takumi}/lib/pdf-primitives.ts`, such as `forme-page`, `forme-text`, `takumi-view`, and `takumi-text`. An element with a primitive becomes an engine node. Elements without one, such as component hosts, are transparent and pass their children through.
+- **Serializers.** `registry/bases/{forme,takumi}/lib/render.ts` turn the tree into the engine's document. `renderFormeDocument` returns the Forme JSON that `@formepdf/core` renders. `renderTakumiDocument` returns the Takumi node that `takumi-pdf` renders.
+- **Components and blocks.** `registry/bases/{base}/components` and `registry/bases/{base}/blocks` hold the installable source. The two bases differ, so each has its own copy.
+- **Parity suite.** `fixtures/{base}/{name}.json` holds the engine document that each pdfcn demo produced. `tests/parity.test.ts` renders every demo in `examples/{base}` and compares it with its fixture. A fixture defines the correct output, so never edit one to make a test pass.
+- **Registry.** `registry.json` lists every item, its files with install targets, and its dependencies. `pnpm registry:build` publishes `public/r`, rewrites `@/registry/...` imports to the installed paths, and checks that each item installs on its own.
 
-When changing a registry item, run `pnpm registry:build` (`apps/web/scripts/build-registry.mts`). The source manifest is `apps/web/registry.json`; the build publishes `apps/web/public/r/*.json`, rewrites source-only `@/registry/` imports to the installed file targets, and checks that every item has a complete isolated dependency closure (including package dependencies). Declare imports from other items in `registryDependencies`; do not edit the generated JSON by hand.
-
-## Testing
-
-```bash
-pnpm typecheck     # TypeScript type checking
-```
-
-## Linting and formatting
+## Checks
 
 ```bash
-pnpm check         # lint and format check (ultracite)
-pnpm fix           # auto-fix lint and format issues
+pnpm verify
 ```
 
-All of these run in CI, so running them locally before pushing saves a round trip.
+`pnpm verify` runs every check and prints one summary, even after a failure:
 
-A pre-commit hook via [lefthook](https://github.com/evilmartians/lefthook) automatically runs `pnpm fix` on staged files.
+| Step           | Command               | What it checks                                                                                                               |
+| -------------- | --------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
+| check          | `pnpm check`          | Lint and format (ultracite)                                                                                                  |
+| typecheck      | `pnpm typecheck`      | Angular compiler in strict mode                                                                                              |
+| parity         | `pnpm test`           | Every demo matches its fixture                                                                                               |
+| registry build | `pnpm registry:build` | Registry output and install closures                                                                                         |
+| site build     | `vite build`          | The documentation site                                                                                                       |
+| install check  | `pnpm install:check`  | Installs Forme and Takumi blocks into a fresh `ng new` app per base, renders each to a PDF in `ng test`, and runs `ng build` |
 
-## Before opening a pull request
+To run one demo, use `cd apps/web && npx vitest run -t "forme/text"`. A failure prints the first JSON path that differs from the fixture.
 
-Every pull request must be tied to an issue. Before opening a PR, search the existing issues, discussions, and pull requests so you do not duplicate active work. If there is no existing issue, open one with the relevant template and describe the problem, use case, or bug reproduction.
+`pnpm fix` formats and fixes lint issues. A [lefthook](https://github.com/evilmartians/lefthook) pre-commit hook runs it on staged files.
 
-For non-trivial changes, wait for discussion on the issue before investing in the implementation. The goal is to agree that the problem is real and that the proposed direction fits pdfcn before review shifts to code.
+## Adding a component
 
-To avoid PRs that are unlikely to be reviewed or merged:
+Add the component to each base separately. For a component named `badge` in the Forme base:
 
-- Do not send broad rewrites, style-only churn, or formatting-only changes unless a maintainer asked for them.
-- Do not bundle unrelated fixes or refactors into one PR. Split them so each PR has one reviewable purpose.
-- Do not change public behavior based only on a hypothetical use case. Include a concrete user story, reproduction, or test that shows the need.
-- Do not claim an issue silently. Comment before starting work, and check the thread first in case someone else is already working on it.
+1. Write `registry/bases/forme/components/badge/badge.ts`. Keep the style logic in a plain function, `badgeStyles(theme, props)`, and add a thin `@Component` with selector `pdf-badge`, signal inputs for the props, `injectPdfcnTheme()`, and one `computed()` that calls the function. Build the template from the base's primitives. `components/text/text.ts` and `components/table/table.ts` show the pattern.
+2. Add a demo at `examples/forme/badge.ts` whose default export renders the component in a document. The demo index picks it up automatically.
+3. Add the fixture `fixtures/forme/badge.json`. For a pdfcn component, it is the document the pdfcn demo produces.
+4. Add an item to `registry.json` with its files, install targets, npm `dependencies`, and `registryDependencies` for every other item it imports.
+5. Add the docs page in `content/docs/components/forme/badge.mdx`.
+6. Run `pnpm verify`. Commit the regenerated `public/r` with your change, because the registry is served from it.
 
-## Submitting a pull request
+## Pull requests
 
-1. Fork the repo and create a branch from `main`.
-2. Link the issue where the change was discussed and agreed on.
-3. Make your change, including tests and docs where relevant.
-4. Sign off every commit with `git commit -s`.
-5. Make sure `pnpm check` and `pnpm typecheck` pass.
-6. Open the PR with a clear description of the problem and solution.
+- For a non-trivial change, open an issue first so we can agree on the direction.
+- Keep each pull request to one purpose.
+- Make sure `pnpm verify` passes and describe what you changed and how you checked it.
 
-## Developer Certificate of Origin (DCO)
-
-All contributions are made under the [Developer Certificate of Origin](https://developercertificate.org/). Every commit must include a `Signed-off-by` line matching the commit author's name and email:
-
-```text
-Signed-off-by: Jane Doe <jane.doe@example.com>
-```
-
-Add it automatically with:
-
-```bash
-git commit -s -m "your commit message"
-```
-
-If you forget, amend the last commit:
-
-```bash
-git commit --amend -s --no-edit
-```
-
-To sign off a series of commits, rebase with `--signoff`:
-
-```bash
-git rebase --signoff main
-```
-
-## Reporting bugs and requesting features
-
-Please use the [issue templates](https://github.com/shadcn-labs/pdfcn/issues/new/choose). For security issues, **do not open a public issue** — follow [SECURITY.md](./SECURITY.md) instead.
+Report bugs and request features with the [issue templates](https://github.com/aFlamee/angular-pdfcn/issues/new/choose). Report security issues as described in [SECURITY.md](./SECURITY.md), not in a public issue.
 
 ## Code of conduct
 
@@ -108,4 +75,4 @@ This project follows the [Code of Conduct](./CODE_OF_CONDUCT.md). By participati
 
 ## License
 
-pdfcn is licensed under the [MIT License](./LICENSE). By contributing, you agree that your contributions will be licensed under that same license (inbound = outbound).
+angular-pdfcn is licensed under the [MIT License](./LICENSE). By contributing, you agree that your contributions are licensed under the same license.

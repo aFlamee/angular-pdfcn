@@ -1,4 +1,4 @@
-// Installs registry items into a fresh `ng new` app, renders a block to PDF, and builds the app.
+// Installs each base's items into a fresh `ng new` app, renders its invoice block to PDF, and builds the app.
 import { spawn } from "node:child_process";
 import { once } from "node:events";
 import {
@@ -7,7 +7,7 @@ import {
   readFileSync,
   writeFileSync,
 } from "node:fs";
-import { mkdtemp } from "node:fs/promises";
+import { cp, mkdtemp, rm } from "node:fs/promises";
 import { createServer } from "node:http";
 import type { AddressInfo } from "node:net";
 import { tmpdir } from "node:os";
@@ -15,12 +15,35 @@ import path from "node:path";
 
 import { addCommand, componentsJson, TSCONFIG_PATHS } from "../lib/install";
 
-const ITEMS = [
-  "forme/text",
-  "forme/table",
-  "forme/key-value",
-  "forme/invoice-classic",
-];
+// Both bases install to the same paths, so each gets its own app.
+const BASES = {
+  forme: {
+    imports: `import { renderPdf } from "@formepdf/core";
+
+import { renderFormeDocument } from "@/lib/render";`,
+    items: [
+      "forme/text",
+      "forme/table",
+      "forme/key-value",
+      "forme/invoice-classic",
+    ],
+    render:
+      "await renderPdf(JSON.stringify(renderFormeDocument(InvoiceClassicDocument)))",
+  },
+  takumi: {
+    // `ng test` resolves takumi-pdf to its Vite entry, which can't load the wasm in Node.
+    imports: `import { readFileSync } from "node:fs";
+
+import { initSync, render } from "takumi-pdf/no-init";
+
+import { renderTakumiDocument } from "@/lib/render";
+
+initSync({ module: readFileSync("node_modules/takumi-pdf/pkg/takumi_pdf_wasm_bg.wasm") });`,
+    items: ["takumi/invoice-classic"],
+    render: "await render(renderTakumiDocument(InvoiceClassicDocument).node)",
+  },
+};
+
 const root = path.resolve(import.meta.dirname, "..");
 const bin = (name: string) => path.join(root, "node_modules/.bin", name);
 
@@ -54,10 +77,12 @@ const run = async (cwd: string, command: string, args: string[]) => {
   }
 };
 
+const patch = (file: string, search: string, replacement: string) =>
+  writeFileSync(file, readFileSync(file, "utf-8").replace(search, replacement));
+
+const workspace = await mkdtemp(path.join(tmpdir(), "angular-pdfcn-install-"));
 try {
-  const workspace = await mkdtemp(
-    path.join(tmpdir(), "angular-pdfcn-install-")
-  );
+  // One `ng new` plus the documented one-time setup, copied for each base.
   await run(workspace, bin("ng"), [
     "new",
     "app",
@@ -68,60 +93,69 @@ try {
     "--style=css",
     "--ai-config=none",
   ]);
-  const app = path.join(workspace, "app");
-
+  const template = path.join(workspace, "app");
   writeFileSync(
-    path.join(app, "components.json"),
+    path.join(template, "components.json"),
     JSON.stringify(componentsJson(registryUrl), null, 2)
   );
-  const tsconfigPath = path.join(app, "tsconfig.json");
-  const tsconfig = readFileSync(tsconfigPath, "utf-8").replace(
+  patch(
+    path.join(template, "tsconfig.json"),
     '"compilerOptions": {',
     `"compilerOptions": {\n    "paths": ${JSON.stringify(TSCONFIG_PATHS)},`
   );
-  writeFileSync(tsconfigPath, tsconfig);
+  // The specs write the PDF with node:fs.
+  await run(template, "pnpm", ["add", "-D", "@types/node"]);
+  patch(
+    path.join(template, "tsconfig.spec.json"),
+    '"vitest/globals"',
+    '"vitest/globals", "node"'
+  );
 
-  // The documented command, run with the pinned CLI instead of @latest.
-  const names = addCommand(...ITEMS)
-    .split(" ")
-    .slice(3);
-  await run(app, bin("shadcn"), ["add", ...names, "--yes"]);
+  const results: string[] = [];
+  for (const [base, { imports, items, render }] of Object.entries(BASES)) {
+    const app = path.join(workspace, base);
+    await cp(template, app, {
+      filter: (source) => path.basename(source) !== "node_modules",
+      recursive: true,
+    });
+    await run(app, "pnpm", ["install", "--prefer-offline"]);
 
-  writeFileSync(
-    path.join(app, "src/app/invoice.pdf.spec.ts"),
-    `import { writeFileSync } from "node:fs";
+    // The documented command, run with the pinned CLI instead of @latest.
+    const names = addCommand(...items)
+      .split(" ")
+      .slice(3);
+    await run(app, bin("shadcn"), ["add", ...names, "--yes"]);
 
-import { renderPdf } from "@formepdf/core";
+    writeFileSync(
+      path.join(app, "src/app/invoice.pdf.spec.ts"),
+      `import { writeFileSync } from "node:fs";
 
+${imports}
 import { InvoiceClassicDocument } from "@/components/pdf/blocks/invoice-classic/invoice-classic";
-import { renderFormeDocument } from "@/lib/render";
 
 it("renders the invoice block to a PDF", async () => {
-  const pdf = await renderPdf(JSON.stringify(renderFormeDocument(InvoiceClassicDocument)));
+  const pdf = ${render};
   writeFileSync("invoice.pdf", pdf);
   expect(new TextDecoder().decode(pdf.slice(0, 5))).toBe("%PDF-");
 });
 `
-  );
-  await run(app, "pnpm", ["add", "-D", "@types/node"]);
-  const specConfig = path.join(app, "tsconfig.spec.json");
-  writeFileSync(
-    specConfig,
-    readFileSync(specConfig, "utf-8").replace(
-      '"vitest/globals"',
-      '"vitest/globals", "node"'
-    )
-  );
-
-  await run(app, bin("ng"), ["test", "--watch=false"]);
-  const pdf = readFileSync(path.join(app, "invoice.pdf"));
-  if (!/\/Type\s*\/Page\b/.test(pdf.toString("latin1"))) {
-    throw new Error("The rendered invoice has no pages.");
+    );
+    await run(app, bin("ng"), ["test", "--watch=false"]);
+    const pdf = readFileSync(path.join(app, "invoice.pdf"));
+    if (!/\/Type\s*\/Page\b/.test(pdf.toString("latin1"))) {
+      throw new Error(`The rendered ${base} invoice has no pages.`);
+    }
+    await run(app, bin("ng"), ["build"]);
+    results.push(
+      `${base}: ${items.length} items installed, invoice rendered (${pdf.length} bytes), app built`
+    );
   }
-  await run(app, bin("ng"), ["build"]);
-  console.log(
-    `Install check passed: ${ITEMS.length} items installed, invoice rendered (${pdf.length} bytes), app built in ${app}`
-  );
+
+  await rm(workspace, { force: true, recursive: true });
+  console.log(`Install check passed.\n  ${results.join("\n  ")}`);
+} catch (error) {
+  console.error(`Install check failed. The apps are in ${workspace}`);
+  throw error;
 } finally {
   server.close();
 }

@@ -342,7 +342,7 @@
     },
     {
       "dependencies": ["takumi-pdf@^0.11.0", "@takumi-rs/helpers@^2.10.0"],
-      "description": "Pdf Image PDF component (takumi)",
+      "description": "Image PDF component (takumi)",
       "files": [
         {
           "path": "registry/bases/takumi/components/pdf-image/pdf-image.ts",
@@ -352,7 +352,7 @@
       ],
       "name": "takumi/pdf-image",
       "registryDependencies": ["@angular-pdfcn/takumi/utils"],
-      "title": "Pdf Image",
+      "title": "PDF Image",
       "type": "registry:ui"
     },
     {
@@ -361,7 +361,7 @@
         "@takumi-rs/helpers@^2.10.0",
         "qrcode"
       ],
-      "description": "Qrcode PDF component (takumi)",
+      "description": "QR code PDF component (takumi)",
       "files": [
         {
           "path": "registry/bases/takumi/components/qrcode/qrcode.ts",
@@ -371,7 +371,7 @@
       ],
       "name": "takumi/qrcode",
       "registryDependencies": ["@angular-pdfcn/takumi/utils"],
-      "title": "Qrcode",
+      "title": "QR Code",
       "type": "registry:ui"
     },
     {
@@ -1075,7 +1075,7 @@
       "type": "registry:block"
     },
     {
-      "description": "professional theme tokens",
+      "description": "Professional theme tokens",
       "files": [
         {
           "path": "registry/themes/professional.ts",
@@ -1103,7 +1103,7 @@
       "type": "registry:theme"
     },
     {
-      "description": "modern theme tokens",
+      "description": "Modern theme tokens",
       "files": [
         {
           "path": "registry/themes/modern.ts",
@@ -1131,7 +1131,7 @@
       "type": "registry:theme"
     },
     {
-      "description": "minimal theme tokens",
+      "description": "Minimal theme tokens",
       "files": [
         {
           "path": "registry/themes/minimal.ts",
@@ -1159,7 +1159,7 @@
       "type": "registry:theme"
     },
     {
-      "description": "executive theme tokens",
+      "description": "Executive theme tokens",
       "files": [
         {
           "path": "registry/themes/executive.ts",
@@ -1187,7 +1187,7 @@
       "type": "registry:theme"
     },
     {
-      "description": "corporate theme tokens",
+      "description": "Corporate theme tokens",
       "files": [
         {
           "path": "registry/themes/corporate.ts",
@@ -1215,7 +1215,7 @@
       "type": "registry:theme"
     },
     {
-      "description": "elegant theme tokens",
+      "description": "Elegant theme tokens",
       "files": [
         {
           "path": "registry/themes/elegant.ts",
@@ -1243,7 +1243,7 @@
       "type": "registry:theme"
     },
     {
-      "description": "vivid theme tokens",
+      "description": "Vivid theme tokens",
       "files": [
         {
           "path": "registry/themes/vivid.ts",
@@ -1271,7 +1271,7 @@
       "type": "registry:theme"
     },
     {
-      "description": "forest theme tokens",
+      "description": "Forest theme tokens",
       "files": [
         {
           "path": "registry/themes/forest.ts",
@@ -1299,7 +1299,7 @@
       "type": "registry:theme"
     },
     {
-      "description": "blueprint theme tokens",
+      "description": "Blueprint theme tokens",
       "files": [
         {
           "path": "registry/themes/blueprint.ts",
@@ -1666,7 +1666,7 @@
     },
     {
       "dependencies": ["@formepdf/core@^0.25.0", "@formepdf/shared@^0.25.0"],
-      "description": "Pdf Image PDF component (forme)",
+      "description": "Image PDF component (forme)",
       "files": [
         {
           "path": "registry/bases/forme/components/pdf-image/pdf-image.ts",
@@ -1676,7 +1676,7 @@
       ],
       "name": "forme/pdf-image",
       "registryDependencies": ["@angular-pdfcn/forme/utils"],
-      "title": "Pdf Image",
+      "title": "PDF Image",
       "type": "registry:ui"
     },
     {
@@ -1685,7 +1685,7 @@
         "@formepdf/shared@^0.25.0",
         "qrcode"
       ],
-      "description": "Qrcode PDF component (forme)",
+      "description": "QR code PDF component (forme)",
       "files": [
         {
           "path": "registry/bases/forme/components/qrcode/qrcode.ts",
@@ -1695,7 +1695,7 @@
       ],
       "name": "forme/qrcode",
       "registryDependencies": ["@angular-pdfcn/forme/utils"],
-      "title": "Qrcode",
+      "title": "QR Code",
       "type": "registry:ui"
     },
     {

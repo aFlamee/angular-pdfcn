@@ -3,9 +3,8 @@ pre-commit:
     - run: pnpm fix {staged_files}
       glob:
         - "**/*.js"
-        - "**/*.jsx"
+        - "**/*.mjs"
         - "**/*.ts"
-        - "**/*.tsx"
         - "**/*.json"
         - "**/*.jsonc"
         - "**/*.css"

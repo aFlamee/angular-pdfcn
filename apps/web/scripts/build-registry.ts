@@ -63,13 +63,7 @@ for (const item of registry.items) {
 
 const resolveSource = (importPath: string) => {
   const source = importPath.slice(2);
-  for (const candidate of [
-    source,
-    `${source}.ts`,
-    `${source}.tsx`,
-    `${source}/index.ts`,
-    `${source}/index.tsx`,
-  ]) {
+  for (const candidate of [source, `${source}.ts`, `${source}/index.ts`]) {
     if (targets.has(candidate)) {
       return targets.get(candidate);
     }
@@ -103,7 +97,7 @@ for (const item of registry.items) {
           end: node.moduleSpecifier.getEnd() - 1,
           start: node.moduleSpecifier.getStart(source) + 1,
           value: `@/${resolveSource(node.moduleSpecifier.text)}`.replace(
-            /\.(tsx?|jsx?)$/,
+            /\.ts$/,
             ""
           ),
         });
@@ -180,13 +174,9 @@ for (const item of registry.items) {
             ? specifier.slice(2)
             : path.posix.join(path.posix.dirname(filename), specifier);
           if (
-            ![
-              base,
-              `${base}.ts`,
-              `${base}.tsx`,
-              `${base}/index.ts`,
-              `${base}/index.tsx`,
-            ].some((candidate) => installed.has(candidate))
+            ![base, `${base}.ts`, `${base}/index.ts`].some((candidate) =>
+              installed.has(candidate)
+            )
           ) {
             throw new Error(
               `${item.name}: ${filename} imports missing ${specifier}`
