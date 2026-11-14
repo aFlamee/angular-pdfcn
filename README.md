@@ -1,3 +1,5 @@
+<img src="assets/icon.svg" width="64" height="64" alt="">
+
 # angular-pdfcn
 
 PDF components for Angular that you add to your app with the shadcn CLI and then own. It is a community port of [pdfcn](https://github.com/shadcn-labs/pdfcn), in the spirit of [shadcn-svelte](https://www.shadcn-svelte.com).
