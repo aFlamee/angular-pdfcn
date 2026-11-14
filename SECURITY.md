@@ -6,4 +6,4 @@ If you believe you have found a security vulnerability, please let us know right
 
 We will investigate legitimate reports and do our best to fix confirmed problems quickly.
 
-Report vulnerabilities privately through [GitHub Security Advisories](https://github.com/shadcn-labs/pdfcn/security/advisories/new). Do not open a public issue.
+Report vulnerabilities privately through [GitHub Security Advisories](https://github.com/aFlamee/angular-pdfcn/security/advisories/new). Do not open a public issue.

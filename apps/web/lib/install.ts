@@ -1,6 +1,10 @@
 /** The registry namespace users add to `components.json`. */
 export const REGISTRY_NAMESPACE = "@angular-pdfcn";
 
+/** Serves the committed `public/r` until the site exists. */
+export const REGISTRY_URL =
+  "https://raw.githubusercontent.com/aFlamee/angular-pdfcn/main/apps/web/public";
+
 /** The one-time `components.json` an Angular app needs before `shadcn add`. */
 export const componentsJson = (registryUrl: string) => ({
   $schema: "https://ui.shadcn.com/schema.json",
