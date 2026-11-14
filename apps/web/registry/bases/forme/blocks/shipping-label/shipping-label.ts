@@ -293,8 +293,9 @@ const shippingLabelLayout = (theme: PdfcnTheme, data: ShippingLabelData) => {
             <forme-view [style]="styles.barcodeArea">
               @if (data.barcodeUrl) {
                 <forme-image
+                  [height]="BARCODE_HEIGHT"
                   [src]="data.barcodeUrl"
-                  [style]="{ height: BARCODE_HEIGHT, width: BARCODE_WIDTH }"
+                  [width]="BARCODE_WIDTH"
                 />
               } @else {
                 <pdf-qrcode

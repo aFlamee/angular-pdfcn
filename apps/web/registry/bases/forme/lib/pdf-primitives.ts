@@ -79,6 +79,8 @@ export type FormeImageSrc =
 @Directive({ selector: "forme-image" })
 export class FormeImage extends PdfPrimitive {
   readonly src = input.required<FormeImageSrc>();
+  readonly width = input<number>();
+  readonly height = input<number>();
   readonly style = input<FormeStyleInput>();
 }
 

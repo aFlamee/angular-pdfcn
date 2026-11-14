@@ -129,7 +129,16 @@ const serializeElement = (element: PdfElement): FormeNode[] => {
   if (primitive instanceof FormeImage) {
     return [
       node(
-        { src: primitive.src() as string, type: "Image" },
+        {
+          src: primitive.src() as string,
+          type: "Image",
+          ...(primitive.width() === undefined
+            ? {}
+            : { width: primitive.width() }),
+          ...(primitive.height() === undefined
+            ? {}
+            : { height: primitive.height() }),
+        },
         mapStyle(mergeFormeStyles(primitive.style()))
       ),
     ];
