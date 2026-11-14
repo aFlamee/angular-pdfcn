@@ -1,0 +1,90 @@
+{
+  "node": {
+    "children": [
+      {
+        "attributes": {
+          "data-pdf-page": ""
+        },
+        "children": [
+          {
+            "children": [
+              {
+                "style": {
+                  "color": "#18181b",
+                  "fontFamily": "Times-Roman",
+                  "fontSize": 42.666666666666664,
+                  "fontWeight": 700,
+                  "lineHeight": 1.25,
+                  "marginBottom": 13.333333333333332,
+                  "marginTop": 0
+                },
+                "tagName": "span",
+                "text": "Main Title",
+                "type": "text"
+              },
+              {
+                "style": {
+                  "color": "#18181b",
+                  "fontFamily": "Times-Roman",
+                  "fontSize": 32,
+                  "fontWeight": 700,
+                  "lineHeight": 1.25,
+                  "marginBottom": 13.333333333333332,
+                  "marginTop": 37.33333333333333,
+                  "textAlign": "center"
+                },
+                "tagName": "span",
+                "text": "Subtitle",
+                "type": "text"
+              },
+              {
+                "style": {
+                  "color": "#1e3a5f",
+                  "fontFamily": "Times-Roman",
+                  "fontSize": 26.666666666666664,
+                  "fontWeight": 700,
+                  "lineHeight": 1.25,
+                  "marginBottom": 13.333333333333332,
+                  "marginTop": 18.666666666666664
+                },
+                "tagName": "span",
+                "text": "Custom Styled",
+                "type": "text"
+              }
+            ],
+            "preset": {
+              "display": "block"
+            },
+            "style": {
+              "display": "flex",
+              "flexDirection": "column",
+              "marginBottom": 0,
+              "marginTop": 0
+            },
+            "tagName": "div",
+            "type": "container"
+          }
+        ],
+        "preset": {
+          "display": "block"
+        },
+        "style": {
+          "display": "flex",
+          "flexDirection": "column"
+        },
+        "tagName": "div",
+        "type": "container"
+      }
+    ],
+    "preset": {
+      "display": "block"
+    },
+    "style": {
+      "display": "flex",
+      "flexDirection": "column"
+    },
+    "tagName": "div",
+    "type": "container"
+  },
+  "stylesheets": []
+}

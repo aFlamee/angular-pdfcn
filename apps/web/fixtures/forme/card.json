@@ -1,0 +1,188 @@
+{
+  "document": {
+    "children": [
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "children": [],
+                "kind": {
+                  "content": "Project Summary",
+                  "type": "Text"
+                },
+                "style": {
+                  "borderColor": {
+                    "bottom": {
+                      "a": 1,
+                      "b": 0.9058823529411765,
+                      "g": 0.8941176470588236,
+                      "r": 0.8941176470588236
+                    },
+                    "left": {
+                      "a": 1,
+                      "b": 0,
+                      "g": 0,
+                      "r": 0
+                    },
+                    "right": {
+                      "a": 1,
+                      "b": 0,
+                      "g": 0,
+                      "r": 0
+                    },
+                    "top": {
+                      "a": 1,
+                      "b": 0,
+                      "g": 0,
+                      "r": 0
+                    }
+                  },
+                  "borderWidth": {
+                    "bottom": 1,
+                    "left": 0,
+                    "right": 0,
+                    "top": 0
+                  },
+                  "color": {
+                    "a": 1,
+                    "b": 0.10588235294117647,
+                    "g": 0.09411764705882353,
+                    "r": 0.09411764705882353
+                  },
+                  "fontFamily": "Times-Roman",
+                  "fontSize": 15,
+                  "fontWeight": 600,
+                  "lineHeight": 1.25,
+                  "margin": {
+                    "bottom": 8,
+                    "left": 0,
+                    "right": 0,
+                    "top": 0
+                  },
+                  "padding": {
+                    "bottom": 6,
+                    "left": 0,
+                    "right": 0,
+                    "top": 0
+                  }
+                }
+              },
+              {
+                "children": [],
+                "kind": {
+                  "content": "This card groups related content with a title and body area. Use cards to visually separate sections of your PDF document.",
+                  "type": "Text"
+                },
+                "style": {
+                  "color": {
+                    "a": 1,
+                    "b": 0.10588235294117647,
+                    "g": 0.09411764705882353,
+                    "r": 0.09411764705882353
+                  },
+                  "fontFamily": "Helvetica",
+                  "fontSize": 11,
+                  "lineHeight": 1.6,
+                  "margin": {
+                    "bottom": 0,
+                    "left": 0,
+                    "right": 0,
+                    "top": 0
+                  }
+                }
+              }
+            ],
+            "kind": {
+              "type": "View"
+            },
+            "style": {
+              "backgroundColor": {
+                "a": 1,
+                "b": 1,
+                "g": 1,
+                "r": 1
+              },
+              "borderColor": {
+                "bottom": {
+                  "a": 1,
+                  "b": 0.9058823529411765,
+                  "g": 0.8941176470588236,
+                  "r": 0.8941176470588236
+                },
+                "left": {
+                  "a": 1,
+                  "b": 0.9058823529411765,
+                  "g": 0.8941176470588236,
+                  "r": 0.8941176470588236
+                },
+                "right": {
+                  "a": 1,
+                  "b": 0.9058823529411765,
+                  "g": 0.8941176470588236,
+                  "r": 0.8941176470588236
+                },
+                "top": {
+                  "a": 1,
+                  "b": 0.9058823529411765,
+                  "g": 0.8941176470588236,
+                  "r": 0.8941176470588236
+                }
+              },
+              "borderRadius": {
+                "bottom_left": 2,
+                "bottom_right": 2,
+                "top_left": 2,
+                "top_right": 2
+              },
+              "borderWidth": {
+                "bottom": 1,
+                "left": 1,
+                "right": 1,
+                "top": 1
+              },
+              "margin": {
+                "bottom": 14,
+                "left": 0,
+                "right": 0,
+                "top": 0
+              },
+              "padding": {
+                "bottom": 12,
+                "left": 12,
+                "right": 12,
+                "top": 12
+              },
+              "wrap": false
+            }
+          }
+        ],
+        "kind": {
+          "config": {
+            "margin": {
+              "bottom": 40,
+              "left": 40,
+              "right": 40,
+              "top": 40
+            },
+            "size": "A4",
+            "wrap": true
+          },
+          "type": "Page"
+        },
+        "style": {}
+      }
+    ],
+    "defaultPage": {
+      "margin": {
+        "bottom": 54,
+        "left": 54,
+        "right": 54,
+        "top": 54
+      },
+      "size": "A4",
+      "wrap": true
+    },
+    "metadata": {}
+  }
+}

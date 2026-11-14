@@ -1,0 +1,169 @@
+{
+  "node": {
+    "children": [
+      {
+        "attributes": {
+          "data-pdf-page": ""
+        },
+        "children": [
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "style": {
+                          "color": "#18181b",
+                          "fontFamily": "Times-Roman",
+                          "fontSize": 26.666666666666664,
+                          "fontWeight": 700,
+                          "lineHeight": 1.25,
+                          "marginBottom": 0
+                        },
+                        "tagName": "span",
+                        "text": "Invoice #1042",
+                        "type": "text"
+                      },
+                      {
+                        "style": {
+                          "color": "#71717a",
+                          "fontFamily": "Helvetica",
+                          "fontSize": 14.666666666666666,
+                          "lineHeight": 1.6,
+                          "marginTop": 5.333333333333333
+                        },
+                        "tagName": "span",
+                        "text": "Acme Corp",
+                        "type": "text"
+                      }
+                    ],
+                    "preset": {
+                      "display": "block"
+                    },
+                    "style": {
+                      "display": "flex",
+                      "flex": 1,
+                      "flexDirection": "column"
+                    },
+                    "tagName": "div",
+                    "type": "container"
+                  },
+                  {
+                    "children": [
+                      {
+                        "style": {
+                          "color": "#18181b",
+                          "fontFamily": "Helvetica",
+                          "fontSize": 14.666666666666666,
+                          "fontWeight": 500,
+                          "textAlign": "right"
+                        },
+                        "tagName": "span",
+                        "text": "March 2026",
+                        "type": "text"
+                      },
+                      {
+                        "style": {
+                          "color": "#71717a",
+                          "fontFamily": "Helvetica",
+                          "fontSize": 13.333333333333332,
+                          "marginTop": 5.333333333333333,
+                          "textAlign": "right"
+                        },
+                        "tagName": "span",
+                        "text": "Due: 2026-03-31",
+                        "type": "text"
+                      }
+                    ],
+                    "preset": {
+                      "display": "block"
+                    },
+                    "style": {
+                      "alignItems": "flex-end",
+                      "display": "flex",
+                      "flexDirection": "column"
+                    },
+                    "tagName": "div",
+                    "type": "container"
+                  }
+                ],
+                "preset": {
+                  "display": "block"
+                },
+                "style": {
+                  "alignItems": "flex-start",
+                  "borderBottomColor": "#e4e4e7",
+                  "borderBottomStyle": "solid",
+                  "borderBottomWidth": 2.6666666666666665,
+                  "breakInside": "avoid",
+                  "display": "flex",
+                  "flexDirection": "row",
+                  "justifyContent": "space-between",
+                  "marginBottom": 37.33333333333333,
+                  "paddingBottom": 21.333333333333332
+                },
+                "tagName": "div",
+                "type": "container"
+              },
+              {
+                "style": {
+                  "color": "#555555",
+                  "fontFamily": "Helvetica",
+                  "fontSize": 13.333333333333332,
+                  "lineHeight": 1.6,
+                  "marginBottom": 8,
+                  "marginTop": 0
+                },
+                "tagName": "span",
+                "text": "Prepared for Northwind Industries",
+                "type": "text"
+              },
+              {
+                "style": {
+                  "color": "#555555",
+                  "fontFamily": "Helvetica",
+                  "fontSize": 13.333333333333332,
+                  "lineHeight": 1.6,
+                  "marginBottom": 8,
+                  "marginTop": 0
+                },
+                "tagName": "span",
+                "text": "This document demonstrates the simple page header variant.",
+                "type": "text"
+              }
+            ],
+            "preset": {
+              "display": "block"
+            },
+            "style": {
+              "display": "flex",
+              "flexDirection": "column"
+            },
+            "tagName": "div",
+            "type": "container"
+          }
+        ],
+        "preset": {
+          "display": "block"
+        },
+        "style": {
+          "display": "flex",
+          "flexDirection": "column"
+        },
+        "tagName": "div",
+        "type": "container"
+      }
+    ],
+    "preset": {
+      "display": "block"
+    },
+    "style": {
+      "display": "flex",
+      "flexDirection": "column"
+    },
+    "tagName": "div",
+    "type": "container"
+  },
+  "stylesheets": []
+}

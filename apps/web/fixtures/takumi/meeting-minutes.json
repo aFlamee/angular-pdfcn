@@ -1,0 +1,2128 @@
+{
+  "node": {
+    "attributes": {
+      "data-pdf-document": "Minutes — Q3 Product Roadmap Review"
+    },
+    "children": [
+      {
+        "attributes": {
+          "data-pdf-page": ""
+        },
+        "children": [
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "style": {
+                      "color": "#18181b",
+                      "fontFamily": "Times-Roman",
+                      "fontSize": 26.666666666666664,
+                      "fontWeight": 700,
+                      "lineHeight": 1.25,
+                      "marginBottom": 0
+                    },
+                    "tagName": "span",
+                    "text": "Q3 Product Roadmap Review",
+                    "type": "text"
+                  },
+                  {
+                    "style": {
+                      "color": "#71717a",
+                      "fontFamily": "Helvetica",
+                      "fontSize": 14.666666666666666,
+                      "lineHeight": 1.6,
+                      "marginTop": 5.333333333333333
+                    },
+                    "tagName": "span",
+                    "text": "Conference Room B / Zoom · Organized by Alex Kim",
+                    "type": "text"
+                  }
+                ],
+                "preset": {
+                  "display": "block"
+                },
+                "style": {
+                  "display": "flex",
+                  "flex": 1,
+                  "flexDirection": "column"
+                },
+                "tagName": "div",
+                "type": "container"
+              },
+              {
+                "children": [
+                  {
+                    "style": {
+                      "color": "#18181b",
+                      "fontFamily": "Helvetica",
+                      "fontSize": 14.666666666666666,
+                      "fontWeight": 500,
+                      "textAlign": "right"
+                    },
+                    "tagName": "span",
+                    "text": "September 12, 2026",
+                    "type": "text"
+                  },
+                  {
+                    "style": {
+                      "color": "#71717a",
+                      "fontFamily": "Helvetica",
+                      "fontSize": 13.333333333333332,
+                      "marginTop": 5.333333333333333,
+                      "textAlign": "right"
+                    },
+                    "tagName": "span",
+                    "text": "2:00 PM - 3:30 PM",
+                    "type": "text"
+                  }
+                ],
+                "preset": {
+                  "display": "block"
+                },
+                "style": {
+                  "alignItems": "flex-end",
+                  "display": "flex",
+                  "flexDirection": "column"
+                },
+                "tagName": "div",
+                "type": "container"
+              }
+            ],
+            "preset": {
+              "display": "block"
+            },
+            "style": {
+              "alignItems": "flex-start",
+              "borderBottomColor": "#e4e4e7",
+              "borderBottomStyle": "solid",
+              "borderBottomWidth": 2.6666666666666665,
+              "breakInside": "avoid",
+              "display": "flex",
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "marginBottom": 0,
+              "paddingBottom": 21.333333333333332
+            },
+            "tagName": "div",
+            "type": "container"
+          },
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "style": {
+                      "color": "#71717a",
+                      "fontFamily": "Helvetica",
+                      "fontSize": 12,
+                      "fontWeight": "bold",
+                      "letterSpacing": 0.6666666666666666,
+                      "lineHeight": 1.6,
+                      "marginBottom": 2.6666666666666665,
+                      "marginTop": 0,
+                      "textTransform": "uppercase"
+                    },
+                    "tagName": "span",
+                    "text": "Attendees",
+                    "type": "text"
+                  },
+                  {
+                    "style": {
+                      "color": "#18181b",
+                      "fontFamily": "Helvetica",
+                      "fontSize": 13.333333333333332,
+                      "lineHeight": 1.6,
+                      "marginBottom": 0,
+                      "marginTop": 0
+                    },
+                    "tagName": "span",
+                    "text": "Alex Kim — Product Lead",
+                    "type": "text"
+                  },
+                  {
+                    "style": {
+                      "color": "#18181b",
+                      "fontFamily": "Helvetica",
+                      "fontSize": 13.333333333333332,
+                      "lineHeight": 1.6,
+                      "marginBottom": 0,
+                      "marginTop": 0
+                    },
+                    "tagName": "span",
+                    "text": "Jordan Lee — Engineering Lead",
+                    "type": "text"
+                  },
+                  {
+                    "style": {
+                      "color": "#18181b",
+                      "fontFamily": "Helvetica",
+                      "fontSize": 13.333333333333332,
+                      "lineHeight": 1.6,
+                      "marginBottom": 0,
+                      "marginTop": 0
+                    },
+                    "tagName": "span",
+                    "text": "Sam Patel — Design Lead",
+                    "type": "text"
+                  }
+                ],
+                "preset": {
+                  "display": "block"
+                },
+                "style": {
+                  "display": "flex",
+                  "flex": 1,
+                  "flexDirection": "column",
+                  "paddingRight": 20
+                },
+                "tagName": "div",
+                "type": "container"
+              },
+              {
+                "children": [
+                  {
+                    "style": {
+                      "color": "#71717a",
+                      "fontFamily": "Helvetica",
+                      "fontSize": 12,
+                      "fontWeight": "bold",
+                      "letterSpacing": 0.6666666666666666,
+                      "lineHeight": 1.6,
+                      "marginBottom": 2.6666666666666665,
+                      "marginTop": 0,
+                      "textTransform": "uppercase"
+                    },
+                    "tagName": "span",
+                    "text": "Absent",
+                    "type": "text"
+                  },
+                  {
+                    "style": {
+                      "color": "#18181b",
+                      "fontFamily": "Helvetica",
+                      "fontSize": 13.333333333333332,
+                      "lineHeight": 1.6,
+                      "marginBottom": 0,
+                      "marginTop": 0
+                    },
+                    "tagName": "span",
+                    "text": "Casey Wu — QA Lead",
+                    "type": "text"
+                  }
+                ],
+                "preset": {
+                  "display": "block"
+                },
+                "style": {
+                  "display": "flex",
+                  "flex": 1,
+                  "flexDirection": "column",
+                  "paddingRight": 20
+                },
+                "tagName": "div",
+                "type": "container"
+              },
+              {
+                "children": [
+                  {
+                    "style": {
+                      "color": "#71717a",
+                      "fontFamily": "Helvetica",
+                      "fontSize": 12,
+                      "fontWeight": "bold",
+                      "letterSpacing": 0.6666666666666666,
+                      "lineHeight": 1.6,
+                      "marginBottom": 2.6666666666666665,
+                      "marginTop": 0,
+                      "textTransform": "uppercase"
+                    },
+                    "tagName": "span",
+                    "text": "Guests",
+                    "type": "text"
+                  },
+                  {
+                    "style": {
+                      "color": "#18181b",
+                      "fontFamily": "Helvetica",
+                      "fontSize": 13.333333333333332,
+                      "lineHeight": 1.6,
+                      "marginBottom": 0,
+                      "marginTop": 0
+                    },
+                    "tagName": "span",
+                    "text": "Riya Shah (Advisor)",
+                    "type": "text"
+                  }
+                ],
+                "preset": {
+                  "display": "block"
+                },
+                "style": {
+                  "display": "flex",
+                  "flex": 1,
+                  "flexDirection": "column",
+                  "paddingRight": 20
+                },
+                "tagName": "div",
+                "type": "container"
+              }
+            ],
+            "preset": {
+              "display": "block"
+            },
+            "style": {
+              "display": "flex",
+              "flexDirection": "row",
+              "marginBottom": 21.333333333333332,
+              "marginTop": 21.333333333333332
+            },
+            "tagName": "div",
+            "type": "container"
+          },
+          {
+            "children": [
+              {
+                "style": {
+                  "color": "#71717a",
+                  "fontFamily": "Helvetica",
+                  "fontSize": 12,
+                  "fontWeight": "bold",
+                  "letterSpacing": 0.6666666666666666,
+                  "lineHeight": 1.6,
+                  "marginBottom": 2.6666666666666665,
+                  "marginTop": 0,
+                  "textTransform": "uppercase"
+                },
+                "tagName": "span",
+                "text": "Agenda",
+                "type": "text"
+              },
+              {
+                "style": {
+                  "color": "#18181b",
+                  "fontFamily": "Helvetica",
+                  "fontSize": 16,
+                  "lineHeight": 1.6,
+                  "marginBottom": 5.333333333333333,
+                  "marginTop": 0
+                },
+                "tagName": "span",
+                "text": "1. Review Q2 outcomes",
+                "type": "text"
+              },
+              {
+                "style": {
+                  "color": "#18181b",
+                  "fontFamily": "Helvetica",
+                  "fontSize": 16,
+                  "lineHeight": 1.6,
+                  "marginBottom": 5.333333333333333,
+                  "marginTop": 0
+                },
+                "tagName": "span",
+                "text": "2. Q3 feature priorities",
+                "type": "text"
+              },
+              {
+                "style": {
+                  "color": "#18181b",
+                  "fontFamily": "Helvetica",
+                  "fontSize": 16,
+                  "lineHeight": 1.6,
+                  "marginBottom": 5.333333333333333,
+                  "marginTop": 0
+                },
+                "tagName": "span",
+                "text": "3. Resource allocation",
+                "type": "text"
+              },
+              {
+                "style": {
+                  "color": "#18181b",
+                  "fontFamily": "Helvetica",
+                  "fontSize": 16,
+                  "lineHeight": 1.6,
+                  "marginBottom": 5.333333333333333,
+                  "marginTop": 0
+                },
+                "tagName": "span",
+                "text": "4. Timeline and milestones",
+                "type": "text"
+              }
+            ],
+            "preset": {
+              "display": "block"
+            },
+            "style": {
+              "display": "flex",
+              "flexDirection": "column",
+              "marginBottom": 21.333333333333332,
+              "marginTop": 21.333333333333332
+            },
+            "tagName": "div",
+            "type": "container"
+          },
+          {
+            "children": [
+              {
+                "style": {
+                  "color": "#71717a",
+                  "fontFamily": "Helvetica",
+                  "fontSize": 12,
+                  "fontWeight": "bold",
+                  "letterSpacing": 0.6666666666666666,
+                  "lineHeight": 1.6,
+                  "marginBottom": 2.6666666666666665,
+                  "marginTop": 0,
+                  "textTransform": "uppercase"
+                },
+                "tagName": "span",
+                "text": "Discussion",
+                "type": "text"
+              },
+              {
+                "children": [
+                  {
+                    "style": {
+                      "color": "#18181b",
+                      "fontFamily": "Helvetica",
+                      "fontSize": 16,
+                      "fontWeight": 600,
+                      "lineHeight": 1.6,
+                      "marginBottom": 0,
+                      "marginTop": 0
+                    },
+                    "tagName": "span",
+                    "text": "Q2 Outcomes",
+                    "type": "text"
+                  },
+                  {
+                    "style": {
+                      "color": "#71717a",
+                      "fontFamily": "Helvetica",
+                      "fontSize": 13.333333333333332,
+                      "lineHeight": 1.6,
+                      "marginBottom": 0,
+                      "marginTop": 0
+                    },
+                    "tagName": "span",
+                    "text": "— Alex Kim",
+                    "type": "text"
+                  },
+                  {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "children": [
+                              {
+                                "children": [
+                                  {
+                                    "children": [],
+                                    "preset": {
+                                      "display": "block"
+                                    },
+                                    "style": {
+                                      "backgroundColor": "#18181b",
+                                      "borderRadius": 4,
+                                      "display": "flex",
+                                      "flexDirection": "column",
+                                      "height": 6.666666666666666,
+                                      "width": 6.666666666666666
+                                    },
+                                    "tagName": "div",
+                                    "type": "container"
+                                  }
+                                ],
+                                "preset": {
+                                  "display": "block"
+                                },
+                                "style": {
+                                  "alignItems": "center",
+                                  "display": "flex",
+                                  "flexDirection": "column",
+                                  "justifyContent": "flex-start",
+                                  "marginTop": 5.333333333333333,
+                                  "width": 21.333333333333332
+                                },
+                                "tagName": "div",
+                                "type": "container"
+                              },
+                              {
+                                "children": [
+                                  {
+                                    "style": {
+                                      "color": "#18181b",
+                                      "fontFamily": "Helvetica",
+                                      "fontSize": 14.666666666666666,
+                                      "lineHeight": 1.6
+                                    },
+                                    "tagName": "span",
+                                    "text": "Shipped 4 of 5 planned features",
+                                    "type": "text"
+                                  }
+                                ],
+                                "preset": {
+                                  "display": "block"
+                                },
+                                "style": {
+                                  "display": "flex",
+                                  "flex": 1,
+                                  "flexDirection": "column"
+                                },
+                                "tagName": "div",
+                                "type": "container"
+                              }
+                            ],
+                            "preset": {
+                              "display": "block"
+                            },
+                            "style": {
+                              "alignItems": "flex-start",
+                              "display": "flex",
+                              "flexDirection": "row",
+                              "marginBottom": 5.333333333333333
+                            },
+                            "tagName": "div",
+                            "type": "container"
+                          }
+                        ],
+                        "preset": {
+                          "display": "block"
+                        },
+                        "style": {
+                          "display": "flex",
+                          "flexDirection": "column"
+                        },
+                        "tagName": "div",
+                        "type": "container"
+                      },
+                      {
+                        "children": [
+                          {
+                            "children": [
+                              {
+                                "children": [
+                                  {
+                                    "children": [],
+                                    "preset": {
+                                      "display": "block"
+                                    },
+                                    "style": {
+                                      "backgroundColor": "#18181b",
+                                      "borderRadius": 4,
+                                      "display": "flex",
+                                      "flexDirection": "column",
+                                      "height": 6.666666666666666,
+                                      "width": 6.666666666666666
+                                    },
+                                    "tagName": "div",
+                                    "type": "container"
+                                  }
+                                ],
+                                "preset": {
+                                  "display": "block"
+                                },
+                                "style": {
+                                  "alignItems": "center",
+                                  "display": "flex",
+                                  "flexDirection": "column",
+                                  "justifyContent": "flex-start",
+                                  "marginTop": 5.333333333333333,
+                                  "width": 21.333333333333332
+                                },
+                                "tagName": "div",
+                                "type": "container"
+                              },
+                              {
+                                "children": [
+                                  {
+                                    "style": {
+                                      "color": "#18181b",
+                                      "fontFamily": "Helvetica",
+                                      "fontSize": 14.666666666666666,
+                                      "lineHeight": 1.6
+                                    },
+                                    "tagName": "span",
+                                    "text": "Customer satisfaction up 12%",
+                                    "type": "text"
+                                  }
+                                ],
+                                "preset": {
+                                  "display": "block"
+                                },
+                                "style": {
+                                  "display": "flex",
+                                  "flex": 1,
+                                  "flexDirection": "column"
+                                },
+                                "tagName": "div",
+                                "type": "container"
+                              }
+                            ],
+                            "preset": {
+                              "display": "block"
+                            },
+                            "style": {
+                              "alignItems": "flex-start",
+                              "display": "flex",
+                              "flexDirection": "row"
+                            },
+                            "tagName": "div",
+                            "type": "container"
+                          }
+                        ],
+                        "preset": {
+                          "display": "block"
+                        },
+                        "style": {
+                          "display": "flex",
+                          "flexDirection": "column"
+                        },
+                        "tagName": "div",
+                        "type": "container"
+                      }
+                    ],
+                    "preset": {
+                      "display": "block"
+                    },
+                    "style": {
+                      "display": "flex",
+                      "flexDirection": "column",
+                      "marginBottom": 18.666666666666664,
+                      "width": "100%"
+                    },
+                    "tagName": "div",
+                    "type": "container"
+                  }
+                ],
+                "preset": {
+                  "display": "block"
+                },
+                "style": {
+                  "display": "flex",
+                  "flexDirection": "column",
+                  "marginBottom": 10.666666666666666
+                },
+                "tagName": "div",
+                "type": "container"
+              },
+              {
+                "children": [
+                  {
+                    "style": {
+                      "color": "#18181b",
+                      "fontFamily": "Helvetica",
+                      "fontSize": 16,
+                      "fontWeight": 600,
+                      "lineHeight": 1.6,
+                      "marginBottom": 0,
+                      "marginTop": 0
+                    },
+                    "tagName": "span",
+                    "text": "Q3 Feature Priorities",
+                    "type": "text"
+                  },
+                  {
+                    "style": {
+                      "color": "#71717a",
+                      "fontFamily": "Helvetica",
+                      "fontSize": 13.333333333333332,
+                      "lineHeight": 1.6,
+                      "marginBottom": 0,
+                      "marginTop": 0
+                    },
+                    "tagName": "span",
+                    "text": "— Jordan Lee",
+                    "type": "text"
+                  },
+                  {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "children": [
+                              {
+                                "children": [
+                                  {
+                                    "children": [],
+                                    "preset": {
+                                      "display": "block"
+                                    },
+                                    "style": {
+                                      "backgroundColor": "#18181b",
+                                      "borderRadius": 4,
+                                      "display": "flex",
+                                      "flexDirection": "column",
+                                      "height": 6.666666666666666,
+                                      "width": 6.666666666666666
+                                    },
+                                    "tagName": "div",
+                                    "type": "container"
+                                  }
+                                ],
+                                "preset": {
+                                  "display": "block"
+                                },
+                                "style": {
+                                  "alignItems": "center",
+                                  "display": "flex",
+                                  "flexDirection": "column",
+                                  "justifyContent": "flex-start",
+                                  "marginTop": 5.333333333333333,
+                                  "width": 21.333333333333332
+                                },
+                                "tagName": "div",
+                                "type": "container"
+                              },
+                              {
+                                "children": [
+                                  {
+                                    "style": {
+                                      "color": "#18181b",
+                                      "fontFamily": "Helvetica",
+                                      "fontSize": 14.666666666666666,
+                                      "lineHeight": 1.6
+                                    },
+                                    "tagName": "span",
+                                    "text": "PDF generation module is top priority",
+                                    "type": "text"
+                                  }
+                                ],
+                                "preset": {
+                                  "display": "block"
+                                },
+                                "style": {
+                                  "display": "flex",
+                                  "flex": 1,
+                                  "flexDirection": "column"
+                                },
+                                "tagName": "div",
+                                "type": "container"
+                              }
+                            ],
+                            "preset": {
+                              "display": "block"
+                            },
+                            "style": {
+                              "alignItems": "flex-start",
+                              "display": "flex",
+                              "flexDirection": "row",
+                              "marginBottom": 5.333333333333333
+                            },
+                            "tagName": "div",
+                            "type": "container"
+                          }
+                        ],
+                        "preset": {
+                          "display": "block"
+                        },
+                        "style": {
+                          "display": "flex",
+                          "flexDirection": "column"
+                        },
+                        "tagName": "div",
+                        "type": "container"
+                      },
+                      {
+                        "children": [
+                          {
+                            "children": [
+                              {
+                                "children": [
+                                  {
+                                    "children": [],
+                                    "preset": {
+                                      "display": "block"
+                                    },
+                                    "style": {
+                                      "backgroundColor": "#18181b",
+                                      "borderRadius": 4,
+                                      "display": "flex",
+                                      "flexDirection": "column",
+                                      "height": 6.666666666666666,
+                                      "width": 6.666666666666666
+                                    },
+                                    "tagName": "div",
+                                    "type": "container"
+                                  }
+                                ],
+                                "preset": {
+                                  "display": "block"
+                                },
+                                "style": {
+                                  "alignItems": "center",
+                                  "display": "flex",
+                                  "flexDirection": "column",
+                                  "justifyContent": "flex-start",
+                                  "marginTop": 5.333333333333333,
+                                  "width": 21.333333333333332
+                                },
+                                "tagName": "div",
+                                "type": "container"
+                              },
+                              {
+                                "children": [
+                                  {
+                                    "style": {
+                                      "color": "#18181b",
+                                      "fontFamily": "Helvetica",
+                                      "fontSize": 14.666666666666666,
+                                      "lineHeight": 1.6
+                                    },
+                                    "tagName": "span",
+                                    "text": "Community page scheduled for late Q3",
+                                    "type": "text"
+                                  }
+                                ],
+                                "preset": {
+                                  "display": "block"
+                                },
+                                "style": {
+                                  "display": "flex",
+                                  "flex": 1,
+                                  "flexDirection": "column"
+                                },
+                                "tagName": "div",
+                                "type": "container"
+                              }
+                            ],
+                            "preset": {
+                              "display": "block"
+                            },
+                            "style": {
+                              "alignItems": "flex-start",
+                              "display": "flex",
+                              "flexDirection": "row"
+                            },
+                            "tagName": "div",
+                            "type": "container"
+                          }
+                        ],
+                        "preset": {
+                          "display": "block"
+                        },
+                        "style": {
+                          "display": "flex",
+                          "flexDirection": "column"
+                        },
+                        "tagName": "div",
+                        "type": "container"
+                      }
+                    ],
+                    "preset": {
+                      "display": "block"
+                    },
+                    "style": {
+                      "display": "flex",
+                      "flexDirection": "column",
+                      "marginBottom": 18.666666666666664,
+                      "width": "100%"
+                    },
+                    "tagName": "div",
+                    "type": "container"
+                  }
+                ],
+                "preset": {
+                  "display": "block"
+                },
+                "style": {
+                  "display": "flex",
+                  "flexDirection": "column",
+                  "marginBottom": 10.666666666666666
+                },
+                "tagName": "div",
+                "type": "container"
+              }
+            ],
+            "preset": {
+              "display": "block"
+            },
+            "style": {
+              "display": "flex",
+              "flexDirection": "column",
+              "marginBottom": 21.333333333333332,
+              "marginTop": 21.333333333333332
+            },
+            "tagName": "div",
+            "type": "container"
+          },
+          {
+            "children": [
+              {
+                "style": {
+                  "color": "#71717a",
+                  "flex": 1,
+                  "fontFamily": "Helvetica",
+                  "fontSize": 13.333333333333332,
+                  "lineHeight": 1.6
+                },
+                "tagName": "span",
+                "text": "Prepared by Alex Kim",
+                "type": "text"
+              },
+              {
+                "style": {
+                  "color": "#71717a",
+                  "fontFamily": "Helvetica",
+                  "fontSize": 13.333333333333332,
+                  "lineHeight": 1.6,
+                  "textAlign": "right"
+                },
+                "tagName": "span",
+                "text": "Distribution: product-team@acme.com, eng-leads@acme.com",
+                "type": "text"
+              }
+            ],
+            "preset": {
+              "display": "block"
+            },
+            "style": {
+              "alignItems": "center",
+              "borderTopColor": "#e4e4e7",
+              "borderTopStyle": "solid",
+              "borderTopWidth": 2.6666666666666665,
+              "bottom": 33.33333333333333,
+              "breakInside": "avoid",
+              "display": "flex",
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "left": 33.33333333333333,
+              "marginTop": 0,
+              "paddingTop": 16,
+              "position": "absolute",
+              "right": 33.33333333333333
+            },
+            "tagName": "div",
+            "type": "container"
+          }
+        ],
+        "preset": {
+          "display": "block"
+        },
+        "style": {
+          "backgroundColor": "#ffffff",
+          "boxSizing": "border-box",
+          "display": "flex",
+          "flexDirection": "column",
+          "minHeight": 1121.3333333333333,
+          "padding": 74.66666666666666,
+          "paddingBottom": 74.66666666666666,
+          "position": "relative"
+        },
+        "tagName": "div",
+        "type": "container"
+      },
+      {
+        "attributes": {
+          "data-pdf-page": ""
+        },
+        "children": [
+          {
+            "children": [
+              {
+                "style": {
+                  "color": "#71717a",
+                  "fontFamily": "Helvetica",
+                  "fontSize": 12,
+                  "fontWeight": "bold",
+                  "letterSpacing": 0.6666666666666666,
+                  "lineHeight": 1.6,
+                  "marginBottom": 2.6666666666666665,
+                  "marginTop": 0,
+                  "textTransform": "uppercase"
+                },
+                "tagName": "span",
+                "text": "Decisions",
+                "type": "text"
+              },
+              {
+                "children": [
+                  {
+                    "style": {
+                      "color": "#18181b",
+                      "fontFamily": "Helvetica",
+                      "fontSize": 16,
+                      "fontWeight": 600,
+                      "lineHeight": 1.6,
+                      "marginBottom": 0,
+                      "marginTop": 0
+                    },
+                    "tagName": "span",
+                    "text": "1. Proceed with pdfme as second rendering base",
+                    "type": "text"
+                  },
+                  {
+                    "style": {
+                      "color": "#71717a",
+                      "fontFamily": "Helvetica",
+                      "fontSize": 13.333333333333332,
+                      "lineHeight": 1.6,
+                      "marginBottom": 0,
+                      "marginTop": 0
+                    },
+                    "tagName": "span",
+                    "text": "Better JSX support",
+                    "type": "text"
+                  }
+                ],
+                "preset": {
+                  "display": "block"
+                },
+                "style": {
+                  "display": "flex",
+                  "flexDirection": "column",
+                  "marginBottom": 10.666666666666666
+                },
+                "tagName": "div",
+                "type": "container"
+              },
+              {
+                "children": [
+                  {
+                    "style": {
+                      "color": "#18181b",
+                      "fontFamily": "Helvetica",
+                      "fontSize": 16,
+                      "fontWeight": 600,
+                      "lineHeight": 1.6,
+                      "marginBottom": 0,
+                      "marginTop": 0
+                    },
+                    "tagName": "span",
+                    "text": "2. Allocate 2 engineers to PDF module full-time",
+                    "type": "text"
+                  }
+                ],
+                "preset": {
+                  "display": "block"
+                },
+                "style": {
+                  "display": "flex",
+                  "flexDirection": "column",
+                  "marginBottom": 10.666666666666666
+                },
+                "tagName": "div",
+                "type": "container"
+              }
+            ],
+            "preset": {
+              "display": "block"
+            },
+            "style": {
+              "display": "flex",
+              "flexDirection": "column",
+              "marginBottom": 21.333333333333332,
+              "marginTop": 21.333333333333332
+            },
+            "tagName": "div",
+            "type": "container"
+          },
+          {
+            "children": [
+              {
+                "style": {
+                  "color": "#71717a",
+                  "fontFamily": "Helvetica",
+                  "fontSize": 12,
+                  "fontWeight": "bold",
+                  "letterSpacing": 0.6666666666666666,
+                  "lineHeight": 1.6,
+                  "marginBottom": 2.6666666666666665,
+                  "marginTop": 0,
+                  "textTransform": "uppercase"
+                },
+                "tagName": "span",
+                "text": "Action Items",
+                "type": "text"
+              },
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "children": [
+                              {
+                                "style": {
+                                  "color": "#18181b",
+                                  "fontFamily": "Helvetica",
+                                  "fontSize": 14.666666666666666,
+                                  "fontWeight": 600,
+                                  "lineHeight": 1.2,
+                                  "margin": 0,
+                                  "padding": 0
+                                },
+                                "tagName": "span",
+                                "text": "Task",
+                                "type": "text"
+                              }
+                            ],
+                            "preset": {
+                              "display": "block"
+                            },
+                            "style": {
+                              "borderRightColor": "#e4e4e7",
+                              "borderRightStyle": "solid",
+                              "borderRightWidth": 0.6666666666666666,
+                              "display": "flex",
+                              "flex": 1,
+                              "flexDirection": "column",
+                              "justifyContent": "center",
+                              "paddingBottom": 8,
+                              "paddingLeft": 13.333333333333332,
+                              "paddingRight": 13.333333333333332,
+                              "paddingTop": 8
+                            },
+                            "tagName": "div",
+                            "type": "container"
+                          },
+                          {
+                            "children": [
+                              {
+                                "style": {
+                                  "color": "#18181b",
+                                  "fontFamily": "Helvetica",
+                                  "fontSize": 14.666666666666666,
+                                  "fontWeight": 600,
+                                  "lineHeight": 1.2,
+                                  "margin": 0,
+                                  "padding": 0,
+                                  "textAlign": "center"
+                                },
+                                "tagName": "span",
+                                "text": "Owner",
+                                "type": "text"
+                              }
+                            ],
+                            "preset": {
+                              "display": "block"
+                            },
+                            "style": {
+                              "borderRightColor": "#e4e4e7",
+                              "borderRightStyle": "solid",
+                              "borderRightWidth": 0.6666666666666666,
+                              "display": "flex",
+                              "flex": 1,
+                              "flexDirection": "column",
+                              "justifyContent": "center",
+                              "paddingBottom": 8,
+                              "paddingLeft": 13.333333333333332,
+                              "paddingRight": 13.333333333333332,
+                              "paddingTop": 8,
+                              "textAlign": "center"
+                            },
+                            "tagName": "div",
+                            "type": "container"
+                          },
+                          {
+                            "children": [
+                              {
+                                "style": {
+                                  "color": "#18181b",
+                                  "fontFamily": "Helvetica",
+                                  "fontSize": 14.666666666666666,
+                                  "fontWeight": 600,
+                                  "lineHeight": 1.2,
+                                  "margin": 0,
+                                  "padding": 0,
+                                  "textAlign": "center"
+                                },
+                                "tagName": "span",
+                                "text": "Due Date",
+                                "type": "text"
+                              }
+                            ],
+                            "preset": {
+                              "display": "block"
+                            },
+                            "style": {
+                              "borderRightColor": "#e4e4e7",
+                              "borderRightStyle": "solid",
+                              "borderRightWidth": 0.6666666666666666,
+                              "display": "flex",
+                              "flex": 1,
+                              "flexDirection": "column",
+                              "justifyContent": "center",
+                              "paddingBottom": 8,
+                              "paddingLeft": 13.333333333333332,
+                              "paddingRight": 13.333333333333332,
+                              "paddingTop": 8,
+                              "textAlign": "center"
+                            },
+                            "tagName": "div",
+                            "type": "container"
+                          },
+                          {
+                            "children": [
+                              {
+                                "style": {
+                                  "color": "#18181b",
+                                  "fontFamily": "Helvetica",
+                                  "fontSize": 14.666666666666666,
+                                  "fontWeight": 600,
+                                  "lineHeight": 1.2,
+                                  "margin": 0,
+                                  "padding": 0,
+                                  "textAlign": "center"
+                                },
+                                "tagName": "span",
+                                "text": "Status",
+                                "type": "text"
+                              }
+                            ],
+                            "preset": {
+                              "display": "block"
+                            },
+                            "style": {
+                              "display": "flex",
+                              "flex": 1,
+                              "flexDirection": "column",
+                              "justifyContent": "center",
+                              "paddingBottom": 8,
+                              "paddingLeft": 13.333333333333332,
+                              "paddingRight": 13.333333333333332,
+                              "paddingTop": 8,
+                              "textAlign": "center"
+                            },
+                            "tagName": "div",
+                            "type": "container"
+                          }
+                        ],
+                        "preset": {
+                          "display": "block"
+                        },
+                        "style": {
+                          "backgroundColor": "#f4f4f5",
+                          "borderBottomColor": "#e4e4e7",
+                          "borderBottomStyle": "solid",
+                          "borderBottomWidth": 1.3333333333333333,
+                          "breakInside": "avoid",
+                          "display": "flex",
+                          "flexDirection": "row"
+                        },
+                        "tagName": "div",
+                        "type": "container"
+                      }
+                    ],
+                    "preset": {
+                      "display": "block"
+                    },
+                    "style": {
+                      "display": "flex",
+                      "flexDirection": "column"
+                    },
+                    "tagName": "div",
+                    "type": "container"
+                  },
+                  {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "children": [
+                              {
+                                "style": {
+                                  "color": "#18181b",
+                                  "fontFamily": "Helvetica",
+                                  "fontSize": 14.666666666666666,
+                                  "lineHeight": 1.2,
+                                  "margin": 0,
+                                  "padding": 0
+                                },
+                                "tagName": "span",
+                                "text": "Create pdfme integration RFC",
+                                "type": "text"
+                              }
+                            ],
+                            "preset": {
+                              "display": "block"
+                            },
+                            "style": {
+                              "borderRightColor": "#e4e4e7",
+                              "borderRightStyle": "solid",
+                              "borderRightWidth": 0.6666666666666666,
+                              "display": "flex",
+                              "flex": 1,
+                              "flexDirection": "column",
+                              "justifyContent": "center",
+                              "paddingBottom": 8,
+                              "paddingLeft": 13.333333333333332,
+                              "paddingRight": 13.333333333333332,
+                              "paddingTop": 8
+                            },
+                            "tagName": "div",
+                            "type": "container"
+                          },
+                          {
+                            "children": [
+                              {
+                                "style": {
+                                  "color": "#18181b",
+                                  "fontFamily": "Helvetica",
+                                  "fontSize": 14.666666666666666,
+                                  "lineHeight": 1.2,
+                                  "margin": 0,
+                                  "padding": 0,
+                                  "textAlign": "center"
+                                },
+                                "tagName": "span",
+                                "text": "Jordan Lee",
+                                "type": "text"
+                              }
+                            ],
+                            "preset": {
+                              "display": "block"
+                            },
+                            "style": {
+                              "borderRightColor": "#e4e4e7",
+                              "borderRightStyle": "solid",
+                              "borderRightWidth": 0.6666666666666666,
+                              "display": "flex",
+                              "flex": 1,
+                              "flexDirection": "column",
+                              "justifyContent": "center",
+                              "paddingBottom": 8,
+                              "paddingLeft": 13.333333333333332,
+                              "paddingRight": 13.333333333333332,
+                              "paddingTop": 8,
+                              "textAlign": "center"
+                            },
+                            "tagName": "div",
+                            "type": "container"
+                          },
+                          {
+                            "children": [
+                              {
+                                "style": {
+                                  "color": "#18181b",
+                                  "fontFamily": "Helvetica",
+                                  "fontSize": 14.666666666666666,
+                                  "lineHeight": 1.2,
+                                  "margin": 0,
+                                  "padding": 0,
+                                  "textAlign": "center"
+                                },
+                                "tagName": "span",
+                                "text": "Sep 19, 2026",
+                                "type": "text"
+                              }
+                            ],
+                            "preset": {
+                              "display": "block"
+                            },
+                            "style": {
+                              "borderRightColor": "#e4e4e7",
+                              "borderRightStyle": "solid",
+                              "borderRightWidth": 0.6666666666666666,
+                              "display": "flex",
+                              "flex": 1,
+                              "flexDirection": "column",
+                              "justifyContent": "center",
+                              "paddingBottom": 8,
+                              "paddingLeft": 13.333333333333332,
+                              "paddingRight": 13.333333333333332,
+                              "paddingTop": 8,
+                              "textAlign": "center"
+                            },
+                            "tagName": "div",
+                            "type": "container"
+                          },
+                          {
+                            "children": [
+                              {
+                                "children": [
+                                  {
+                                    "style": {
+                                      "color": "#0ea5e9",
+                                      "fontFamily": "Helvetica",
+                                      "fontSize": 12,
+                                      "fontWeight": 600,
+                                      "letterSpacing": 0.39999999999999997
+                                    },
+                                    "tagName": "span",
+                                    "text": "In Progress",
+                                    "type": "text"
+                                  }
+                                ],
+                                "preset": {
+                                  "display": "block"
+                                },
+                                "style": {
+                                  "alignItems": "center",
+                                  "alignSelf": "flex-start",
+                                  "backgroundColor": "#f4f4f5",
+                                  "borderColor": "#0ea5e9",
+                                  "borderRadius": 13332,
+                                  "borderStyle": "solid",
+                                  "borderWidth": 2.6666666666666665,
+                                  "display": "flex",
+                                  "flexDirection": "row",
+                                  "paddingBottom": 2.6666666666666665,
+                                  "paddingLeft": 10.666666666666666,
+                                  "paddingRight": 10.666666666666666,
+                                  "paddingTop": 2.6666666666666665
+                                },
+                                "tagName": "div",
+                                "type": "container"
+                              }
+                            ],
+                            "preset": {
+                              "display": "block"
+                            },
+                            "style": {
+                              "display": "flex",
+                              "flex": 1,
+                              "flexDirection": "column",
+                              "justifyContent": "center",
+                              "paddingBottom": 8,
+                              "paddingLeft": 13.333333333333332,
+                              "paddingRight": 13.333333333333332,
+                              "paddingTop": 8,
+                              "textAlign": "center"
+                            },
+                            "tagName": "div",
+                            "type": "container"
+                          }
+                        ],
+                        "preset": {
+                          "display": "block"
+                        },
+                        "style": {
+                          "borderBottomColor": "#e4e4e7",
+                          "borderBottomStyle": "solid",
+                          "borderBottomWidth": 0.6666666666666666,
+                          "breakInside": "avoid",
+                          "display": "flex",
+                          "flexDirection": "row"
+                        },
+                        "tagName": "div",
+                        "type": "container"
+                      },
+                      {
+                        "children": [
+                          {
+                            "children": [
+                              {
+                                "style": {
+                                  "color": "#18181b",
+                                  "fontFamily": "Helvetica",
+                                  "fontSize": 14.666666666666666,
+                                  "lineHeight": 1.2,
+                                  "margin": 0,
+                                  "padding": 0
+                                },
+                                "tagName": "span",
+                                "text": "Design community page wireframes",
+                                "type": "text"
+                              }
+                            ],
+                            "preset": {
+                              "display": "block"
+                            },
+                            "style": {
+                              "borderRightColor": "#e4e4e7",
+                              "borderRightStyle": "solid",
+                              "borderRightWidth": 0.6666666666666666,
+                              "display": "flex",
+                              "flex": 1,
+                              "flexDirection": "column",
+                              "justifyContent": "center",
+                              "paddingBottom": 8,
+                              "paddingLeft": 13.333333333333332,
+                              "paddingRight": 13.333333333333332,
+                              "paddingTop": 8
+                            },
+                            "tagName": "div",
+                            "type": "container"
+                          },
+                          {
+                            "children": [
+                              {
+                                "style": {
+                                  "color": "#18181b",
+                                  "fontFamily": "Helvetica",
+                                  "fontSize": 14.666666666666666,
+                                  "lineHeight": 1.2,
+                                  "margin": 0,
+                                  "padding": 0,
+                                  "textAlign": "center"
+                                },
+                                "tagName": "span",
+                                "text": "Sam Patel",
+                                "type": "text"
+                              }
+                            ],
+                            "preset": {
+                              "display": "block"
+                            },
+                            "style": {
+                              "borderRightColor": "#e4e4e7",
+                              "borderRightStyle": "solid",
+                              "borderRightWidth": 0.6666666666666666,
+                              "display": "flex",
+                              "flex": 1,
+                              "flexDirection": "column",
+                              "justifyContent": "center",
+                              "paddingBottom": 8,
+                              "paddingLeft": 13.333333333333332,
+                              "paddingRight": 13.333333333333332,
+                              "paddingTop": 8,
+                              "textAlign": "center"
+                            },
+                            "tagName": "div",
+                            "type": "container"
+                          },
+                          {
+                            "children": [
+                              {
+                                "style": {
+                                  "color": "#18181b",
+                                  "fontFamily": "Helvetica",
+                                  "fontSize": 14.666666666666666,
+                                  "lineHeight": 1.2,
+                                  "margin": 0,
+                                  "padding": 0,
+                                  "textAlign": "center"
+                                },
+                                "tagName": "span",
+                                "text": "Sep 22, 2026",
+                                "type": "text"
+                              }
+                            ],
+                            "preset": {
+                              "display": "block"
+                            },
+                            "style": {
+                              "borderRightColor": "#e4e4e7",
+                              "borderRightStyle": "solid",
+                              "borderRightWidth": 0.6666666666666666,
+                              "display": "flex",
+                              "flex": 1,
+                              "flexDirection": "column",
+                              "justifyContent": "center",
+                              "paddingBottom": 8,
+                              "paddingLeft": 13.333333333333332,
+                              "paddingRight": 13.333333333333332,
+                              "paddingTop": 8,
+                              "textAlign": "center"
+                            },
+                            "tagName": "div",
+                            "type": "container"
+                          },
+                          {
+                            "children": [
+                              {
+                                "children": [
+                                  {
+                                    "style": {
+                                      "color": "#71717a",
+                                      "fontFamily": "Helvetica",
+                                      "fontSize": 12,
+                                      "fontWeight": 600,
+                                      "letterSpacing": 0.39999999999999997
+                                    },
+                                    "tagName": "span",
+                                    "text": "Not Started",
+                                    "type": "text"
+                                  }
+                                ],
+                                "preset": {
+                                  "display": "block"
+                                },
+                                "style": {
+                                  "alignItems": "center",
+                                  "alignSelf": "flex-start",
+                                  "backgroundColor": "#f4f4f5",
+                                  "borderColor": "#e4e4e7",
+                                  "borderRadius": 13332,
+                                  "borderStyle": "solid",
+                                  "borderWidth": 2.6666666666666665,
+                                  "display": "flex",
+                                  "flexDirection": "row",
+                                  "paddingBottom": 2.6666666666666665,
+                                  "paddingLeft": 10.666666666666666,
+                                  "paddingRight": 10.666666666666666,
+                                  "paddingTop": 2.6666666666666665
+                                },
+                                "tagName": "div",
+                                "type": "container"
+                              }
+                            ],
+                            "preset": {
+                              "display": "block"
+                            },
+                            "style": {
+                              "display": "flex",
+                              "flex": 1,
+                              "flexDirection": "column",
+                              "justifyContent": "center",
+                              "paddingBottom": 8,
+                              "paddingLeft": 13.333333333333332,
+                              "paddingRight": 13.333333333333332,
+                              "paddingTop": 8,
+                              "textAlign": "center"
+                            },
+                            "tagName": "div",
+                            "type": "container"
+                          }
+                        ],
+                        "preset": {
+                          "display": "block"
+                        },
+                        "style": {
+                          "backgroundColor": "#f4f4f5",
+                          "borderBottomColor": "#e4e4e7",
+                          "borderBottomStyle": "solid",
+                          "borderBottomWidth": 0.6666666666666666,
+                          "breakInside": "avoid",
+                          "display": "flex",
+                          "flexDirection": "row"
+                        },
+                        "tagName": "div",
+                        "type": "container"
+                      },
+                      {
+                        "children": [
+                          {
+                            "children": [
+                              {
+                                "style": {
+                                  "color": "#18181b",
+                                  "fontFamily": "Helvetica",
+                                  "fontSize": 14.666666666666666,
+                                  "lineHeight": 1.2,
+                                  "margin": 0,
+                                  "padding": 0
+                                },
+                                "tagName": "span",
+                                "text": "Share Q2 outcomes deck with stakeholders",
+                                "type": "text"
+                              }
+                            ],
+                            "preset": {
+                              "display": "block"
+                            },
+                            "style": {
+                              "borderRightColor": "#e4e4e7",
+                              "borderRightStyle": "solid",
+                              "borderRightWidth": 0.6666666666666666,
+                              "display": "flex",
+                              "flex": 1,
+                              "flexDirection": "column",
+                              "justifyContent": "center",
+                              "paddingBottom": 8,
+                              "paddingLeft": 13.333333333333332,
+                              "paddingRight": 13.333333333333332,
+                              "paddingTop": 8
+                            },
+                            "tagName": "div",
+                            "type": "container"
+                          },
+                          {
+                            "children": [
+                              {
+                                "style": {
+                                  "color": "#18181b",
+                                  "fontFamily": "Helvetica",
+                                  "fontSize": 14.666666666666666,
+                                  "lineHeight": 1.2,
+                                  "margin": 0,
+                                  "padding": 0,
+                                  "textAlign": "center"
+                                },
+                                "tagName": "span",
+                                "text": "Alex Kim",
+                                "type": "text"
+                              }
+                            ],
+                            "preset": {
+                              "display": "block"
+                            },
+                            "style": {
+                              "borderRightColor": "#e4e4e7",
+                              "borderRightStyle": "solid",
+                              "borderRightWidth": 0.6666666666666666,
+                              "display": "flex",
+                              "flex": 1,
+                              "flexDirection": "column",
+                              "justifyContent": "center",
+                              "paddingBottom": 8,
+                              "paddingLeft": 13.333333333333332,
+                              "paddingRight": 13.333333333333332,
+                              "paddingTop": 8,
+                              "textAlign": "center"
+                            },
+                            "tagName": "div",
+                            "type": "container"
+                          },
+                          {
+                            "children": [
+                              {
+                                "style": {
+                                  "color": "#18181b",
+                                  "fontFamily": "Helvetica",
+                                  "fontSize": 14.666666666666666,
+                                  "lineHeight": 1.2,
+                                  "margin": 0,
+                                  "padding": 0,
+                                  "textAlign": "center"
+                                },
+                                "tagName": "span",
+                                "text": "Sep 26, 2026",
+                                "type": "text"
+                              }
+                            ],
+                            "preset": {
+                              "display": "block"
+                            },
+                            "style": {
+                              "borderRightColor": "#e4e4e7",
+                              "borderRightStyle": "solid",
+                              "borderRightWidth": 0.6666666666666666,
+                              "display": "flex",
+                              "flex": 1,
+                              "flexDirection": "column",
+                              "justifyContent": "center",
+                              "paddingBottom": 8,
+                              "paddingLeft": 13.333333333333332,
+                              "paddingRight": 13.333333333333332,
+                              "paddingTop": 8,
+                              "textAlign": "center"
+                            },
+                            "tagName": "div",
+                            "type": "container"
+                          },
+                          {
+                            "children": [
+                              {
+                                "children": [
+                                  {
+                                    "style": {
+                                      "color": "#16a34a",
+                                      "fontFamily": "Helvetica",
+                                      "fontSize": 12,
+                                      "fontWeight": 600,
+                                      "letterSpacing": 0.39999999999999997
+                                    },
+                                    "tagName": "span",
+                                    "text": "Complete",
+                                    "type": "text"
+                                  }
+                                ],
+                                "preset": {
+                                  "display": "block"
+                                },
+                                "style": {
+                                  "alignItems": "center",
+                                  "alignSelf": "flex-start",
+                                  "backgroundColor": "#f4f4f5",
+                                  "borderColor": "#16a34a",
+                                  "borderRadius": 13332,
+                                  "borderStyle": "solid",
+                                  "borderWidth": 2.6666666666666665,
+                                  "display": "flex",
+                                  "flexDirection": "row",
+                                  "paddingBottom": 2.6666666666666665,
+                                  "paddingLeft": 10.666666666666666,
+                                  "paddingRight": 10.666666666666666,
+                                  "paddingTop": 2.6666666666666665
+                                },
+                                "tagName": "div",
+                                "type": "container"
+                              }
+                            ],
+                            "preset": {
+                              "display": "block"
+                            },
+                            "style": {
+                              "display": "flex",
+                              "flex": 1,
+                              "flexDirection": "column",
+                              "justifyContent": "center",
+                              "paddingBottom": 8,
+                              "paddingLeft": 13.333333333333332,
+                              "paddingRight": 13.333333333333332,
+                              "paddingTop": 8,
+                              "textAlign": "center"
+                            },
+                            "tagName": "div",
+                            "type": "container"
+                          }
+                        ],
+                        "preset": {
+                          "display": "block"
+                        },
+                        "style": {
+                          "borderBottomColor": "#e4e4e7",
+                          "borderBottomStyle": "solid",
+                          "borderBottomWidth": 0.6666666666666666,
+                          "breakInside": "avoid",
+                          "display": "flex",
+                          "flexDirection": "row"
+                        },
+                        "tagName": "div",
+                        "type": "container"
+                      }
+                    ],
+                    "preset": {
+                      "display": "block"
+                    },
+                    "style": {
+                      "display": "flex",
+                      "flexDirection": "column"
+                    },
+                    "tagName": "div",
+                    "type": "container"
+                  }
+                ],
+                "preset": {
+                  "display": "block"
+                },
+                "style": {
+                  "borderBottomLeftRadius": 5.333333333333333,
+                  "borderBottomRightRadius": 5.333333333333333,
+                  "borderColor": "#e4e4e7",
+                  "borderStyle": "solid",
+                  "borderTopLeftRadius": 5.333333333333333,
+                  "borderTopRightRadius": 5.333333333333333,
+                  "borderWidth": 2,
+                  "display": "flex",
+                  "flexDirection": "column",
+                  "marginBottom": 18.666666666666664,
+                  "overflow": "hidden",
+                  "width": "100%"
+                },
+                "tagName": "div",
+                "type": "container"
+              }
+            ],
+            "preset": {
+              "display": "block"
+            },
+            "style": {
+              "display": "flex",
+              "flexDirection": "column",
+              "marginBottom": 21.333333333333332,
+              "marginTop": 21.333333333333332
+            },
+            "tagName": "div",
+            "type": "container"
+          },
+          {
+            "children": [
+              {
+                "style": {
+                  "color": "#71717a",
+                  "fontFamily": "Helvetica",
+                  "fontSize": 12,
+                  "fontWeight": "bold",
+                  "letterSpacing": 0.6666666666666666,
+                  "lineHeight": 1.6,
+                  "marginBottom": 2.6666666666666665,
+                  "marginTop": 0,
+                  "textTransform": "uppercase"
+                },
+                "tagName": "span",
+                "text": "Next Meeting",
+                "type": "text"
+              },
+              {
+                "style": {
+                  "color": "#18181b",
+                  "fontFamily": "Helvetica",
+                  "fontSize": 16,
+                  "fontWeight": 500,
+                  "lineHeight": 1.6,
+                  "marginBottom": 0,
+                  "marginTop": 0
+                },
+                "tagName": "span",
+                "text": "September 19, 2026 · 2:00 PM",
+                "type": "text"
+              },
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "children": [
+                              {
+                                "children": [],
+                                "preset": {
+                                  "display": "block"
+                                },
+                                "style": {
+                                  "backgroundColor": "#18181b",
+                                  "borderRadius": 4,
+                                  "display": "flex",
+                                  "flexDirection": "column",
+                                  "height": 6.666666666666666,
+                                  "width": 6.666666666666666
+                                },
+                                "tagName": "div",
+                                "type": "container"
+                              }
+                            ],
+                            "preset": {
+                              "display": "block"
+                            },
+                            "style": {
+                              "alignItems": "center",
+                              "display": "flex",
+                              "flexDirection": "column",
+                              "justifyContent": "flex-start",
+                              "marginTop": 5.333333333333333,
+                              "width": 21.333333333333332
+                            },
+                            "tagName": "div",
+                            "type": "container"
+                          },
+                          {
+                            "children": [
+                              {
+                                "style": {
+                                  "color": "#18181b",
+                                  "fontFamily": "Helvetica",
+                                  "fontSize": 14.666666666666666,
+                                  "lineHeight": 1.6
+                                },
+                                "tagName": "span",
+                                "text": "Review action items",
+                                "type": "text"
+                              }
+                            ],
+                            "preset": {
+                              "display": "block"
+                            },
+                            "style": {
+                              "display": "flex",
+                              "flex": 1,
+                              "flexDirection": "column"
+                            },
+                            "tagName": "div",
+                            "type": "container"
+                          }
+                        ],
+                        "preset": {
+                          "display": "block"
+                        },
+                        "style": {
+                          "alignItems": "flex-start",
+                          "display": "flex",
+                          "flexDirection": "row",
+                          "marginBottom": 5.333333333333333
+                        },
+                        "tagName": "div",
+                        "type": "container"
+                      }
+                    ],
+                    "preset": {
+                      "display": "block"
+                    },
+                    "style": {
+                      "display": "flex",
+                      "flexDirection": "column"
+                    },
+                    "tagName": "div",
+                    "type": "container"
+                  },
+                  {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "children": [
+                              {
+                                "children": [],
+                                "preset": {
+                                  "display": "block"
+                                },
+                                "style": {
+                                  "backgroundColor": "#18181b",
+                                  "borderRadius": 4,
+                                  "display": "flex",
+                                  "flexDirection": "column",
+                                  "height": 6.666666666666666,
+                                  "width": 6.666666666666666
+                                },
+                                "tagName": "div",
+                                "type": "container"
+                              }
+                            ],
+                            "preset": {
+                              "display": "block"
+                            },
+                            "style": {
+                              "alignItems": "center",
+                              "display": "flex",
+                              "flexDirection": "column",
+                              "justifyContent": "flex-start",
+                              "marginTop": 5.333333333333333,
+                              "width": 21.333333333333332
+                            },
+                            "tagName": "div",
+                            "type": "container"
+                          },
+                          {
+                            "children": [
+                              {
+                                "style": {
+                                  "color": "#18181b",
+                                  "fontFamily": "Helvetica",
+                                  "fontSize": 14.666666666666666,
+                                  "lineHeight": 1.6
+                                },
+                                "tagName": "span",
+                                "text": "pdfme RFC walkthrough",
+                                "type": "text"
+                              }
+                            ],
+                            "preset": {
+                              "display": "block"
+                            },
+                            "style": {
+                              "display": "flex",
+                              "flex": 1,
+                              "flexDirection": "column"
+                            },
+                            "tagName": "div",
+                            "type": "container"
+                          }
+                        ],
+                        "preset": {
+                          "display": "block"
+                        },
+                        "style": {
+                          "alignItems": "flex-start",
+                          "display": "flex",
+                          "flexDirection": "row"
+                        },
+                        "tagName": "div",
+                        "type": "container"
+                      }
+                    ],
+                    "preset": {
+                      "display": "block"
+                    },
+                    "style": {
+                      "display": "flex",
+                      "flexDirection": "column"
+                    },
+                    "tagName": "div",
+                    "type": "container"
+                  }
+                ],
+                "preset": {
+                  "display": "block"
+                },
+                "style": {
+                  "display": "flex",
+                  "flexDirection": "column",
+                  "marginBottom": 18.666666666666664,
+                  "width": "100%"
+                },
+                "tagName": "div",
+                "type": "container"
+              }
+            ],
+            "preset": {
+              "display": "block"
+            },
+            "style": {
+              "backgroundColor": "#f4f4f5",
+              "borderLeftColor": "#0891b2",
+              "borderLeftStyle": "solid",
+              "borderLeftWidth": 5.333333333333333,
+              "display": "flex",
+              "flexDirection": "column",
+              "marginBottom": 21.333333333333332,
+              "marginTop": 21.333333333333332,
+              "padding": 21.333333333333332
+            },
+            "tagName": "div",
+            "type": "container"
+          },
+          {
+            "children": [
+              {
+                "style": {
+                  "color": "#71717a",
+                  "flex": 1,
+                  "fontFamily": "Helvetica",
+                  "fontSize": 13.333333333333332,
+                  "lineHeight": 1.6
+                },
+                "tagName": "span",
+                "text": "Prepared by Alex Kim",
+                "type": "text"
+              },
+              {
+                "style": {
+                  "color": "#71717a",
+                  "fontFamily": "Helvetica",
+                  "fontSize": 13.333333333333332,
+                  "lineHeight": 1.6,
+                  "textAlign": "right"
+                },
+                "tagName": "span",
+                "text": "Distribution: product-team@acme.com, eng-leads@acme.com",
+                "type": "text"
+              }
+            ],
+            "preset": {
+              "display": "block"
+            },
+            "style": {
+              "alignItems": "center",
+              "borderTopColor": "#e4e4e7",
+              "borderTopStyle": "solid",
+              "borderTopWidth": 2.6666666666666665,
+              "bottom": 33.33333333333333,
+              "breakInside": "avoid",
+              "display": "flex",
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "left": 33.33333333333333,
+              "marginTop": 0,
+              "paddingTop": 16,
+              "position": "absolute",
+              "right": 33.33333333333333
+            },
+            "tagName": "div",
+            "type": "container"
+          }
+        ],
+        "preset": {
+          "display": "block"
+        },
+        "style": {
+          "backgroundColor": "#ffffff",
+          "boxSizing": "border-box",
+          "display": "flex",
+          "flexDirection": "column",
+          "minHeight": 1121.3333333333333,
+          "padding": 74.66666666666666,
+          "paddingBottom": 74.66666666666666,
+          "position": "relative"
+        },
+        "tagName": "div",
+        "type": "container"
+      }
+    ],
+    "preset": {
+      "display": "block"
+    },
+    "style": {
+      "display": "flex",
+      "flexDirection": "column"
+    },
+    "tagName": "div",
+    "type": "container"
+  },
+  "stylesheets": []
+}

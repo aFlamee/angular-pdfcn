@@ -11,16 +11,11 @@ node_modules
 # testing
 coverage
 
-# next.js
-.next/
-out/
-
 # production
 build
 dist
 
 # misc
-testsprite_tests/tmp/config.json
 .DS_Store
 *.pem
 
@@ -33,18 +28,11 @@ yarn-error.log*
 # env files (can opt-in for committing if needed)
 .env*
 
-# vercel
-.vercel
-
 # turbo
 .turbo
 
 # typescript
 *.tsbuildinfo
-next-env.d.ts
 
-
-# generated content
-.contentlayer
-.content-collections
-.source
+# analog
+.analog

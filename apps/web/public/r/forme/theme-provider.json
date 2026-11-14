@@ -4,18 +4,18 @@
   "title": "Theme Provider",
   "description": "Theme provider for the forme base",
   "dependencies": [
-    "@formepdf/react",
-    "@formepdf/core"
+    "@formepdf/core@^0.25.0",
+    "@formepdf/shared@^0.25.0"
   ],
   "registryDependencies": [
-    "@pdfcn/theme-professional"
+    "@angular-pdfcn/theme-professional"
   ],
   "files": [
     {
-      "path": "registry/bases/forme/components/theme-provider.tsx",
-      "content": "import type { Style } from \"@formepdf/react\";\nimport { isValidElement } from \"react\";\nimport type { DependencyList, ReactNode } from \"react\";\n\nimport { professionalTheme } from \"@/lib/pdf-themes/professional\";\n\nexport type PdfcnTheme = typeof professionalTheme;\n\nlet serializedTheme = professionalTheme;\n\nexport interface PdfcnThemeProviderProps {\n  theme?: PdfcnTheme;\n  children: ReactNode;\n}\n\ntype PdfStyleInput = Style | PdfStyleInput[] | false | null | undefined;\n\nconst mergeStyleInput = (target: Style, input: PdfStyleInput): void => {\n  if (Array.isArray(input)) {\n    for (const item of input) {\n      mergeStyleInput(target, item);\n    }\n  } else if (input) {\n    Object.assign(target, input);\n  }\n};\n\nexport const mergePdfStyles = (...inputs: PdfStyleInput[]): Style => {\n  const merged: Style = {};\n  for (const input of inputs) {\n    mergeStyleInput(merged, input);\n  }\n  return merged;\n};\n\nconst renderForSerializer = (\n  children: ReactNode,\n  theme: PdfcnTheme\n): ReactNode => {\n  serializedTheme = theme;\n\n  if (!isValidElement(children) || typeof children.type !== \"function\") {\n    return children;\n  }\n  if ((children.type as { __formeType?: string }).__formeType === \"Document\") {\n    return children;\n  }\n\n  return (children.type as (props: unknown) => ReactNode)(children.props);\n};\n\nexport const PdfcnThemeProvider = ({\n  theme,\n  children,\n}: PdfcnThemeProviderProps) =>\n  renderForSerializer(children, theme ?? professionalTheme);\n\nexport const usePdfcnTheme = (): PdfcnTheme => serializedTheme;\n\nexport const useSafeMemo = <T,>(factory: () => T, _deps: DependencyList): T =>\n  factory();\n",
+      "path": "registry/bases/forme/components/theme-provider.ts",
+      "content": "import { Component, InjectionToken, inject, input, signal } from \"@angular/core\";\nimport type { Signal } from \"@angular/core\";\n\nimport type { Style } from \"@formepdf/shared\";\n\nimport { professionalTheme } from \"@/lib/pdf-themes/professional\";\nimport type { PdfcnTheme } from \"@/types/pdf-themes\";\n\nexport type { PdfcnTheme };\n\nexport const PDFCN_THEME = new InjectionToken<Signal<PdfcnTheme>>(\"PDFCN_THEME\");\n\nconst defaultTheme = signal(professionalTheme).asReadonly();\n\n/** The theme of the nearest `<pdf-theme-provider>`, or the professional theme. */\nexport const injectPdfcnTheme = (): Signal<PdfcnTheme> =>\n  inject(PDFCN_THEME, { optional: true }) ?? defaultTheme;\n\n/** Provides a theme to the components it wraps. */\n@Component({\n  providers: [\n    {\n      provide: PDFCN_THEME,\n      useFactory: () => inject(PdfcnThemeProvider).theme,\n    },\n  ],\n  selector: \"pdf-theme-provider\",\n  template: \"<ng-content />\",\n})\nexport class PdfcnThemeProvider {\n  readonly theme = input(professionalTheme, {\n    transform: (theme: PdfcnTheme | undefined) => theme ?? professionalTheme,\n  });\n}\n\ntype PdfStyleInput = Style | PdfStyleInput[] | false | null | undefined;\n\nconst mergeStyleInput = (target: Style, input: PdfStyleInput): void => {\n  if (Array.isArray(input)) {\n    for (const item of input) {\n      mergeStyleInput(target, item);\n    }\n  } else if (input) {\n    Object.assign(target, input);\n  }\n};\n\nexport const mergePdfStyles = (...inputs: PdfStyleInput[]): Style => {\n  const merged: Style = {};\n  for (const input of inputs) {\n    mergeStyleInput(merged, input);\n  }\n  return merged;\n};\n",
       "type": "registry:lib",
-      "target": "components/pdf/theme-provider.tsx"
+      "target": "components/pdf/theme-provider.ts"
     }
   ],
   "type": "registry:lib"

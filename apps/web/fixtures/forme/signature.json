@@ -1,0 +1,198 @@
+{
+  "document": {
+    "children": [
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "children": [],
+                    "kind": {
+                      "content": "Authorized By",
+                      "type": "Text"
+                    },
+                    "style": {
+                      "color": {
+                        "a": 1,
+                        "b": 0.47843137254901963,
+                        "g": 0.44313725490196076,
+                        "r": 0.44313725490196076
+                      },
+                      "fontFamily": "Helvetica",
+                      "fontSize": 12,
+                      "margin": {
+                        "bottom": 4,
+                        "left": 0,
+                        "right": 0,
+                        "top": 0
+                      }
+                    }
+                  },
+                  {
+                    "children": [],
+                    "kind": {
+                      "type": "View"
+                    },
+                    "style": {
+                      "borderColor": {
+                        "bottom": {
+                          "a": 1,
+                          "b": 0.10588235294117647,
+                          "g": 0.09411764705882353,
+                          "r": 0.09411764705882353
+                        },
+                        "left": {
+                          "a": 1,
+                          "b": 0,
+                          "g": 0,
+                          "r": 0
+                        },
+                        "right": {
+                          "a": 1,
+                          "b": 0,
+                          "g": 0,
+                          "r": 0
+                        },
+                        "top": {
+                          "a": 1,
+                          "b": 0,
+                          "g": 0,
+                          "r": 0
+                        }
+                      },
+                      "borderWidth": {
+                        "bottom": 1,
+                        "left": 0,
+                        "right": 0,
+                        "top": 0
+                      },
+                      "margin": {
+                        "bottom": 4,
+                        "left": 0,
+                        "right": 0,
+                        "top": 0
+                      },
+                      "minHeight": {
+                        "Pt": 24
+                      }
+                    }
+                  },
+                  {
+                    "children": [],
+                    "kind": {
+                      "content": "John Doe",
+                      "type": "Text"
+                    },
+                    "style": {
+                      "color": {
+                        "a": 1,
+                        "b": 0.10588235294117647,
+                        "g": 0.09411764705882353,
+                        "r": 0.09411764705882353
+                      },
+                      "fontFamily": "Helvetica",
+                      "fontSize": 11,
+                      "fontWeight": 600
+                    }
+                  },
+                  {
+                    "children": [],
+                    "kind": {
+                      "content": "CEO, Acme Corp",
+                      "type": "Text"
+                    },
+                    "style": {
+                      "color": {
+                        "a": 1,
+                        "b": 0.47843137254901963,
+                        "g": 0.44313725490196076,
+                        "r": 0.44313725490196076
+                      },
+                      "fontFamily": "Helvetica",
+                      "fontSize": 12
+                    }
+                  },
+                  {
+                    "children": [],
+                    "kind": {
+                      "content": "15 February 2026",
+                      "type": "Text"
+                    },
+                    "style": {
+                      "color": {
+                        "a": 1,
+                        "b": 0.47843137254901963,
+                        "g": 0.44313725490196076,
+                        "r": 0.44313725490196076
+                      },
+                      "fontFamily": "Helvetica",
+                      "fontSize": 10,
+                      "margin": {
+                        "bottom": 0,
+                        "left": 0,
+                        "right": 0,
+                        "top": 1
+                      }
+                    }
+                  }
+                ],
+                "kind": {
+                  "type": "View"
+                },
+                "style": {
+                  "flexBasis": {
+                    "Pt": 0
+                  },
+                  "flexGrow": 1,
+                  "flexShrink": 1,
+                  "minWidth": {
+                    "Pt": 140
+                  }
+                }
+              }
+            ],
+            "kind": {
+              "type": "View"
+            },
+            "style": {
+              "margin": {
+                "bottom": 14,
+                "left": 0,
+                "right": 0,
+                "top": 28
+              },
+              "wrap": false
+            }
+          }
+        ],
+        "kind": {
+          "config": {
+            "margin": {
+              "bottom": 40,
+              "left": 40,
+              "right": 40,
+              "top": 40
+            },
+            "size": "A4",
+            "wrap": true
+          },
+          "type": "Page"
+        },
+        "style": {}
+      }
+    ],
+    "defaultPage": {
+      "margin": {
+        "bottom": 54,
+        "left": 54,
+        "right": 54,
+        "top": 54
+      },
+      "size": "A4",
+      "wrap": true
+    },
+    "metadata": {}
+  }
+}

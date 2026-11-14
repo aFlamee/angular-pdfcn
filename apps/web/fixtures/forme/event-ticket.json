@@ -1,0 +1,1970 @@
+{
+  "document": {
+    "children": [
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "children": [],
+                "kind": {
+                  "type": "View"
+                },
+                "style": {
+                  "backgroundColor": {
+                    "a": 1,
+                    "b": 0.3568627450980392,
+                    "g": 0.3215686274509804,
+                    "r": 0.3215686274509804
+                  },
+                  "height": {
+                    "Pt": 252
+                  },
+                  "width": {
+                    "Pt": 8
+                  }
+                }
+              },
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "children": [
+                              {
+                                "children": [
+                                  {
+                                    "children": [],
+                                    "kind": {
+                                      "src": "/favicon.png",
+                                      "type": "Image"
+                                    },
+                                    "style": {
+                                      "borderRadius": {
+                                        "bottom_left": 3,
+                                        "bottom_right": 3,
+                                        "top_left": 3,
+                                        "top_right": 3
+                                      },
+                                      "height": {
+                                        "Pt": 14
+                                      },
+                                      "width": {
+                                        "Pt": 14
+                                      }
+                                    }
+                                  }
+                                ],
+                                "kind": {
+                                  "type": "View"
+                                },
+                                "style": {
+                                  "flexDirection": "Column"
+                                }
+                              }
+                            ],
+                            "kind": {
+                              "type": "View"
+                            },
+                            "style": {
+                              "wrap": false
+                            }
+                          },
+                          {
+                            "children": [],
+                            "kind": {
+                              "content": "ShadCN Labs",
+                              "type": "Text"
+                            },
+                            "style": {
+                              "color": {
+                                "a": 1,
+                                "b": 0.47843137254901963,
+                                "g": 0.44313725490196076,
+                                "r": 0.44313725490196076
+                              },
+                              "flexGrow": 1,
+                              "fontFamily": "Helvetica",
+                              "fontSize": 8,
+                              "fontWeight": 700,
+                              "letterSpacing": 1.1,
+                              "lineHeight": 1.6,
+                              "margin": {
+                                "bottom": 0,
+                                "left": 0,
+                                "right": 0,
+                                "top": 0
+                              },
+                              "textTransform": "Uppercase"
+                            }
+                          },
+                          {
+                            "children": [
+                              {
+                                "children": [],
+                                "kind": {
+                                  "content": "VIP",
+                                  "type": "Text"
+                                },
+                                "style": {
+                                  "color": {
+                                    "a": 1,
+                                    "b": 1,
+                                    "g": 1,
+                                    "r": 1
+                                  },
+                                  "fontFamily": "Helvetica",
+                                  "fontSize": 7,
+                                  "fontWeight": 700,
+                                  "letterSpacing": 1.2,
+                                  "lineHeight": 1.6,
+                                  "margin": {
+                                    "bottom": 0,
+                                    "left": 0,
+                                    "right": 0,
+                                    "top": 0
+                                  },
+                                  "textTransform": "Uppercase"
+                                }
+                              }
+                            ],
+                            "kind": {
+                              "type": "View"
+                            },
+                            "style": {
+                              "backgroundColor": {
+                                "a": 1,
+                                "b": 0.3568627450980392,
+                                "g": 0.3215686274509804,
+                                "r": 0.3215686274509804
+                              },
+                              "borderRadius": {
+                                "bottom_left": 9,
+                                "bottom_right": 9,
+                                "top_left": 9,
+                                "top_right": 9
+                              },
+                              "padding": {
+                                "bottom": 3,
+                                "left": 8,
+                                "right": 8,
+                                "top": 3
+                              }
+                            }
+                          }
+                        ],
+                        "kind": {
+                          "type": "View"
+                        },
+                        "style": {
+                          "alignItems": "Center",
+                          "flexDirection": "Row",
+                          "gap": 8,
+                          "margin": {
+                            "bottom": 14,
+                            "left": 0,
+                            "right": 0,
+                            "top": 0
+                          }
+                        }
+                      },
+                      {
+                        "children": [],
+                        "kind": {
+                          "content": "ShadCN Labs Conf",
+                          "type": "Text"
+                        },
+                        "style": {
+                          "color": {
+                            "a": 1,
+                            "b": 0.10588235294117647,
+                            "g": 0.09411764705882353,
+                            "r": 0.09411764705882353
+                          },
+                          "fontFamily": "Helvetica",
+                          "fontSize": 26,
+                          "fontWeight": 700,
+                          "letterSpacing": -0.6,
+                          "lineHeight": 1.08,
+                          "margin": {
+                            "bottom": 8,
+                            "left": 0,
+                            "right": 0,
+                            "top": 0
+                          }
+                        }
+                      },
+                      {
+                        "children": [],
+                        "kind": {
+                          "content": "Convention Center",
+                          "type": "Text"
+                        },
+                        "style": {
+                          "color": {
+                            "a": 1,
+                            "b": 0.47843137254901963,
+                            "g": 0.44313725490196076,
+                            "r": 0.44313725490196076
+                          },
+                          "fontFamily": "Helvetica",
+                          "fontSize": 10,
+                          "lineHeight": 1.4,
+                          "margin": {
+                            "bottom": 0,
+                            "left": 0,
+                            "right": 0,
+                            "top": 0
+                          }
+                        }
+                      },
+                      {
+                        "children": [],
+                        "kind": {
+                          "content": "123 Main St, Las Vegas, NV",
+                          "type": "Text"
+                        },
+                        "style": {
+                          "color": {
+                            "a": 1,
+                            "b": 0.47843137254901963,
+                            "g": 0.44313725490196076,
+                            "r": 0.44313725490196076
+                          },
+                          "fontFamily": "Helvetica",
+                          "fontSize": 10,
+                          "lineHeight": 1.4,
+                          "margin": {
+                            "bottom": 0,
+                            "left": 0,
+                            "right": 0,
+                            "top": 0
+                          }
+                        }
+                      }
+                    ],
+                    "kind": {
+                      "type": "View"
+                    },
+                    "style": {}
+                  },
+                  {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "children": [
+                              {
+                                "children": [],
+                                "kind": {
+                                  "content": "Date",
+                                  "type": "Text"
+                                },
+                                "style": {
+                                  "color": {
+                                    "a": 1,
+                                    "b": 0.47843137254901963,
+                                    "g": 0.44313725490196076,
+                                    "r": 0.44313725490196076
+                                  },
+                                  "fontFamily": "Helvetica",
+                                  "fontSize": 7,
+                                  "fontWeight": 700,
+                                  "letterSpacing": 1.2,
+                                  "lineHeight": 1.6,
+                                  "margin": {
+                                    "bottom": 3,
+                                    "left": 0,
+                                    "right": 0,
+                                    "top": 0
+                                  },
+                                  "textTransform": "Uppercase"
+                                }
+                              },
+                              {
+                                "children": [],
+                                "kind": {
+                                  "content": "May 15, 2026",
+                                  "type": "Text"
+                                },
+                                "style": {
+                                  "color": {
+                                    "a": 1,
+                                    "b": 0.10588235294117647,
+                                    "g": 0.09411764705882353,
+                                    "r": 0.09411764705882353
+                                  },
+                                  "fontFamily": "Helvetica",
+                                  "fontSize": 12,
+                                  "fontWeight": 700,
+                                  "lineHeight": 1.6,
+                                  "margin": {
+                                    "bottom": 0,
+                                    "left": 0,
+                                    "right": 0,
+                                    "top": 0
+                                  }
+                                }
+                              }
+                            ],
+                            "kind": {
+                              "type": "View"
+                            },
+                            "style": {
+                              "flexShrink": 1,
+                              "minWidth": {
+                                "Pt": 0
+                              },
+                              "padding": {
+                                "bottom": 0,
+                                "left": 0,
+                                "right": 12,
+                                "top": 0
+                              }
+                            }
+                          },
+                          {
+                            "children": [
+                              {
+                                "children": [],
+                                "kind": {
+                                  "content": "Time",
+                                  "type": "Text"
+                                },
+                                "style": {
+                                  "color": {
+                                    "a": 1,
+                                    "b": 0.47843137254901963,
+                                    "g": 0.44313725490196076,
+                                    "r": 0.44313725490196076
+                                  },
+                                  "fontFamily": "Helvetica",
+                                  "fontSize": 7,
+                                  "fontWeight": 700,
+                                  "letterSpacing": 1.2,
+                                  "lineHeight": 1.6,
+                                  "margin": {
+                                    "bottom": 3,
+                                    "left": 0,
+                                    "right": 0,
+                                    "top": 0
+                                  },
+                                  "textTransform": "Uppercase"
+                                }
+                              },
+                              {
+                                "children": [],
+                                "kind": {
+                                  "content": "9:00 AM",
+                                  "type": "Text"
+                                },
+                                "style": {
+                                  "color": {
+                                    "a": 1,
+                                    "b": 0.10588235294117647,
+                                    "g": 0.09411764705882353,
+                                    "r": 0.09411764705882353
+                                  },
+                                  "fontFamily": "Helvetica",
+                                  "fontSize": 12,
+                                  "fontWeight": 700,
+                                  "lineHeight": 1.6,
+                                  "margin": {
+                                    "bottom": 0,
+                                    "left": 0,
+                                    "right": 0,
+                                    "top": 0
+                                  }
+                                }
+                              }
+                            ],
+                            "kind": {
+                              "type": "View"
+                            },
+                            "style": {
+                              "flexShrink": 1,
+                              "minWidth": {
+                                "Pt": 0
+                              },
+                              "padding": {
+                                "bottom": 0,
+                                "left": 0,
+                                "right": 12,
+                                "top": 0
+                              }
+                            }
+                          },
+                          {
+                            "children": [
+                              {
+                                "children": [],
+                                "kind": {
+                                  "content": "Doors",
+                                  "type": "Text"
+                                },
+                                "style": {
+                                  "color": {
+                                    "a": 1,
+                                    "b": 0.47843137254901963,
+                                    "g": 0.44313725490196076,
+                                    "r": 0.44313725490196076
+                                  },
+                                  "fontFamily": "Helvetica",
+                                  "fontSize": 7,
+                                  "fontWeight": 700,
+                                  "letterSpacing": 1.2,
+                                  "lineHeight": 1.6,
+                                  "margin": {
+                                    "bottom": 3,
+                                    "left": 0,
+                                    "right": 0,
+                                    "top": 0
+                                  },
+                                  "textTransform": "Uppercase"
+                                }
+                              },
+                              {
+                                "children": [],
+                                "kind": {
+                                  "content": "8:00 AM",
+                                  "type": "Text"
+                                },
+                                "style": {
+                                  "color": {
+                                    "a": 1,
+                                    "b": 0.10588235294117647,
+                                    "g": 0.09411764705882353,
+                                    "r": 0.09411764705882353
+                                  },
+                                  "fontFamily": "Helvetica",
+                                  "fontSize": 12,
+                                  "fontWeight": 700,
+                                  "lineHeight": 1.6,
+                                  "margin": {
+                                    "bottom": 0,
+                                    "left": 0,
+                                    "right": 0,
+                                    "top": 0
+                                  }
+                                }
+                              }
+                            ],
+                            "kind": {
+                              "type": "View"
+                            },
+                            "style": {
+                              "flexShrink": 1,
+                              "minWidth": {
+                                "Pt": 0
+                              },
+                              "padding": {
+                                "bottom": 0,
+                                "left": 0,
+                                "right": 12,
+                                "top": 0
+                              }
+                            }
+                          },
+                          {
+                            "children": [
+                              {
+                                "children": [],
+                                "kind": {
+                                  "content": "Seat",
+                                  "type": "Text"
+                                },
+                                "style": {
+                                  "color": {
+                                    "a": 1,
+                                    "b": 0.47843137254901963,
+                                    "g": 0.44313725490196076,
+                                    "r": 0.44313725490196076
+                                  },
+                                  "fontFamily": "Helvetica",
+                                  "fontSize": 7,
+                                  "fontWeight": 700,
+                                  "letterSpacing": 1.2,
+                                  "lineHeight": 1.6,
+                                  "margin": {
+                                    "bottom": 3,
+                                    "left": 0,
+                                    "right": 0,
+                                    "top": 0
+                                  },
+                                  "textTransform": "Uppercase"
+                                }
+                              },
+                              {
+                                "children": [],
+                                "kind": {
+                                  "content": "A–3–12",
+                                  "type": "Text"
+                                },
+                                "style": {
+                                  "color": {
+                                    "a": 1,
+                                    "b": 0.10588235294117647,
+                                    "g": 0.09411764705882353,
+                                    "r": 0.09411764705882353
+                                  },
+                                  "fontFamily": "Helvetica",
+                                  "fontSize": 12,
+                                  "fontWeight": 700,
+                                  "lineHeight": 1.6,
+                                  "margin": {
+                                    "bottom": 0,
+                                    "left": 0,
+                                    "right": 0,
+                                    "top": 0
+                                  }
+                                }
+                              }
+                            ],
+                            "kind": {
+                              "type": "View"
+                            },
+                            "style": {
+                              "flexShrink": 1,
+                              "minWidth": {
+                                "Pt": 0
+                              },
+                              "padding": {
+                                "bottom": 0,
+                                "left": 0,
+                                "right": 12,
+                                "top": 0
+                              }
+                            }
+                          }
+                        ],
+                        "kind": {
+                          "type": "View"
+                        },
+                        "style": {
+                          "flexDirection": "Row"
+                        }
+                      },
+                      {
+                        "children": [
+                          {
+                            "children": [],
+                            "kind": {
+                              "content": "Ticket is non-transferable. All sales final. No re-entry.",
+                              "type": "Text"
+                            },
+                            "style": {
+                              "color": {
+                                "a": 1,
+                                "b": 0.47843137254901963,
+                                "g": 0.44313725490196076,
+                                "r": 0.44313725490196076
+                              },
+                              "flexBasis": {
+                                "Pt": 0
+                              },
+                              "flexGrow": 1,
+                              "flexShrink": 1,
+                              "fontFamily": "Helvetica",
+                              "fontSize": 6.5,
+                              "lineHeight": 1.4,
+                              "margin": {
+                                "bottom": 0,
+                                "left": 0,
+                                "right": 0,
+                                "top": 0
+                              },
+                              "padding": {
+                                "bottom": 0,
+                                "left": 0,
+                                "right": 8,
+                                "top": 0
+                              }
+                            }
+                          },
+                          {
+                            "children": [
+                              {
+                                "children": [
+                                  {
+                                    "children": [],
+                                    "kind": {
+                                      "content": "X",
+                                      "type": "Text"
+                                    },
+                                    "style": {
+                                      "color": {
+                                        "a": 1,
+                                        "b": 0.47843137254901963,
+                                        "g": 0.44313725490196076,
+                                        "r": 0.44313725490196076
+                                      },
+                                      "fontFamily": "Helvetica",
+                                      "fontSize": 6.5,
+                                      "fontWeight": 700,
+                                      "letterSpacing": 0.4,
+                                      "lineHeight": 1.6,
+                                      "margin": {
+                                        "bottom": 0,
+                                        "left": 0,
+                                        "right": 0,
+                                        "top": 0
+                                      },
+                                      "textTransform": "Uppercase"
+                                    }
+                                  },
+                                  {
+                                    "children": [],
+                                    "kind": {
+                                      "content": "@shadcn",
+                                      "type": "Text"
+                                    },
+                                    "style": {
+                                      "color": {
+                                        "a": 1,
+                                        "b": 0.47843137254901963,
+                                        "g": 0.44313725490196076,
+                                        "r": 0.44313725490196076
+                                      },
+                                      "fontFamily": "Helvetica",
+                                      "fontSize": 6.5,
+                                      "lineHeight": 1.6,
+                                      "margin": {
+                                        "bottom": 0,
+                                        "left": 0,
+                                        "right": 0,
+                                        "top": 0
+                                      }
+                                    }
+                                  }
+                                ],
+                                "kind": {
+                                  "type": "View"
+                                },
+                                "style": {
+                                  "alignItems": "Center",
+                                  "flexDirection": "Row",
+                                  "gap": 4
+                                }
+                              },
+                              {
+                                "children": [
+                                  {
+                                    "children": [],
+                                    "kind": {
+                                      "content": "Instagram",
+                                      "type": "Text"
+                                    },
+                                    "style": {
+                                      "color": {
+                                        "a": 1,
+                                        "b": 0.47843137254901963,
+                                        "g": 0.44313725490196076,
+                                        "r": 0.44313725490196076
+                                      },
+                                      "fontFamily": "Helvetica",
+                                      "fontSize": 6.5,
+                                      "fontWeight": 700,
+                                      "letterSpacing": 0.4,
+                                      "lineHeight": 1.6,
+                                      "margin": {
+                                        "bottom": 0,
+                                        "left": 0,
+                                        "right": 0,
+                                        "top": 0
+                                      },
+                                      "textTransform": "Uppercase"
+                                    }
+                                  },
+                                  {
+                                    "children": [],
+                                    "kind": {
+                                      "content": "@shadcn",
+                                      "type": "Text"
+                                    },
+                                    "style": {
+                                      "color": {
+                                        "a": 1,
+                                        "b": 0.47843137254901963,
+                                        "g": 0.44313725490196076,
+                                        "r": 0.44313725490196076
+                                      },
+                                      "fontFamily": "Helvetica",
+                                      "fontSize": 6.5,
+                                      "lineHeight": 1.6,
+                                      "margin": {
+                                        "bottom": 0,
+                                        "left": 0,
+                                        "right": 0,
+                                        "top": 0
+                                      }
+                                    }
+                                  }
+                                ],
+                                "kind": {
+                                  "type": "View"
+                                },
+                                "style": {
+                                  "alignItems": "Center",
+                                  "flexDirection": "Row",
+                                  "gap": 4
+                                }
+                              }
+                            ],
+                            "kind": {
+                              "type": "View"
+                            },
+                            "style": {
+                              "alignItems": "Center",
+                              "flexDirection": "Row",
+                              "gap": 8
+                            }
+                          }
+                        ],
+                        "kind": {
+                          "type": "View"
+                        },
+                        "style": {
+                          "alignItems": "Center",
+                          "flexDirection": "Row",
+                          "gap": 12,
+                          "margin": {
+                            "bottom": 0,
+                            "left": 0,
+                            "right": 0,
+                            "top": 10
+                          }
+                        }
+                      }
+                    ],
+                    "kind": {
+                      "type": "View"
+                    },
+                    "style": {}
+                  }
+                ],
+                "kind": {
+                  "type": "View"
+                },
+                "style": {
+                  "flexBasis": {
+                    "Pt": 0
+                  },
+                  "flexGrow": 1,
+                  "flexShrink": 1,
+                  "height": {
+                    "Pt": 252
+                  },
+                  "justifyContent": "SpaceBetween",
+                  "padding": {
+                    "bottom": 16,
+                    "left": 20,
+                    "right": 18,
+                    "top": 18
+                  }
+                }
+              },
+              {
+                "children": [
+                  {
+                    "children": [],
+                    "kind": {
+                      "content": "Admit one",
+                      "type": "Text"
+                    },
+                    "style": {
+                      "color": {
+                        "a": 1,
+                        "b": 1,
+                        "g": 1,
+                        "r": 1
+                      },
+                      "fontFamily": "Helvetica",
+                      "fontSize": 7,
+                      "fontWeight": 700,
+                      "letterSpacing": 2,
+                      "lineHeight": 1.6,
+                      "margin": {
+                        "bottom": 0,
+                        "left": 0,
+                        "right": 0,
+                        "top": 0
+                      },
+                      "textTransform": "Uppercase"
+                    }
+                  },
+                  {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "children": [],
+                            "kind": {
+                              "content": "<rect x=\"0\" y=\"0\" width=\"68\" height=\"68\" fill=\"#ffffff\"/><rect x=\"5.44\" y=\"5.44\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"8.16\" y=\"5.44\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"10.88\" y=\"5.44\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"13.600000000000001\" y=\"5.44\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"16.32\" y=\"5.44\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"19.040000000000003\" y=\"5.44\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"21.76\" y=\"5.44\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"32.64\" y=\"5.44\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"43.52\" y=\"5.44\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"46.24\" y=\"5.44\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"48.96\" y=\"5.44\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"51.68000000000001\" y=\"5.44\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"54.400000000000006\" y=\"5.44\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"57.120000000000005\" y=\"5.44\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"59.84\" y=\"5.44\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"5.44\" y=\"8.16\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"21.76\" y=\"8.16\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"29.92\" y=\"8.16\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"32.64\" y=\"8.16\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"35.36\" y=\"8.16\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"38.080000000000005\" y=\"8.16\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"43.52\" y=\"8.16\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"59.84\" y=\"8.16\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"5.44\" y=\"10.88\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"10.88\" y=\"10.88\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"13.600000000000001\" y=\"10.88\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"16.32\" y=\"10.88\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"21.76\" y=\"10.88\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"27.200000000000003\" y=\"10.88\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"32.64\" y=\"10.88\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"35.36\" y=\"10.88\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"43.52\" y=\"10.88\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"48.96\" y=\"10.88\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"51.68000000000001\" y=\"10.88\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"54.400000000000006\" y=\"10.88\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"59.84\" y=\"10.88\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"5.44\" y=\"13.600000000000001\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"10.88\" y=\"13.600000000000001\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"13.600000000000001\" y=\"13.600000000000001\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"16.32\" y=\"13.600000000000001\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"21.76\" y=\"13.600000000000001\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"27.200000000000003\" y=\"13.600000000000001\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"35.36\" y=\"13.600000000000001\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"43.52\" y=\"13.600000000000001\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"48.96\" y=\"13.600000000000001\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"51.68000000000001\" y=\"13.600000000000001\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"54.400000000000006\" y=\"13.600000000000001\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"59.84\" y=\"13.600000000000001\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"5.44\" y=\"16.32\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"10.88\" y=\"16.32\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"13.600000000000001\" y=\"16.32\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"16.32\" y=\"16.32\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"21.76\" y=\"16.32\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"27.200000000000003\" y=\"16.32\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"29.92\" y=\"16.32\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"38.080000000000005\" y=\"16.32\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"43.52\" y=\"16.32\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"48.96\" y=\"16.32\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"51.68000000000001\" y=\"16.32\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"54.400000000000006\" y=\"16.32\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"59.84\" y=\"16.32\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"5.44\" y=\"19.040000000000003\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"21.76\" y=\"19.040000000000003\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"27.200000000000003\" y=\"19.040000000000003\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"29.92\" y=\"19.040000000000003\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"35.36\" y=\"19.040000000000003\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"43.52\" y=\"19.040000000000003\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"59.84\" y=\"19.040000000000003\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"5.44\" y=\"21.76\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"8.16\" y=\"21.76\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"10.88\" y=\"21.76\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"13.600000000000001\" y=\"21.76\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"16.32\" y=\"21.76\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"19.040000000000003\" y=\"21.76\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"21.76\" y=\"21.76\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"27.200000000000003\" y=\"21.76\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"32.64\" y=\"21.76\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"38.080000000000005\" y=\"21.76\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"43.52\" y=\"21.76\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"46.24\" y=\"21.76\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"48.96\" y=\"21.76\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"51.68000000000001\" y=\"21.76\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"54.400000000000006\" y=\"21.76\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"57.120000000000005\" y=\"21.76\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"59.84\" y=\"21.76\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"27.200000000000003\" y=\"24.48\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"32.64\" y=\"24.48\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"5.44\" y=\"27.200000000000003\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"10.88\" y=\"27.200000000000003\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"13.600000000000001\" y=\"27.200000000000003\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"16.32\" y=\"27.200000000000003\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"19.040000000000003\" y=\"27.200000000000003\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"21.76\" y=\"27.200000000000003\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"32.64\" y=\"27.200000000000003\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"35.36\" y=\"27.200000000000003\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"43.52\" y=\"27.200000000000003\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"46.24\" y=\"27.200000000000003\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"48.96\" y=\"27.200000000000003\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"51.68000000000001\" y=\"27.200000000000003\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"54.400000000000006\" y=\"27.200000000000003\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"5.44\" y=\"29.92\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"8.16\" y=\"29.92\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"10.88\" y=\"29.92\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"16.32\" y=\"29.92\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"19.040000000000003\" y=\"29.92\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"32.64\" y=\"29.92\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"35.36\" y=\"29.92\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"38.080000000000005\" y=\"29.92\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"40.800000000000004\" y=\"29.92\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"43.52\" y=\"29.92\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"46.24\" y=\"29.92\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"57.120000000000005\" y=\"29.92\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"5.44\" y=\"32.64\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"13.600000000000001\" y=\"32.64\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"16.32\" y=\"32.64\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"21.76\" y=\"32.64\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"38.080000000000005\" y=\"32.64\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"43.52\" y=\"32.64\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"46.24\" y=\"32.64\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"57.120000000000005\" y=\"32.64\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"59.84\" y=\"32.64\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"5.44\" y=\"35.36\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"8.16\" y=\"35.36\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"10.88\" y=\"35.36\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"16.32\" y=\"35.36\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"19.040000000000003\" y=\"35.36\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"27.200000000000003\" y=\"35.36\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"29.92\" y=\"35.36\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"32.64\" y=\"35.36\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"35.36\" y=\"35.36\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"38.080000000000005\" y=\"35.36\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"40.800000000000004\" y=\"35.36\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"43.52\" y=\"35.36\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"46.24\" y=\"35.36\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"59.84\" y=\"35.36\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"5.44\" y=\"38.080000000000005\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"19.040000000000003\" y=\"38.080000000000005\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"21.76\" y=\"38.080000000000005\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"24.48\" y=\"38.080000000000005\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"27.200000000000003\" y=\"38.080000000000005\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"32.64\" y=\"38.080000000000005\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"38.080000000000005\" y=\"38.080000000000005\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"46.24\" y=\"38.080000000000005\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"54.400000000000006\" y=\"38.080000000000005\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"27.200000000000003\" y=\"40.800000000000004\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"29.92\" y=\"40.800000000000004\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"32.64\" y=\"40.800000000000004\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"38.080000000000005\" y=\"40.800000000000004\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"46.24\" y=\"40.800000000000004\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"51.68000000000001\" y=\"40.800000000000004\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"54.400000000000006\" y=\"40.800000000000004\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"57.120000000000005\" y=\"40.800000000000004\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"5.44\" y=\"43.52\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"8.16\" y=\"43.52\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"10.88\" y=\"43.52\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"13.600000000000001\" y=\"43.52\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"16.32\" y=\"43.52\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"19.040000000000003\" y=\"43.52\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"21.76\" y=\"43.52\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"29.92\" y=\"43.52\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"35.36\" y=\"43.52\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"40.800000000000004\" y=\"43.52\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"54.400000000000006\" y=\"43.52\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"57.120000000000005\" y=\"43.52\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"59.84\" y=\"43.52\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"5.44\" y=\"46.24\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"21.76\" y=\"46.24\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"27.200000000000003\" y=\"46.24\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"29.92\" y=\"46.24\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"32.64\" y=\"46.24\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"46.24\" y=\"46.24\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"54.400000000000006\" y=\"46.24\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"5.44\" y=\"48.96\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"10.88\" y=\"48.96\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"13.600000000000001\" y=\"48.96\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"16.32\" y=\"48.96\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"21.76\" y=\"48.96\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"27.200000000000003\" y=\"48.96\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"29.92\" y=\"48.96\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"35.36\" y=\"48.96\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"40.800000000000004\" y=\"48.96\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"46.24\" y=\"48.96\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"48.96\" y=\"48.96\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"54.400000000000006\" y=\"48.96\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"57.120000000000005\" y=\"48.96\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"5.44\" y=\"51.68000000000001\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"10.88\" y=\"51.68000000000001\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"13.600000000000001\" y=\"51.68000000000001\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"16.32\" y=\"51.68000000000001\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"21.76\" y=\"51.68000000000001\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"27.200000000000003\" y=\"51.68000000000001\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"35.36\" y=\"51.68000000000001\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"38.080000000000005\" y=\"51.68000000000001\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"40.800000000000004\" y=\"51.68000000000001\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"43.52\" y=\"51.68000000000001\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"46.24\" y=\"51.68000000000001\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"54.400000000000006\" y=\"51.68000000000001\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"5.44\" y=\"54.400000000000006\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"10.88\" y=\"54.400000000000006\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"13.600000000000001\" y=\"54.400000000000006\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"16.32\" y=\"54.400000000000006\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"21.76\" y=\"54.400000000000006\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"27.200000000000003\" y=\"54.400000000000006\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"29.92\" y=\"54.400000000000006\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"32.64\" y=\"54.400000000000006\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"38.080000000000005\" y=\"54.400000000000006\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"43.52\" y=\"54.400000000000006\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"46.24\" y=\"54.400000000000006\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"48.96\" y=\"54.400000000000006\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"54.400000000000006\" y=\"54.400000000000006\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"5.44\" y=\"57.120000000000005\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"21.76\" y=\"57.120000000000005\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"35.36\" y=\"57.120000000000005\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"38.080000000000005\" y=\"57.120000000000005\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"40.800000000000004\" y=\"57.120000000000005\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"43.52\" y=\"57.120000000000005\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"54.400000000000006\" y=\"57.120000000000005\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"59.84\" y=\"57.120000000000005\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"5.44\" y=\"59.84\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"8.16\" y=\"59.84\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"10.88\" y=\"59.84\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"13.600000000000001\" y=\"59.84\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"16.32\" y=\"59.84\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"19.040000000000003\" y=\"59.84\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"21.76\" y=\"59.84\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"27.200000000000003\" y=\"59.84\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"32.64\" y=\"59.84\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"38.080000000000005\" y=\"59.84\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"46.24\" y=\"59.84\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/><rect x=\"54.400000000000006\" y=\"59.84\" width=\"2.72\" height=\"2.72\" fill=\"#000000\"/>",
+                              "height": 68,
+                              "type": "Svg",
+                              "view_box": "0 0 68 68",
+                              "width": 68
+                            },
+                            "style": {}
+                          }
+                        ],
+                        "kind": {
+                          "type": "View"
+                        },
+                        "style": {
+                          "alignItems": "Center"
+                        }
+                      }
+                    ],
+                    "kind": {
+                      "type": "View"
+                    },
+                    "style": {
+                      "backgroundColor": {
+                        "a": 1,
+                        "b": 1,
+                        "g": 1,
+                        "r": 1
+                      },
+                      "borderRadius": {
+                        "bottom_left": 6,
+                        "bottom_right": 6,
+                        "top_left": 6,
+                        "top_right": 6
+                      },
+                      "padding": {
+                        "bottom": 5,
+                        "left": 5,
+                        "right": 5,
+                        "top": 5
+                      }
+                    }
+                  },
+                  {
+                    "children": [],
+                    "kind": {
+                      "content": "TKT-00142",
+                      "type": "Text"
+                    },
+                    "style": {
+                      "color": {
+                        "a": 1,
+                        "b": 1,
+                        "g": 1,
+                        "r": 1
+                      },
+                      "fontFamily": "Helvetica",
+                      "fontSize": 7,
+                      "fontWeight": 700,
+                      "letterSpacing": 1.1,
+                      "lineHeight": 1.6,
+                      "margin": {
+                        "bottom": 0,
+                        "left": 0,
+                        "right": 0,
+                        "top": 0
+                      },
+                      "textTransform": "Uppercase"
+                    }
+                  }
+                ],
+                "kind": {
+                  "type": "View"
+                },
+                "style": {
+                  "alignItems": "Center",
+                  "backgroundColor": {
+                    "a": 1,
+                    "b": 0.3568627450980392,
+                    "g": 0.3215686274509804,
+                    "r": 0.3215686274509804
+                  },
+                  "height": {
+                    "Pt": 252
+                  },
+                  "justifyContent": "SpaceBetween",
+                  "padding": {
+                    "bottom": 14,
+                    "left": 12,
+                    "right": 12,
+                    "top": 16
+                  },
+                  "width": {
+                    "Pt": 120
+                  }
+                }
+              },
+              {
+                "children": [
+                  {
+                    "children": [],
+                    "kind": {
+                      "type": "View"
+                    },
+                    "style": {
+                      "backgroundColor": {
+                        "a": 1,
+                        "b": 1,
+                        "g": 1,
+                        "r": 1
+                      },
+                      "height": {
+                        "Pt": 4
+                      },
+                      "margin": {
+                        "bottom": 3,
+                        "left": 0,
+                        "right": 0,
+                        "top": 0
+                      },
+                      "width": {
+                        "Pt": 1.5
+                      }
+                    }
+                  },
+                  {
+                    "children": [],
+                    "kind": {
+                      "type": "View"
+                    },
+                    "style": {
+                      "backgroundColor": {
+                        "a": 1,
+                        "b": 1,
+                        "g": 1,
+                        "r": 1
+                      },
+                      "height": {
+                        "Pt": 4
+                      },
+                      "margin": {
+                        "bottom": 3,
+                        "left": 0,
+                        "right": 0,
+                        "top": 0
+                      },
+                      "width": {
+                        "Pt": 1.5
+                      }
+                    }
+                  },
+                  {
+                    "children": [],
+                    "kind": {
+                      "type": "View"
+                    },
+                    "style": {
+                      "backgroundColor": {
+                        "a": 1,
+                        "b": 1,
+                        "g": 1,
+                        "r": 1
+                      },
+                      "height": {
+                        "Pt": 4
+                      },
+                      "margin": {
+                        "bottom": 3,
+                        "left": 0,
+                        "right": 0,
+                        "top": 0
+                      },
+                      "width": {
+                        "Pt": 1.5
+                      }
+                    }
+                  },
+                  {
+                    "children": [],
+                    "kind": {
+                      "type": "View"
+                    },
+                    "style": {
+                      "backgroundColor": {
+                        "a": 1,
+                        "b": 1,
+                        "g": 1,
+                        "r": 1
+                      },
+                      "height": {
+                        "Pt": 4
+                      },
+                      "margin": {
+                        "bottom": 3,
+                        "left": 0,
+                        "right": 0,
+                        "top": 0
+                      },
+                      "width": {
+                        "Pt": 1.5
+                      }
+                    }
+                  },
+                  {
+                    "children": [],
+                    "kind": {
+                      "type": "View"
+                    },
+                    "style": {
+                      "backgroundColor": {
+                        "a": 1,
+                        "b": 1,
+                        "g": 1,
+                        "r": 1
+                      },
+                      "height": {
+                        "Pt": 4
+                      },
+                      "margin": {
+                        "bottom": 3,
+                        "left": 0,
+                        "right": 0,
+                        "top": 0
+                      },
+                      "width": {
+                        "Pt": 1.5
+                      }
+                    }
+                  },
+                  {
+                    "children": [],
+                    "kind": {
+                      "type": "View"
+                    },
+                    "style": {
+                      "backgroundColor": {
+                        "a": 1,
+                        "b": 1,
+                        "g": 1,
+                        "r": 1
+                      },
+                      "height": {
+                        "Pt": 4
+                      },
+                      "margin": {
+                        "bottom": 3,
+                        "left": 0,
+                        "right": 0,
+                        "top": 0
+                      },
+                      "width": {
+                        "Pt": 1.5
+                      }
+                    }
+                  },
+                  {
+                    "children": [],
+                    "kind": {
+                      "type": "View"
+                    },
+                    "style": {
+                      "backgroundColor": {
+                        "a": 1,
+                        "b": 1,
+                        "g": 1,
+                        "r": 1
+                      },
+                      "height": {
+                        "Pt": 4
+                      },
+                      "margin": {
+                        "bottom": 3,
+                        "left": 0,
+                        "right": 0,
+                        "top": 0
+                      },
+                      "width": {
+                        "Pt": 1.5
+                      }
+                    }
+                  },
+                  {
+                    "children": [],
+                    "kind": {
+                      "type": "View"
+                    },
+                    "style": {
+                      "backgroundColor": {
+                        "a": 1,
+                        "b": 1,
+                        "g": 1,
+                        "r": 1
+                      },
+                      "height": {
+                        "Pt": 4
+                      },
+                      "margin": {
+                        "bottom": 3,
+                        "left": 0,
+                        "right": 0,
+                        "top": 0
+                      },
+                      "width": {
+                        "Pt": 1.5
+                      }
+                    }
+                  },
+                  {
+                    "children": [],
+                    "kind": {
+                      "type": "View"
+                    },
+                    "style": {
+                      "backgroundColor": {
+                        "a": 1,
+                        "b": 1,
+                        "g": 1,
+                        "r": 1
+                      },
+                      "height": {
+                        "Pt": 4
+                      },
+                      "margin": {
+                        "bottom": 3,
+                        "left": 0,
+                        "right": 0,
+                        "top": 0
+                      },
+                      "width": {
+                        "Pt": 1.5
+                      }
+                    }
+                  },
+                  {
+                    "children": [],
+                    "kind": {
+                      "type": "View"
+                    },
+                    "style": {
+                      "backgroundColor": {
+                        "a": 1,
+                        "b": 1,
+                        "g": 1,
+                        "r": 1
+                      },
+                      "height": {
+                        "Pt": 4
+                      },
+                      "margin": {
+                        "bottom": 3,
+                        "left": 0,
+                        "right": 0,
+                        "top": 0
+                      },
+                      "width": {
+                        "Pt": 1.5
+                      }
+                    }
+                  },
+                  {
+                    "children": [],
+                    "kind": {
+                      "type": "View"
+                    },
+                    "style": {
+                      "backgroundColor": {
+                        "a": 1,
+                        "b": 1,
+                        "g": 1,
+                        "r": 1
+                      },
+                      "height": {
+                        "Pt": 4
+                      },
+                      "margin": {
+                        "bottom": 3,
+                        "left": 0,
+                        "right": 0,
+                        "top": 0
+                      },
+                      "width": {
+                        "Pt": 1.5
+                      }
+                    }
+                  },
+                  {
+                    "children": [],
+                    "kind": {
+                      "type": "View"
+                    },
+                    "style": {
+                      "backgroundColor": {
+                        "a": 1,
+                        "b": 1,
+                        "g": 1,
+                        "r": 1
+                      },
+                      "height": {
+                        "Pt": 4
+                      },
+                      "margin": {
+                        "bottom": 3,
+                        "left": 0,
+                        "right": 0,
+                        "top": 0
+                      },
+                      "width": {
+                        "Pt": 1.5
+                      }
+                    }
+                  },
+                  {
+                    "children": [],
+                    "kind": {
+                      "type": "View"
+                    },
+                    "style": {
+                      "backgroundColor": {
+                        "a": 1,
+                        "b": 1,
+                        "g": 1,
+                        "r": 1
+                      },
+                      "height": {
+                        "Pt": 4
+                      },
+                      "margin": {
+                        "bottom": 3,
+                        "left": 0,
+                        "right": 0,
+                        "top": 0
+                      },
+                      "width": {
+                        "Pt": 1.5
+                      }
+                    }
+                  },
+                  {
+                    "children": [],
+                    "kind": {
+                      "type": "View"
+                    },
+                    "style": {
+                      "backgroundColor": {
+                        "a": 1,
+                        "b": 1,
+                        "g": 1,
+                        "r": 1
+                      },
+                      "height": {
+                        "Pt": 4
+                      },
+                      "margin": {
+                        "bottom": 3,
+                        "left": 0,
+                        "right": 0,
+                        "top": 0
+                      },
+                      "width": {
+                        "Pt": 1.5
+                      }
+                    }
+                  },
+                  {
+                    "children": [],
+                    "kind": {
+                      "type": "View"
+                    },
+                    "style": {
+                      "backgroundColor": {
+                        "a": 1,
+                        "b": 1,
+                        "g": 1,
+                        "r": 1
+                      },
+                      "height": {
+                        "Pt": 4
+                      },
+                      "margin": {
+                        "bottom": 3,
+                        "left": 0,
+                        "right": 0,
+                        "top": 0
+                      },
+                      "width": {
+                        "Pt": 1.5
+                      }
+                    }
+                  },
+                  {
+                    "children": [],
+                    "kind": {
+                      "type": "View"
+                    },
+                    "style": {
+                      "backgroundColor": {
+                        "a": 1,
+                        "b": 1,
+                        "g": 1,
+                        "r": 1
+                      },
+                      "height": {
+                        "Pt": 4
+                      },
+                      "margin": {
+                        "bottom": 3,
+                        "left": 0,
+                        "right": 0,
+                        "top": 0
+                      },
+                      "width": {
+                        "Pt": 1.5
+                      }
+                    }
+                  },
+                  {
+                    "children": [],
+                    "kind": {
+                      "type": "View"
+                    },
+                    "style": {
+                      "backgroundColor": {
+                        "a": 1,
+                        "b": 1,
+                        "g": 1,
+                        "r": 1
+                      },
+                      "height": {
+                        "Pt": 4
+                      },
+                      "margin": {
+                        "bottom": 3,
+                        "left": 0,
+                        "right": 0,
+                        "top": 0
+                      },
+                      "width": {
+                        "Pt": 1.5
+                      }
+                    }
+                  },
+                  {
+                    "children": [],
+                    "kind": {
+                      "type": "View"
+                    },
+                    "style": {
+                      "backgroundColor": {
+                        "a": 1,
+                        "b": 1,
+                        "g": 1,
+                        "r": 1
+                      },
+                      "height": {
+                        "Pt": 4
+                      },
+                      "margin": {
+                        "bottom": 3,
+                        "left": 0,
+                        "right": 0,
+                        "top": 0
+                      },
+                      "width": {
+                        "Pt": 1.5
+                      }
+                    }
+                  },
+                  {
+                    "children": [],
+                    "kind": {
+                      "type": "View"
+                    },
+                    "style": {
+                      "backgroundColor": {
+                        "a": 1,
+                        "b": 1,
+                        "g": 1,
+                        "r": 1
+                      },
+                      "height": {
+                        "Pt": 4
+                      },
+                      "margin": {
+                        "bottom": 3,
+                        "left": 0,
+                        "right": 0,
+                        "top": 0
+                      },
+                      "width": {
+                        "Pt": 1.5
+                      }
+                    }
+                  },
+                  {
+                    "children": [],
+                    "kind": {
+                      "type": "View"
+                    },
+                    "style": {
+                      "backgroundColor": {
+                        "a": 1,
+                        "b": 1,
+                        "g": 1,
+                        "r": 1
+                      },
+                      "height": {
+                        "Pt": 4
+                      },
+                      "margin": {
+                        "bottom": 3,
+                        "left": 0,
+                        "right": 0,
+                        "top": 0
+                      },
+                      "width": {
+                        "Pt": 1.5
+                      }
+                    }
+                  },
+                  {
+                    "children": [],
+                    "kind": {
+                      "type": "View"
+                    },
+                    "style": {
+                      "backgroundColor": {
+                        "a": 1,
+                        "b": 1,
+                        "g": 1,
+                        "r": 1
+                      },
+                      "height": {
+                        "Pt": 4
+                      },
+                      "margin": {
+                        "bottom": 3,
+                        "left": 0,
+                        "right": 0,
+                        "top": 0
+                      },
+                      "width": {
+                        "Pt": 1.5
+                      }
+                    }
+                  },
+                  {
+                    "children": [],
+                    "kind": {
+                      "type": "View"
+                    },
+                    "style": {
+                      "backgroundColor": {
+                        "a": 1,
+                        "b": 1,
+                        "g": 1,
+                        "r": 1
+                      },
+                      "height": {
+                        "Pt": 4
+                      },
+                      "margin": {
+                        "bottom": 3,
+                        "left": 0,
+                        "right": 0,
+                        "top": 0
+                      },
+                      "width": {
+                        "Pt": 1.5
+                      }
+                    }
+                  },
+                  {
+                    "children": [],
+                    "kind": {
+                      "type": "View"
+                    },
+                    "style": {
+                      "backgroundColor": {
+                        "a": 1,
+                        "b": 1,
+                        "g": 1,
+                        "r": 1
+                      },
+                      "height": {
+                        "Pt": 4
+                      },
+                      "margin": {
+                        "bottom": 3,
+                        "left": 0,
+                        "right": 0,
+                        "top": 0
+                      },
+                      "width": {
+                        "Pt": 1.5
+                      }
+                    }
+                  },
+                  {
+                    "children": [],
+                    "kind": {
+                      "type": "View"
+                    },
+                    "style": {
+                      "backgroundColor": {
+                        "a": 1,
+                        "b": 1,
+                        "g": 1,
+                        "r": 1
+                      },
+                      "height": {
+                        "Pt": 4
+                      },
+                      "margin": {
+                        "bottom": 3,
+                        "left": 0,
+                        "right": 0,
+                        "top": 0
+                      },
+                      "width": {
+                        "Pt": 1.5
+                      }
+                    }
+                  },
+                  {
+                    "children": [],
+                    "kind": {
+                      "type": "View"
+                    },
+                    "style": {
+                      "backgroundColor": {
+                        "a": 1,
+                        "b": 1,
+                        "g": 1,
+                        "r": 1
+                      },
+                      "height": {
+                        "Pt": 4
+                      },
+                      "margin": {
+                        "bottom": 3,
+                        "left": 0,
+                        "right": 0,
+                        "top": 0
+                      },
+                      "width": {
+                        "Pt": 1.5
+                      }
+                    }
+                  },
+                  {
+                    "children": [],
+                    "kind": {
+                      "type": "View"
+                    },
+                    "style": {
+                      "backgroundColor": {
+                        "a": 1,
+                        "b": 1,
+                        "g": 1,
+                        "r": 1
+                      },
+                      "height": {
+                        "Pt": 4
+                      },
+                      "margin": {
+                        "bottom": 3,
+                        "left": 0,
+                        "right": 0,
+                        "top": 0
+                      },
+                      "width": {
+                        "Pt": 1.5
+                      }
+                    }
+                  },
+                  {
+                    "children": [],
+                    "kind": {
+                      "type": "View"
+                    },
+                    "style": {
+                      "backgroundColor": {
+                        "a": 1,
+                        "b": 1,
+                        "g": 1,
+                        "r": 1
+                      },
+                      "height": {
+                        "Pt": 4
+                      },
+                      "margin": {
+                        "bottom": 3,
+                        "left": 0,
+                        "right": 0,
+                        "top": 0
+                      },
+                      "width": {
+                        "Pt": 1.5
+                      }
+                    }
+                  },
+                  {
+                    "children": [],
+                    "kind": {
+                      "type": "View"
+                    },
+                    "style": {
+                      "backgroundColor": {
+                        "a": 1,
+                        "b": 1,
+                        "g": 1,
+                        "r": 1
+                      },
+                      "height": {
+                        "Pt": 4
+                      },
+                      "margin": {
+                        "bottom": 3,
+                        "left": 0,
+                        "right": 0,
+                        "top": 0
+                      },
+                      "width": {
+                        "Pt": 1.5
+                      }
+                    }
+                  },
+                  {
+                    "children": [],
+                    "kind": {
+                      "type": "View"
+                    },
+                    "style": {
+                      "backgroundColor": {
+                        "a": 1,
+                        "b": 1,
+                        "g": 1,
+                        "r": 1
+                      },
+                      "height": {
+                        "Pt": 4
+                      },
+                      "margin": {
+                        "bottom": 3,
+                        "left": 0,
+                        "right": 0,
+                        "top": 0
+                      },
+                      "width": {
+                        "Pt": 1.5
+                      }
+                    }
+                  },
+                  {
+                    "children": [],
+                    "kind": {
+                      "type": "View"
+                    },
+                    "style": {
+                      "backgroundColor": {
+                        "a": 1,
+                        "b": 1,
+                        "g": 1,
+                        "r": 1
+                      },
+                      "height": {
+                        "Pt": 4
+                      },
+                      "margin": {
+                        "bottom": 3,
+                        "left": 0,
+                        "right": 0,
+                        "top": 0
+                      },
+                      "width": {
+                        "Pt": 1.5
+                      }
+                    }
+                  },
+                  {
+                    "children": [],
+                    "kind": {
+                      "type": "View"
+                    },
+                    "style": {
+                      "backgroundColor": {
+                        "a": 1,
+                        "b": 1,
+                        "g": 1,
+                        "r": 1
+                      },
+                      "height": {
+                        "Pt": 4
+                      },
+                      "margin": {
+                        "bottom": 3,
+                        "left": 0,
+                        "right": 0,
+                        "top": 0
+                      },
+                      "width": {
+                        "Pt": 1.5
+                      }
+                    }
+                  },
+                  {
+                    "children": [],
+                    "kind": {
+                      "type": "View"
+                    },
+                    "style": {
+                      "backgroundColor": {
+                        "a": 1,
+                        "b": 1,
+                        "g": 1,
+                        "r": 1
+                      },
+                      "height": {
+                        "Pt": 4
+                      },
+                      "margin": {
+                        "bottom": 3,
+                        "left": 0,
+                        "right": 0,
+                        "top": 0
+                      },
+                      "width": {
+                        "Pt": 1.5
+                      }
+                    }
+                  },
+                  {
+                    "children": [],
+                    "kind": {
+                      "type": "View"
+                    },
+                    "style": {
+                      "backgroundColor": {
+                        "a": 1,
+                        "b": 1,
+                        "g": 1,
+                        "r": 1
+                      },
+                      "height": {
+                        "Pt": 4
+                      },
+                      "margin": {
+                        "bottom": 3,
+                        "left": 0,
+                        "right": 0,
+                        "top": 0
+                      },
+                      "width": {
+                        "Pt": 1.5
+                      }
+                    }
+                  },
+                  {
+                    "children": [],
+                    "kind": {
+                      "type": "View"
+                    },
+                    "style": {
+                      "backgroundColor": {
+                        "a": 1,
+                        "b": 1,
+                        "g": 1,
+                        "r": 1
+                      },
+                      "height": {
+                        "Pt": 4
+                      },
+                      "margin": {
+                        "bottom": 3,
+                        "left": 0,
+                        "right": 0,
+                        "top": 0
+                      },
+                      "width": {
+                        "Pt": 1.5
+                      }
+                    }
+                  },
+                  {
+                    "children": [],
+                    "kind": {
+                      "type": "View"
+                    },
+                    "style": {
+                      "backgroundColor": {
+                        "a": 1,
+                        "b": 1,
+                        "g": 1,
+                        "r": 1
+                      },
+                      "height": {
+                        "Pt": 4
+                      },
+                      "margin": {
+                        "bottom": 3,
+                        "left": 0,
+                        "right": 0,
+                        "top": 0
+                      },
+                      "width": {
+                        "Pt": 1.5
+                      }
+                    }
+                  },
+                  {
+                    "children": [],
+                    "kind": {
+                      "type": "View"
+                    },
+                    "style": {
+                      "backgroundColor": {
+                        "a": 1,
+                        "b": 1,
+                        "g": 1,
+                        "r": 1
+                      },
+                      "height": {
+                        "Pt": 4
+                      },
+                      "margin": {
+                        "bottom": 3,
+                        "left": 0,
+                        "right": 0,
+                        "top": 0
+                      },
+                      "width": {
+                        "Pt": 1.5
+                      }
+                    }
+                  }
+                ],
+                "kind": {
+                  "type": "View"
+                },
+                "style": {
+                  "height": {
+                    "Pt": 252
+                  },
+                  "left": 383.25,
+                  "position": "Absolute",
+                  "top": 0,
+                  "width": {
+                    "Pt": 1.5
+                  }
+                }
+              },
+              {
+                "children": [],
+                "kind": {
+                  "type": "View"
+                },
+                "style": {
+                  "backgroundColor": {
+                    "a": 1,
+                    "b": 1,
+                    "g": 1,
+                    "r": 1
+                  },
+                  "borderRadius": {
+                    "bottom_left": 8,
+                    "bottom_right": 8,
+                    "top_left": 8,
+                    "top_right": 8
+                  },
+                  "height": {
+                    "Pt": 16
+                  },
+                  "left": 376,
+                  "position": "Absolute",
+                  "top": -8,
+                  "width": {
+                    "Pt": 16
+                  }
+                }
+              },
+              {
+                "children": [],
+                "kind": {
+                  "type": "View"
+                },
+                "style": {
+                  "backgroundColor": {
+                    "a": 1,
+                    "b": 1,
+                    "g": 1,
+                    "r": 1
+                  },
+                  "borderRadius": {
+                    "bottom_left": 8,
+                    "bottom_right": 8,
+                    "top_left": 8,
+                    "top_right": 8
+                  },
+                  "bottom": -8,
+                  "height": {
+                    "Pt": 16
+                  },
+                  "left": 376,
+                  "position": "Absolute",
+                  "width": {
+                    "Pt": 16
+                  }
+                }
+              }
+            ],
+            "kind": {
+              "type": "View"
+            },
+            "style": {
+              "alignItems": "Stretch",
+              "backgroundColor": {
+                "a": 1,
+                "b": 1,
+                "g": 1,
+                "r": 1
+              },
+              "flexDirection": "Row",
+              "height": {
+                "Pt": 252
+              },
+              "overflow": "Hidden",
+              "position": "Relative",
+              "width": {
+                "Pt": 504
+              }
+            }
+          }
+        ],
+        "kind": {
+          "config": {
+            "margin": {
+              "bottom": 0,
+              "left": 0,
+              "right": 0,
+              "top": 0
+            },
+            "size": {
+              "Custom": {
+                "height": 252,
+                "width": 504
+              }
+            },
+            "wrap": true
+          },
+          "type": "Page"
+        },
+        "style": {}
+      }
+    ],
+    "defaultPage": {
+      "margin": {
+        "bottom": 54,
+        "left": 54,
+        "right": 54,
+        "top": 54
+      },
+      "size": "A4",
+      "wrap": true
+    },
+    "metadata": {
+      "title": "ShadCN Labs Conf TKT-00142"
+    }
+  }
+}

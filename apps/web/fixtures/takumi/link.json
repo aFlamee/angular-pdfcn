@@ -1,0 +1,81 @@
+{
+  "node": {
+    "children": [
+      {
+        "attributes": {
+          "data-pdf-page": ""
+        },
+        "children": [
+          {
+            "children": [
+              {
+                "attributes": {
+                  "href": "https://pdfcn.dev"
+                },
+                "style": {
+                  "color": "#3b82f6",
+                  "fontFamily": "Helvetica",
+                  "fontSize": 14.666666666666666,
+                  "fontWeight": 500,
+                  "lineHeight": 1.6,
+                  "marginBottom": 13.333333333333332,
+                  "textDecoration": "underline"
+                },
+                "tagName": "a",
+                "text": "Documentation",
+                "type": "text"
+              },
+              {
+                "attributes": {
+                  "href": "#section-1"
+                },
+                "style": {
+                  "color": "#18181b",
+                  "fontFamily": "Helvetica",
+                  "fontSize": 14.666666666666666,
+                  "fontWeight": 500,
+                  "lineHeight": 1.6,
+                  "marginBottom": 13.333333333333332,
+                  "textDecoration": "underline"
+                },
+                "tagName": "a",
+                "text": "Internal link",
+                "type": "text"
+              }
+            ],
+            "preset": {
+              "display": "block"
+            },
+            "style": {
+              "display": "flex",
+              "flexDirection": "column",
+              "marginBottom": 0,
+              "marginTop": 0
+            },
+            "tagName": "div",
+            "type": "container"
+          }
+        ],
+        "preset": {
+          "display": "block"
+        },
+        "style": {
+          "display": "flex",
+          "flexDirection": "column"
+        },
+        "tagName": "div",
+        "type": "container"
+      }
+    ],
+    "preset": {
+      "display": "block"
+    },
+    "style": {
+      "display": "flex",
+      "flexDirection": "column"
+    },
+    "tagName": "div",
+    "type": "container"
+  },
+  "stylesheets": []
+}

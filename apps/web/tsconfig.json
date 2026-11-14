@@ -1,38 +1,35 @@
 {
   "compilerOptions": {
-    "target": "ES2017",
-    "lib": ["dom", "dom.iterable", "esnext"],
-    "allowJs": true,
-    "skipLibCheck": true,
-    "strict": true,
-    "noEmit": true,
-    "esModuleInterop": true,
-    "module": "esnext",
-    "moduleResolution": "bundler",
-    "resolveJsonModule": true,
-    "isolatedModules": true,
-    "jsx": "react-jsx",
-    "incremental": true,
-    "plugins": [
-      {
-        "name": "next"
-      }
-    ],
-    "ignoreDeprecations": "6.0",
     "baseUrl": ".",
-    "paths": {
-      "@/*": ["./*"],
-      "react": ["./node_modules/@types/react"]
-    }
+    "paths": { "@/*": ["./*"] },
+    "target": "ES2022",
+    "module": "ES2022",
+    "moduleResolution": "bundler",
+    "lib": ["ES2023", "dom"],
+    "strict": true,
+    "noImplicitOverride": true,
+    "noImplicitReturns": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "noFallthroughCasesInSwitch": true,
+    "experimentalDecorators": true,
+    "isolatedModules": true,
+    "importHelpers": true,
+    "useDefineForClassFields": false,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "ignoreDeprecations": "6.0",
+    "types": ["node", "vitest/globals"]
+  },
+  "angularCompilerOptions": {
+    "strictInjectionParameters": true,
+    "strictInputAccessModifiers": true,
+    "strictTemplates": true
   },
   "include": [
-    "next-env.d.ts",
-    "**/*.ts",
-    "**/*.tsx",
-    ".next/types/**/*.ts",
-    "scripts/build-registry.mts",
-    "next.config.mjs",
-    ".next/dev/types/**/*.ts"
-  ],
-  "exclude": ["node_modules"]
+    "registry/**/*.ts",
+    "examples/**/*.ts",
+    "tests/**/*.ts",
+    "src/**/*.ts",
+    "scripts/**/*.ts"
+  ]
 }

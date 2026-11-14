@@ -1,0 +1,455 @@
+{
+  "node": {
+    "attributes": {
+      "data-pdf-document": "Press Release — Acme Corp"
+    },
+    "children": [
+      {
+        "attributes": {
+          "data-pdf-page": ""
+        },
+        "children": [
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "style": {
+                      "color": "#18181b",
+                      "fontFamily": "Times-Roman",
+                      "fontSize": 26.666666666666664,
+                      "fontWeight": 700,
+                      "lineHeight": 1.25,
+                      "marginBottom": 0
+                    },
+                    "tagName": "span",
+                    "text": "Acme Corp",
+                    "type": "text"
+                  }
+                ],
+                "preset": {
+                  "display": "block"
+                },
+                "style": {
+                  "display": "flex",
+                  "flex": 1,
+                  "flexDirection": "column"
+                },
+                "tagName": "div",
+                "type": "container"
+              },
+              {
+                "children": [
+                  {
+                    "style": {
+                      "color": "#18181b",
+                      "fontFamily": "Helvetica",
+                      "fontSize": 14.666666666666666,
+                      "fontWeight": 500,
+                      "textAlign": "right"
+                    },
+                    "tagName": "span",
+                    "text": "September 10, 2026",
+                    "type": "text"
+                  }
+                ],
+                "preset": {
+                  "display": "block"
+                },
+                "style": {
+                  "alignItems": "flex-end",
+                  "display": "flex",
+                  "flexDirection": "column"
+                },
+                "tagName": "div",
+                "type": "container"
+              }
+            ],
+            "preset": {
+              "display": "block"
+            },
+            "style": {
+              "alignItems": "center",
+              "borderBottomColor": "#e4e4e7",
+              "borderBottomStyle": "solid",
+              "borderBottomWidth": 2.6666666666666665,
+              "breakInside": "avoid",
+              "display": "flex",
+              "flexDirection": "row",
+              "marginBottom": 0,
+              "paddingBottom": 21.333333333333332
+            },
+            "tagName": "div",
+            "type": "container"
+          },
+          {
+            "children": [
+              {
+                "style": {
+                  "color": "#1e40af",
+                  "fontFamily": "Helvetica",
+                  "fontSize": 13.333333333333332,
+                  "fontWeight": 700,
+                  "letterSpacing": 0.6666666666666666,
+                  "lineHeight": 1.6,
+                  "marginBottom": 0,
+                  "marginTop": 0,
+                  "textTransform": "uppercase"
+                },
+                "tagName": "span",
+                "text": "For Immediate Release",
+                "type": "text"
+              },
+              {
+                "style": {
+                  "color": "#18181b",
+                  "fontFamily": "Helvetica",
+                  "fontSize": 37.33333333333333,
+                  "fontWeight": 700,
+                  "lineHeight": 1.6,
+                  "marginBottom": 0,
+                  "marginTop": 0
+                },
+                "tagName": "span",
+                "text": "Acme Corp Launches Revolutionary PDF Toolkit for Developers",
+                "type": "text"
+              },
+              {
+                "style": {
+                  "color": "#71717a",
+                  "fontFamily": "Helvetica",
+                  "fontSize": 24,
+                  "lineHeight": 1.6,
+                  "marginBottom": 0,
+                  "marginTop": 0
+                },
+                "tagName": "span",
+                "text": "New open-source library makes generating professional PDFs in React effortless",
+                "type": "text"
+              }
+            ],
+            "preset": {
+              "display": "block"
+            },
+            "style": {
+              "display": "flex",
+              "flexDirection": "column",
+              "marginBottom": 0,
+              "marginTop": 0
+            },
+            "tagName": "div",
+            "type": "container"
+          },
+          {
+            "children": [
+              {
+                "style": {
+                  "color": "#18181b",
+                  "fontFamily": "Helvetica",
+                  "fontSize": 16,
+                  "fontWeight": 600,
+                  "letterSpacing": 0.6666666666666666,
+                  "lineHeight": 1.6,
+                  "marginBottom": 0,
+                  "marginTop": 0,
+                  "textTransform": "uppercase"
+                },
+                "tagName": "span",
+                "text": "San Francisco, CA — September 10, 2026",
+                "type": "text"
+              },
+              {
+                "style": {
+                  "color": "#18181b",
+                  "fontFamily": "Helvetica",
+                  "fontSize": 16,
+                  "lineHeight": 1.6,
+                  "marginBottom": 13.333333333333332,
+                  "marginTop": 0
+                },
+                "tagName": "span",
+                "text": "Acme Corp today announced the launch of pdfcn, an open-source React component library for generating professional PDF documents.",
+                "type": "text"
+              },
+              {
+                "style": {
+                  "color": "#18181b",
+                  "fontFamily": "Helvetica",
+                  "fontSize": 16,
+                  "lineHeight": 1.6,
+                  "marginBottom": 13.333333333333332,
+                  "marginTop": 0
+                },
+                "tagName": "span",
+                "text": "pdfcn is designed to work seamlessly with shadcn/ui and follows the same registry-based distribution model, letting developers add print-ready document blocks with a single CLI command.",
+                "type": "text"
+              }
+            ],
+            "preset": {
+              "display": "block"
+            },
+            "style": {
+              "display": "flex",
+              "flexDirection": "column",
+              "marginBottom": 0,
+              "marginTop": 0
+            },
+            "tagName": "div",
+            "type": "container"
+          },
+          {
+            "children": [
+              {
+                "style": {
+                  "color": "#18181b",
+                  "fontFamily": "Helvetica",
+                  "fontSize": 20,
+                  "fontStyle": "italic",
+                  "lineHeight": 1.6,
+                  "marginBottom": 0,
+                  "marginTop": 0
+                },
+                "tagName": "span",
+                "text": "“We built pdfcn because generating PDFs in React was unnecessarily painful. Now it feels like writing any other component.”",
+                "type": "text"
+              },
+              {
+                "style": {
+                  "color": "#71717a",
+                  "fontFamily": "Helvetica",
+                  "fontSize": 13.333333333333332,
+                  "lineHeight": 1.6,
+                  "marginBottom": 0,
+                  "marginTop": 0
+                },
+                "tagName": "span",
+                "text": "— Jane Doe, CTO, Acme Corp",
+                "type": "text"
+              }
+            ],
+            "preset": {
+              "display": "block"
+            },
+            "style": {
+              "borderLeftColor": "#1e40af",
+              "borderLeftStyle": "solid",
+              "borderLeftWidth": 5.333333333333333,
+              "display": "flex",
+              "flexDirection": "column",
+              "marginBottom": 21.333333333333332,
+              "marginTop": 21.333333333333332,
+              "paddingBottom": 10.666666666666666,
+              "paddingLeft": 21.333333333333332,
+              "paddingTop": 10.666666666666666
+            },
+            "tagName": "div",
+            "type": "container"
+          },
+          {
+            "children": [
+              {
+                "style": {
+                  "color": "#71717a",
+                  "fontFamily": "Helvetica",
+                  "fontSize": 12,
+                  "fontWeight": "bold",
+                  "letterSpacing": 0.6666666666666666,
+                  "lineHeight": 1.6,
+                  "marginBottom": 2.6666666666666665,
+                  "marginTop": 0,
+                  "textTransform": "uppercase"
+                },
+                "tagName": "span",
+                "text": "About Acme Corp",
+                "type": "text"
+              },
+              {
+                "style": {
+                  "color": "#18181b",
+                  "fontFamily": "Helvetica",
+                  "fontSize": 16,
+                  "lineHeight": 1.6,
+                  "marginBottom": 0,
+                  "marginTop": 0
+                },
+                "tagName": "span",
+                "text": "Acme Corp is a leading provider of developer tools and open-source software.",
+                "type": "text"
+              }
+            ],
+            "preset": {
+              "display": "block"
+            },
+            "style": {
+              "display": "flex",
+              "flexDirection": "column",
+              "marginBottom": 21.333333333333332,
+              "marginTop": 21.333333333333332
+            },
+            "tagName": "div",
+            "type": "container"
+          },
+          {
+            "children": [
+              {
+                "style": {
+                  "color": "#71717a",
+                  "fontFamily": "Helvetica",
+                  "fontSize": 12,
+                  "fontWeight": "bold",
+                  "letterSpacing": 0.6666666666666666,
+                  "lineHeight": 1.6,
+                  "marginBottom": 2.6666666666666665,
+                  "marginTop": 0,
+                  "textTransform": "uppercase"
+                },
+                "tagName": "span",
+                "text": "Media Contact",
+                "type": "text"
+              },
+              {
+                "style": {
+                  "color": "#18181b",
+                  "fontFamily": "Helvetica",
+                  "fontSize": 13.333333333333332,
+                  "lineHeight": 1.6,
+                  "marginBottom": 0,
+                  "marginTop": 0
+                },
+                "tagName": "span",
+                "text": "Press Team",
+                "type": "text"
+              },
+              {
+                "style": {
+                  "color": "#18181b",
+                  "fontFamily": "Helvetica",
+                  "fontSize": 13.333333333333332,
+                  "lineHeight": 1.6,
+                  "marginBottom": 0,
+                  "marginTop": 0
+                },
+                "tagName": "span",
+                "text": "press@acme.com",
+                "type": "text"
+              },
+              {
+                "style": {
+                  "color": "#18181b",
+                  "fontFamily": "Helvetica",
+                  "fontSize": 13.333333333333332,
+                  "lineHeight": 1.6,
+                  "marginBottom": 0,
+                  "marginTop": 0
+                },
+                "tagName": "span",
+                "text": "(555) 123-4567",
+                "type": "text"
+              }
+            ],
+            "preset": {
+              "display": "block"
+            },
+            "style": {
+              "display": "flex",
+              "flexDirection": "column",
+              "marginBottom": 0,
+              "marginTop": 0
+            },
+            "tagName": "div",
+            "type": "container"
+          },
+          {
+            "style": {
+              "color": "#18181b",
+              "fontFamily": "Helvetica",
+              "fontSize": 16,
+              "fontWeight": 500,
+              "lineHeight": 1.6,
+              "marginBottom": 0,
+              "marginTop": 0,
+              "textAlign": "center"
+            },
+            "tagName": "span",
+            "text": "###",
+            "type": "text"
+          },
+          {
+            "children": [
+              {
+                "style": {
+                  "color": "#71717a",
+                  "flex": 1,
+                  "fontFamily": "Helvetica",
+                  "fontSize": 13.333333333333332,
+                  "lineHeight": 1.6
+                },
+                "tagName": "span",
+                "text": "123 Market St, San Francisco, CA 94103",
+                "type": "text"
+              },
+              {
+                "style": {
+                  "color": "#71717a",
+                  "fontFamily": "Helvetica",
+                  "fontSize": 13.333333333333332,
+                  "lineHeight": 1.6,
+                  "textAlign": "right"
+                },
+                "tagName": "span",
+                "text": "GitHub · X",
+                "type": "text"
+              }
+            ],
+            "preset": {
+              "display": "block"
+            },
+            "style": {
+              "alignItems": "center",
+              "borderTopColor": "#e4e4e7",
+              "borderTopStyle": "solid",
+              "borderTopWidth": 2.6666666666666665,
+              "bottom": 33.33333333333333,
+              "breakInside": "avoid",
+              "display": "flex",
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "left": 33.33333333333333,
+              "marginTop": 0,
+              "paddingTop": 16,
+              "position": "absolute",
+              "right": 33.33333333333333
+            },
+            "tagName": "div",
+            "type": "container"
+          }
+        ],
+        "preset": {
+          "display": "block"
+        },
+        "style": {
+          "backgroundColor": "#ffffff",
+          "boxSizing": "border-box",
+          "display": "flex",
+          "flexDirection": "column",
+          "minHeight": 1121.3333333333333,
+          "padding": 74.66666666666666,
+          "paddingBottom": 74.66666666666666,
+          "position": "relative"
+        },
+        "tagName": "div",
+        "type": "container"
+      }
+    ],
+    "preset": {
+      "display": "block"
+    },
+    "style": {
+      "display": "flex",
+      "flexDirection": "column"
+    },
+    "tagName": "div",
+    "type": "container"
+  },
+  "stylesheets": []
+}

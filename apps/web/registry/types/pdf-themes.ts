@@ -227,27 +227,8 @@ export interface PageTokens {
 /**
  * The complete pdfcn theme object.
  *
- * Components import this and use its tokens for all style values.
- * Since React Context doesn't work in @react-pdf/renderer,
- * the theme is a plain TypeScript object imported directly by components.
- *
- * @example
- * ```tsx
- * // In a component:
- * import { theme } from '../lib/pdf-theme';
- *
- * function createStyles(t: PdfcnTheme) {
- *   return StyleSheet.create({
- *     text: {
- *       fontFamily: t.typography.body.fontFamily,
- *       fontSize: t.typography.body.fontSize,
- *       color: t.colors.foreground,
- *     },
- *   });
- * }
- *
- * const styles = createStyles(theme);
- * ```
+ * Components read it through `injectPdfcnTheme()` and use its tokens for all
+ * style values. `<pdf-theme-provider [theme]>` swaps it for a subtree.
  */
 export interface PdfcnTheme {
   /** Theme name identifier */

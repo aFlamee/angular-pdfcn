@@ -1,0 +1,559 @@
+{
+  "document": {
+    "children": [
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "children": [],
+                "kind": {
+                  "content": "Section 1",
+                  "type": "Text"
+                },
+                "style": {
+                  "color": {
+                    "a": 1,
+                    "b": 0.10588235294117647,
+                    "g": 0.09411764705882353,
+                    "r": 0.09411764705882353
+                  },
+                  "fontFamily": "Times-Roman",
+                  "fontSize": 24,
+                  "fontWeight": 700,
+                  "lineHeight": 1.25,
+                  "margin": {
+                    "bottom": 10,
+                    "left": 0,
+                    "right": 0,
+                    "top": 28
+                  }
+                }
+              },
+              {
+                "children": [],
+                "kind": {
+                  "content": "Content here.",
+                  "type": "Text"
+                },
+                "style": {
+                  "color": {
+                    "a": 1,
+                    "b": 0.10588235294117647,
+                    "g": 0.09411764705882353,
+                    "r": 0.09411764705882353
+                  },
+                  "fontFamily": "Helvetica",
+                  "fontSize": 11,
+                  "lineHeight": 1.6,
+                  "margin": {
+                    "bottom": 10,
+                    "left": 0,
+                    "right": 0,
+                    "top": 0
+                  }
+                }
+              },
+              {
+                "children": [],
+                "kind": {
+                  "type": "View"
+                },
+                "style": {
+                  "borderColor": {
+                    "bottom": {
+                      "a": 1,
+                      "b": 0.9058823529411765,
+                      "g": 0.8941176470588236,
+                      "r": 0.8941176470588236
+                    },
+                    "left": {
+                      "a": 1,
+                      "b": 0,
+                      "g": 0,
+                      "r": 0
+                    },
+                    "right": {
+                      "a": 1,
+                      "b": 0,
+                      "g": 0,
+                      "r": 0
+                    },
+                    "top": {
+                      "a": 1,
+                      "b": 0,
+                      "g": 0,
+                      "r": 0
+                    }
+                  },
+                  "borderWidth": {
+                    "bottom": 2,
+                    "left": 0,
+                    "right": 0,
+                    "top": 0
+                  },
+                  "margin": {
+                    "bottom": 14,
+                    "left": 0,
+                    "right": 0,
+                    "top": 14
+                  }
+                }
+              },
+              {
+                "children": [],
+                "kind": {
+                  "content": "Section 2",
+                  "type": "Text"
+                },
+                "style": {
+                  "color": {
+                    "a": 1,
+                    "b": 0.10588235294117647,
+                    "g": 0.09411764705882353,
+                    "r": 0.09411764705882353
+                  },
+                  "fontFamily": "Times-Roman",
+                  "fontSize": 24,
+                  "fontWeight": 700,
+                  "lineHeight": 1.25,
+                  "margin": {
+                    "bottom": 10,
+                    "left": 0,
+                    "right": 0,
+                    "top": 28
+                  }
+                }
+              },
+              {
+                "children": [],
+                "kind": {
+                  "content": "More content.",
+                  "type": "Text"
+                },
+                "style": {
+                  "color": {
+                    "a": 1,
+                    "b": 0.10588235294117647,
+                    "g": 0.09411764705882353,
+                    "r": 0.09411764705882353
+                  },
+                  "fontFamily": "Helvetica",
+                  "fontSize": 11,
+                  "lineHeight": 1.6,
+                  "margin": {
+                    "bottom": 10,
+                    "left": 0,
+                    "right": 0,
+                    "top": 0
+                  }
+                }
+              },
+              {
+                "children": [],
+                "kind": {
+                  "type": "View"
+                },
+                "style": {
+                  "borderColor": {
+                    "bottom": {
+                      "a": 1,
+                      "b": 0.9058823529411765,
+                      "g": 0.8941176470588236,
+                      "r": 0.8941176470588236
+                    },
+                    "left": {
+                      "a": 1,
+                      "b": 0,
+                      "g": 0,
+                      "r": 0
+                    },
+                    "right": {
+                      "a": 1,
+                      "b": 0,
+                      "g": 0,
+                      "r": 0
+                    },
+                    "top": {
+                      "a": 1,
+                      "b": 0,
+                      "g": 0,
+                      "r": 0
+                    }
+                  },
+                  "borderWidth": {
+                    "bottom": 2,
+                    "left": 0,
+                    "right": 0,
+                    "top": 0
+                  },
+                  "margin": {
+                    "bottom": 14,
+                    "left": 0,
+                    "right": 0,
+                    "top": 14
+                  }
+                }
+              },
+              {
+                "children": [],
+                "kind": {
+                  "content": "Section 3",
+                  "type": "Text"
+                },
+                "style": {
+                  "color": {
+                    "a": 1,
+                    "b": 0.10588235294117647,
+                    "g": 0.09411764705882353,
+                    "r": 0.09411764705882353
+                  },
+                  "fontFamily": "Times-Roman",
+                  "fontSize": 24,
+                  "fontWeight": 700,
+                  "lineHeight": 1.25,
+                  "margin": {
+                    "bottom": 10,
+                    "left": 0,
+                    "right": 0,
+                    "top": 28
+                  }
+                }
+              },
+              {
+                "children": [],
+                "kind": {
+                  "content": "More content.",
+                  "type": "Text"
+                },
+                "style": {
+                  "color": {
+                    "a": 1,
+                    "b": 0.10588235294117647,
+                    "g": 0.09411764705882353,
+                    "r": 0.09411764705882353
+                  },
+                  "fontFamily": "Helvetica",
+                  "fontSize": 11,
+                  "lineHeight": 1.6,
+                  "margin": {
+                    "bottom": 10,
+                    "left": 0,
+                    "right": 0,
+                    "top": 0
+                  }
+                }
+              },
+              {
+                "children": [],
+                "kind": {
+                  "type": "View"
+                },
+                "style": {
+                  "borderColor": {
+                    "bottom": {
+                      "a": 1,
+                      "b": 0.9058823529411765,
+                      "g": 0.8941176470588236,
+                      "r": 0.8941176470588236
+                    },
+                    "left": {
+                      "a": 1,
+                      "b": 0,
+                      "g": 0,
+                      "r": 0
+                    },
+                    "right": {
+                      "a": 1,
+                      "b": 0,
+                      "g": 0,
+                      "r": 0
+                    },
+                    "top": {
+                      "a": 1,
+                      "b": 0,
+                      "g": 0,
+                      "r": 0
+                    }
+                  },
+                  "borderWidth": {
+                    "bottom": 2,
+                    "left": 0,
+                    "right": 0,
+                    "top": 0
+                  },
+                  "margin": {
+                    "bottom": 14,
+                    "left": 0,
+                    "right": 0,
+                    "top": 14
+                  }
+                }
+              },
+              {
+                "children": [],
+                "kind": {
+                  "content": "Section 4",
+                  "type": "Text"
+                },
+                "style": {
+                  "color": {
+                    "a": 1,
+                    "b": 0.10588235294117647,
+                    "g": 0.09411764705882353,
+                    "r": 0.09411764705882353
+                  },
+                  "fontFamily": "Times-Roman",
+                  "fontSize": 24,
+                  "fontWeight": 700,
+                  "lineHeight": 1.25,
+                  "margin": {
+                    "bottom": 10,
+                    "left": 0,
+                    "right": 0,
+                    "top": 28
+                  }
+                }
+              },
+              {
+                "children": [],
+                "kind": {
+                  "content": "More content.",
+                  "type": "Text"
+                },
+                "style": {
+                  "color": {
+                    "a": 1,
+                    "b": 0.10588235294117647,
+                    "g": 0.09411764705882353,
+                    "r": 0.09411764705882353
+                  },
+                  "fontFamily": "Helvetica",
+                  "fontSize": 11,
+                  "lineHeight": 1.6,
+                  "margin": {
+                    "bottom": 10,
+                    "left": 0,
+                    "right": 0,
+                    "top": 0
+                  }
+                }
+              },
+              {
+                "children": [
+                  {
+                    "children": [],
+                    "kind": {
+                      "type": "View"
+                    },
+                    "style": {
+                      "borderColor": {
+                        "bottom": {
+                          "a": 1,
+                          "b": 0.9058823529411765,
+                          "g": 0.8941176470588236,
+                          "r": 0.8941176470588236
+                        },
+                        "left": {
+                          "a": 1,
+                          "b": 0,
+                          "g": 0,
+                          "r": 0
+                        },
+                        "right": {
+                          "a": 1,
+                          "b": 0,
+                          "g": 0,
+                          "r": 0
+                        },
+                        "top": {
+                          "a": 1,
+                          "b": 0,
+                          "g": 0,
+                          "r": 0
+                        }
+                      },
+                      "borderWidth": {
+                        "bottom": 2,
+                        "left": 0,
+                        "right": 0,
+                        "top": 0
+                      },
+                      "flexBasis": {
+                        "Pt": 0
+                      },
+                      "flexGrow": 1,
+                      "flexShrink": 1
+                    }
+                  },
+                  {
+                    "children": [],
+                    "kind": {
+                      "content": "Section Divider",
+                      "type": "Text"
+                    },
+                    "style": {
+                      "color": {
+                        "a": 1,
+                        "b": 0.47843137254901963,
+                        "g": 0.44313725490196076,
+                        "r": 0.44313725490196076
+                      },
+                      "fontFamily": "Helvetica",
+                      "fontSize": 10,
+                      "fontWeight": 500,
+                      "letterSpacing": 0.5,
+                      "padding": {
+                        "bottom": 0,
+                        "left": 12,
+                        "right": 12,
+                        "top": 0
+                      },
+                      "textTransform": "Uppercase"
+                    }
+                  },
+                  {
+                    "children": [],
+                    "kind": {
+                      "type": "View"
+                    },
+                    "style": {
+                      "borderColor": {
+                        "bottom": {
+                          "a": 1,
+                          "b": 0.9058823529411765,
+                          "g": 0.8941176470588236,
+                          "r": 0.8941176470588236
+                        },
+                        "left": {
+                          "a": 1,
+                          "b": 0,
+                          "g": 0,
+                          "r": 0
+                        },
+                        "right": {
+                          "a": 1,
+                          "b": 0,
+                          "g": 0,
+                          "r": 0
+                        },
+                        "top": {
+                          "a": 1,
+                          "b": 0,
+                          "g": 0,
+                          "r": 0
+                        }
+                      },
+                      "borderWidth": {
+                        "bottom": 2,
+                        "left": 0,
+                        "right": 0,
+                        "top": 0
+                      },
+                      "flexBasis": {
+                        "Pt": 0
+                      },
+                      "flexGrow": 1,
+                      "flexShrink": 1
+                    }
+                  }
+                ],
+                "kind": {
+                  "type": "View"
+                },
+                "style": {
+                  "alignItems": "Center",
+                  "flexDirection": "Row",
+                  "margin": {
+                    "bottom": 14,
+                    "left": 0,
+                    "right": 0,
+                    "top": 14
+                  }
+                }
+              },
+              {
+                "children": [],
+                "kind": {
+                  "content": "Section 5",
+                  "type": "Text"
+                },
+                "style": {
+                  "color": {
+                    "a": 1,
+                    "b": 0.10588235294117647,
+                    "g": 0.09411764705882353,
+                    "r": 0.09411764705882353
+                  },
+                  "fontFamily": "Times-Roman",
+                  "fontSize": 24,
+                  "fontWeight": 700,
+                  "lineHeight": 1.25,
+                  "margin": {
+                    "bottom": 10,
+                    "left": 0,
+                    "right": 0,
+                    "top": 28
+                  }
+                }
+              },
+              {
+                "children": [],
+                "kind": {
+                  "content": "More content.",
+                  "type": "Text"
+                },
+                "style": {
+                  "color": {
+                    "a": 1,
+                    "b": 0.10588235294117647,
+                    "g": 0.09411764705882353,
+                    "r": 0.09411764705882353
+                  },
+                  "fontFamily": "Helvetica",
+                  "fontSize": 11,
+                  "lineHeight": 1.6,
+                  "margin": {
+                    "bottom": 10,
+                    "left": 0,
+                    "right": 0,
+                    "top": 0
+                  }
+                }
+              }
+            ],
+            "kind": {
+              "type": "View"
+            },
+            "style": {}
+          }
+        ],
+        "kind": {
+          "config": {
+            "margin": {
+              "bottom": 30,
+              "left": 30,
+              "right": 30,
+              "top": 30
+            },
+            "size": "A4",
+            "wrap": true
+          },
+          "type": "Page"
+        },
+        "style": {}
+      }
+    ],
+    "defaultPage": {
+      "margin": {
+        "bottom": 54,
+        "left": 54,
+        "right": 54,
+        "top": 54
+      },
+      "size": "A4",
+      "wrap": true
+    },
+    "metadata": {}
+  }
+}

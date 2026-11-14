@@ -1,0 +1,123 @@
+{
+  "document": {
+    "children": [
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "children": [],
+                "kind": {
+                  "content": "Default body text for paragraphs, descriptions, and document content.",
+                  "type": "Text"
+                },
+                "style": {
+                  "color": {
+                    "a": 1,
+                    "b": 0.10588235294117647,
+                    "g": 0.09411764705882353,
+                    "r": 0.09411764705882353
+                  },
+                  "fontFamily": "Helvetica",
+                  "fontSize": 11,
+                  "lineHeight": 1.6,
+                  "margin": {
+                    "bottom": 10,
+                    "left": 0,
+                    "right": 0,
+                    "top": 0
+                  }
+                }
+              },
+              {
+                "children": [],
+                "kind": {
+                  "content": "Caption text for metadata and supporting details.",
+                  "type": "Text"
+                },
+                "style": {
+                  "color": {
+                    "a": 1,
+                    "b": 0.47843137254901963,
+                    "g": 0.44313725490196076,
+                    "r": 0.44313725490196076
+                  },
+                  "fontFamily": "Helvetica",
+                  "fontSize": 10,
+                  "lineHeight": 1.6,
+                  "margin": {
+                    "bottom": 10,
+                    "left": 0,
+                    "right": 0,
+                    "top": 0
+                  }
+                }
+              },
+              {
+                "children": [],
+                "kind": {
+                  "content": "Lead paragraph with a larger typographic scale.",
+                  "type": "Text"
+                },
+                "style": {
+                  "color": {
+                    "a": 1,
+                    "b": 0.10588235294117647,
+                    "g": 0.09411764705882353,
+                    "r": 0.09411764705882353
+                  },
+                  "fontFamily": "Helvetica",
+                  "fontSize": 18,
+                  "lineHeight": 1.6,
+                  "margin": {
+                    "bottom": 10,
+                    "left": 0,
+                    "right": 0,
+                    "top": 0
+                  }
+                }
+              }
+            ],
+            "kind": {
+              "type": "View"
+            },
+            "style": {
+              "flexDirection": "Column",
+              "margin": {
+                "bottom": 0,
+                "left": 0,
+                "right": 0,
+                "top": 0
+              }
+            }
+          }
+        ],
+        "kind": {
+          "config": {
+            "margin": {
+              "bottom": 30,
+              "left": 30,
+              "right": 30,
+              "top": 30
+            },
+            "size": "A4",
+            "wrap": true
+          },
+          "type": "Page"
+        },
+        "style": {}
+      }
+    ],
+    "defaultPage": {
+      "margin": {
+        "bottom": 54,
+        "left": 54,
+        "right": 54,
+        "top": 54
+      },
+      "size": "A4",
+      "wrap": true
+    },
+    "metadata": {}
+  }
+}

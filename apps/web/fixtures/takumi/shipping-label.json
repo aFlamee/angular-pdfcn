@@ -1,0 +1,688 @@
+{
+  "node": {
+    "attributes": {
+      "data-pdf-document": "Shipping Label TRACK123456789US"
+    },
+    "children": [
+      {
+        "attributes": {
+          "data-pdf-page": ""
+        },
+        "children": [
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "style": {
+                      "color": "#18181b",
+                      "fontFamily": "Helvetica",
+                      "fontSize": 21.333333333333332,
+                      "fontWeight": "bold",
+                      "lineHeight": 1.6,
+                      "marginBottom": 0,
+                      "marginTop": 0
+                    },
+                    "tagName": "span",
+                    "text": "UPS",
+                    "type": "text"
+                  },
+                  {
+                    "children": [
+                      {
+                        "style": {
+                          "color": "#18181b",
+                          "fontFamily": "Helvetica",
+                          "fontSize": 10.666666666666666,
+                          "fontWeight": "bold",
+                          "letterSpacing": 1.3333333333333333,
+                          "lineHeight": 1.6,
+                          "marginBottom": 5.333333333333333,
+                          "marginTop": 0,
+                          "textTransform": "uppercase"
+                        },
+                        "tagName": "span",
+                        "text": "Ground",
+                        "type": "text"
+                      }
+                    ],
+                    "preset": {
+                      "display": "block"
+                    },
+                    "style": {
+                      "alignItems": "flex-end",
+                      "display": "flex",
+                      "flexDirection": "column"
+                    },
+                    "tagName": "div",
+                    "type": "container"
+                  }
+                ],
+                "preset": {
+                  "display": "block"
+                },
+                "style": {
+                  "alignItems": "center",
+                  "display": "flex",
+                  "flexDirection": "row",
+                  "justifyContent": "space-between"
+                },
+                "tagName": "div",
+                "type": "container"
+              },
+              {
+                "children": [],
+                "preset": {
+                  "display": "block"
+                },
+                "style": {
+                  "backgroundColor": "#18181b",
+                  "display": "flex",
+                  "flexDirection": "column",
+                  "height": 2.6666666666666665,
+                  "marginBottom": 8,
+                  "marginTop": 8
+                },
+                "tagName": "div",
+                "type": "container"
+              },
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "style": {
+                          "color": "#18181b",
+                          "fontFamily": "Helvetica",
+                          "fontSize": 10.666666666666666,
+                          "fontWeight": "bold",
+                          "letterSpacing": 1.3333333333333333,
+                          "lineHeight": 1.6,
+                          "marginBottom": 5.333333333333333,
+                          "marginTop": 0,
+                          "textTransform": "uppercase"
+                        },
+                        "tagName": "span",
+                        "text": "Ship To",
+                        "type": "text"
+                      },
+                      {
+                        "style": {
+                          "color": "#18181b",
+                          "fontFamily": "Helvetica",
+                          "fontSize": 13.333333333333332,
+                          "fontWeight": 700,
+                          "lineHeight": 1.6,
+                          "marginBottom": 0,
+                          "marginTop": 0
+                        },
+                        "tagName": "span",
+                        "text": "John Doe",
+                        "type": "text"
+                      },
+                      {
+                        "style": {
+                          "color": "#18181b",
+                          "fontFamily": "Helvetica",
+                          "fontSize": 13.333333333333332,
+                          "lineHeight": 1.6,
+                          "marginBottom": 0,
+                          "marginTop": 0
+                        },
+                        "tagName": "span",
+                        "text": "123 Main Street, Apt 4B",
+                        "type": "text"
+                      },
+                      {
+                        "style": {
+                          "color": "#18181b",
+                          "fontFamily": "Helvetica",
+                          "fontSize": 13.333333333333332,
+                          "lineHeight": 1.6,
+                          "marginBottom": 0,
+                          "marginTop": 0
+                        },
+                        "tagName": "span",
+                        "text": "New York, NY 10001, USA",
+                        "type": "text"
+                      },
+                      {
+                        "style": {
+                          "color": "#71717a",
+                          "fontFamily": "Helvetica",
+                          "fontSize": 13.333333333333332,
+                          "lineHeight": 1.6,
+                          "marginBottom": 0,
+                          "marginTop": 0
+                        },
+                        "tagName": "span",
+                        "text": "(503) 555-0142",
+                        "type": "text"
+                      }
+                    ],
+                    "preset": {
+                      "display": "block"
+                    },
+                    "style": {
+                      "borderRightColor": "#18181b",
+                      "borderRightStyle": "solid",
+                      "borderRightWidth": 2.6666666666666665,
+                      "display": "flex",
+                      "flex": 1.4,
+                      "flexDirection": "column",
+                      "paddingRight": 16
+                    },
+                    "tagName": "div",
+                    "type": "container"
+                  },
+                  {
+                    "children": [
+                      {
+                        "style": {
+                          "color": "#18181b",
+                          "fontFamily": "Helvetica",
+                          "fontSize": 10.666666666666666,
+                          "fontWeight": "bold",
+                          "letterSpacing": 1.3333333333333333,
+                          "lineHeight": 1.6,
+                          "marginBottom": 5.333333333333333,
+                          "marginTop": 0,
+                          "textTransform": "uppercase"
+                        },
+                        "tagName": "span",
+                        "text": "From",
+                        "type": "text"
+                      },
+                      {
+                        "style": {
+                          "color": "#18181b",
+                          "fontFamily": "Helvetica",
+                          "fontSize": 13.333333333333332,
+                          "fontWeight": 700,
+                          "lineHeight": 1.6,
+                          "marginBottom": 0,
+                          "marginTop": 0
+                        },
+                        "tagName": "span",
+                        "text": "ACME Corporation",
+                        "type": "text"
+                      },
+                      {
+                        "style": {
+                          "color": "#18181b",
+                          "fontFamily": "Helvetica",
+                          "fontSize": 13.333333333333332,
+                          "lineHeight": 1.6,
+                          "marginBottom": 0,
+                          "marginTop": 0
+                        },
+                        "tagName": "span",
+                        "text": "456 Industrial Blvd",
+                        "type": "text"
+                      },
+                      {
+                        "style": {
+                          "color": "#18181b",
+                          "fontFamily": "Helvetica",
+                          "fontSize": 13.333333333333332,
+                          "lineHeight": 1.6,
+                          "marginBottom": 0,
+                          "marginTop": 0
+                        },
+                        "tagName": "span",
+                        "text": "Los Angeles, CA 90001, USA",
+                        "type": "text"
+                      }
+                    ],
+                    "preset": {
+                      "display": "block"
+                    },
+                    "style": {
+                      "display": "flex",
+                      "flex": 1,
+                      "flexDirection": "column",
+                      "paddingLeft": 16
+                    },
+                    "tagName": "div",
+                    "type": "container"
+                  }
+                ],
+                "preset": {
+                  "display": "block"
+                },
+                "style": {
+                  "display": "flex",
+                  "flex": 1,
+                  "flexDirection": "row"
+                },
+                "tagName": "div",
+                "type": "container"
+              },
+              {
+                "children": [],
+                "preset": {
+                  "display": "block"
+                },
+                "style": {
+                  "backgroundColor": "#18181b",
+                  "display": "flex",
+                  "flexDirection": "column",
+                  "height": 2.6666666666666665,
+                  "marginBottom": 8,
+                  "marginTop": 8
+                },
+                "tagName": "div",
+                "type": "container"
+              },
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "style": {
+                          "color": "#71717a",
+                          "fontFamily": "Helvetica",
+                          "fontSize": 10.666666666666666,
+                          "fontWeight": "bold",
+                          "letterSpacing": 0.6666666666666666,
+                          "lineHeight": 1.6,
+                          "marginBottom": 0,
+                          "marginTop": 0,
+                          "textTransform": "uppercase",
+                          "width": 112
+                        },
+                        "tagName": "span",
+                        "text": "Weight",
+                        "type": "text"
+                      },
+                      {
+                        "style": {
+                          "color": "#18181b",
+                          "flex": 1,
+                          "fontFamily": "Helvetica",
+                          "fontSize": 13.333333333333332,
+                          "lineHeight": 1.6,
+                          "marginBottom": 0,
+                          "marginTop": 0
+                        },
+                        "tagName": "span",
+                        "text": "2.5 kg",
+                        "type": "text"
+                      }
+                    ],
+                    "preset": {
+                      "display": "block"
+                    },
+                    "style": {
+                      "alignItems": "center",
+                      "borderBottomColor": "#e4e4e7",
+                      "borderBottomStyle": "solid",
+                      "borderBottomWidth": 1.3333333333333333,
+                      "display": "flex",
+                      "flexDirection": "row",
+                      "paddingBottom": 4,
+                      "paddingLeft": 10.666666666666666,
+                      "paddingRight": 10.666666666666666,
+                      "paddingTop": 4
+                    },
+                    "tagName": "div",
+                    "type": "container"
+                  },
+                  {
+                    "children": [
+                      {
+                        "style": {
+                          "color": "#71717a",
+                          "fontFamily": "Helvetica",
+                          "fontSize": 10.666666666666666,
+                          "fontWeight": "bold",
+                          "letterSpacing": 0.6666666666666666,
+                          "lineHeight": 1.6,
+                          "marginBottom": 0,
+                          "marginTop": 0,
+                          "textTransform": "uppercase",
+                          "width": 112
+                        },
+                        "tagName": "span",
+                        "text": "Dimensions",
+                        "type": "text"
+                      },
+                      {
+                        "style": {
+                          "color": "#18181b",
+                          "flex": 1,
+                          "fontFamily": "Helvetica",
+                          "fontSize": 13.333333333333332,
+                          "lineHeight": 1.6,
+                          "marginBottom": 0,
+                          "marginTop": 0
+                        },
+                        "tagName": "span",
+                        "text": "12\" x 8\" x 6\"",
+                        "type": "text"
+                      }
+                    ],
+                    "preset": {
+                      "display": "block"
+                    },
+                    "style": {
+                      "alignItems": "center",
+                      "borderBottomColor": "#e4e4e7",
+                      "borderBottomStyle": "solid",
+                      "borderBottomWidth": 1.3333333333333333,
+                      "display": "flex",
+                      "flexDirection": "row",
+                      "paddingBottom": 4,
+                      "paddingLeft": 10.666666666666666,
+                      "paddingRight": 10.666666666666666,
+                      "paddingTop": 4
+                    },
+                    "tagName": "div",
+                    "type": "container"
+                  },
+                  {
+                    "children": [
+                      {
+                        "style": {
+                          "color": "#71717a",
+                          "fontFamily": "Helvetica",
+                          "fontSize": 10.666666666666666,
+                          "fontWeight": "bold",
+                          "letterSpacing": 0.6666666666666666,
+                          "lineHeight": 1.6,
+                          "marginBottom": 0,
+                          "marginTop": 0,
+                          "textTransform": "uppercase",
+                          "width": 112
+                        },
+                        "tagName": "span",
+                        "text": "Packages",
+                        "type": "text"
+                      },
+                      {
+                        "style": {
+                          "color": "#18181b",
+                          "flex": 1,
+                          "fontFamily": "Helvetica",
+                          "fontSize": 13.333333333333332,
+                          "lineHeight": 1.6,
+                          "marginBottom": 0,
+                          "marginTop": 0
+                        },
+                        "tagName": "span",
+                        "text": "1",
+                        "type": "text"
+                      }
+                    ],
+                    "preset": {
+                      "display": "block"
+                    },
+                    "style": {
+                      "alignItems": "center",
+                      "borderBottomColor": "#e4e4e7",
+                      "borderBottomStyle": "solid",
+                      "borderBottomWidth": 1.3333333333333333,
+                      "display": "flex",
+                      "flexDirection": "row",
+                      "paddingBottom": 4,
+                      "paddingLeft": 10.666666666666666,
+                      "paddingRight": 10.666666666666666,
+                      "paddingTop": 4
+                    },
+                    "tagName": "div",
+                    "type": "container"
+                  },
+                  {
+                    "children": [
+                      {
+                        "style": {
+                          "color": "#71717a",
+                          "fontFamily": "Helvetica",
+                          "fontSize": 10.666666666666666,
+                          "fontWeight": "bold",
+                          "letterSpacing": 0.6666666666666666,
+                          "lineHeight": 1.6,
+                          "marginBottom": 0,
+                          "marginTop": 0,
+                          "textTransform": "uppercase",
+                          "width": 112
+                        },
+                        "tagName": "span",
+                        "text": "Postage",
+                        "type": "text"
+                      },
+                      {
+                        "style": {
+                          "color": "#18181b",
+                          "flex": 1,
+                          "fontFamily": "Helvetica",
+                          "fontSize": 13.333333333333332,
+                          "lineHeight": 1.6,
+                          "marginBottom": 0,
+                          "marginTop": 0
+                        },
+                        "tagName": "span",
+                        "text": "$18.40",
+                        "type": "text"
+                      }
+                    ],
+                    "preset": {
+                      "display": "block"
+                    },
+                    "style": {
+                      "alignItems": "center",
+                      "display": "flex",
+                      "flexDirection": "row",
+                      "paddingBottom": 4,
+                      "paddingLeft": 10.666666666666666,
+                      "paddingRight": 10.666666666666666,
+                      "paddingTop": 4
+                    },
+                    "tagName": "div",
+                    "type": "container"
+                  }
+                ],
+                "preset": {
+                  "display": "block"
+                },
+                "style": {
+                  "borderColor": "#18181b",
+                  "borderStyle": "solid",
+                  "borderWidth": 2.6666666666666665,
+                  "display": "flex",
+                  "flexDirection": "column"
+                },
+                "tagName": "div",
+                "type": "container"
+              },
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "style": {
+                          "color": "#ffffff",
+                          "fontFamily": "Helvetica",
+                          "fontSize": 10.666666666666666,
+                          "fontWeight": "bold",
+                          "letterSpacing": 1.3333333333333333,
+                          "lineHeight": 1.6,
+                          "marginBottom": 0,
+                          "marginTop": 0,
+                          "textTransform": "uppercase"
+                        },
+                        "tagName": "span",
+                        "text": "FRAGILE",
+                        "type": "text"
+                      }
+                    ],
+                    "preset": {
+                      "display": "block"
+                    },
+                    "style": {
+                      "alignItems": "center",
+                      "backgroundColor": "#18181b",
+                      "display": "flex",
+                      "flexDirection": "column",
+                      "justifyContent": "center",
+                      "paddingBottom": 5.333333333333333,
+                      "paddingLeft": 10.666666666666666,
+                      "paddingRight": 10.666666666666666,
+                      "paddingTop": 5.333333333333333
+                    },
+                    "tagName": "div",
+                    "type": "container"
+                  },
+                  {
+                    "children": [
+                      {
+                        "style": {
+                          "color": "#ffffff",
+                          "fontFamily": "Helvetica",
+                          "fontSize": 10.666666666666666,
+                          "fontWeight": "bold",
+                          "letterSpacing": 1.3333333333333333,
+                          "lineHeight": 1.6,
+                          "marginBottom": 0,
+                          "marginTop": 0,
+                          "textTransform": "uppercase"
+                        },
+                        "tagName": "span",
+                        "text": "THIS SIDE UP",
+                        "type": "text"
+                      }
+                    ],
+                    "preset": {
+                      "display": "block"
+                    },
+                    "style": {
+                      "alignItems": "center",
+                      "backgroundColor": "#18181b",
+                      "display": "flex",
+                      "flexDirection": "column",
+                      "justifyContent": "center",
+                      "paddingBottom": 5.333333333333333,
+                      "paddingLeft": 10.666666666666666,
+                      "paddingRight": 10.666666666666666,
+                      "paddingTop": 5.333333333333333
+                    },
+                    "tagName": "div",
+                    "type": "container"
+                  }
+                ],
+                "preset": {
+                  "display": "block"
+                },
+                "style": {
+                  "display": "flex",
+                  "flexDirection": "row",
+                  "flexWrap": "wrap",
+                  "gap": 8,
+                  "marginTop": 10.666666666666666
+                },
+                "tagName": "div",
+                "type": "container"
+              },
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "attributes": {
+                          "height": "106.66666666666666",
+                          "viewBox": "0 0 80 80",
+                          "width": "106.66666666666666"
+                        },
+                        "height": 106.66666666666666,
+                        "src": "<svg height=\"106.66666666666666\" viewBox=\"0 0 80 80\" width=\"106.66666666666666\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"80\" height=\"80\" fill=\"#ffffff\"></rect><rect x=\"6.4\" y=\"6.4\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"9.600000000000001\" y=\"6.4\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"12.8\" y=\"6.4\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"16\" y=\"6.4\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"19.200000000000003\" y=\"6.4\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"22.400000000000002\" y=\"6.4\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"25.6\" y=\"6.4\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"41.6\" y=\"6.4\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"44.800000000000004\" y=\"6.4\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"51.2\" y=\"6.4\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"54.400000000000006\" y=\"6.4\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"57.6\" y=\"6.4\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"60.800000000000004\" y=\"6.4\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"64\" y=\"6.4\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"67.2\" y=\"6.4\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"70.4\" y=\"6.4\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"6.4\" y=\"9.600000000000001\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"25.6\" y=\"9.600000000000001\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"32\" y=\"9.600000000000001\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"41.6\" y=\"9.600000000000001\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"44.800000000000004\" y=\"9.600000000000001\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"51.2\" y=\"9.600000000000001\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"70.4\" y=\"9.600000000000001\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"6.4\" y=\"12.8\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"12.8\" y=\"12.8\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"16\" y=\"12.8\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"19.200000000000003\" y=\"12.8\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"25.6\" y=\"12.8\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"32\" y=\"12.8\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"38.400000000000006\" y=\"12.8\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"44.800000000000004\" y=\"12.8\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"51.2\" y=\"12.8\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"57.6\" y=\"12.8\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"60.800000000000004\" y=\"12.8\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"64\" y=\"12.8\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"70.4\" y=\"12.8\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"6.4\" y=\"16\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"12.8\" y=\"16\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"16\" y=\"16\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"19.200000000000003\" y=\"16\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"25.6\" y=\"16\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"32\" y=\"16\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"41.6\" y=\"16\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"44.800000000000004\" y=\"16\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"51.2\" y=\"16\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"57.6\" y=\"16\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"60.800000000000004\" y=\"16\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"64\" y=\"16\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"70.4\" y=\"16\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"6.4\" y=\"19.200000000000003\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"12.8\" y=\"19.200000000000003\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"16\" y=\"19.200000000000003\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"19.200000000000003\" y=\"19.200000000000003\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"25.6\" y=\"19.200000000000003\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"38.400000000000006\" y=\"19.200000000000003\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"41.6\" y=\"19.200000000000003\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"44.800000000000004\" y=\"19.200000000000003\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"51.2\" y=\"19.200000000000003\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"57.6\" y=\"19.200000000000003\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"60.800000000000004\" y=\"19.200000000000003\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"64\" y=\"19.200000000000003\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"70.4\" y=\"19.200000000000003\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"6.4\" y=\"22.400000000000002\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"25.6\" y=\"22.400000000000002\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"38.400000000000006\" y=\"22.400000000000002\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"44.800000000000004\" y=\"22.400000000000002\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"51.2\" y=\"22.400000000000002\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"70.4\" y=\"22.400000000000002\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"6.4\" y=\"25.6\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"9.600000000000001\" y=\"25.6\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"12.8\" y=\"25.6\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"16\" y=\"25.6\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"19.200000000000003\" y=\"25.6\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"22.400000000000002\" y=\"25.6\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"25.6\" y=\"25.6\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"32\" y=\"25.6\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"38.400000000000006\" y=\"25.6\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"44.800000000000004\" y=\"25.6\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"51.2\" y=\"25.6\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"54.400000000000006\" y=\"25.6\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"57.6\" y=\"25.6\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"60.800000000000004\" y=\"25.6\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"64\" y=\"25.6\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"67.2\" y=\"25.6\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"70.4\" y=\"25.6\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"32\" y=\"28.8\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"35.2\" y=\"28.8\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"41.6\" y=\"28.8\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"44.800000000000004\" y=\"28.8\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"6.4\" y=\"32\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"25.6\" y=\"32\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"32\" y=\"32\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"35.2\" y=\"32\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"44.800000000000004\" y=\"32\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"48\" y=\"32\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"51.2\" y=\"32\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"60.800000000000004\" y=\"32\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"64\" y=\"32\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"67.2\" y=\"32\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"6.4\" y=\"35.2\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"9.600000000000001\" y=\"35.2\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"12.8\" y=\"35.2\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"16\" y=\"35.2\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"22.400000000000002\" y=\"35.2\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"28.8\" y=\"35.2\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"35.2\" y=\"35.2\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"38.400000000000006\" y=\"35.2\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"44.800000000000004\" y=\"35.2\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"51.2\" y=\"35.2\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"64\" y=\"35.2\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"70.4\" y=\"35.2\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"9.600000000000001\" y=\"38.400000000000006\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"12.8\" y=\"38.400000000000006\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"16\" y=\"38.400000000000006\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"19.200000000000003\" y=\"38.400000000000006\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"25.6\" y=\"38.400000000000006\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"38.400000000000006\" y=\"38.400000000000006\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"41.6\" y=\"38.400000000000006\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"51.2\" y=\"38.400000000000006\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"54.400000000000006\" y=\"38.400000000000006\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"60.800000000000004\" y=\"38.400000000000006\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"67.2\" y=\"38.400000000000006\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"6.4\" y=\"41.6\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"16\" y=\"41.6\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"19.200000000000003\" y=\"41.6\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"22.400000000000002\" y=\"41.6\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"38.400000000000006\" y=\"41.6\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"51.2\" y=\"41.6\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"54.400000000000006\" y=\"41.6\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"67.2\" y=\"41.6\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"70.4\" y=\"41.6\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"9.600000000000001\" y=\"44.800000000000004\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"22.400000000000002\" y=\"44.800000000000004\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"25.6\" y=\"44.800000000000004\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"35.2\" y=\"44.800000000000004\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"38.400000000000006\" y=\"44.800000000000004\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"48\" y=\"44.800000000000004\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"54.400000000000006\" y=\"44.800000000000004\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"64\" y=\"44.800000000000004\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"67.2\" y=\"44.800000000000004\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"70.4\" y=\"44.800000000000004\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"32\" y=\"48\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"38.400000000000006\" y=\"48\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"44.800000000000004\" y=\"48\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"48\" y=\"48\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"54.400000000000006\" y=\"48\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"57.6\" y=\"48\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"60.800000000000004\" y=\"48\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"67.2\" y=\"48\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"6.4\" y=\"51.2\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"9.600000000000001\" y=\"51.2\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"12.8\" y=\"51.2\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"16\" y=\"51.2\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"19.200000000000003\" y=\"51.2\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"22.400000000000002\" y=\"51.2\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"25.6\" y=\"51.2\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"35.2\" y=\"51.2\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"44.800000000000004\" y=\"51.2\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"48\" y=\"51.2\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"54.400000000000006\" y=\"51.2\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"57.6\" y=\"51.2\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"64\" y=\"51.2\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"67.2\" y=\"51.2\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"6.4\" y=\"54.400000000000006\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"25.6\" y=\"54.400000000000006\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"44.800000000000004\" y=\"54.400000000000006\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"48\" y=\"54.400000000000006\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"57.6\" y=\"54.400000000000006\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"60.800000000000004\" y=\"54.400000000000006\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"70.4\" y=\"54.400000000000006\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"6.4\" y=\"57.6\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"12.8\" y=\"57.6\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"16\" y=\"57.6\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"19.200000000000003\" y=\"57.6\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"25.6\" y=\"57.6\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"35.2\" y=\"57.6\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"44.800000000000004\" y=\"57.6\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"54.400000000000006\" y=\"57.6\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"57.6\" y=\"57.6\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"70.4\" y=\"57.6\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"6.4\" y=\"60.800000000000004\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"12.8\" y=\"60.800000000000004\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"16\" y=\"60.800000000000004\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"19.200000000000003\" y=\"60.800000000000004\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"25.6\" y=\"60.800000000000004\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"35.2\" y=\"60.800000000000004\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"44.800000000000004\" y=\"60.800000000000004\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"48\" y=\"60.800000000000004\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"57.6\" y=\"60.800000000000004\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"64\" y=\"60.800000000000004\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"6.4\" y=\"64\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"12.8\" y=\"64\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"16\" y=\"64\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"19.200000000000003\" y=\"64\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"25.6\" y=\"64\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"35.2\" y=\"64\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"41.6\" y=\"64\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"44.800000000000004\" y=\"64\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"48\" y=\"64\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"64\" y=\"64\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"67.2\" y=\"64\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"70.4\" y=\"64\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"6.4\" y=\"67.2\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"25.6\" y=\"67.2\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"41.6\" y=\"67.2\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"44.800000000000004\" y=\"67.2\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"51.2\" y=\"67.2\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"57.6\" y=\"67.2\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"60.800000000000004\" y=\"67.2\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"64\" y=\"67.2\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"70.4\" y=\"67.2\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"6.4\" y=\"70.4\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"9.600000000000001\" y=\"70.4\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"12.8\" y=\"70.4\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"16\" y=\"70.4\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"19.200000000000003\" y=\"70.4\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"22.400000000000002\" y=\"70.4\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"25.6\" y=\"70.4\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"32\" y=\"70.4\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"35.2\" y=\"70.4\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"38.400000000000006\" y=\"70.4\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"44.800000000000004\" y=\"70.4\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"48\" y=\"70.4\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"51.2\" y=\"70.4\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"54.400000000000006\" y=\"70.4\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect><rect x=\"64\" y=\"70.4\" width=\"3.2\" height=\"3.2\" fill=\"#000000\"></rect></svg>",
+                        "tagName": "svg",
+                        "type": "image",
+                        "width": 106.66666666666666
+                      }
+                    ],
+                    "preset": {
+                      "display": "block"
+                    },
+                    "style": {
+                      "alignItems": "center",
+                      "display": "flex",
+                      "flexDirection": "column"
+                    },
+                    "tagName": "div",
+                    "type": "container"
+                  },
+                  {
+                    "style": {
+                      "color": "#18181b",
+                      "fontFamily": "Helvetica",
+                      "fontSize": 13.333333333333332,
+                      "fontWeight": "bold",
+                      "letterSpacing": 2.6666666666666665,
+                      "lineHeight": 1.6,
+                      "marginBottom": 0,
+                      "marginTop": 8,
+                      "textTransform": "uppercase"
+                    },
+                    "tagName": "span",
+                    "text": "TRACK123456789US",
+                    "type": "text"
+                  }
+                ],
+                "preset": {
+                  "display": "block"
+                },
+                "style": {
+                  "alignItems": "center",
+                  "display": "flex",
+                  "flexDirection": "column",
+                  "marginTop": 13.333333333333332
+                },
+                "tagName": "div",
+                "type": "container"
+              }
+            ],
+            "preset": {
+              "display": "block"
+            },
+            "style": {
+              "borderColor": "#18181b",
+              "borderStyle": "solid",
+              "borderWidth": 2.6666666666666665,
+              "display": "flex",
+              "flex": 1,
+              "flexDirection": "column",
+              "padding": 13.333333333333332
+            },
+            "tagName": "div",
+            "type": "container"
+          }
+        ],
+        "preset": {
+          "display": "block"
+        },
+        "style": {
+          "backgroundColor": "#ffffff",
+          "boxSizing": "border-box",
+          "display": "flex",
+          "flexDirection": "column",
+          "height": 576,
+          "overflow": "hidden",
+          "padding": 10.666666666666666,
+          "width": 384
+        },
+        "tagName": "div",
+        "type": "container"
+      }
+    ],
+    "preset": {
+      "display": "block"
+    },
+    "style": {
+      "display": "flex",
+      "flexDirection": "column"
+    },
+    "tagName": "div",
+    "type": "container"
+  },
+  "stylesheets": []
+}

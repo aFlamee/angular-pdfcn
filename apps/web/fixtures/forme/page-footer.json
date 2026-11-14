@@ -1,0 +1,238 @@
+{
+  "document": {
+    "children": [
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "children": [],
+                "kind": {
+                  "content": "Invoice #1042 · Acme Corp · March 2026",
+                  "type": "Text"
+                },
+                "style": {
+                  "color": {
+                    "a": 1,
+                    "b": 0.3333333333333333,
+                    "g": 0.3333333333333333,
+                    "r": 0.3333333333333333
+                  },
+                  "fontFamily": "Helvetica",
+                  "fontSize": 10,
+                  "lineHeight": 1.6,
+                  "margin": {
+                    "bottom": 6,
+                    "left": 0,
+                    "right": 0,
+                    "top": 0
+                  }
+                }
+              },
+              {
+                "children": [],
+                "kind": {
+                  "content": "The footer remains visually separated from the document body.",
+                  "type": "Text"
+                },
+                "style": {
+                  "color": {
+                    "a": 1,
+                    "b": 0.3333333333333333,
+                    "g": 0.3333333333333333,
+                    "r": 0.3333333333333333
+                  },
+                  "fontFamily": "Helvetica",
+                  "fontSize": 10,
+                  "lineHeight": 1.6,
+                  "margin": {
+                    "bottom": 6,
+                    "left": 0,
+                    "right": 0,
+                    "top": 0
+                  }
+                }
+              },
+              {
+                "children": [],
+                "kind": {
+                  "type": "View"
+                },
+                "style": {
+                  "flexBasis": {
+                    "Pt": 0
+                  },
+                  "flexGrow": 1,
+                  "flexShrink": 1
+                }
+              },
+              {
+                "children": [
+                  {
+                    "children": [],
+                    "kind": {
+                      "content": "© 2026 Acme Corp",
+                      "type": "Text"
+                    },
+                    "style": {
+                      "color": {
+                        "a": 1,
+                        "b": 0.47843137254901963,
+                        "g": 0.44313725490196076,
+                        "r": 0.44313725490196076
+                      },
+                      "fontFamily": "Helvetica",
+                      "fontSize": 10,
+                      "lineHeight": 1.6,
+                      "width": {
+                        "Pt": 160
+                      }
+                    }
+                  },
+                  {
+                    "children": [],
+                    "kind": {
+                      "content": "Confidential",
+                      "type": "Text"
+                    },
+                    "style": {
+                      "color": {
+                        "a": 1,
+                        "b": 0.47843137254901963,
+                        "g": 0.44313725490196076,
+                        "r": 0.44313725490196076
+                      },
+                      "fontFamily": "Helvetica",
+                      "fontSize": 10,
+                      "lineHeight": 1.6,
+                      "textAlign": "Center",
+                      "width": {
+                        "Pt": 160
+                      }
+                    }
+                  },
+                  {
+                    "children": [],
+                    "kind": {
+                      "content": "Page 1 of 1",
+                      "type": "Text"
+                    },
+                    "style": {
+                      "color": {
+                        "a": 1,
+                        "b": 0.47843137254901963,
+                        "g": 0.44313725490196076,
+                        "r": 0.44313725490196076
+                      },
+                      "fontFamily": "Helvetica",
+                      "fontSize": 10,
+                      "lineHeight": 1.6,
+                      "textAlign": "Right",
+                      "width": {
+                        "Pt": 160
+                      }
+                    }
+                  }
+                ],
+                "kind": {
+                  "type": "View"
+                },
+                "style": {
+                  "alignItems": "Center",
+                  "borderColor": {
+                    "bottom": {
+                      "a": 1,
+                      "b": 0,
+                      "g": 0,
+                      "r": 0
+                    },
+                    "left": {
+                      "a": 1,
+                      "b": 0,
+                      "g": 0,
+                      "r": 0
+                    },
+                    "right": {
+                      "a": 1,
+                      "b": 0,
+                      "g": 0,
+                      "r": 0
+                    },
+                    "top": {
+                      "a": 1,
+                      "b": 0.9058823529411765,
+                      "g": 0.8941176470588236,
+                      "r": 0.8941176470588236
+                    }
+                  },
+                  "borderWidth": {
+                    "bottom": 0,
+                    "left": 0,
+                    "right": 0,
+                    "top": 2
+                  },
+                  "display": "Flex",
+                  "flexDirection": "Row",
+                  "justifyContent": "SpaceBetween",
+                  "margin": {
+                    "bottom": 0,
+                    "left": 0,
+                    "right": 0,
+                    "top": 28
+                  },
+                  "padding": {
+                    "bottom": 0,
+                    "left": 0,
+                    "right": 0,
+                    "top": 12
+                  },
+                  "wrap": false
+                }
+              }
+            ],
+            "kind": {
+              "type": "View"
+            },
+            "style": {
+              "display": "Flex",
+              "flexDirection": "Column",
+              "minHeight": {
+                "Pt": 220
+              }
+            }
+          }
+        ],
+        "kind": {
+          "config": {
+            "margin": {
+              "bottom": 30,
+              "left": 30,
+              "right": 30,
+              "top": 30
+            },
+            "size": {
+              "Custom": {
+                "height": 300,
+                "width": 595
+              }
+            },
+            "wrap": true
+          },
+          "type": "Page"
+        },
+        "style": {}
+      }
+    ],
+    "defaultPage": {
+      "margin": {
+        "bottom": 54,
+        "left": 54,
+        "right": 54,
+        "top": 54
+      },
+      "size": "A4",
+      "wrap": true
+    },
+    "metadata": {}
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "document": {
+    "children": [
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "children": [],
+                "kind": {
+                  "content": "Documentation",
+                  "type": "Text"
+                },
+                "style": {
+                  "color": {
+                    "a": 1,
+                    "b": 0.9647058823529412,
+                    "g": 0.5098039215686274,
+                    "r": 0.23137254901960785
+                  },
+                  "fontFamily": "Helvetica",
+                  "fontSize": 11,
+                  "fontWeight": 500,
+                  "lineHeight": 1.6,
+                  "margin": {
+                    "bottom": 10,
+                    "left": 0,
+                    "right": 0,
+                    "top": 0
+                  },
+                  "textDecoration": "Underline"
+                }
+              },
+              {
+                "children": [],
+                "kind": {
+                  "content": "Internal link",
+                  "type": "Text"
+                },
+                "style": {
+                  "color": {
+                    "a": 1,
+                    "b": 0.10588235294117647,
+                    "g": 0.09411764705882353,
+                    "r": 0.09411764705882353
+                  },
+                  "fontFamily": "Helvetica",
+                  "fontSize": 11,
+                  "fontWeight": 500,
+                  "lineHeight": 1.6,
+                  "margin": {
+                    "bottom": 10,
+                    "left": 0,
+                    "right": 0,
+                    "top": 0
+                  },
+                  "textDecoration": "Underline"
+                }
+              }
+            ],
+            "kind": {
+              "type": "View"
+            },
+            "style": {
+              "flexDirection": "Column",
+              "margin": {
+                "bottom": 0,
+                "left": 0,
+                "right": 0,
+                "top": 0
+              }
+            }
+          }
+        ],
+        "kind": {
+          "config": {
+            "margin": {
+              "bottom": 30,
+              "left": 30,
+              "right": 30,
+              "top": 30
+            },
+            "size": "A4",
+            "wrap": true
+          },
+          "type": "Page"
+        },
+        "style": {}
+      }
+    ],
+    "defaultPage": {
+      "margin": {
+        "bottom": 54,
+        "left": 54,
+        "right": 54,
+        "top": 54
+      },
+      "size": "A4",
+      "wrap": true
+    },
+    "metadata": {}
+  }
+}

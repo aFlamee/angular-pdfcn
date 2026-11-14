@@ -1,0 +1,342 @@
+{
+  "document": {
+    "children": [
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "children": [],
+                    "kind": {
+                      "content": "Section Title",
+                      "type": "Text"
+                    },
+                    "style": {
+                      "color": {
+                        "a": 1,
+                        "b": 0.10588235294117647,
+                        "g": 0.09411764705882353,
+                        "r": 0.09411764705882353
+                      },
+                      "fontFamily": "Times-Roman",
+                      "fontSize": 24,
+                      "fontWeight": 700,
+                      "lineHeight": 1.25,
+                      "margin": {
+                        "bottom": 10,
+                        "left": 0,
+                        "right": 0,
+                        "top": 28
+                      }
+                    }
+                  },
+                  {
+                    "children": [
+                      {
+                        "children": [],
+                        "kind": {
+                          "content": "This heading and callout stay together as one atomic block when the document flows onto another page.",
+                          "type": "Text"
+                        },
+                        "style": {
+                          "color": {
+                            "a": 1,
+                            "b": 0.10588235294117647,
+                            "g": 0.09411764705882353,
+                            "r": 0.09411764705882353
+                          },
+                          "fontFamily": "Helvetica",
+                          "fontSize": 11,
+                          "lineHeight": 1.6,
+                          "margin": {
+                            "bottom": 0,
+                            "left": 0,
+                            "right": 0,
+                            "top": 0
+                          }
+                        }
+                      }
+                    ],
+                    "kind": {
+                      "type": "View"
+                    },
+                    "style": {
+                      "borderColor": {
+                        "bottom": {
+                          "a": 1,
+                          "b": 0,
+                          "g": 0,
+                          "r": 0
+                        },
+                        "left": {
+                          "a": 1,
+                          "b": 0.10588235294117647,
+                          "g": 0.09411764705882353,
+                          "r": 0.09411764705882353
+                        },
+                        "right": {
+                          "a": 1,
+                          "b": 0,
+                          "g": 0,
+                          "r": 0
+                        },
+                        "top": {
+                          "a": 1,
+                          "b": 0,
+                          "g": 0,
+                          "r": 0
+                        }
+                      },
+                      "borderWidth": {
+                        "bottom": 0,
+                        "left": 4,
+                        "right": 0,
+                        "top": 0
+                      },
+                      "flexDirection": "Column",
+                      "margin": {
+                        "bottom": 28,
+                        "left": 0,
+                        "right": 0,
+                        "top": 28
+                      },
+                      "padding": {
+                        "bottom": 8,
+                        "left": 16,
+                        "right": 12,
+                        "top": 8
+                      }
+                    }
+                  }
+                ],
+                "kind": {
+                  "type": "View"
+                },
+                "style": {
+                  "wrap": false
+                }
+              },
+              {
+                "children": [
+                  {
+                    "children": [],
+                    "kind": {
+                      "content": "Subsection Heading",
+                      "type": "Text"
+                    },
+                    "style": {
+                      "color": {
+                        "a": 1,
+                        "b": 0.10588235294117647,
+                        "g": 0.09411764705882353,
+                        "r": 0.09411764705882353
+                      },
+                      "fontFamily": "Times-Roman",
+                      "fontSize": 20,
+                      "fontWeight": 700,
+                      "lineHeight": 1.25,
+                      "margin": {
+                        "bottom": 10,
+                        "left": 0,
+                        "right": 0,
+                        "top": 14
+                      }
+                    }
+                  },
+                  {
+                    "children": [],
+                    "kind": {
+                      "content": "Reserve enough room before starting this subsection so its heading is never stranded at the bottom of a page.",
+                      "type": "Text"
+                    },
+                    "style": {
+                      "color": {
+                        "a": 1,
+                        "b": 0.10588235294117647,
+                        "g": 0.09411764705882353,
+                        "r": 0.09411764705882353
+                      },
+                      "fontFamily": "Helvetica",
+                      "fontSize": 11,
+                      "lineHeight": 1.6,
+                      "margin": {
+                        "bottom": 10,
+                        "left": 0,
+                        "right": 0,
+                        "top": 0
+                      }
+                    }
+                  }
+                ],
+                "kind": {
+                  "type": "View"
+                },
+                "style": {
+                  "wrap": false
+                }
+              },
+              {
+                "children": [
+                  {
+                    "children": [],
+                    "kind": {
+                      "content": "Signature Block",
+                      "type": "Text"
+                    },
+                    "style": {
+                      "color": {
+                        "a": 1,
+                        "b": 0.10588235294117647,
+                        "g": 0.09411764705882353,
+                        "r": 0.09411764705882353
+                      },
+                      "fontFamily": "Times-Roman",
+                      "fontSize": 16,
+                      "fontWeight": 700,
+                      "lineHeight": 1.25,
+                      "margin": {
+                        "bottom": 10,
+                        "left": 0,
+                        "right": 0,
+                        "top": 10
+                      }
+                    }
+                  },
+                  {
+                    "children": [
+                      {
+                        "children": [],
+                        "kind": {
+                          "content": "Approved by: ____________________",
+                          "type": "Text"
+                        },
+                        "style": {
+                          "color": {
+                            "a": 1,
+                            "b": 0.10588235294117647,
+                            "g": 0.09411764705882353,
+                            "r": 0.09411764705882353
+                          },
+                          "fontFamily": "Helvetica",
+                          "fontSize": 11,
+                          "lineHeight": 1.6,
+                          "margin": {
+                            "bottom": 0,
+                            "left": 0,
+                            "right": 0,
+                            "top": 0
+                          }
+                        }
+                      }
+                    ],
+                    "kind": {
+                      "type": "View"
+                    },
+                    "style": {
+                      "borderColor": {
+                        "bottom": {
+                          "a": 1,
+                          "b": 0.9058823529411765,
+                          "g": 0.8941176470588236,
+                          "r": 0.8941176470588236
+                        },
+                        "left": {
+                          "a": 1,
+                          "b": 0.9058823529411765,
+                          "g": 0.8941176470588236,
+                          "r": 0.8941176470588236
+                        },
+                        "right": {
+                          "a": 1,
+                          "b": 0.9058823529411765,
+                          "g": 0.8941176470588236,
+                          "r": 0.8941176470588236
+                        },
+                        "top": {
+                          "a": 1,
+                          "b": 0.9058823529411765,
+                          "g": 0.8941176470588236,
+                          "r": 0.8941176470588236
+                        }
+                      },
+                      "borderRadius": {
+                        "bottom_left": 4,
+                        "bottom_right": 4,
+                        "top_left": 4,
+                        "top_right": 4
+                      },
+                      "borderWidth": {
+                        "bottom": 2,
+                        "left": 2,
+                        "right": 2,
+                        "top": 2
+                      },
+                      "flexDirection": "Column",
+                      "margin": {
+                        "bottom": 28,
+                        "left": 0,
+                        "right": 0,
+                        "top": 28
+                      },
+                      "padding": {
+                        "bottom": 12,
+                        "left": 12,
+                        "right": 12,
+                        "top": 12
+                      }
+                    }
+                  }
+                ],
+                "kind": {
+                  "type": "View"
+                },
+                "style": {
+                  "wrap": false
+                }
+              }
+            ],
+            "kind": {
+              "type": "View"
+            },
+            "style": {
+              "flexDirection": "Column",
+              "margin": {
+                "bottom": 0,
+                "left": 0,
+                "right": 0,
+                "top": 0
+              }
+            }
+          }
+        ],
+        "kind": {
+          "config": {
+            "margin": {
+              "bottom": 40,
+              "left": 40,
+              "right": 40,
+              "top": 40
+            },
+            "size": "A4",
+            "wrap": true
+          },
+          "type": "Page"
+        },
+        "style": {}
+      }
+    ],
+    "defaultPage": {
+      "margin": {
+        "bottom": 54,
+        "left": 54,
+        "right": 54,
+        "top": 54
+      },
+      "size": "A4",
+      "wrap": true
+    },
+    "metadata": {}
+  }
+}

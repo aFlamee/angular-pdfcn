@@ -1,0 +1,1207 @@
+{
+  "document": {
+    "children": [
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "children": [],
+                "kind": {
+                  "content": "Job Application",
+                  "type": "Text"
+                },
+                "style": {
+                  "color": {
+                    "a": 1,
+                    "b": 0.10588235294117647,
+                    "g": 0.09411764705882353,
+                    "r": 0.09411764705882353
+                  },
+                  "fontFamily": "Times-Roman",
+                  "fontSize": 22,
+                  "fontWeight": 700,
+                  "lineHeight": 1.25,
+                  "margin": {
+                    "bottom": 4,
+                    "left": 0,
+                    "right": 0,
+                    "top": 0
+                  }
+                }
+              },
+              {
+                "children": [],
+                "kind": {
+                  "content": "Please complete all fields clearly in block capitals.",
+                  "type": "Text"
+                },
+                "style": {
+                  "color": {
+                    "a": 1,
+                    "b": 0.47843137254901963,
+                    "g": 0.44313725490196076,
+                    "r": 0.44313725490196076
+                  },
+                  "fontFamily": "Helvetica",
+                  "fontSize": 12,
+                  "lineHeight": 1.6,
+                  "margin": {
+                    "bottom": 12,
+                    "left": 0,
+                    "right": 0,
+                    "top": 0
+                  }
+                }
+              },
+              {
+                "children": [],
+                "kind": {
+                  "type": "View"
+                },
+                "style": {
+                  "borderColor": {
+                    "bottom": {
+                      "a": 1,
+                      "b": 0.9058823529411765,
+                      "g": 0.8941176470588236,
+                      "r": 0.8941176470588236
+                    },
+                    "left": {
+                      "a": 1,
+                      "b": 0,
+                      "g": 0,
+                      "r": 0
+                    },
+                    "right": {
+                      "a": 1,
+                      "b": 0,
+                      "g": 0,
+                      "r": 0
+                    },
+                    "top": {
+                      "a": 1,
+                      "b": 0,
+                      "g": 0,
+                      "r": 0
+                    }
+                  },
+                  "borderWidth": {
+                    "bottom": 1,
+                    "left": 0,
+                    "right": 0,
+                    "top": 0
+                  },
+                  "margin": {
+                    "bottom": 16,
+                    "left": 0,
+                    "right": 0,
+                    "top": 0
+                  }
+                }
+              },
+              {
+                "children": [
+                  {
+                    "children": [],
+                    "kind": {
+                      "content": "Personal Information",
+                      "type": "Text"
+                    },
+                    "style": {
+                      "color": {
+                        "a": 1,
+                        "b": 0.47843137254901963,
+                        "g": 0.44313725490196076,
+                        "r": 0.44313725490196076
+                      },
+                      "fontFamily": "Helvetica",
+                      "fontSize": 10,
+                      "fontWeight": 600,
+                      "letterSpacing": 0.8,
+                      "lineHeight": 1.2,
+                      "margin": {
+                        "bottom": 12,
+                        "left": 0,
+                        "right": 0,
+                        "top": 0
+                      },
+                      "textTransform": "Uppercase"
+                    }
+                  },
+                  {
+                    "children": [
+                      {
+                        "children": [],
+                        "kind": {
+                          "content": "Full Name",
+                          "type": "Text"
+                        },
+                        "style": {
+                          "color": {
+                            "a": 1,
+                            "b": 0.47843137254901963,
+                            "g": 0.44313725490196076,
+                            "r": 0.44313725490196076
+                          },
+                          "fontFamily": "Helvetica",
+                          "fontSize": 10,
+                          "fontWeight": 500,
+                          "letterSpacing": 0.5,
+                          "lineHeight": 1.2,
+                          "margin": {
+                            "bottom": 4,
+                            "left": 0,
+                            "right": 0,
+                            "top": 0
+                          },
+                          "textTransform": "Uppercase"
+                        }
+                      },
+                      {
+                        "children": [
+                          {
+                            "children": [],
+                            "kind": {
+                              "content": "First and last name",
+                              "type": "Text"
+                            },
+                            "style": {
+                              "color": {
+                                "a": 1,
+                                "b": 0.47843137254901963,
+                                "g": 0.44313725490196076,
+                                "r": 0.44313725490196076
+                              },
+                              "fontFamily": "Helvetica",
+                              "fontSize": 10,
+                              "opacity": 0.14,
+                              "padding": {
+                                "bottom": 0,
+                                "left": 0,
+                                "right": 0,
+                                "top": 2
+                              }
+                            }
+                          }
+                        ],
+                        "kind": {
+                          "type": "View"
+                        },
+                        "style": {
+                          "borderColor": {
+                            "bottom": {
+                              "a": 1,
+                              "b": 0.9058823529411765,
+                              "g": 0.8941176470588236,
+                              "r": 0.8941176470588236
+                            },
+                            "left": {
+                              "a": 1,
+                              "b": 0,
+                              "g": 0,
+                              "r": 0
+                            },
+                            "right": {
+                              "a": 1,
+                              "b": 0,
+                              "g": 0,
+                              "r": 0
+                            },
+                            "top": {
+                              "a": 1,
+                              "b": 0,
+                              "g": 0,
+                              "r": 0
+                            }
+                          },
+                          "borderWidth": {
+                            "bottom": 1,
+                            "left": 0,
+                            "right": 0,
+                            "top": 0
+                          },
+                          "minHeight": {
+                            "Pt": 18
+                          },
+                          "width": {
+                            "Percent": 100
+                          }
+                        }
+                      }
+                    ],
+                    "kind": {
+                      "type": "View"
+                    },
+                    "style": {
+                      "margin": {
+                        "bottom": 12,
+                        "left": 0,
+                        "right": 0,
+                        "top": 0
+                      },
+                      "width": {
+                        "Percent": 100
+                      }
+                    }
+                  },
+                  {
+                    "children": [
+                      {
+                        "children": [],
+                        "kind": {
+                          "content": "Date of Birth",
+                          "type": "Text"
+                        },
+                        "style": {
+                          "color": {
+                            "a": 1,
+                            "b": 0.47843137254901963,
+                            "g": 0.44313725490196076,
+                            "r": 0.44313725490196076
+                          },
+                          "fontFamily": "Helvetica",
+                          "fontSize": 10,
+                          "fontWeight": 500,
+                          "letterSpacing": 0.5,
+                          "lineHeight": 1.2,
+                          "margin": {
+                            "bottom": 4,
+                            "left": 0,
+                            "right": 0,
+                            "top": 0
+                          },
+                          "textTransform": "Uppercase"
+                        }
+                      },
+                      {
+                        "children": [
+                          {
+                            "children": [],
+                            "kind": {
+                              "content": "DD / MM / YYYY",
+                              "type": "Text"
+                            },
+                            "style": {
+                              "color": {
+                                "a": 1,
+                                "b": 0.47843137254901963,
+                                "g": 0.44313725490196076,
+                                "r": 0.44313725490196076
+                              },
+                              "fontFamily": "Helvetica",
+                              "fontSize": 10,
+                              "opacity": 0.14,
+                              "padding": {
+                                "bottom": 0,
+                                "left": 0,
+                                "right": 0,
+                                "top": 2
+                              }
+                            }
+                          }
+                        ],
+                        "kind": {
+                          "type": "View"
+                        },
+                        "style": {
+                          "borderColor": {
+                            "bottom": {
+                              "a": 1,
+                              "b": 0.9058823529411765,
+                              "g": 0.8941176470588236,
+                              "r": 0.8941176470588236
+                            },
+                            "left": {
+                              "a": 1,
+                              "b": 0,
+                              "g": 0,
+                              "r": 0
+                            },
+                            "right": {
+                              "a": 1,
+                              "b": 0,
+                              "g": 0,
+                              "r": 0
+                            },
+                            "top": {
+                              "a": 1,
+                              "b": 0,
+                              "g": 0,
+                              "r": 0
+                            }
+                          },
+                          "borderWidth": {
+                            "bottom": 1,
+                            "left": 0,
+                            "right": 0,
+                            "top": 0
+                          },
+                          "minHeight": {
+                            "Pt": 18
+                          },
+                          "width": {
+                            "Percent": 100
+                          }
+                        }
+                      }
+                    ],
+                    "kind": {
+                      "type": "View"
+                    },
+                    "style": {
+                      "margin": {
+                        "bottom": 12,
+                        "left": 0,
+                        "right": 0,
+                        "top": 0
+                      },
+                      "width": {
+                        "Percent": 100
+                      }
+                    }
+                  },
+                  {
+                    "children": [
+                      {
+                        "children": [],
+                        "kind": {
+                          "content": "Email Address",
+                          "type": "Text"
+                        },
+                        "style": {
+                          "color": {
+                            "a": 1,
+                            "b": 0.47843137254901963,
+                            "g": 0.44313725490196076,
+                            "r": 0.44313725490196076
+                          },
+                          "fontFamily": "Helvetica",
+                          "fontSize": 10,
+                          "fontWeight": 500,
+                          "letterSpacing": 0.5,
+                          "lineHeight": 1.2,
+                          "margin": {
+                            "bottom": 4,
+                            "left": 0,
+                            "right": 0,
+                            "top": 0
+                          },
+                          "textTransform": "Uppercase"
+                        }
+                      },
+                      {
+                        "children": [],
+                        "kind": {
+                          "type": "View"
+                        },
+                        "style": {
+                          "borderColor": {
+                            "bottom": {
+                              "a": 1,
+                              "b": 0.9058823529411765,
+                              "g": 0.8941176470588236,
+                              "r": 0.8941176470588236
+                            },
+                            "left": {
+                              "a": 1,
+                              "b": 0,
+                              "g": 0,
+                              "r": 0
+                            },
+                            "right": {
+                              "a": 1,
+                              "b": 0,
+                              "g": 0,
+                              "r": 0
+                            },
+                            "top": {
+                              "a": 1,
+                              "b": 0,
+                              "g": 0,
+                              "r": 0
+                            }
+                          },
+                          "borderWidth": {
+                            "bottom": 1,
+                            "left": 0,
+                            "right": 0,
+                            "top": 0
+                          },
+                          "minHeight": {
+                            "Pt": 18
+                          },
+                          "width": {
+                            "Percent": 100
+                          }
+                        }
+                      }
+                    ],
+                    "kind": {
+                      "type": "View"
+                    },
+                    "style": {
+                      "margin": {
+                        "bottom": 12,
+                        "left": 0,
+                        "right": 0,
+                        "top": 0
+                      },
+                      "width": {
+                        "Percent": 100
+                      }
+                    }
+                  },
+                  {
+                    "children": [
+                      {
+                        "children": [],
+                        "kind": {
+                          "content": "Phone Number",
+                          "type": "Text"
+                        },
+                        "style": {
+                          "color": {
+                            "a": 1,
+                            "b": 0.47843137254901963,
+                            "g": 0.44313725490196076,
+                            "r": 0.44313725490196076
+                          },
+                          "fontFamily": "Helvetica",
+                          "fontSize": 10,
+                          "fontWeight": 500,
+                          "letterSpacing": 0.5,
+                          "lineHeight": 1.2,
+                          "margin": {
+                            "bottom": 4,
+                            "left": 0,
+                            "right": 0,
+                            "top": 0
+                          },
+                          "textTransform": "Uppercase"
+                        }
+                      },
+                      {
+                        "children": [
+                          {
+                            "children": [],
+                            "kind": {
+                              "content": "+1 (555) 000-0000",
+                              "type": "Text"
+                            },
+                            "style": {
+                              "color": {
+                                "a": 1,
+                                "b": 0.47843137254901963,
+                                "g": 0.44313725490196076,
+                                "r": 0.44313725490196076
+                              },
+                              "fontFamily": "Helvetica",
+                              "fontSize": 10,
+                              "opacity": 0.14,
+                              "padding": {
+                                "bottom": 0,
+                                "left": 0,
+                                "right": 0,
+                                "top": 2
+                              }
+                            }
+                          }
+                        ],
+                        "kind": {
+                          "type": "View"
+                        },
+                        "style": {
+                          "borderColor": {
+                            "bottom": {
+                              "a": 1,
+                              "b": 0.9058823529411765,
+                              "g": 0.8941176470588236,
+                              "r": 0.8941176470588236
+                            },
+                            "left": {
+                              "a": 1,
+                              "b": 0,
+                              "g": 0,
+                              "r": 0
+                            },
+                            "right": {
+                              "a": 1,
+                              "b": 0,
+                              "g": 0,
+                              "r": 0
+                            },
+                            "top": {
+                              "a": 1,
+                              "b": 0,
+                              "g": 0,
+                              "r": 0
+                            }
+                          },
+                          "borderWidth": {
+                            "bottom": 1,
+                            "left": 0,
+                            "right": 0,
+                            "top": 0
+                          },
+                          "minHeight": {
+                            "Pt": 18
+                          },
+                          "width": {
+                            "Percent": 100
+                          }
+                        }
+                      }
+                    ],
+                    "kind": {
+                      "type": "View"
+                    },
+                    "style": {
+                      "margin": {
+                        "bottom": 12,
+                        "left": 0,
+                        "right": 0,
+                        "top": 0
+                      },
+                      "width": {
+                        "Percent": 100
+                      }
+                    }
+                  }
+                ],
+                "kind": {
+                  "type": "View"
+                },
+                "style": {
+                  "margin": {
+                    "bottom": 20,
+                    "left": 0,
+                    "right": 0,
+                    "top": 0
+                  }
+                }
+              },
+              {
+                "children": [
+                  {
+                    "children": [],
+                    "kind": {
+                      "content": "Address",
+                      "type": "Text"
+                    },
+                    "style": {
+                      "color": {
+                        "a": 1,
+                        "b": 0.47843137254901963,
+                        "g": 0.44313725490196076,
+                        "r": 0.44313725490196076
+                      },
+                      "fontFamily": "Helvetica",
+                      "fontSize": 10,
+                      "fontWeight": 600,
+                      "letterSpacing": 0.8,
+                      "lineHeight": 1.2,
+                      "margin": {
+                        "bottom": 12,
+                        "left": 0,
+                        "right": 0,
+                        "top": 0
+                      },
+                      "textTransform": "Uppercase"
+                    }
+                  },
+                  {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "children": [
+                              {
+                                "children": [],
+                                "kind": {
+                                  "content": "Street Address",
+                                  "type": "Text"
+                                },
+                                "style": {
+                                  "color": {
+                                    "a": 1,
+                                    "b": 0.47843137254901963,
+                                    "g": 0.44313725490196076,
+                                    "r": 0.44313725490196076
+                                  },
+                                  "fontFamily": "Helvetica",
+                                  "fontSize": 10,
+                                  "fontWeight": 500,
+                                  "letterSpacing": 0.5,
+                                  "lineHeight": 1.2,
+                                  "margin": {
+                                    "bottom": 4,
+                                    "left": 0,
+                                    "right": 0,
+                                    "top": 0
+                                  },
+                                  "textTransform": "Uppercase"
+                                }
+                              },
+                              {
+                                "children": [],
+                                "kind": {
+                                  "type": "View"
+                                },
+                                "style": {
+                                  "borderColor": {
+                                    "bottom": {
+                                      "a": 1,
+                                      "b": 0.9058823529411765,
+                                      "g": 0.8941176470588236,
+                                      "r": 0.8941176470588236
+                                    },
+                                    "left": {
+                                      "a": 1,
+                                      "b": 0,
+                                      "g": 0,
+                                      "r": 0
+                                    },
+                                    "right": {
+                                      "a": 1,
+                                      "b": 0,
+                                      "g": 0,
+                                      "r": 0
+                                    },
+                                    "top": {
+                                      "a": 1,
+                                      "b": 0,
+                                      "g": 0,
+                                      "r": 0
+                                    }
+                                  },
+                                  "borderWidth": {
+                                    "bottom": 1,
+                                    "left": 0,
+                                    "right": 0,
+                                    "top": 0
+                                  },
+                                  "minHeight": {
+                                    "Pt": 18
+                                  },
+                                  "width": {
+                                    "Percent": 100
+                                  }
+                                }
+                              }
+                            ],
+                            "kind": {
+                              "type": "View"
+                            },
+                            "style": {
+                              "margin": {
+                                "bottom": 12,
+                                "left": 0,
+                                "right": 0,
+                                "top": 0
+                              },
+                              "width": {
+                                "Percent": 100
+                              }
+                            }
+                          },
+                          {
+                            "children": [
+                              {
+                                "children": [],
+                                "kind": {
+                                  "content": "City",
+                                  "type": "Text"
+                                },
+                                "style": {
+                                  "color": {
+                                    "a": 1,
+                                    "b": 0.47843137254901963,
+                                    "g": 0.44313725490196076,
+                                    "r": 0.44313725490196076
+                                  },
+                                  "fontFamily": "Helvetica",
+                                  "fontSize": 10,
+                                  "fontWeight": 500,
+                                  "letterSpacing": 0.5,
+                                  "lineHeight": 1.2,
+                                  "margin": {
+                                    "bottom": 4,
+                                    "left": 0,
+                                    "right": 0,
+                                    "top": 0
+                                  },
+                                  "textTransform": "Uppercase"
+                                }
+                              },
+                              {
+                                "children": [],
+                                "kind": {
+                                  "type": "View"
+                                },
+                                "style": {
+                                  "borderColor": {
+                                    "bottom": {
+                                      "a": 1,
+                                      "b": 0.9058823529411765,
+                                      "g": 0.8941176470588236,
+                                      "r": 0.8941176470588236
+                                    },
+                                    "left": {
+                                      "a": 1,
+                                      "b": 0,
+                                      "g": 0,
+                                      "r": 0
+                                    },
+                                    "right": {
+                                      "a": 1,
+                                      "b": 0,
+                                      "g": 0,
+                                      "r": 0
+                                    },
+                                    "top": {
+                                      "a": 1,
+                                      "b": 0,
+                                      "g": 0,
+                                      "r": 0
+                                    }
+                                  },
+                                  "borderWidth": {
+                                    "bottom": 1,
+                                    "left": 0,
+                                    "right": 0,
+                                    "top": 0
+                                  },
+                                  "minHeight": {
+                                    "Pt": 18
+                                  },
+                                  "width": {
+                                    "Percent": 100
+                                  }
+                                }
+                              }
+                            ],
+                            "kind": {
+                              "type": "View"
+                            },
+                            "style": {
+                              "margin": {
+                                "bottom": 12,
+                                "left": 0,
+                                "right": 0,
+                                "top": 0
+                              },
+                              "width": {
+                                "Percent": 100
+                              }
+                            }
+                          }
+                        ],
+                        "kind": {
+                          "type": "View"
+                        },
+                        "style": {
+                          "flexBasis": {
+                            "Pt": 0
+                          },
+                          "flexGrow": 1,
+                          "flexShrink": 1
+                        }
+                      },
+                      {
+                        "children": [
+                          {
+                            "children": [
+                              {
+                                "children": [],
+                                "kind": {
+                                  "content": "State / Province",
+                                  "type": "Text"
+                                },
+                                "style": {
+                                  "color": {
+                                    "a": 1,
+                                    "b": 0.47843137254901963,
+                                    "g": 0.44313725490196076,
+                                    "r": 0.44313725490196076
+                                  },
+                                  "fontFamily": "Helvetica",
+                                  "fontSize": 10,
+                                  "fontWeight": 500,
+                                  "letterSpacing": 0.5,
+                                  "lineHeight": 1.2,
+                                  "margin": {
+                                    "bottom": 4,
+                                    "left": 0,
+                                    "right": 0,
+                                    "top": 0
+                                  },
+                                  "textTransform": "Uppercase"
+                                }
+                              },
+                              {
+                                "children": [],
+                                "kind": {
+                                  "type": "View"
+                                },
+                                "style": {
+                                  "borderColor": {
+                                    "bottom": {
+                                      "a": 1,
+                                      "b": 0.9058823529411765,
+                                      "g": 0.8941176470588236,
+                                      "r": 0.8941176470588236
+                                    },
+                                    "left": {
+                                      "a": 1,
+                                      "b": 0,
+                                      "g": 0,
+                                      "r": 0
+                                    },
+                                    "right": {
+                                      "a": 1,
+                                      "b": 0,
+                                      "g": 0,
+                                      "r": 0
+                                    },
+                                    "top": {
+                                      "a": 1,
+                                      "b": 0,
+                                      "g": 0,
+                                      "r": 0
+                                    }
+                                  },
+                                  "borderWidth": {
+                                    "bottom": 1,
+                                    "left": 0,
+                                    "right": 0,
+                                    "top": 0
+                                  },
+                                  "minHeight": {
+                                    "Pt": 18
+                                  },
+                                  "width": {
+                                    "Percent": 100
+                                  }
+                                }
+                              }
+                            ],
+                            "kind": {
+                              "type": "View"
+                            },
+                            "style": {
+                              "margin": {
+                                "bottom": 12,
+                                "left": 0,
+                                "right": 0,
+                                "top": 0
+                              },
+                              "width": {
+                                "Percent": 100
+                              }
+                            }
+                          },
+                          {
+                            "children": [
+                              {
+                                "children": [],
+                                "kind": {
+                                  "content": "Postal Code",
+                                  "type": "Text"
+                                },
+                                "style": {
+                                  "color": {
+                                    "a": 1,
+                                    "b": 0.47843137254901963,
+                                    "g": 0.44313725490196076,
+                                    "r": 0.44313725490196076
+                                  },
+                                  "fontFamily": "Helvetica",
+                                  "fontSize": 10,
+                                  "fontWeight": 500,
+                                  "letterSpacing": 0.5,
+                                  "lineHeight": 1.2,
+                                  "margin": {
+                                    "bottom": 4,
+                                    "left": 0,
+                                    "right": 0,
+                                    "top": 0
+                                  },
+                                  "textTransform": "Uppercase"
+                                }
+                              },
+                              {
+                                "children": [],
+                                "kind": {
+                                  "type": "View"
+                                },
+                                "style": {
+                                  "borderColor": {
+                                    "bottom": {
+                                      "a": 1,
+                                      "b": 0.9058823529411765,
+                                      "g": 0.8941176470588236,
+                                      "r": 0.8941176470588236
+                                    },
+                                    "left": {
+                                      "a": 1,
+                                      "b": 0,
+                                      "g": 0,
+                                      "r": 0
+                                    },
+                                    "right": {
+                                      "a": 1,
+                                      "b": 0,
+                                      "g": 0,
+                                      "r": 0
+                                    },
+                                    "top": {
+                                      "a": 1,
+                                      "b": 0,
+                                      "g": 0,
+                                      "r": 0
+                                    }
+                                  },
+                                  "borderWidth": {
+                                    "bottom": 1,
+                                    "left": 0,
+                                    "right": 0,
+                                    "top": 0
+                                  },
+                                  "minHeight": {
+                                    "Pt": 18
+                                  },
+                                  "width": {
+                                    "Percent": 100
+                                  }
+                                }
+                              }
+                            ],
+                            "kind": {
+                              "type": "View"
+                            },
+                            "style": {
+                              "margin": {
+                                "bottom": 12,
+                                "left": 0,
+                                "right": 0,
+                                "top": 0
+                              },
+                              "width": {
+                                "Percent": 100
+                              }
+                            }
+                          }
+                        ],
+                        "kind": {
+                          "type": "View"
+                        },
+                        "style": {
+                          "flexBasis": {
+                            "Pt": 0
+                          },
+                          "flexGrow": 1,
+                          "flexShrink": 1
+                        }
+                      }
+                    ],
+                    "kind": {
+                      "type": "View"
+                    },
+                    "style": {
+                      "flexDirection": "Row",
+                      "gap": 16
+                    }
+                  }
+                ],
+                "kind": {
+                  "type": "View"
+                },
+                "style": {
+                  "margin": {
+                    "bottom": 20,
+                    "left": 0,
+                    "right": 0,
+                    "top": 0
+                  }
+                }
+              },
+              {
+                "children": [
+                  {
+                    "children": [],
+                    "kind": {
+                      "content": "Additional Information",
+                      "type": "Text"
+                    },
+                    "style": {
+                      "color": {
+                        "a": 1,
+                        "b": 0.47843137254901963,
+                        "g": 0.44313725490196076,
+                        "r": 0.44313725490196076
+                      },
+                      "fontFamily": "Helvetica",
+                      "fontSize": 10,
+                      "fontWeight": 600,
+                      "letterSpacing": 0.8,
+                      "lineHeight": 1.2,
+                      "margin": {
+                        "bottom": 12,
+                        "left": 0,
+                        "right": 0,
+                        "top": 0
+                      },
+                      "textTransform": "Uppercase"
+                    }
+                  },
+                  {
+                    "children": [
+                      {
+                        "children": [],
+                        "kind": {
+                          "content": "Cover Letter",
+                          "type": "Text"
+                        },
+                        "style": {
+                          "color": {
+                            "a": 1,
+                            "b": 0.47843137254901963,
+                            "g": 0.44313725490196076,
+                            "r": 0.44313725490196076
+                          },
+                          "fontFamily": "Helvetica",
+                          "fontSize": 10,
+                          "fontWeight": 500,
+                          "letterSpacing": 0.5,
+                          "lineHeight": 1.2,
+                          "margin": {
+                            "bottom": 4,
+                            "left": 0,
+                            "right": 0,
+                            "top": 0
+                          },
+                          "textTransform": "Uppercase"
+                        }
+                      },
+                      {
+                        "children": [],
+                        "kind": {
+                          "type": "View"
+                        },
+                        "style": {
+                          "borderColor": {
+                            "bottom": {
+                              "a": 1,
+                              "b": 0.9058823529411765,
+                              "g": 0.8941176470588236,
+                              "r": 0.8941176470588236
+                            },
+                            "left": {
+                              "a": 1,
+                              "b": 0,
+                              "g": 0,
+                              "r": 0
+                            },
+                            "right": {
+                              "a": 1,
+                              "b": 0,
+                              "g": 0,
+                              "r": 0
+                            },
+                            "top": {
+                              "a": 1,
+                              "b": 0,
+                              "g": 0,
+                              "r": 0
+                            }
+                          },
+                          "borderWidth": {
+                            "bottom": 1,
+                            "left": 0,
+                            "right": 0,
+                            "top": 0
+                          },
+                          "minHeight": {
+                            "Pt": 60
+                          },
+                          "width": {
+                            "Percent": 100
+                          }
+                        }
+                      }
+                    ],
+                    "kind": {
+                      "type": "View"
+                    },
+                    "style": {
+                      "margin": {
+                        "bottom": 12,
+                        "left": 0,
+                        "right": 0,
+                        "top": 0
+                      },
+                      "width": {
+                        "Percent": 100
+                      }
+                    }
+                  }
+                ],
+                "kind": {
+                  "type": "View"
+                },
+                "style": {
+                  "margin": {
+                    "bottom": 20,
+                    "left": 0,
+                    "right": 0,
+                    "top": 0
+                  }
+                }
+              }
+            ],
+            "kind": {
+              "type": "View"
+            },
+            "style": {
+              "margin": {
+                "bottom": 14,
+                "left": 0,
+                "right": 0,
+                "top": 0
+              },
+              "width": {
+                "Percent": 100
+              }
+            }
+          }
+        ],
+        "kind": {
+          "config": {
+            "margin": {
+              "bottom": 40,
+              "left": 40,
+              "right": 40,
+              "top": 40
+            },
+            "size": "A4",
+            "wrap": true
+          },
+          "type": "Page"
+        },
+        "style": {}
+      }
+    ],
+    "defaultPage": {
+      "margin": {
+        "bottom": 54,
+        "left": 54,
+        "right": 54,
+        "top": 54
+      },
+      "size": "A4",
+      "wrap": true
+    },
+    "metadata": {}
+  }
+}

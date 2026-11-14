@@ -1,0 +1,83 @@
+{
+  "node": {
+    "children": [
+      {
+        "attributes": {
+          "data-pdf-page": ""
+        },
+        "children": [
+          {
+            "children": [
+              {
+                "style": {
+                  "borderBottomColor": "#e4e4e7",
+                  "borderBottomStyle": "solid",
+                  "borderBottomWidth": 1.3333333333333333,
+                  "color": "#18181b",
+                  "fontFamily": "Times-Roman",
+                  "fontSize": 20,
+                  "fontWeight": 600,
+                  "lineHeight": 1.25,
+                  "marginBottom": 10.666666666666666,
+                  "paddingBottom": 8
+                },
+                "tagName": "span",
+                "text": "Project Summary",
+                "type": "text"
+              },
+              {
+                "style": {
+                  "color": "#18181b",
+                  "fontFamily": "Helvetica",
+                  "fontSize": 14.666666666666666,
+                  "lineHeight": 1.6,
+                  "marginBottom": 0,
+                  "marginTop": 0
+                },
+                "tagName": "span",
+                "text": "This card groups related content with a title and body area. Use cards to visually separate sections of your PDF document.",
+                "type": "text"
+              }
+            ],
+            "preset": {
+              "display": "block"
+            },
+            "style": {
+              "backgroundColor": "#ffffff",
+              "borderColor": "#e4e4e7",
+              "borderRadius": 2.6666666666666665,
+              "borderStyle": "solid",
+              "borderWidth": 1.3333333333333333,
+              "breakInside": "avoid",
+              "display": "flex",
+              "flexDirection": "column",
+              "marginBottom": 18.666666666666664,
+              "padding": 16
+            },
+            "tagName": "div",
+            "type": "container"
+          }
+        ],
+        "preset": {
+          "display": "block"
+        },
+        "style": {
+          "display": "flex",
+          "flexDirection": "column"
+        },
+        "tagName": "div",
+        "type": "container"
+      }
+    ],
+    "preset": {
+      "display": "block"
+    },
+    "style": {
+      "display": "flex",
+      "flexDirection": "column"
+    },
+    "tagName": "div",
+    "type": "container"
+  },
+  "stylesheets": []
+}

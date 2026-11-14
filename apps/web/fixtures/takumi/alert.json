@@ -1,0 +1,441 @@
+{
+  "node": {
+    "children": [
+      {
+        "attributes": {
+          "data-pdf-page": ""
+        },
+        "children": [
+          {
+            "children": [
+              {
+                "style": {
+                  "color": "#18181b",
+                  "fontFamily": "Times-Roman",
+                  "fontSize": 42.666666666666664,
+                  "fontWeight": 700,
+                  "lineHeight": 1.25,
+                  "marginBottom": 13.333333333333332,
+                  "marginTop": 0
+                },
+                "tagName": "span",
+                "text": "Document Alerts",
+                "type": "text"
+              },
+              {
+                "style": {
+                  "color": "#18181b",
+                  "fontFamily": "Helvetica",
+                  "fontSize": 14.666666666666666,
+                  "lineHeight": 1.6,
+                  "marginBottom": 13.333333333333332,
+                  "marginTop": 0
+                },
+                "tagName": "span",
+                "text": "The PdfAlert component displays callout boxes with different severity levels.",
+                "type": "text"
+              },
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "attributes": {
+                              "height": "21.333333333333332",
+                              "viewBox": "0 0 16 16",
+                              "width": "21.333333333333332"
+                            },
+                            "height": 21.333333333333332,
+                            "src": "<svg height=\"21.333333333333332\" viewBox=\"0 0 16 16\" width=\"21.333333333333332\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"8\" cy=\"8\" r=\"7\" fill=\"none\" stroke=\"#0ea5e9\" stroke-width=\"1.5\"></circle><circle cx=\"8\" cy=\"4.5\" r=\"1\" fill=\"#0ea5e9\"></circle><line x1=\"8\" y1=\"7\" x2=\"8\" y2=\"11.5\" stroke=\"#0ea5e9\" stroke-width=\"1.5\" stroke-linecap=\"round\"></line></svg>",
+                            "tagName": "svg",
+                            "type": "image",
+                            "width": 21.333333333333332
+                          }
+                        ],
+                        "preset": {
+                          "display": "block"
+                        },
+                        "style": {
+                          "alignItems": "center",
+                          "display": "flex",
+                          "flexDirection": "column",
+                          "justifyContent": "flex-start",
+                          "marginRight": 13.333333333333332,
+                          "paddingTop": 2.6666666666666665,
+                          "width": 26.666666666666664
+                        },
+                        "tagName": "div",
+                        "type": "container"
+                      },
+                      {
+                        "children": [
+                          {
+                            "style": {
+                              "color": "#18181b",
+                              "fontFamily": "Times-Roman",
+                              "fontSize": 16,
+                              "fontWeight": 600,
+                              "marginBottom": 5.333333333333333
+                            },
+                            "tagName": "span",
+                            "text": "Information",
+                            "type": "text"
+                          },
+                          {
+                            "style": {
+                              "color": "#71717a",
+                              "fontFamily": "Helvetica",
+                              "fontSize": 16,
+                              "lineHeight": 1.6
+                            },
+                            "tagName": "span",
+                            "text": "This document contains important information about your account.",
+                            "type": "text"
+                          }
+                        ],
+                        "preset": {
+                          "display": "block"
+                        },
+                        "style": {
+                          "display": "flex",
+                          "flex": 1,
+                          "flexDirection": "column"
+                        },
+                        "tagName": "div",
+                        "type": "container"
+                      }
+                    ],
+                    "preset": {
+                      "display": "block"
+                    },
+                    "style": {
+                      "backgroundColor": "#f4f4f5",
+                      "borderLeftColor": "#0ea5e9",
+                      "borderLeftStyle": "solid",
+                      "borderLeftWidth": 5.333333333333333,
+                      "borderRadius": 5.333333333333333,
+                      "breakInside": "avoid",
+                      "display": "flex",
+                      "flexDirection": "row",
+                      "marginBottom": 18.666666666666664,
+                      "padding": 16
+                    },
+                    "tagName": "div",
+                    "type": "container"
+                  },
+                  {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "attributes": {
+                              "height": "21.333333333333332",
+                              "viewBox": "0 0 16 16",
+                              "width": "21.333333333333332"
+                            },
+                            "height": 21.333333333333332,
+                            "src": "<svg height=\"21.333333333333332\" viewBox=\"0 0 16 16\" width=\"21.333333333333332\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"8\" cy=\"8\" r=\"7\" fill=\"none\" stroke=\"#16a34a\" stroke-width=\"1.5\"></circle><path d=\"M5 8 L7 10 L11 6\" fill=\"none\" stroke=\"#16a34a\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path></svg>",
+                            "tagName": "svg",
+                            "type": "image",
+                            "width": 21.333333333333332
+                          }
+                        ],
+                        "preset": {
+                          "display": "block"
+                        },
+                        "style": {
+                          "alignItems": "center",
+                          "display": "flex",
+                          "flexDirection": "column",
+                          "justifyContent": "flex-start",
+                          "marginRight": 13.333333333333332,
+                          "paddingTop": 2.6666666666666665,
+                          "width": 26.666666666666664
+                        },
+                        "tagName": "div",
+                        "type": "container"
+                      },
+                      {
+                        "children": [
+                          {
+                            "style": {
+                              "color": "#18181b",
+                              "fontFamily": "Times-Roman",
+                              "fontSize": 16,
+                              "fontWeight": 600,
+                              "marginBottom": 5.333333333333333
+                            },
+                            "tagName": "span",
+                            "text": "Success",
+                            "type": "text"
+                          },
+                          {
+                            "style": {
+                              "color": "#71717a",
+                              "fontFamily": "Helvetica",
+                              "fontSize": 16,
+                              "lineHeight": 1.6
+                            },
+                            "tagName": "span",
+                            "text": "Your payment has been processed successfully.",
+                            "type": "text"
+                          }
+                        ],
+                        "preset": {
+                          "display": "block"
+                        },
+                        "style": {
+                          "display": "flex",
+                          "flex": 1,
+                          "flexDirection": "column"
+                        },
+                        "tagName": "div",
+                        "type": "container"
+                      }
+                    ],
+                    "preset": {
+                      "display": "block"
+                    },
+                    "style": {
+                      "backgroundColor": "#f4f4f5",
+                      "borderLeftColor": "#16a34a",
+                      "borderLeftStyle": "solid",
+                      "borderLeftWidth": 5.333333333333333,
+                      "borderRadius": 5.333333333333333,
+                      "breakInside": "avoid",
+                      "display": "flex",
+                      "flexDirection": "row",
+                      "marginBottom": 18.666666666666664,
+                      "padding": 16
+                    },
+                    "tagName": "div",
+                    "type": "container"
+                  },
+                  {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "attributes": {
+                              "height": "21.333333333333332",
+                              "viewBox": "0 0 16 16",
+                              "width": "21.333333333333332"
+                            },
+                            "height": 21.333333333333332,
+                            "src": "<svg height=\"21.333333333333332\" viewBox=\"0 0 16 16\" width=\"21.333333333333332\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M8 1.5 L15 14.5 L1 14.5 Z\" fill=\"none\" stroke=\"#d97706\" stroke-width=\"1.5\" stroke-linejoin=\"round\"></path><line x1=\"8\" y1=\"6\" x2=\"8\" y2=\"10\" stroke=\"#d97706\" stroke-width=\"1.5\" stroke-linecap=\"round\"></line><circle cx=\"8\" cy=\"12.5\" r=\"0.75\" fill=\"#d97706\"></circle></svg>",
+                            "tagName": "svg",
+                            "type": "image",
+                            "width": 21.333333333333332
+                          }
+                        ],
+                        "preset": {
+                          "display": "block"
+                        },
+                        "style": {
+                          "alignItems": "center",
+                          "display": "flex",
+                          "flexDirection": "column",
+                          "justifyContent": "flex-start",
+                          "marginRight": 13.333333333333332,
+                          "paddingTop": 2.6666666666666665,
+                          "width": 26.666666666666664
+                        },
+                        "tagName": "div",
+                        "type": "container"
+                      },
+                      {
+                        "children": [
+                          {
+                            "style": {
+                              "color": "#18181b",
+                              "fontFamily": "Times-Roman",
+                              "fontSize": 16,
+                              "fontWeight": 600,
+                              "marginBottom": 5.333333333333333
+                            },
+                            "tagName": "span",
+                            "text": "Warning",
+                            "type": "text"
+                          },
+                          {
+                            "style": {
+                              "color": "#71717a",
+                              "fontFamily": "Helvetica",
+                              "fontSize": 16,
+                              "lineHeight": 1.6
+                            },
+                            "tagName": "span",
+                            "text": "Please review the terms and conditions before proceeding.",
+                            "type": "text"
+                          }
+                        ],
+                        "preset": {
+                          "display": "block"
+                        },
+                        "style": {
+                          "display": "flex",
+                          "flex": 1,
+                          "flexDirection": "column"
+                        },
+                        "tagName": "div",
+                        "type": "container"
+                      }
+                    ],
+                    "preset": {
+                      "display": "block"
+                    },
+                    "style": {
+                      "backgroundColor": "#f4f4f5",
+                      "borderLeftColor": "#d97706",
+                      "borderLeftStyle": "solid",
+                      "borderLeftWidth": 5.333333333333333,
+                      "borderRadius": 5.333333333333333,
+                      "breakInside": "avoid",
+                      "display": "flex",
+                      "flexDirection": "row",
+                      "marginBottom": 18.666666666666664,
+                      "padding": 16
+                    },
+                    "tagName": "div",
+                    "type": "container"
+                  },
+                  {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "attributes": {
+                              "height": "21.333333333333332",
+                              "viewBox": "0 0 16 16",
+                              "width": "21.333333333333332"
+                            },
+                            "height": 21.333333333333332,
+                            "src": "<svg height=\"21.333333333333332\" viewBox=\"0 0 16 16\" width=\"21.333333333333332\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"8\" cy=\"8\" r=\"7\" fill=\"none\" stroke=\"#dc2626\" stroke-width=\"1.5\"></circle><line x1=\"5.5\" y1=\"5.5\" x2=\"10.5\" y2=\"10.5\" stroke=\"#dc2626\" stroke-width=\"1.5\" stroke-linecap=\"round\"></line><line x1=\"10.5\" y1=\"5.5\" x2=\"5.5\" y2=\"10.5\" stroke=\"#dc2626\" stroke-width=\"1.5\" stroke-linecap=\"round\"></line></svg>",
+                            "tagName": "svg",
+                            "type": "image",
+                            "width": 21.333333333333332
+                          }
+                        ],
+                        "preset": {
+                          "display": "block"
+                        },
+                        "style": {
+                          "alignItems": "center",
+                          "display": "flex",
+                          "flexDirection": "column",
+                          "justifyContent": "flex-start",
+                          "marginRight": 13.333333333333332,
+                          "paddingTop": 2.6666666666666665,
+                          "width": 26.666666666666664
+                        },
+                        "tagName": "div",
+                        "type": "container"
+                      },
+                      {
+                        "children": [
+                          {
+                            "style": {
+                              "color": "#18181b",
+                              "fontFamily": "Times-Roman",
+                              "fontSize": 16,
+                              "fontWeight": 600,
+                              "marginBottom": 5.333333333333333
+                            },
+                            "tagName": "span",
+                            "text": "Error",
+                            "type": "text"
+                          },
+                          {
+                            "style": {
+                              "color": "#71717a",
+                              "fontFamily": "Helvetica",
+                              "fontSize": 16,
+                              "lineHeight": 1.6
+                            },
+                            "tagName": "span",
+                            "text": "Missing required fields. Please complete all sections.",
+                            "type": "text"
+                          }
+                        ],
+                        "preset": {
+                          "display": "block"
+                        },
+                        "style": {
+                          "display": "flex",
+                          "flex": 1,
+                          "flexDirection": "column"
+                        },
+                        "tagName": "div",
+                        "type": "container"
+                      }
+                    ],
+                    "preset": {
+                      "display": "block"
+                    },
+                    "style": {
+                      "backgroundColor": "#f4f4f5",
+                      "borderLeftColor": "#dc2626",
+                      "borderLeftStyle": "solid",
+                      "borderLeftWidth": 5.333333333333333,
+                      "borderRadius": 5.333333333333333,
+                      "breakInside": "avoid",
+                      "display": "flex",
+                      "flexDirection": "row",
+                      "marginBottom": 18.666666666666664,
+                      "padding": 16
+                    },
+                    "tagName": "div",
+                    "type": "container"
+                  }
+                ],
+                "preset": {
+                  "display": "block"
+                },
+                "style": {
+                  "display": "flex",
+                  "flexDirection": "column",
+                  "marginBottom": 37.33333333333333,
+                  "marginTop": 37.33333333333333
+                },
+                "tagName": "div",
+                "type": "container"
+              }
+            ],
+            "preset": {
+              "display": "block"
+            },
+            "style": {
+              "display": "flex",
+              "flexDirection": "column",
+              "marginBottom": 0,
+              "marginTop": 0
+            },
+            "tagName": "div",
+            "type": "container"
+          }
+        ],
+        "preset": {
+          "display": "block"
+        },
+        "style": {
+          "display": "flex",
+          "flexDirection": "column"
+        },
+        "tagName": "div",
+        "type": "container"
+      }
+    ],
+    "preset": {
+      "display": "block"
+    },
+    "style": {
+      "display": "flex",
+      "flexDirection": "column"
+    },
+    "tagName": "div",
+    "type": "container"
+  },
+  "stylesheets": []
+}

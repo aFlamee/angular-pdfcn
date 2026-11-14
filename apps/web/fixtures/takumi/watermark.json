@@ -1,0 +1,137 @@
+{
+  "node": {
+    "children": [
+      {
+        "attributes": {
+          "data-pdf-page": ""
+        },
+        "children": [
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "style": {
+                      "color": "#71717a",
+                      "fontFamily": "Times-Roman",
+                      "fontSize": 80,
+                      "fontWeight": 700,
+                      "letterSpacing": 5.333333333333333,
+                      "opacity": 0.15,
+                      "textTransform": "uppercase",
+                      "transform": "rotate(-45deg)"
+                    },
+                    "tagName": "span",
+                    "text": "DRAFT",
+                    "type": "text"
+                  }
+                ],
+                "preset": {
+                  "display": "block"
+                },
+                "style": {
+                  "alignItems": "center",
+                  "bottom": 0,
+                  "display": "flex",
+                  "flexDirection": "column",
+                  "justifyContent": "center",
+                  "left": 0,
+                  "pointerEvents": "none",
+                  "position": "fixed",
+                  "right": 0,
+                  "top": 0,
+                  "zIndex": -1
+                },
+                "tagName": "div",
+                "type": "container"
+              },
+              {
+                "style": {
+                  "color": "#18181b",
+                  "fontFamily": "Times-Roman",
+                  "fontSize": 42.666666666666664,
+                  "fontWeight": 700,
+                  "lineHeight": 1.25,
+                  "marginBottom": 13.333333333333332,
+                  "marginTop": 0
+                },
+                "tagName": "span",
+                "text": "Draft Document",
+                "type": "text"
+              },
+              {
+                "style": {
+                  "color": "#18181b",
+                  "fontFamily": "Helvetica",
+                  "fontSize": 14.666666666666666,
+                  "lineHeight": 1.6,
+                  "marginBottom": 13.333333333333332,
+                  "marginTop": 0
+                },
+                "tagName": "span",
+                "text": "This report is under review and should not be distributed externally.",
+                "type": "text"
+              },
+              {
+                "style": {
+                  "color": "#18181b",
+                  "fontFamily": "Helvetica",
+                  "fontSize": 14.666666666666666,
+                  "lineHeight": 1.6,
+                  "marginBottom": 13.333333333333332,
+                  "marginTop": 0
+                },
+                "tagName": "span",
+                "text": "The watermark sits behind the content while remaining clearly visible.",
+                "type": "text"
+              },
+              {
+                "style": {
+                  "color": "#18181b",
+                  "fontFamily": "Helvetica",
+                  "fontSize": 14.666666666666666,
+                  "lineHeight": 1.6,
+                  "marginBottom": 13.333333333333332,
+                  "marginTop": 0
+                },
+                "tagName": "span",
+                "text": "Use watermarks for draft, confidential, sample, or approval states.",
+                "type": "text"
+              }
+            ],
+            "preset": {
+              "display": "block"
+            },
+            "style": {
+              "display": "flex",
+              "flexDirection": "column",
+              "minHeight": 906.6666666666666,
+              "position": "relative"
+            },
+            "tagName": "div",
+            "type": "container"
+          }
+        ],
+        "preset": {
+          "display": "block"
+        },
+        "style": {
+          "display": "flex",
+          "flexDirection": "column"
+        },
+        "tagName": "div",
+        "type": "container"
+      }
+    ],
+    "preset": {
+      "display": "block"
+    },
+    "style": {
+      "display": "flex",
+      "flexDirection": "column"
+    },
+    "tagName": "div",
+    "type": "container"
+  },
+  "stylesheets": []
+}

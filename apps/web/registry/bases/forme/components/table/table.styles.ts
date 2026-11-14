@@ -1,5 +1,4 @@
-import { StyleSheet } from "@formepdf/react";
-
+import { StyleSheet } from "@/registry/bases/forme/lib/pdf-primitives";
 import type { PdfcnTheme } from "@/registry/types/pdf-themes";
 
 /**

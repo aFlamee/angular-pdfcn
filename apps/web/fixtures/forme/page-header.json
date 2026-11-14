@@ -1,0 +1,274 @@
+{
+  "document": {
+    "children": [
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "children": [],
+                        "kind": {
+                          "content": "Invoice #1042",
+                          "type": "Text"
+                        },
+                        "style": {
+                          "color": {
+                            "a": 1,
+                            "b": 0.10588235294117647,
+                            "g": 0.09411764705882353,
+                            "r": 0.09411764705882353
+                          },
+                          "fontFamily": "Times-Roman",
+                          "fontSize": 20,
+                          "fontWeight": 700,
+                          "lineHeight": 1.25,
+                          "margin": {
+                            "bottom": 0,
+                            "left": 0,
+                            "right": 0,
+                            "top": 0
+                          }
+                        }
+                      },
+                      {
+                        "children": [],
+                        "kind": {
+                          "content": "Acme Corp",
+                          "type": "Text"
+                        },
+                        "style": {
+                          "color": {
+                            "a": 1,
+                            "b": 0.47843137254901963,
+                            "g": 0.44313725490196076,
+                            "r": 0.44313725490196076
+                          },
+                          "fontFamily": "Helvetica",
+                          "fontSize": 11,
+                          "lineHeight": 1.6,
+                          "margin": {
+                            "bottom": 0,
+                            "left": 0,
+                            "right": 0,
+                            "top": 4
+                          }
+                        }
+                      }
+                    ],
+                    "kind": {
+                      "type": "View"
+                    },
+                    "style": {
+                      "display": "Flex",
+                      "flexBasis": {
+                        "Pt": 0
+                      },
+                      "flexDirection": "Column",
+                      "flexGrow": 1,
+                      "flexShrink": 1
+                    }
+                  },
+                  {
+                    "children": [
+                      {
+                        "children": [],
+                        "kind": {
+                          "content": "March 2026",
+                          "type": "Text"
+                        },
+                        "style": {
+                          "color": {
+                            "a": 1,
+                            "b": 0.10588235294117647,
+                            "g": 0.09411764705882353,
+                            "r": 0.09411764705882353
+                          },
+                          "fontFamily": "Helvetica",
+                          "fontSize": 11,
+                          "fontWeight": 500,
+                          "textAlign": "Right"
+                        }
+                      },
+                      {
+                        "children": [],
+                        "kind": {
+                          "content": "Due: 2026-03-31",
+                          "type": "Text"
+                        },
+                        "style": {
+                          "color": {
+                            "a": 1,
+                            "b": 0.47843137254901963,
+                            "g": 0.44313725490196076,
+                            "r": 0.44313725490196076
+                          },
+                          "fontFamily": "Helvetica",
+                          "fontSize": 10,
+                          "margin": {
+                            "bottom": 0,
+                            "left": 0,
+                            "right": 0,
+                            "top": 4
+                          },
+                          "textAlign": "Right"
+                        }
+                      }
+                    ],
+                    "kind": {
+                      "type": "View"
+                    },
+                    "style": {
+                      "alignItems": "FlexEnd",
+                      "display": "Flex",
+                      "flexDirection": "Column"
+                    }
+                  }
+                ],
+                "kind": {
+                  "type": "View"
+                },
+                "style": {
+                  "alignItems": "FlexStart",
+                  "borderColor": {
+                    "bottom": {
+                      "a": 1,
+                      "b": 0.9058823529411765,
+                      "g": 0.8941176470588236,
+                      "r": 0.8941176470588236
+                    },
+                    "left": {
+                      "a": 1,
+                      "b": 0,
+                      "g": 0,
+                      "r": 0
+                    },
+                    "right": {
+                      "a": 1,
+                      "b": 0,
+                      "g": 0,
+                      "r": 0
+                    },
+                    "top": {
+                      "a": 1,
+                      "b": 0,
+                      "g": 0,
+                      "r": 0
+                    }
+                  },
+                  "borderWidth": {
+                    "bottom": 2,
+                    "left": 0,
+                    "right": 0,
+                    "top": 0
+                  },
+                  "display": "Flex",
+                  "flexDirection": "Row",
+                  "justifyContent": "SpaceBetween",
+                  "margin": {
+                    "bottom": 28,
+                    "left": 0,
+                    "right": 0,
+                    "top": 0
+                  },
+                  "padding": {
+                    "bottom": 16,
+                    "left": 0,
+                    "right": 0,
+                    "top": 0
+                  },
+                  "wrap": false
+                }
+              },
+              {
+                "children": [],
+                "kind": {
+                  "content": "Prepared for Northwind Industries",
+                  "type": "Text"
+                },
+                "style": {
+                  "color": {
+                    "a": 1,
+                    "b": 0.3333333333333333,
+                    "g": 0.3333333333333333,
+                    "r": 0.3333333333333333
+                  },
+                  "fontFamily": "Helvetica",
+                  "fontSize": 10,
+                  "lineHeight": 1.6,
+                  "margin": {
+                    "bottom": 6,
+                    "left": 0,
+                    "right": 0,
+                    "top": 0
+                  }
+                }
+              },
+              {
+                "children": [],
+                "kind": {
+                  "content": "This document demonstrates the simple page header variant.",
+                  "type": "Text"
+                },
+                "style": {
+                  "color": {
+                    "a": 1,
+                    "b": 0.3333333333333333,
+                    "g": 0.3333333333333333,
+                    "r": 0.3333333333333333
+                  },
+                  "fontFamily": "Helvetica",
+                  "fontSize": 10,
+                  "lineHeight": 1.6,
+                  "margin": {
+                    "bottom": 6,
+                    "left": 0,
+                    "right": 0,
+                    "top": 0
+                  }
+                }
+              }
+            ],
+            "kind": {
+              "type": "View"
+            },
+            "style": {}
+          }
+        ],
+        "kind": {
+          "config": {
+            "margin": {
+              "bottom": 30,
+              "left": 30,
+              "right": 30,
+              "top": 30
+            },
+            "size": {
+              "Custom": {
+                "height": 240,
+                "width": 595
+              }
+            },
+            "wrap": true
+          },
+          "type": "Page"
+        },
+        "style": {}
+      }
+    ],
+    "defaultPage": {
+      "margin": {
+        "bottom": 54,
+        "left": 54,
+        "right": 54,
+        "top": 54
+      },
+      "size": "A4",
+      "wrap": true
+    },
+    "metadata": {}
+  }
+}
