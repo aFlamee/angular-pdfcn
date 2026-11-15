@@ -14,6 +14,8 @@ export default defineConfig({
     analog({
       nitro: {
         alias: { "@": import.meta.dirname },
+        // Plain static files on every host. vercel.json also clears VERCEL, which Analog checks.
+        preset: "static",
       },
       prerender: { routes: prerenderRoutes },
       static: true,
