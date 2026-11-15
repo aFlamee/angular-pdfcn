@@ -1,0 +1,65 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "buildCommand": "pnpm build",
+  "framework": null,
+  "outputDirectory": "dist/analog/public",
+  "redirects": [
+    {
+      "destination": "/docs.md",
+      "permanent": true,
+      "source": "/docs.mdx"
+    },
+    {
+      "destination": "/docs/:path*.md",
+      "permanent": true,
+      "source": "/docs/:path*.mdx"
+    },
+    {
+      "destination": "/docs/theming/takumi",
+      "permanent": true,
+      "source": "/docs/theming"
+    },
+    {
+      "destination": "/theme-builder/takumi",
+      "permanent": false,
+      "source": "/theme-builder"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/",
+      "headers": [
+        {
+          "key": "Link",
+          "value": "</.well-known/api-catalog>; rel=\"api-catalog\", </openapi.json>; rel=\"service-desc\", </docs>; rel=\"service-doc\", <https://ui.shadcn.com/docs/mcp>; rel=\"service-doc\"; title=\"shadcn MCP server\", </.well-known/agent-skills/index.json>; rel=\"describedby\""
+        }
+      ]
+    },
+    {
+      "source": "/api/status",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "application/json"
+        },
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=60"
+        }
+      ]
+    },
+    {
+      "source": "/.well-known/api-catalog",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "application/linkset+json; profile=\"https://www.rfc-editor.org/info/rfc9727\""
+        },
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=3600"
+        }
+      ]
+    }
+  ]
+}

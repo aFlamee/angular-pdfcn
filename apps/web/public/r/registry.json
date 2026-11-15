@@ -1,6 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry.json",
-  "homepage": "https://github.com/aFlamee/angular-pdfcn",
+  "homepage": "https://pdfcn-angular.com",
   "items": [
     {
       "dependencies": ["takumi-pdf@^0.11.0", "@takumi-rs/helpers@^2.10.0"],

@@ -10,8 +10,8 @@ import remarkGfm from "remark-gfm";
 import remarkParse from "remark-parse";
 import { unified } from "unified";
 
+import { SITE } from "../../constants/site";
 import { componentsJson, TSCONFIG_PATHS } from "../install";
-import { buildSiteUrl } from "../site-url";
 
 export const parseMarkdown = (body: string) =>
   unified()
@@ -34,7 +34,7 @@ export const directiveAttributes = (
 
 /** `::components-json`: the one-time `components.json` for this site's registry. */
 export const componentsJsonCode = () =>
-  JSON.stringify(componentsJson(buildSiteUrl()), null, 2);
+  JSON.stringify(componentsJson(SITE.URL), null, 2);
 
 /** `::tsconfig-paths`: the `tsconfig.json` entry for the `@/` imports. */
 export const tsconfigPathsCode = () =>

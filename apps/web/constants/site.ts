@@ -1,5 +1,4 @@
-/** Set `SITE_URL` at build time. Vite and Nitro both replace this value. */
-const baseUrl: string = import.meta.env.SITE_URL;
+const baseUrl = "https://pdfcn-angular.com";
 
 export const SITE = {
   DESCRIPTION: {

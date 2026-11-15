@@ -38,7 +38,7 @@ Each base has the same components (text, tables, key-value lists, charts, QR cod
        "utils": "@/lib/utils"
      },
      "registries": {
-       "@angular-pdfcn": "https://raw.githubusercontent.com/aFlamee/angular-pdfcn/main/apps/web/public/r/{name}.json"
+       "@angular-pdfcn": "https://pdfcn-angular.com/r/{name}.json"
      },
      "rsc": false,
      "style": "new-york",
