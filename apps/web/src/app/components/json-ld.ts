@@ -8,14 +8,14 @@ import {
   input,
 } from "@angular/core";
 
-import { LINK, ORIGINAL } from "@/constants/links";
+import { LINK, ORIGINAL, OWNER } from "@/constants/links";
 import { ROUTES } from "@/constants/routes";
 import { SITE } from "@/constants/site";
 
-const ORIGINAL_AUTHOR = {
+const AUTHOR = {
   "@type": "Person",
-  name: ORIGINAL.AUTHOR,
-  url: ORIGINAL.AUTHOR_URL,
+  name: OWNER.NAME,
+  url: OWNER.URL,
 };
 
 const SITE_JSON_LD: Record<string, Record<string, unknown>> = {
@@ -31,7 +31,7 @@ const SITE_JSON_LD: Record<string, Record<string, unknown>> = {
     "@context": "https://schema.org",
     "@type": "SoftwareSourceCode",
     applicationCategory: "DeveloperApplication",
-    author: ORIGINAL_AUTHOR,
+    author: AUTHOR,
     codeRepository: LINK.GITHUB,
     description: SITE.DESCRIPTION.LONG,
     isAccessibleForFree: true,
