@@ -2,9 +2,8 @@ import { ChangeDetectionStrategy, Component } from "@angular/core";
 import { RouterLink } from "@angular/router";
 
 import { ROUTES } from "@/constants/routes";
-import { BrandContextMenu } from "@/src/app/components/brand-context-menu";
+import { SITE } from "@/constants/site";
 import { CommandMenu } from "@/src/app/components/command-menu";
-import { LabsNav } from "@/src/app/components/labs-nav";
 import { LogoMark } from "@/src/app/components/logo";
 import { MainNav } from "@/src/app/components/main-nav";
 import type { NavItem } from "@/src/app/components/main-nav";
@@ -26,9 +25,7 @@ const NAV_ITEMS: NavItem[] = [
   changeDetection: ChangeDetectionStrategy.OnPush,
   host: { class: "contents" },
   imports: [
-    BrandContextMenu,
     CommandMenu,
-    LabsNav,
     LogoMark,
     MainNav,
     MobileNav,
@@ -54,20 +51,22 @@ const NAV_ITEMS: NavItem[] = [
             class="flex lg:hidden mr-2"
           />
           <div class="flex items-center">
-            <app-brand-context-menu>
-              <a
-                uiButton
-                variant="ghost"
-                size="icon-sm"
-                class="hover:bg-transparent focus-visible:bg-transparent dark:hover:bg-transparent lg:size-9"
-                sound="click"
-                [routerLink]="ROUTES.HOME"
-              >
-                <svg appLogoMark class="size-5"></svg>
-              </a>
-            </app-brand-context-menu>
+            <a
+              uiButton
+              variant="ghost"
+              size="icon-sm"
+              class="hover:bg-transparent focus-visible:bg-transparent dark:hover:bg-transparent lg:size-9"
+              sound="click"
+              [routerLink]="ROUTES.HOME"
+            >
+              <svg appLogoMark class="size-5"></svg>
+            </a>
             <span class="text-muted-foreground/50 ml-1">/</span>
-            <app-labs-nav />
+            <a
+              class="px-3 py-1.5 text-base font-medium"
+              [routerLink]="ROUTES.HOME"
+              >{{ SITE.NAME }}</a
+            >
           </div>
           <nav appMainNav [items]="navItems" class="hidden lg:flex"></nav>
           <div
@@ -87,6 +86,7 @@ const NAV_ITEMS: NavItem[] = [
 })
 export class SiteHeader {
   protected readonly ROUTES = ROUTES;
+  protected readonly SITE = SITE;
   protected readonly navItems = NAV_ITEMS;
   protected readonly tree = tree;
 }

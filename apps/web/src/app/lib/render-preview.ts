@@ -2,23 +2,14 @@
 import type { Type } from "@angular/core";
 import takumiWasmUrl from "takumi-pdf/wasm-url";
 
+import { replacePreviewImageSources } from "@/examples/preview-assets";
 import type { BaseName } from "@/lib/content/types";
-import { replacePreviewImageSources } from "@/lib/preview/preview-assets";
 import { getTakumiPreviewOptions } from "@/lib/preview/preview-config";
 import {
   getPreviewFontUrls,
   getPreviewFonts,
 } from "@/lib/theme-builder/preview-fonts";
-import { PdfElement } from "@/registry/lib/pdf-renderer";
 import type { PdfcnTheme } from "@/registry/themes";
-
-// With client hydration on, Angular reads `ngh` from every created host element.
-// Remove once `PdfElement` in the registry implements `getAttribute`.
-Object.assign(PdfElement.prototype, {
-  getAttribute(this: PdfElement, name: string) {
-    return this.attributes[name] ?? null;
-  },
-});
 
 const PREVIEW_LOGO_PATH = "/favicon.png";
 

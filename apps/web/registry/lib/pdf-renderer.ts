@@ -28,6 +28,11 @@ export class PdfElement {
     this.name = name;
     this.namespace = namespace;
   }
+
+  /** Angular reads hydration markers through this in apps with client hydration. */
+  getAttribute(name: string): string | null {
+    return this.attributes[name] ?? null;
+  }
 }
 
 export class PdfTextNode {

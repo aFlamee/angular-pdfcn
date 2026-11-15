@@ -36,7 +36,7 @@ const createSound = (source: string) => {
   host: {
     "[class]": "classes()",
     "aria-label":
-      "Page not found. Interactive Breakout game built from the Shadcn Labs logo. Click or press Space to launch, then use the pointer or arrow keys to move.",
+      "Page not found. Interactive Breakout game built from the angular-pdfcn logo. Click or press Space to launch, then use the pointer or arrow keys to move.",
     height: `${CANVAS_HEIGHT}`,
     tabindex: "0",
     width: `${CANVAS_WIDTH}`,

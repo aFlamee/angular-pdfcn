@@ -2,17 +2,17 @@ import { getLogoMarkSVG } from "@/src/app/components/logo";
 
 import { LOGO_COLUMNS, LOGO_ROWS } from "./constants";
 
-const SHADCN_LABS_FALLBACK = [
-  "..X.....X..",
-  ".X..XXX..X.",
-  "X..X......X",
-  "X..X......X",
-  "X...XXX...X",
-  "X.....X...X",
-  "X.....X...X",
-  "X..X..X...X",
-  ".X..XXX..X.",
-  "..X.....X..",
+const FALLBACK = [
+  ".XXXXXXXXX.",
+  "XXXXXXXXXXX",
+  "XX.XXX..XXX",
+  "X.X.XX.X.XX",
+  "X...XX..XXX",
+  "X.X.XX.XXXX",
+  "X.X.XX.XXXX",
+  "XXXXXXXXXXX",
+  "XXXXXXXXXXX",
+  ".XXXXXXXXX.",
 ];
 
 const sampleLogo = async () => {
@@ -28,7 +28,7 @@ const sampleLogo = async () => {
 
   const context = sample.getContext("2d", { willReadFrequently: true });
   if (!context) {
-    return SHADCN_LABS_FALLBACK;
+    return FALLBACK;
   }
 
   context.drawImage(image, 0, 0, LOGO_COLUMNS, LOGO_ROWS);
@@ -46,8 +46,8 @@ export const loadLogoPattern = async () => {
   try {
     const pattern = await sampleLogo();
     const brickCount = pattern.join("").replaceAll(".", "").length;
-    return brickCount > 20 ? pattern : SHADCN_LABS_FALLBACK;
+    return brickCount > 20 ? pattern : FALLBACK;
   } catch {
-    return SHADCN_LABS_FALLBACK;
+    return FALLBACK;
   }
 };
