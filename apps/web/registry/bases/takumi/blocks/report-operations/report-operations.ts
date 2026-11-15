@@ -80,7 +80,7 @@ const sampleOperationsData: BaseReportData = {
 
 @Component({
   imports: [ReportTemplateFrame],
-  selector: "pdf-operations-report",
+  selector: "pdf-report-operations",
   template: `
     <pdf-report-template-frame
       [theme]="theme()"

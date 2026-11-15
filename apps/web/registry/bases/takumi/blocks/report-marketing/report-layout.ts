@@ -1,11 +1,4 @@
-import { NgTemplateOutlet } from "@angular/common";
-import {
-  booleanAttribute,
-  Component,
-  computed,
-  input,
-  viewChild,
-} from "@angular/core";
+import { Component, booleanAttribute, computed, input } from "@angular/core";
 import type { TemplateRef } from "@angular/core";
 
 import { PdfBadge } from "@/registry/bases/takumi/components/badge/badge";
@@ -86,11 +79,9 @@ const reportLayout = (
     graphVariant,
     graphLegend = "none",
     graphShowValues = false,
-    graphColors,
     graphData,
     statusTone,
-  }: ReportLayoutProps,
-  renderProgress: TemplateRef<DataTableCellContext<ReportRow>> | undefined
+  }: ReportLayoutProps
 ) => {
   const accent = toneColor(theme, statusTone);
   const deliveryOffset: Record<ReportGraphVariant, number> = {
@@ -186,46 +177,19 @@ const reportLayout = (
     },
   });
 
-  const columns: DataTableColumn<ReportRow>[] = [
-    { header: "Stream", key: "label" },
-    { header: "Owner", key: "owner" },
-    { align: "center", header: "Status", key: "status" },
-    {
-      align: "right",
-      header: "Progress",
-      key: "progress",
-      render: renderProgress,
-    },
-    { align: "right", header: "Risk", key: "risk" },
-  ];
+  const avgProgress = Math.round(
+    data.rows.reduce((sum, row) => sum + row.progress, 0) /
+      Math.max(data.rows.length, 1)
+  );
 
   return {
-    columns,
     deliveryStyle: {
       position: "relative" as const,
       top: deliveryOffset[graphVariant],
     },
-    footer: {
-      label: "Totals",
-      owner: "-",
-      progress: Math.round(
-        data.rows.reduce((sum, row) => sum + row.progress, 0) /
-          Math.max(data.rows.length, 1)
-      ),
-      risk: "-",
-      status: "-",
-    },
-    graph: {
-      data: graphData ?? data.series,
-      height: graphHeight[graphVariant],
-      legend: graphLegend,
-      showGrid: graphVariant !== "pie" && graphVariant !== "donut",
-      showValues: graphShowValues,
-      smooth: graphVariant === "line" || graphVariant === "area",
-    },
-    graphColors,
-    graphSectionStyle:
-      graphVariant === "horizontal-bar" ? { marginTop: -6 } : undefined,
+    graphData: graphData ?? data.series,
+    graphHeight: graphHeight[graphVariant],
+    graphLegend,
     graphShellStyle: [
       styles.graphShell,
       {
@@ -234,11 +198,22 @@ const reportLayout = (
         top: graphOffset[graphVariant],
       },
     ],
+    graphShowValues,
     highlights: data.highlights.map((item) => ({
       checked: true,
       text: item,
     })),
-    keyValues: [
+    metrics: data.summary.map((metric) => ({
+      cardStyle: [
+        styles.metricCard,
+        {
+          borderLeftColor: metric.tone ? toneColor(theme, metric.tone) : accent,
+          borderLeftWidth: 3,
+        },
+      ],
+      metric,
+    })),
+    riskItems: [
       {
         key: "Open Risks",
         value: `${data.rows.filter((r) => r.risk !== "Low").length}`,
@@ -249,30 +224,41 @@ const reportLayout = (
       },
       {
         key: "Avg Progress",
-        value: `${Math.round(
-          data.rows.reduce((sum, row) => sum + row.progress, 0) /
-            Math.max(data.rows.length, 1)
-        )}%`,
+        value: `${avgProgress}%`,
       },
     ],
-    metrics: data.summary.map((metric) => ({
-      metric,
-      style: [
-        styles.metricCard,
-        {
-          borderLeftColor: metric.tone ? toneColor(theme, metric.tone) : accent,
-          borderLeftWidth: 3,
-        },
-      ],
-    })),
-    pagePadding: theme.spacing.page.marginLeft,
+    rowsFooter: {
+      label: "Totals",
+      owner: "-",
+      progress: avgProgress,
+      risk: "-",
+      status: "-",
+    },
+    sectionStyle:
+      graphVariant === "horizontal-bar" ? { marginTop: -6 } : undefined,
+    showGrid: graphVariant !== "pie" && graphVariant !== "donut",
+    smooth: graphVariant === "line" || graphVariant === "area",
     styles,
   };
 };
 
+const deliveryColumns = (
+  progress: TemplateRef<DataTableCellContext<ReportRow>>
+): DataTableColumn<ReportRow>[] => [
+  { header: "Stream", key: "label" },
+  { header: "Owner", key: "owner" },
+  { align: "center", header: "Status", key: "status" },
+  {
+    align: "right",
+    header: "Progress",
+    key: "progress",
+    render: progress,
+  },
+  { align: "right", header: "Risk", key: "risk" },
+];
+
 @Component({
   imports: [
-    NgTemplateOutlet,
     PdfBadge,
     PdfDataTable,
     PdfGraph,
@@ -292,18 +278,10 @@ const reportLayout = (
     @let data = this.data();
     @let l = layout();
     @let styles = l.styles;
-    <ng-template #progress let-value>{{ progressText(value) }}</ng-template>
-    <ng-template #pageNumber><pdf-page-number size="xs" /></ng-template>
-    <ng-template #footer>
-      <pdf-page-footer
-        variant="three-column"
-        leftText="Confidential — Internal Use"
-        centerText="Generated with pdfcn"
-        [rightText]="pageNumber"
-        sticky
-        [pagePadding]="l.pagePadding"
-      />
+    <ng-template #pageNumber>
+      <pdf-page-number size="xs" />
     </ng-template>
+    <ng-template #progress let-value>{{ value }}%</ng-template>
     <takumi-document [title]="titlePrefix() + ' ' + data.period">
       <takumi-page size="A4" [style]="[styles.page, styles.pageBreak]">
         <pdf-page-header
@@ -332,7 +310,7 @@ const reportLayout = (
           >
           <takumi-view [style]="styles.metricsGrid">
             @for (card of l.metrics; track card.metric.label) {
-              <takumi-view [style]="card.style">
+              <takumi-view [style]="card.cardStyle">
                 <pdf-text [style]="styles.metricLabel" noMargin>{{
                   card.metric.label
                 }}</pdf-text>
@@ -351,28 +329,35 @@ const reportLayout = (
           </takumi-view>
         </pdf-section>
 
-        <ng-container *ngTemplateOutlet="footer" />
+        <pdf-page-footer
+          variant="three-column"
+          leftText="Confidential — Internal Use"
+          centerText="Generated with pdfcn"
+          [rightText]="pageNumber"
+          sticky
+          [pagePadding]="theme().spacing.page.marginLeft"
+        />
       </takumi-page>
 
       <takumi-page size="A4" [style]="[styles.page, styles.pageBreak]">
-        <pdf-section padding="md" noWrap [style]="l.graphSectionStyle">
+        <pdf-section padding="md" noWrap [style]="l.sectionStyle">
           <pdf-text variant="sm" transform="uppercase" color="mutedForeground"
             >Performance Trend</pdf-text
           >
           <takumi-view [style]="l.graphShellStyle">
             <pdf-graph
               [variant]="graphVariant()"
-              [data]="l.graph.data"
+              [data]="l.graphData"
               [title]="graphTitle()"
               [subtitle]="graphSubtitle()"
               [yLabel]="undefined"
               [xLabel]="undefined"
-              [showGrid]="l.graph.showGrid"
-              [showValues]="l.graph.showValues"
-              [smooth]="l.graph.smooth"
-              [legend]="l.graph.legend"
-              [height]="l.graph.height"
-              [colors]="l.graphColors"
+              [showGrid]="l.showGrid"
+              [showValues]="l.graphShowValues"
+              [smooth]="l.smooth"
+              [legend]="l.graphLegend"
+              [height]="l.graphHeight"
+              [colors]="graphColors()"
               fullWidth
               [containerPadding]="12"
               [wrapperPadding]="12"
@@ -389,13 +374,20 @@ const reportLayout = (
             variant="compact"
             size="compact"
             stripe
-            [columns]="l.columns"
+            [columns]="deliveryColumns(progress)"
             [data]="data.rows"
-            [footer]="l.footer"
+            [footer]="l.rowsFooter"
           />
         </pdf-section>
 
-        <ng-container *ngTemplateOutlet="footer" />
+        <pdf-page-footer
+          variant="three-column"
+          leftText="Confidential — Internal Use"
+          centerText="Generated with pdfcn"
+          [rightText]="pageNumber"
+          sticky
+          [pagePadding]="theme().spacing.page.marginLeft"
+        />
       </takumi-page>
 
       <takumi-page size="A4" [style]="styles.page">
@@ -408,12 +400,19 @@ const reportLayout = (
               <pdf-list variant="checklist" [items]="l.highlights" gap="sm" />
             </takumi-view>
             <takumi-view [style]="styles.col">
-              <pdf-key-value size="sm" divided [items]="l.keyValues" />
+              <pdf-key-value size="sm" divided [items]="l.riskItems" />
             </takumi-view>
           </takumi-view>
         </pdf-section>
 
-        <ng-container *ngTemplateOutlet="footer" />
+        <pdf-page-footer
+          variant="three-column"
+          leftText="Confidential — Internal Use"
+          centerText="Generated with pdfcn"
+          [rightText]="pageNumber"
+          sticky
+          [pagePadding]="theme().spacing.page.marginLeft"
+        />
       </takumi-page>
     </takumi-document>
   `,
@@ -422,39 +421,35 @@ export class ReportLayout {
   readonly data = input.required<BaseReportData>();
   readonly titlePrefix = input.required<string>();
   readonly statusLabel = input.required<string>();
-  readonly statusTone = input.required<ReportLayoutProps["statusTone"]>();
+  readonly statusTone = input.required<
+    "success" | "warning" | "destructive" | "info"
+  >();
   readonly graphVariant = input.required<ReportGraphVariant>();
   readonly graphTitle = input.required<string>();
   readonly graphSubtitle = input.required<string>();
-  readonly graphLegend = input<ReportLayoutProps["graphLegend"]>("none");
+  readonly graphLegend = input<"bottom" | "right" | "none" | undefined>("none");
   readonly graphShowValues = input(false, { transform: booleanAttribute });
   readonly graphColors = input<string[]>();
-  readonly graphData = input<ReportLayoutProps["graphData"]>();
+  readonly graphData = input<{ label: string; value: number }[]>();
 
-  private readonly theme = injectPdfcnTheme();
-  private readonly progress =
-    viewChild<TemplateRef<DataTableCellContext<ReportRow>>>("progress");
+  protected readonly theme = injectPdfcnTheme();
 
-  protected readonly progressText = (value: unknown) => `${String(value)}%`;
+  protected readonly deliveryColumns = deliveryColumns;
 
   protected readonly layout = computed(() =>
-    reportLayout(
-      this.theme(),
-      {
-        data: this.data(),
-        graphColors: this.graphColors(),
-        graphData: this.graphData(),
-        graphLegend: this.graphLegend(),
-        graphShowValues: this.graphShowValues(),
-        graphSubtitle: this.graphSubtitle(),
-        graphTitle: this.graphTitle(),
-        graphVariant: this.graphVariant(),
-        statusLabel: this.statusLabel(),
-        statusTone: this.statusTone(),
-        titlePrefix: this.titlePrefix(),
-      },
-      this.progress()
-    )
+    reportLayout(this.theme(), {
+      data: this.data(),
+      graphColors: this.graphColors(),
+      graphData: this.graphData(),
+      graphLegend: this.graphLegend(),
+      graphShowValues: this.graphShowValues(),
+      graphSubtitle: this.graphSubtitle(),
+      graphTitle: this.graphTitle(),
+      graphVariant: this.graphVariant(),
+      statusLabel: this.statusLabel(),
+      statusTone: this.statusTone(),
+      titlePrefix: this.titlePrefix(),
+    })
   );
 }
 
@@ -486,12 +481,14 @@ export class ReportTemplateFrame {
   readonly data = input<BaseReportData>();
   readonly titlePrefix = input.required<string>();
   readonly statusLabel = input.required<string>();
-  readonly statusTone = input.required<ReportLayoutProps["statusTone"]>();
+  readonly statusTone = input.required<
+    "success" | "warning" | "destructive" | "info"
+  >();
   readonly graphVariant = input.required<ReportGraphVariant>();
   readonly graphTitle = input.required<string>();
   readonly graphSubtitle = input.required<string>();
-  readonly graphLegend = input<ReportLayoutProps["graphLegend"]>();
+  readonly graphLegend = input<"bottom" | "right" | "none">();
   readonly graphShowValues = input(false, { transform: booleanAttribute });
   readonly graphColors = input<string[]>();
-  readonly graphData = input<ReportLayoutProps["graphData"]>();
+  readonly graphData = input<{ label: string; value: number }[]>();
 }

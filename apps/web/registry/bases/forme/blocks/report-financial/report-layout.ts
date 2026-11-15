@@ -1,11 +1,4 @@
-import { NgTemplateOutlet } from "@angular/common";
-import {
-  booleanAttribute,
-  Component,
-  computed,
-  input,
-  viewChild,
-} from "@angular/core";
+import { Component, booleanAttribute, computed, input } from "@angular/core";
 import type { TemplateRef } from "@angular/core";
 
 import { PdfBadge } from "@/registry/bases/forme/components/badge/badge";
@@ -86,11 +79,9 @@ const reportLayout = (
     graphVariant,
     graphLegend = "none",
     graphShowValues = false,
-    graphColors,
     graphData,
     statusTone,
-  }: ReportLayoutProps,
-  renderProgress: TemplateRef<DataTableCellContext<ReportRow>> | undefined
+  }: ReportLayoutProps
 ) => {
   const accent = toneColor(theme, statusTone);
   const graphHeight: Record<ReportGraphVariant, number> = {
@@ -191,69 +182,28 @@ const reportLayout = (
     },
   });
 
-  const columns: DataTableColumn<ReportRow>[] = [
-    { header: "Stream", key: "label" },
-    { header: "Owner", key: "owner" },
-    { align: "center", header: "Status", key: "status" },
-    {
-      align: "right",
-      header: "Progress",
-      key: "progress",
-      render: renderProgress,
-    },
-    { align: "right", header: "Risk", key: "risk" },
-  ];
+  const avgProgress = Math.round(
+    data.rows.reduce((sum, row) => sum + row.progress, 0) /
+      Math.max(data.rows.length, 1)
+  );
 
   return {
-    columns,
     deliveryStyle: {
       position: "relative" as const,
       top: deliveryOffset[graphVariant],
     },
-    footer: {
-      label: "Totals",
-      owner: "-",
-      progress: Math.round(
-        data.rows.reduce((sum, row) => sum + row.progress, 0) /
-          Math.max(data.rows.length, 1)
-      ),
-      risk: "-",
-      status: "-",
-    },
-    graph: {
-      data: graphData ?? data.series,
-      height: graphHeight[graphVariant],
-      legend: graphLegend,
-      showGrid: graphVariant !== "pie" && graphVariant !== "donut",
-      showValues: graphShowValues,
-      smooth: graphVariant === "line" || graphVariant === "area",
-    },
-    graphColors,
+    graphData: graphData ?? data.series,
+    graphHeight: graphHeight[graphVariant],
+    graphLegend,
     graphShellStyle: {
       ...styles.graphShell,
       paddingBottom: graphVariant === "horizontal-bar" ? 56 : 12,
     },
+    graphShowValues,
     highlights: data.highlights.map((item) => ({
       checked: true,
       text: item,
     })),
-    keyValues: [
-      {
-        key: "Open Risks",
-        value: `${data.rows.filter((r) => r.risk !== "Low").length}`,
-      },
-      {
-        key: "On-Track Streams",
-        value: `${data.rows.filter((r) => r.status === "On Track").length}/${data.rows.length}`,
-      },
-      {
-        key: "Avg Progress",
-        value: `${Math.round(
-          data.rows.reduce((sum, row) => sum + row.progress, 0) /
-            Math.max(data.rows.length, 1)
-        )}%`,
-      },
-    ],
     metricRows: [0, 2].map((startIndex) =>
       data.summary.slice(startIndex, startIndex + 2).map((metric) => ({
         badgeStyle: metric.trend
@@ -264,19 +214,41 @@ const reportLayout = (
                 : metric.trend.length * 5 + 18,
             }
           : undefined,
-        metric,
-        style: {
+        cardStyle: {
           ...styles.metricCard,
           borderLeftColor: metric.tone ? toneColor(theme, metric.tone) : accent,
           borderLeftWidth: 3,
         },
+        metric,
       }))
     ),
-    pagePadding: theme.spacing.page.marginLeft,
+    riskItems: [
+      {
+        key: "Open Risks",
+        value: `${data.rows.filter((r) => r.risk !== "Low").length}`,
+      },
+      {
+        key: "On-Track Streams",
+        value: `${data.rows.filter((r) => r.status === "On Track").length}/${data.rows.length}`,
+      },
+      {
+        key: "Avg Progress",
+        value: `${avgProgress}%`,
+      },
+    ],
+    rowsFooter: {
+      label: "Totals",
+      owner: "-",
+      progress: avgProgress,
+      risk: "-",
+      status: "-",
+    },
     sectionStyle: {
       position: "relative" as const,
       top: sectionOffset[graphVariant],
     },
+    showGrid: graphVariant !== "pie" && graphVariant !== "donut",
+    smooth: graphVariant === "line" || graphVariant === "area",
     styles,
     titleStyle: {
       position: "relative" as const,
@@ -285,12 +257,26 @@ const reportLayout = (
   };
 };
 
+const deliveryColumns = (
+  progress: TemplateRef<DataTableCellContext<ReportRow>>
+): DataTableColumn<ReportRow>[] => [
+  { header: "Stream", key: "label" },
+  { header: "Owner", key: "owner" },
+  { align: "center", header: "Status", key: "status" },
+  {
+    align: "right",
+    header: "Progress",
+    key: "progress",
+    render: progress,
+  },
+  { align: "right", header: "Risk", key: "risk" },
+];
+
 @Component({
   imports: [
     FormeDocument,
     FormePage,
     FormeView,
-    NgTemplateOutlet,
     PdfBadge,
     PdfDataTable,
     PdfGraph,
@@ -307,26 +293,23 @@ const reportLayout = (
     @let data = this.data();
     @let l = layout();
     @let styles = l.styles;
-    <ng-template #progress let-value>{{ progressText(value) }}</ng-template>
     <ng-template #pageNumber>
       <pdf-page-number align="right" size="xs" />
     </ng-template>
-    <ng-template #footer>
-      <pdf-page-footer
-        variant="three-column"
-        leftText="Confidential — Internal Use"
-        centerText="Generated with pdfcn"
-        [rightText]="pageNumber"
-        sticky
-        [pagePadding]="l.pagePadding"
-      />
-    </ng-template>
+    <ng-template #progress let-value>{{ value }}%</ng-template>
     <forme-document [title]="titlePrefix() + ' ' + data.period">
       <forme-page
         size="A4"
         [margin]="{ bottom: 48, left: 48, right: 48, top: 56 }"
       >
-        <ng-container *ngTemplateOutlet="footer" />
+        <pdf-page-footer
+          variant="three-column"
+          leftText="Confidential — Internal Use"
+          centerText="Generated with pdfcn"
+          [rightText]="pageNumber"
+          sticky
+          [pagePadding]="theme().spacing.page.marginLeft"
+        />
         <forme-view [style]="styles.page">
           <pdf-page-header
             variant="two-column"
@@ -356,7 +339,7 @@ const reportLayout = (
               @for (row of l.metricRows; track $index) {
                 <forme-view [style]="styles.metricsRow">
                   @for (card of row; track card.metric.label) {
-                    <forme-view [style]="card.style">
+                    <forme-view [style]="card.cardStyle">
                       <pdf-text [style]="styles.metricLabel" noMargin>{{
                         card.metric.label
                       }}</pdf-text>
@@ -384,7 +367,14 @@ const reportLayout = (
         size="A4"
         [margin]="{ bottom: 48, left: 48, right: 48, top: 56 }"
       >
-        <ng-container *ngTemplateOutlet="footer" />
+        <pdf-page-footer
+          variant="three-column"
+          leftText="Confidential — Internal Use"
+          centerText="Generated with pdfcn"
+          [rightText]="pageNumber"
+          sticky
+          [pagePadding]="theme().spacing.page.marginLeft"
+        />
         <forme-view [style]="styles.page">
           <pdf-section padding="md" noWrap [style]="l.sectionStyle">
             <pdf-text
@@ -397,17 +387,17 @@ const reportLayout = (
             <forme-view [style]="l.graphShellStyle">
               <pdf-graph
                 [variant]="graphVariant()"
-                [data]="l.graph.data"
+                [data]="l.graphData"
                 [title]="graphTitle()"
                 [subtitle]="graphSubtitle()"
                 [yLabel]="undefined"
                 [xLabel]="undefined"
-                [showGrid]="l.graph.showGrid"
-                [showValues]="l.graph.showValues"
-                [smooth]="l.graph.smooth"
-                [legend]="l.graph.legend"
-                [height]="l.graph.height"
-                [colors]="l.graphColors"
+                [showGrid]="l.showGrid"
+                [showValues]="l.graphShowValues"
+                [smooth]="l.smooth"
+                [legend]="l.graphLegend"
+                [height]="l.graphHeight"
+                [colors]="graphColors()"
                 fullWidth
                 [containerPadding]="12"
                 [wrapperPadding]="12"
@@ -424,9 +414,9 @@ const reportLayout = (
               variant="compact"
               size="compact"
               stripe
-              [columns]="l.columns"
+              [columns]="deliveryColumns(progress)"
               [data]="data.rows"
-              [footer]="l.footer"
+              [footer]="l.rowsFooter"
             />
           </pdf-section>
         </forme-view>
@@ -436,7 +426,14 @@ const reportLayout = (
         size="A4"
         [margin]="{ bottom: 48, left: 48, right: 48, top: 56 }"
       >
-        <ng-container *ngTemplateOutlet="footer" />
+        <pdf-page-footer
+          variant="three-column"
+          leftText="Confidential — Internal Use"
+          centerText="Generated with pdfcn"
+          [rightText]="pageNumber"
+          sticky
+          [pagePadding]="theme().spacing.page.marginLeft"
+        />
         <forme-view [style]="styles.page">
           <pdf-section padding="md" variant="card" noWrap>
             <pdf-text variant="sm" transform="uppercase" color="mutedForeground"
@@ -447,7 +444,7 @@ const reportLayout = (
                 <pdf-list variant="checklist" [items]="l.highlights" gap="sm" />
               </forme-view>
               <forme-view [style]="styles.col">
-                <pdf-key-value size="sm" divided [items]="l.keyValues" />
+                <pdf-key-value size="sm" divided [items]="l.riskItems" />
               </forme-view>
             </forme-view>
           </pdf-section>
@@ -460,39 +457,35 @@ export class ReportLayout {
   readonly data = input.required<BaseReportData>();
   readonly titlePrefix = input.required<string>();
   readonly statusLabel = input.required<string>();
-  readonly statusTone = input.required<ReportLayoutProps["statusTone"]>();
+  readonly statusTone = input.required<
+    "success" | "warning" | "destructive" | "info"
+  >();
   readonly graphVariant = input.required<ReportGraphVariant>();
   readonly graphTitle = input.required<string>();
   readonly graphSubtitle = input.required<string>();
-  readonly graphLegend = input<ReportLayoutProps["graphLegend"]>("none");
+  readonly graphLegend = input<"bottom" | "right" | "none" | undefined>("none");
   readonly graphShowValues = input(false, { transform: booleanAttribute });
   readonly graphColors = input<string[]>();
-  readonly graphData = input<ReportLayoutProps["graphData"]>();
+  readonly graphData = input<{ label: string; value: number }[]>();
 
-  private readonly theme = injectPdfcnTheme();
-  private readonly progress =
-    viewChild<TemplateRef<DataTableCellContext<ReportRow>>>("progress");
+  protected readonly theme = injectPdfcnTheme();
 
-  protected readonly progressText = (value: unknown) => `${String(value)}%`;
+  protected readonly deliveryColumns = deliveryColumns;
 
   protected readonly layout = computed(() =>
-    reportLayout(
-      this.theme(),
-      {
-        data: this.data(),
-        graphColors: this.graphColors(),
-        graphData: this.graphData(),
-        graphLegend: this.graphLegend(),
-        graphShowValues: this.graphShowValues(),
-        graphSubtitle: this.graphSubtitle(),
-        graphTitle: this.graphTitle(),
-        graphVariant: this.graphVariant(),
-        statusLabel: this.statusLabel(),
-        statusTone: this.statusTone(),
-        titlePrefix: this.titlePrefix(),
-      },
-      this.progress()
-    )
+    reportLayout(this.theme(), {
+      data: this.data(),
+      graphColors: this.graphColors(),
+      graphData: this.graphData(),
+      graphLegend: this.graphLegend(),
+      graphShowValues: this.graphShowValues(),
+      graphSubtitle: this.graphSubtitle(),
+      graphTitle: this.graphTitle(),
+      graphVariant: this.graphVariant(),
+      statusLabel: this.statusLabel(),
+      statusTone: this.statusTone(),
+      titlePrefix: this.titlePrefix(),
+    })
   );
 }
 
@@ -524,12 +517,14 @@ export class ReportTemplateFrame {
   readonly data = input<BaseReportData>();
   readonly titlePrefix = input.required<string>();
   readonly statusLabel = input.required<string>();
-  readonly statusTone = input.required<ReportLayoutProps["statusTone"]>();
+  readonly statusTone = input.required<
+    "success" | "warning" | "destructive" | "info"
+  >();
   readonly graphVariant = input.required<ReportGraphVariant>();
   readonly graphTitle = input.required<string>();
   readonly graphSubtitle = input.required<string>();
-  readonly graphLegend = input<ReportLayoutProps["graphLegend"]>();
+  readonly graphLegend = input<"bottom" | "right" | "none">();
   readonly graphShowValues = input(false, { transform: booleanAttribute });
   readonly graphColors = input<string[]>();
-  readonly graphData = input<ReportLayoutProps["graphData"]>();
+  readonly graphData = input<{ label: string; value: number }[]>();
 }

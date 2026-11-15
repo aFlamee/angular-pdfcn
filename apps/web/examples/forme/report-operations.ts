@@ -4,6 +4,6 @@ import { OperationsReportDocument } from "@/registry/bases/forme/blocks/report-o
 
 @Component({
   imports: [OperationsReportDocument],
-  template: `<pdf-operations-report />`,
+  template: `<pdf-report-operations />`,
 })
 export default class OperationsReportDemo {}

@@ -75,7 +75,7 @@ const sampleSecurityData: BaseReportData = {
 
 @Component({
   imports: [ReportTemplateFrame],
-  selector: "pdf-security-report",
+  selector: "pdf-report-security",
   template: `
     <pdf-report-template-frame
       [theme]="theme()"

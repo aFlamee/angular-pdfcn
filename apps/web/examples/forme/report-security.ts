@@ -4,6 +4,6 @@ import { SecurityReportDocument } from "@/registry/bases/forme/blocks/report-sec
 
 @Component({
   imports: [SecurityReportDocument],
-  template: `<pdf-security-report />`,
+  template: `<pdf-report-security />`,
 })
 export default class SecurityReportDemo {}

@@ -4,6 +4,6 @@ import { SecurityReportDocument } from "@/registry/bases/takumi/blocks/report-se
 
 @Component({
   imports: [SecurityReportDocument],
-  template: `<pdf-security-report />`,
+  template: `<pdf-report-security />`,
 })
 export default class SecurityReportDemo {}
