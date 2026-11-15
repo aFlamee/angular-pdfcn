@@ -1,0 +1,14 @@
+packages:
+  - apps/*
+
+onlyBuiltDependencies:
+  - esbuild
+  - lefthook
+
+# The engines list a UI framework as a peer, but rendering from JSON never loads it.
+autoInstallPeers: false
+overrides:
+  "@formepdf/core>@formepdf/react": "-"
+peerDependencyRules:
+  ignoreMissing:
+    - react

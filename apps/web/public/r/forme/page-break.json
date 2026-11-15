@@ -1,0 +1,22 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "forme/page-break",
+  "title": "Page Break",
+  "description": "Page Break PDF component (forme)",
+  "dependencies": [
+    "@formepdf/core@^0.25.0",
+    "@formepdf/shared@^0.25.0"
+  ],
+  "registryDependencies": [
+    "@angular-pdfcn/forme/utils"
+  ],
+  "files": [
+    {
+      "path": "registry/bases/forme/components/page-break/page-break.ts",
+      "content": "import { Component, input } from \"@angular/core\";\n\nimport { FormePageBreak } from \"@/lib/pdf-primitives\";\nimport type { PDFComponentProps } from \"@/types/pdf-components\";\n\nexport interface PageBreakProps extends Omit<PDFComponentProps, \"children\"> {\n  children?: never;\n}\n\n@Component({\n  imports: [FormePageBreak],\n  selector: \"pdf-page-break\",\n  template: \"<forme-page-break />\",\n})\nexport class PdfPageBreak {\n  readonly style = input<PageBreakProps[\"style\"]>();\n}\n",
+      "type": "registry:component",
+      "target": "components/pdf/page-break/page-break.ts"
+    }
+  ],
+  "type": "registry:ui"
+}

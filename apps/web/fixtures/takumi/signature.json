@@ -1,0 +1,123 @@
+{
+  "node": {
+    "children": [
+      {
+        "attributes": {
+          "data-pdf-page": ""
+        },
+        "children": [
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "style": {
+                      "color": "#71717a",
+                      "fontFamily": "Helvetica",
+                      "fontSize": 16,
+                      "marginBottom": 5.333333333333333
+                    },
+                    "tagName": "span",
+                    "text": "Authorized By",
+                    "type": "text"
+                  },
+                  {
+                    "children": [],
+                    "preset": {
+                      "display": "block"
+                    },
+                    "style": {
+                      "borderBottomColor": "#18181b",
+                      "borderBottomStyle": "solid",
+                      "borderBottomWidth": 1.3333333333333333,
+                      "display": "flex",
+                      "flexDirection": "column",
+                      "marginBottom": 5.333333333333333,
+                      "minHeight": 32
+                    },
+                    "tagName": "div",
+                    "type": "container"
+                  },
+                  {
+                    "style": {
+                      "color": "#18181b",
+                      "fontFamily": "Helvetica",
+                      "fontSize": 14.666666666666666,
+                      "fontWeight": 600
+                    },
+                    "tagName": "span",
+                    "text": "John Doe",
+                    "type": "text"
+                  },
+                  {
+                    "style": {
+                      "color": "#71717a",
+                      "fontFamily": "Helvetica",
+                      "fontSize": 16
+                    },
+                    "tagName": "span",
+                    "text": "CEO, Acme Corp",
+                    "type": "text"
+                  },
+                  {
+                    "style": {
+                      "color": "#71717a",
+                      "fontFamily": "Helvetica",
+                      "fontSize": 13.333333333333332,
+                      "marginTop": 1.3333333333333333
+                    },
+                    "tagName": "span",
+                    "text": "15 February 2026",
+                    "type": "text"
+                  }
+                ],
+                "preset": {
+                  "display": "block"
+                },
+                "style": {
+                  "display": "flex",
+                  "flex": 1,
+                  "flexDirection": "column",
+                  "minWidth": 186.66666666666666
+                },
+                "tagName": "div",
+                "type": "container"
+              }
+            ],
+            "preset": {
+              "display": "block"
+            },
+            "style": {
+              "breakInside": "avoid",
+              "display": "flex",
+              "flexDirection": "column",
+              "marginBottom": 18.666666666666664,
+              "marginTop": 37.33333333333333
+            },
+            "tagName": "div",
+            "type": "container"
+          }
+        ],
+        "preset": {
+          "display": "block"
+        },
+        "style": {
+          "display": "flex",
+          "flexDirection": "column"
+        },
+        "tagName": "div",
+        "type": "container"
+      }
+    ],
+    "preset": {
+      "display": "block"
+    },
+    "style": {
+      "display": "flex",
+      "flexDirection": "column"
+    },
+    "tagName": "div",
+    "type": "container"
+  },
+  "stylesheets": []
+}

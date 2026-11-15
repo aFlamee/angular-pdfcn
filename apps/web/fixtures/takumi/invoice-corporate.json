@@ -1,0 +1,1555 @@
+{
+  "node": {
+    "attributes": {
+      "data-pdf-document": "Invoice INV-2026-004"
+    },
+    "children": [
+      {
+        "attributes": {
+          "data-pdf-page": ""
+        },
+        "children": [
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "style": {
+                      "color": "#18181b",
+                      "fontFamily": "Times-Roman",
+                      "fontSize": 26.666666666666664,
+                      "fontWeight": 700,
+                      "lineHeight": 1.25,
+                      "marginBottom": 0
+                    },
+                    "tagName": "span",
+                    "text": "pdfcn",
+                    "type": "text"
+                  },
+                  {
+                    "style": {
+                      "color": "#71717a",
+                      "fontFamily": "Helvetica",
+                      "fontSize": 14.666666666666666,
+                      "lineHeight": 1.6,
+                      "marginTop": 5.333333333333333
+                    },
+                    "tagName": "span",
+                    "text": "Innovative PDF Solutions  ·  Nagpur, IN",
+                    "type": "text"
+                  }
+                ],
+                "preset": {
+                  "display": "block"
+                },
+                "style": {
+                  "display": "flex",
+                  "flex": 1,
+                  "flexDirection": "column"
+                },
+                "tagName": "div",
+                "type": "container"
+              },
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "attributes": {
+                              "alt": "",
+                              "src": "/favicon.png"
+                            },
+                            "src": "/favicon.png",
+                            "style": {
+                              "height": 74.66666666666666,
+                              "margin": 0,
+                              "objectFit": "contain",
+                              "objectPosition": "50% 50%",
+                              "width": 74.66666666666666
+                            },
+                            "tagName": "img",
+                            "type": "image"
+                          }
+                        ],
+                        "preset": {
+                          "display": "block"
+                        },
+                        "style": {
+                          "display": "flex",
+                          "flexDirection": "column"
+                        },
+                        "tagName": "div",
+                        "type": "container"
+                      }
+                    ],
+                    "preset": {
+                      "display": "block"
+                    },
+                    "style": {
+                      "breakInside": "avoid",
+                      "display": "flex",
+                      "flexDirection": "column"
+                    },
+                    "tagName": "div",
+                    "type": "container"
+                  }
+                ],
+                "preset": {
+                  "display": "block"
+                },
+                "style": {
+                  "display": "flex",
+                  "flexDirection": "column",
+                  "height": 64,
+                  "marginLeft": 21.333333333333332,
+                  "width": 64
+                },
+                "tagName": "div",
+                "type": "container"
+              }
+            ],
+            "preset": {
+              "display": "block"
+            },
+            "style": {
+              "alignItems": "center",
+              "borderBottomColor": "#e4e4e7",
+              "borderBottomStyle": "solid",
+              "borderBottomWidth": 2.6666666666666665,
+              "breakInside": "avoid",
+              "display": "flex",
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "marginBottom": 37.33333333333333,
+              "paddingBottom": 21.333333333333332
+            },
+            "tagName": "div",
+            "type": "container"
+          },
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "style": {
+                      "color": "#71717a",
+                      "fontFamily": "Helvetica",
+                      "fontSize": 12,
+                      "fontWeight": "bold",
+                      "letterSpacing": 0.7999999999999999,
+                      "lineHeight": 1.6,
+                      "marginBottom": 8,
+                      "marginTop": 0,
+                      "textTransform": "uppercase"
+                    },
+                    "tagName": "span",
+                    "text": "Invoice Details",
+                    "type": "text"
+                  },
+                  {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "style": {
+                              "color": "#71717a",
+                              "flex": 1,
+                              "fontFamily": "Helvetica",
+                              "fontSize": 13.333333333333332,
+                              "fontWeight": 500
+                            },
+                            "tagName": "span",
+                            "text": "Invoice #",
+                            "type": "text"
+                          },
+                          {
+                            "style": {
+                              "color": "#18181b",
+                              "flex": 1,
+                              "fontFamily": "Helvetica",
+                              "fontSize": 13.333333333333332,
+                              "fontWeight": 400,
+                              "textAlign": "right"
+                            },
+                            "tagName": "span",
+                            "text": "INV-2026-004",
+                            "type": "text"
+                          }
+                        ],
+                        "preset": {
+                          "display": "block"
+                        },
+                        "style": {
+                          "alignItems": "flex-start",
+                          "display": "flex",
+                          "flexDirection": "row",
+                          "paddingBottom": 5.333333333333333,
+                          "paddingTop": 5.333333333333333
+                        },
+                        "tagName": "div",
+                        "type": "container"
+                      },
+                      {
+                        "children": [
+                          {
+                            "style": {
+                              "color": "#71717a",
+                              "flex": 1,
+                              "fontFamily": "Helvetica",
+                              "fontSize": 13.333333333333332,
+                              "fontWeight": 500
+                            },
+                            "tagName": "span",
+                            "text": "Issue Date",
+                            "type": "text"
+                          },
+                          {
+                            "style": {
+                              "color": "#18181b",
+                              "flex": 1,
+                              "fontFamily": "Helvetica",
+                              "fontSize": 13.333333333333332,
+                              "fontWeight": 400,
+                              "textAlign": "right"
+                            },
+                            "tagName": "span",
+                            "text": "February 22, 2026",
+                            "type": "text"
+                          }
+                        ],
+                        "preset": {
+                          "display": "block"
+                        },
+                        "style": {
+                          "alignItems": "flex-start",
+                          "display": "flex",
+                          "flexDirection": "row",
+                          "paddingBottom": 5.333333333333333,
+                          "paddingTop": 5.333333333333333
+                        },
+                        "tagName": "div",
+                        "type": "container"
+                      },
+                      {
+                        "children": [
+                          {
+                            "style": {
+                              "color": "#71717a",
+                              "flex": 1,
+                              "fontFamily": "Helvetica",
+                              "fontSize": 13.333333333333332,
+                              "fontWeight": 500
+                            },
+                            "tagName": "span",
+                            "text": "Due Date",
+                            "type": "text"
+                          },
+                          {
+                            "style": {
+                              "color": "#18181b",
+                              "flex": 1,
+                              "fontFamily": "Helvetica",
+                              "fontSize": 13.333333333333332,
+                              "fontWeight": 400,
+                              "textAlign": "right"
+                            },
+                            "tagName": "span",
+                            "text": "March 24, 2026",
+                            "type": "text"
+                          }
+                        ],
+                        "preset": {
+                          "display": "block"
+                        },
+                        "style": {
+                          "alignItems": "flex-start",
+                          "display": "flex",
+                          "flexDirection": "row",
+                          "paddingBottom": 5.333333333333333,
+                          "paddingTop": 5.333333333333333
+                        },
+                        "tagName": "div",
+                        "type": "container"
+                      },
+                      {
+                        "children": [
+                          {
+                            "style": {
+                              "color": "#71717a",
+                              "flex": 1,
+                              "fontFamily": "Helvetica",
+                              "fontSize": 13.333333333333332,
+                              "fontWeight": 500
+                            },
+                            "tagName": "span",
+                            "text": "Payment",
+                            "type": "text"
+                          },
+                          {
+                            "style": {
+                              "color": "#18181b",
+                              "flex": 1,
+                              "fontFamily": "Helvetica",
+                              "fontSize": 13.333333333333332,
+                              "fontWeight": 400,
+                              "textAlign": "right"
+                            },
+                            "tagName": "span",
+                            "text": "Wire Transfer / Corporate Account",
+                            "type": "text"
+                          }
+                        ],
+                        "preset": {
+                          "display": "block"
+                        },
+                        "style": {
+                          "alignItems": "flex-start",
+                          "display": "flex",
+                          "flexDirection": "row",
+                          "paddingBottom": 5.333333333333333,
+                          "paddingTop": 5.333333333333333
+                        },
+                        "tagName": "div",
+                        "type": "container"
+                      }
+                    ],
+                    "preset": {
+                      "display": "block"
+                    },
+                    "style": {
+                      "display": "flex",
+                      "flexDirection": "column"
+                    },
+                    "tagName": "div",
+                    "type": "container"
+                  }
+                ],
+                "preset": {
+                  "display": "block"
+                },
+                "style": {
+                  "display": "flex",
+                  "flex": 1,
+                  "flexDirection": "column"
+                },
+                "tagName": "div",
+                "type": "container"
+              },
+              {
+                "children": [
+                  {
+                    "style": {
+                      "color": "#71717a",
+                      "fontFamily": "Helvetica",
+                      "fontSize": 12,
+                      "fontWeight": "bold",
+                      "letterSpacing": 0.7999999999999999,
+                      "lineHeight": 1.6,
+                      "marginBottom": 8,
+                      "marginTop": 0,
+                      "textTransform": "uppercase"
+                    },
+                    "tagName": "span",
+                    "text": "Bill To",
+                    "type": "text"
+                  },
+                  {
+                    "style": {
+                      "color": "#18181b",
+                      "fontFamily": "Helvetica",
+                      "fontSize": 16,
+                      "fontWeight": 600,
+                      "lineHeight": 1.6,
+                      "marginBottom": 0,
+                      "marginTop": 0
+                    },
+                    "tagName": "span",
+                    "text": "Global Industries Ltd.",
+                    "type": "text"
+                  },
+                  {
+                    "style": {
+                      "color": "#71717a",
+                      "fontFamily": "Helvetica",
+                      "fontSize": 13.333333333333332,
+                      "lineHeight": 1.6,
+                      "marginBottom": 0,
+                      "marginTop": 0
+                    },
+                    "tagName": "span",
+                    "text": "100 Corporate Plaza, Tower B",
+                    "type": "text"
+                  },
+                  {
+                    "style": {
+                      "color": "#71717a",
+                      "fontFamily": "Helvetica",
+                      "fontSize": 13.333333333333332,
+                      "lineHeight": 1.6,
+                      "marginBottom": 0,
+                      "marginTop": 0
+                    },
+                    "tagName": "span",
+                    "text": "accounts@globalindustries.com",
+                    "type": "text"
+                  },
+                  {
+                    "style": {
+                      "color": "#71717a",
+                      "fontFamily": "Helvetica",
+                      "fontSize": 13.333333333333332,
+                      "lineHeight": 1.6,
+                      "marginBottom": 0,
+                      "marginTop": 0
+                    },
+                    "tagName": "span",
+                    "text": "+1 (555) 888-9999",
+                    "type": "text"
+                  }
+                ],
+                "preset": {
+                  "display": "block"
+                },
+                "style": {
+                  "display": "flex",
+                  "flex": 1,
+                  "flexDirection": "column"
+                },
+                "tagName": "div",
+                "type": "container"
+              }
+            ],
+            "preset": {
+              "display": "block"
+            },
+            "style": {
+              "display": "flex",
+              "flexDirection": "row",
+              "gap": 32,
+              "marginBottom": 37.33333333333333
+            },
+            "tagName": "div",
+            "type": "container"
+          },
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "style": {
+                              "color": "#18181b",
+                              "fontFamily": "Helvetica",
+                              "fontSize": 14.666666666666666,
+                              "fontWeight": 700,
+                              "lineHeight": 1.2,
+                              "margin": 0,
+                              "padding": 0
+                            },
+                            "tagName": "span",
+                            "text": "Description",
+                            "type": "text"
+                          }
+                        ],
+                        "preset": {
+                          "display": "block"
+                        },
+                        "style": {
+                          "borderRightColor": "#e4e4e7",
+                          "borderRightStyle": "solid",
+                          "borderRightWidth": 0.6666666666666666,
+                          "display": "flex",
+                          "flex": 1,
+                          "flexDirection": "column",
+                          "justifyContent": "center",
+                          "paddingBottom": 8,
+                          "paddingLeft": 13.333333333333332,
+                          "paddingRight": 13.333333333333332,
+                          "paddingTop": 8
+                        },
+                        "tagName": "div",
+                        "type": "container"
+                      },
+                      {
+                        "children": [
+                          {
+                            "style": {
+                              "color": "#18181b",
+                              "fontFamily": "Helvetica",
+                              "fontSize": 14.666666666666666,
+                              "fontWeight": 700,
+                              "lineHeight": 1.2,
+                              "margin": 0,
+                              "padding": 0,
+                              "textAlign": "center"
+                            },
+                            "tagName": "span",
+                            "text": "Qty",
+                            "type": "text"
+                          }
+                        ],
+                        "preset": {
+                          "display": "block"
+                        },
+                        "style": {
+                          "borderRightColor": "#e4e4e7",
+                          "borderRightStyle": "solid",
+                          "borderRightWidth": 0.6666666666666666,
+                          "display": "flex",
+                          "flex": 1,
+                          "flexDirection": "column",
+                          "justifyContent": "center",
+                          "paddingBottom": 8,
+                          "paddingLeft": 13.333333333333332,
+                          "paddingRight": 13.333333333333332,
+                          "paddingTop": 8,
+                          "textAlign": "center"
+                        },
+                        "tagName": "div",
+                        "type": "container"
+                      },
+                      {
+                        "children": [
+                          {
+                            "style": {
+                              "color": "#18181b",
+                              "fontFamily": "Helvetica",
+                              "fontSize": 14.666666666666666,
+                              "fontWeight": 700,
+                              "lineHeight": 1.2,
+                              "margin": 0,
+                              "padding": 0,
+                              "textAlign": "right"
+                            },
+                            "tagName": "span",
+                            "text": "Unit Price",
+                            "type": "text"
+                          }
+                        ],
+                        "preset": {
+                          "display": "block"
+                        },
+                        "style": {
+                          "borderRightColor": "#e4e4e7",
+                          "borderRightStyle": "solid",
+                          "borderRightWidth": 0.6666666666666666,
+                          "display": "flex",
+                          "flex": 1,
+                          "flexDirection": "column",
+                          "justifyContent": "center",
+                          "paddingBottom": 8,
+                          "paddingLeft": 13.333333333333332,
+                          "paddingRight": 13.333333333333332,
+                          "paddingTop": 8,
+                          "textAlign": "right"
+                        },
+                        "tagName": "div",
+                        "type": "container"
+                      },
+                      {
+                        "children": [
+                          {
+                            "style": {
+                              "color": "#18181b",
+                              "fontFamily": "Helvetica",
+                              "fontSize": 14.666666666666666,
+                              "fontWeight": 700,
+                              "lineHeight": 1.2,
+                              "margin": 0,
+                              "padding": 0,
+                              "textAlign": "right"
+                            },
+                            "tagName": "span",
+                            "text": "Amount",
+                            "type": "text"
+                          }
+                        ],
+                        "preset": {
+                          "display": "block"
+                        },
+                        "style": {
+                          "display": "flex",
+                          "flex": 1,
+                          "flexDirection": "column",
+                          "justifyContent": "center",
+                          "paddingBottom": 8,
+                          "paddingLeft": 13.333333333333332,
+                          "paddingRight": 13.333333333333332,
+                          "paddingTop": 8,
+                          "textAlign": "right"
+                        },
+                        "tagName": "div",
+                        "type": "container"
+                      }
+                    ],
+                    "preset": {
+                      "display": "block"
+                    },
+                    "style": {
+                      "backgroundColor": "#f4f4f5",
+                      "borderBottomColor": "#e4e4e7",
+                      "borderBottomStyle": "solid",
+                      "borderBottomWidth": 0.6666666666666666,
+                      "breakInside": "avoid",
+                      "display": "flex",
+                      "flexDirection": "row"
+                    },
+                    "tagName": "div",
+                    "type": "container"
+                  }
+                ],
+                "preset": {
+                  "display": "block"
+                },
+                "style": {
+                  "display": "flex",
+                  "flexDirection": "column"
+                },
+                "tagName": "div",
+                "type": "container"
+              },
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "style": {
+                              "color": "#18181b",
+                              "fontFamily": "Helvetica",
+                              "fontSize": 14.666666666666666,
+                              "lineHeight": 1.2,
+                              "margin": 0,
+                              "padding": 0
+                            },
+                            "tagName": "span",
+                            "text": "Enterprise Software License",
+                            "type": "text"
+                          }
+                        ],
+                        "preset": {
+                          "display": "block"
+                        },
+                        "style": {
+                          "borderRightColor": "#e4e4e7",
+                          "borderRightStyle": "solid",
+                          "borderRightWidth": 0.6666666666666666,
+                          "display": "flex",
+                          "flex": 1,
+                          "flexDirection": "column",
+                          "justifyContent": "center",
+                          "paddingBottom": 8,
+                          "paddingLeft": 13.333333333333332,
+                          "paddingRight": 13.333333333333332,
+                          "paddingTop": 8
+                        },
+                        "tagName": "div",
+                        "type": "container"
+                      },
+                      {
+                        "children": [
+                          {
+                            "style": {
+                              "color": "#18181b",
+                              "fontFamily": "Helvetica",
+                              "fontSize": 14.666666666666666,
+                              "lineHeight": 1.2,
+                              "margin": 0,
+                              "padding": 0,
+                              "textAlign": "center"
+                            },
+                            "tagName": "span",
+                            "text": "5",
+                            "type": "text"
+                          }
+                        ],
+                        "preset": {
+                          "display": "block"
+                        },
+                        "style": {
+                          "borderRightColor": "#e4e4e7",
+                          "borderRightStyle": "solid",
+                          "borderRightWidth": 0.6666666666666666,
+                          "display": "flex",
+                          "flex": 1,
+                          "flexDirection": "column",
+                          "justifyContent": "center",
+                          "paddingBottom": 8,
+                          "paddingLeft": 13.333333333333332,
+                          "paddingRight": 13.333333333333332,
+                          "paddingTop": 8,
+                          "textAlign": "center"
+                        },
+                        "tagName": "div",
+                        "type": "container"
+                      },
+                      {
+                        "children": [
+                          {
+                            "style": {
+                              "color": "#18181b",
+                              "fontFamily": "Helvetica",
+                              "fontSize": 14.666666666666666,
+                              "lineHeight": 1.2,
+                              "margin": 0,
+                              "padding": 0,
+                              "textAlign": "right"
+                            },
+                            "tagName": "span",
+                            "text": "$4,500",
+                            "type": "text"
+                          }
+                        ],
+                        "preset": {
+                          "display": "block"
+                        },
+                        "style": {
+                          "borderRightColor": "#e4e4e7",
+                          "borderRightStyle": "solid",
+                          "borderRightWidth": 0.6666666666666666,
+                          "display": "flex",
+                          "flex": 1,
+                          "flexDirection": "column",
+                          "justifyContent": "center",
+                          "paddingBottom": 8,
+                          "paddingLeft": 13.333333333333332,
+                          "paddingRight": 13.333333333333332,
+                          "paddingTop": 8,
+                          "textAlign": "right"
+                        },
+                        "tagName": "div",
+                        "type": "container"
+                      },
+                      {
+                        "children": [
+                          {
+                            "style": {
+                              "color": "#18181b",
+                              "fontFamily": "Helvetica",
+                              "fontSize": 14.666666666666666,
+                              "lineHeight": 1.2,
+                              "margin": 0,
+                              "padding": 0,
+                              "textAlign": "right"
+                            },
+                            "tagName": "span",
+                            "text": "$22,500",
+                            "type": "text"
+                          }
+                        ],
+                        "preset": {
+                          "display": "block"
+                        },
+                        "style": {
+                          "display": "flex",
+                          "flex": 1,
+                          "flexDirection": "column",
+                          "justifyContent": "center",
+                          "paddingBottom": 8,
+                          "paddingLeft": 13.333333333333332,
+                          "paddingRight": 13.333333333333332,
+                          "paddingTop": 8,
+                          "textAlign": "right"
+                        },
+                        "tagName": "div",
+                        "type": "container"
+                      }
+                    ],
+                    "preset": {
+                      "display": "block"
+                    },
+                    "style": {
+                      "borderBottomColor": "#e4e4e7",
+                      "borderBottomStyle": "solid",
+                      "borderBottomWidth": 0.6666666666666666,
+                      "breakInside": "avoid",
+                      "display": "flex",
+                      "flexDirection": "row"
+                    },
+                    "tagName": "div",
+                    "type": "container"
+                  },
+                  {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "style": {
+                              "color": "#18181b",
+                              "fontFamily": "Helvetica",
+                              "fontSize": 14.666666666666666,
+                              "lineHeight": 1.2,
+                              "margin": 0,
+                              "padding": 0
+                            },
+                            "tagName": "span",
+                            "text": "Implementation Services",
+                            "type": "text"
+                          }
+                        ],
+                        "preset": {
+                          "display": "block"
+                        },
+                        "style": {
+                          "borderRightColor": "#e4e4e7",
+                          "borderRightStyle": "solid",
+                          "borderRightWidth": 0.6666666666666666,
+                          "display": "flex",
+                          "flex": 1,
+                          "flexDirection": "column",
+                          "justifyContent": "center",
+                          "paddingBottom": 8,
+                          "paddingLeft": 13.333333333333332,
+                          "paddingRight": 13.333333333333332,
+                          "paddingTop": 8
+                        },
+                        "tagName": "div",
+                        "type": "container"
+                      },
+                      {
+                        "children": [
+                          {
+                            "style": {
+                              "color": "#18181b",
+                              "fontFamily": "Helvetica",
+                              "fontSize": 14.666666666666666,
+                              "lineHeight": 1.2,
+                              "margin": 0,
+                              "padding": 0,
+                              "textAlign": "center"
+                            },
+                            "tagName": "span",
+                            "text": "1",
+                            "type": "text"
+                          }
+                        ],
+                        "preset": {
+                          "display": "block"
+                        },
+                        "style": {
+                          "borderRightColor": "#e4e4e7",
+                          "borderRightStyle": "solid",
+                          "borderRightWidth": 0.6666666666666666,
+                          "display": "flex",
+                          "flex": 1,
+                          "flexDirection": "column",
+                          "justifyContent": "center",
+                          "paddingBottom": 8,
+                          "paddingLeft": 13.333333333333332,
+                          "paddingRight": 13.333333333333332,
+                          "paddingTop": 8,
+                          "textAlign": "center"
+                        },
+                        "tagName": "div",
+                        "type": "container"
+                      },
+                      {
+                        "children": [
+                          {
+                            "style": {
+                              "color": "#18181b",
+                              "fontFamily": "Helvetica",
+                              "fontSize": 14.666666666666666,
+                              "lineHeight": 1.2,
+                              "margin": 0,
+                              "padding": 0,
+                              "textAlign": "right"
+                            },
+                            "tagName": "span",
+                            "text": "$18,000",
+                            "type": "text"
+                          }
+                        ],
+                        "preset": {
+                          "display": "block"
+                        },
+                        "style": {
+                          "borderRightColor": "#e4e4e7",
+                          "borderRightStyle": "solid",
+                          "borderRightWidth": 0.6666666666666666,
+                          "display": "flex",
+                          "flex": 1,
+                          "flexDirection": "column",
+                          "justifyContent": "center",
+                          "paddingBottom": 8,
+                          "paddingLeft": 13.333333333333332,
+                          "paddingRight": 13.333333333333332,
+                          "paddingTop": 8,
+                          "textAlign": "right"
+                        },
+                        "tagName": "div",
+                        "type": "container"
+                      },
+                      {
+                        "children": [
+                          {
+                            "style": {
+                              "color": "#18181b",
+                              "fontFamily": "Helvetica",
+                              "fontSize": 14.666666666666666,
+                              "lineHeight": 1.2,
+                              "margin": 0,
+                              "padding": 0,
+                              "textAlign": "right"
+                            },
+                            "tagName": "span",
+                            "text": "$18,000",
+                            "type": "text"
+                          }
+                        ],
+                        "preset": {
+                          "display": "block"
+                        },
+                        "style": {
+                          "display": "flex",
+                          "flex": 1,
+                          "flexDirection": "column",
+                          "justifyContent": "center",
+                          "paddingBottom": 8,
+                          "paddingLeft": 13.333333333333332,
+                          "paddingRight": 13.333333333333332,
+                          "paddingTop": 8,
+                          "textAlign": "right"
+                        },
+                        "tagName": "div",
+                        "type": "container"
+                      }
+                    ],
+                    "preset": {
+                      "display": "block"
+                    },
+                    "style": {
+                      "borderBottomColor": "#e4e4e7",
+                      "borderBottomStyle": "solid",
+                      "borderBottomWidth": 0.6666666666666666,
+                      "breakInside": "avoid",
+                      "display": "flex",
+                      "flexDirection": "row"
+                    },
+                    "tagName": "div",
+                    "type": "container"
+                  },
+                  {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "style": {
+                              "color": "#18181b",
+                              "fontFamily": "Helvetica",
+                              "fontSize": 14.666666666666666,
+                              "lineHeight": 1.2,
+                              "margin": 0,
+                              "padding": 0
+                            },
+                            "tagName": "span",
+                            "text": "Training Workshop (per session)",
+                            "type": "text"
+                          }
+                        ],
+                        "preset": {
+                          "display": "block"
+                        },
+                        "style": {
+                          "borderRightColor": "#e4e4e7",
+                          "borderRightStyle": "solid",
+                          "borderRightWidth": 0.6666666666666666,
+                          "display": "flex",
+                          "flex": 1,
+                          "flexDirection": "column",
+                          "justifyContent": "center",
+                          "paddingBottom": 8,
+                          "paddingLeft": 13.333333333333332,
+                          "paddingRight": 13.333333333333332,
+                          "paddingTop": 8
+                        },
+                        "tagName": "div",
+                        "type": "container"
+                      },
+                      {
+                        "children": [
+                          {
+                            "style": {
+                              "color": "#18181b",
+                              "fontFamily": "Helvetica",
+                              "fontSize": 14.666666666666666,
+                              "lineHeight": 1.2,
+                              "margin": 0,
+                              "padding": 0,
+                              "textAlign": "center"
+                            },
+                            "tagName": "span",
+                            "text": "3",
+                            "type": "text"
+                          }
+                        ],
+                        "preset": {
+                          "display": "block"
+                        },
+                        "style": {
+                          "borderRightColor": "#e4e4e7",
+                          "borderRightStyle": "solid",
+                          "borderRightWidth": 0.6666666666666666,
+                          "display": "flex",
+                          "flex": 1,
+                          "flexDirection": "column",
+                          "justifyContent": "center",
+                          "paddingBottom": 8,
+                          "paddingLeft": 13.333333333333332,
+                          "paddingRight": 13.333333333333332,
+                          "paddingTop": 8,
+                          "textAlign": "center"
+                        },
+                        "tagName": "div",
+                        "type": "container"
+                      },
+                      {
+                        "children": [
+                          {
+                            "style": {
+                              "color": "#18181b",
+                              "fontFamily": "Helvetica",
+                              "fontSize": 14.666666666666666,
+                              "lineHeight": 1.2,
+                              "margin": 0,
+                              "padding": 0,
+                              "textAlign": "right"
+                            },
+                            "tagName": "span",
+                            "text": "$2,500",
+                            "type": "text"
+                          }
+                        ],
+                        "preset": {
+                          "display": "block"
+                        },
+                        "style": {
+                          "borderRightColor": "#e4e4e7",
+                          "borderRightStyle": "solid",
+                          "borderRightWidth": 0.6666666666666666,
+                          "display": "flex",
+                          "flex": 1,
+                          "flexDirection": "column",
+                          "justifyContent": "center",
+                          "paddingBottom": 8,
+                          "paddingLeft": 13.333333333333332,
+                          "paddingRight": 13.333333333333332,
+                          "paddingTop": 8,
+                          "textAlign": "right"
+                        },
+                        "tagName": "div",
+                        "type": "container"
+                      },
+                      {
+                        "children": [
+                          {
+                            "style": {
+                              "color": "#18181b",
+                              "fontFamily": "Helvetica",
+                              "fontSize": 14.666666666666666,
+                              "lineHeight": 1.2,
+                              "margin": 0,
+                              "padding": 0,
+                              "textAlign": "right"
+                            },
+                            "tagName": "span",
+                            "text": "$7,500",
+                            "type": "text"
+                          }
+                        ],
+                        "preset": {
+                          "display": "block"
+                        },
+                        "style": {
+                          "display": "flex",
+                          "flex": 1,
+                          "flexDirection": "column",
+                          "justifyContent": "center",
+                          "paddingBottom": 8,
+                          "paddingLeft": 13.333333333333332,
+                          "paddingRight": 13.333333333333332,
+                          "paddingTop": 8,
+                          "textAlign": "right"
+                        },
+                        "tagName": "div",
+                        "type": "container"
+                      }
+                    ],
+                    "preset": {
+                      "display": "block"
+                    },
+                    "style": {
+                      "borderBottomColor": "#e4e4e7",
+                      "borderBottomStyle": "solid",
+                      "borderBottomWidth": 0.6666666666666666,
+                      "breakInside": "avoid",
+                      "display": "flex",
+                      "flexDirection": "row"
+                    },
+                    "tagName": "div",
+                    "type": "container"
+                  },
+                  {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "style": {
+                              "color": "#18181b",
+                              "fontFamily": "Helvetica",
+                              "fontSize": 14.666666666666666,
+                              "lineHeight": 1.2,
+                              "margin": 0,
+                              "padding": 0
+                            },
+                            "tagName": "span",
+                            "text": "Annual Support Package",
+                            "type": "text"
+                          }
+                        ],
+                        "preset": {
+                          "display": "block"
+                        },
+                        "style": {
+                          "borderRightColor": "#e4e4e7",
+                          "borderRightStyle": "solid",
+                          "borderRightWidth": 0.6666666666666666,
+                          "display": "flex",
+                          "flex": 1,
+                          "flexDirection": "column",
+                          "justifyContent": "center",
+                          "paddingBottom": 8,
+                          "paddingLeft": 13.333333333333332,
+                          "paddingRight": 13.333333333333332,
+                          "paddingTop": 8
+                        },
+                        "tagName": "div",
+                        "type": "container"
+                      },
+                      {
+                        "children": [
+                          {
+                            "style": {
+                              "color": "#18181b",
+                              "fontFamily": "Helvetica",
+                              "fontSize": 14.666666666666666,
+                              "lineHeight": 1.2,
+                              "margin": 0,
+                              "padding": 0,
+                              "textAlign": "center"
+                            },
+                            "tagName": "span",
+                            "text": "1",
+                            "type": "text"
+                          }
+                        ],
+                        "preset": {
+                          "display": "block"
+                        },
+                        "style": {
+                          "borderRightColor": "#e4e4e7",
+                          "borderRightStyle": "solid",
+                          "borderRightWidth": 0.6666666666666666,
+                          "display": "flex",
+                          "flex": 1,
+                          "flexDirection": "column",
+                          "justifyContent": "center",
+                          "paddingBottom": 8,
+                          "paddingLeft": 13.333333333333332,
+                          "paddingRight": 13.333333333333332,
+                          "paddingTop": 8,
+                          "textAlign": "center"
+                        },
+                        "tagName": "div",
+                        "type": "container"
+                      },
+                      {
+                        "children": [
+                          {
+                            "style": {
+                              "color": "#18181b",
+                              "fontFamily": "Helvetica",
+                              "fontSize": 14.666666666666666,
+                              "lineHeight": 1.2,
+                              "margin": 0,
+                              "padding": 0,
+                              "textAlign": "right"
+                            },
+                            "tagName": "span",
+                            "text": "$8,500",
+                            "type": "text"
+                          }
+                        ],
+                        "preset": {
+                          "display": "block"
+                        },
+                        "style": {
+                          "borderRightColor": "#e4e4e7",
+                          "borderRightStyle": "solid",
+                          "borderRightWidth": 0.6666666666666666,
+                          "display": "flex",
+                          "flex": 1,
+                          "flexDirection": "column",
+                          "justifyContent": "center",
+                          "paddingBottom": 8,
+                          "paddingLeft": 13.333333333333332,
+                          "paddingRight": 13.333333333333332,
+                          "paddingTop": 8,
+                          "textAlign": "right"
+                        },
+                        "tagName": "div",
+                        "type": "container"
+                      },
+                      {
+                        "children": [
+                          {
+                            "style": {
+                              "color": "#18181b",
+                              "fontFamily": "Helvetica",
+                              "fontSize": 14.666666666666666,
+                              "lineHeight": 1.2,
+                              "margin": 0,
+                              "padding": 0,
+                              "textAlign": "right"
+                            },
+                            "tagName": "span",
+                            "text": "$8,500",
+                            "type": "text"
+                          }
+                        ],
+                        "preset": {
+                          "display": "block"
+                        },
+                        "style": {
+                          "display": "flex",
+                          "flex": 1,
+                          "flexDirection": "column",
+                          "justifyContent": "center",
+                          "paddingBottom": 8,
+                          "paddingLeft": 13.333333333333332,
+                          "paddingRight": 13.333333333333332,
+                          "paddingTop": 8,
+                          "textAlign": "right"
+                        },
+                        "tagName": "div",
+                        "type": "container"
+                      }
+                    ],
+                    "preset": {
+                      "display": "block"
+                    },
+                    "style": {
+                      "borderBottomColor": "#e4e4e7",
+                      "borderBottomStyle": "solid",
+                      "borderBottomWidth": 0.6666666666666666,
+                      "breakInside": "avoid",
+                      "display": "flex",
+                      "flexDirection": "row"
+                    },
+                    "tagName": "div",
+                    "type": "container"
+                  }
+                ],
+                "preset": {
+                  "display": "block"
+                },
+                "style": {
+                  "display": "flex",
+                  "flexDirection": "column"
+                },
+                "tagName": "div",
+                "type": "container"
+              }
+            ],
+            "preset": {
+              "display": "block"
+            },
+            "style": {
+              "borderBottomLeftRadius": 2.6666666666666665,
+              "borderBottomRightRadius": 2.6666666666666665,
+              "borderColor": "#e4e4e7",
+              "borderStyle": "solid",
+              "borderTopLeftRadius": 2.6666666666666665,
+              "borderTopRightRadius": 2.6666666666666665,
+              "borderWidth": 1.3333333333333333,
+              "display": "flex",
+              "flexDirection": "column",
+              "marginBottom": 18.666666666666664,
+              "overflow": "hidden",
+              "width": "100%"
+            },
+            "tagName": "div",
+            "type": "container"
+          },
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "children": [
+                              {
+                                "style": {
+                                  "color": "#71717a",
+                                  "flex": 1,
+                                  "fontFamily": "Helvetica",
+                                  "fontSize": 14.666666666666666,
+                                  "fontWeight": 500
+                                },
+                                "tagName": "span",
+                                "text": "Subtotal",
+                                "type": "text"
+                              },
+                              {
+                                "style": {
+                                  "color": "#18181b",
+                                  "flex": 1,
+                                  "fontFamily": "Helvetica",
+                                  "fontSize": 14.666666666666666,
+                                  "fontWeight": 400,
+                                  "textAlign": "right"
+                                },
+                                "tagName": "span",
+                                "text": "$56,500",
+                                "type": "text"
+                              }
+                            ],
+                            "preset": {
+                              "display": "block"
+                            },
+                            "style": {
+                              "alignItems": "flex-start",
+                              "borderBottomColor": "#e4e4e7",
+                              "borderBottomStyle": "solid",
+                              "borderBottomWidth": 1.3333333333333333,
+                              "display": "flex",
+                              "flexDirection": "row",
+                              "paddingBottom": 5.333333333333333,
+                              "paddingTop": 5.333333333333333
+                            },
+                            "tagName": "div",
+                            "type": "container"
+                          },
+                          {
+                            "children": [
+                              {
+                                "style": {
+                                  "color": "#71717a",
+                                  "flex": 1,
+                                  "fontFamily": "Helvetica",
+                                  "fontSize": 14.666666666666666,
+                                  "fontWeight": 500
+                                },
+                                "tagName": "span",
+                                "text": "Tax (8%)",
+                                "type": "text"
+                              },
+                              {
+                                "style": {
+                                  "color": "#18181b",
+                                  "flex": 1,
+                                  "fontFamily": "Helvetica",
+                                  "fontSize": 14.666666666666666,
+                                  "fontWeight": 400,
+                                  "textAlign": "right"
+                                },
+                                "tagName": "span",
+                                "text": "$4520.00",
+                                "type": "text"
+                              }
+                            ],
+                            "preset": {
+                              "display": "block"
+                            },
+                            "style": {
+                              "alignItems": "flex-start",
+                              "borderBottomColor": "#e4e4e7",
+                              "borderBottomStyle": "solid",
+                              "borderBottomWidth": 1.3333333333333333,
+                              "display": "flex",
+                              "flexDirection": "row",
+                              "paddingBottom": 5.333333333333333,
+                              "paddingTop": 5.333333333333333
+                            },
+                            "tagName": "div",
+                            "type": "container"
+                          },
+                          {
+                            "children": [
+                              {
+                                "style": {
+                                  "color": "#71717a",
+                                  "flex": 1,
+                                  "fontFamily": "Helvetica",
+                                  "fontSize": 17.333333333333332,
+                                  "fontWeight": "bold"
+                                },
+                                "tagName": "span",
+                                "text": "Total Due",
+                                "type": "text"
+                              },
+                              {
+                                "style": {
+                                  "color": "#18181b",
+                                  "flex": 1,
+                                  "fontFamily": "Helvetica",
+                                  "fontSize": 18.666666666666664,
+                                  "fontWeight": "bold",
+                                  "textAlign": "right"
+                                },
+                                "tagName": "span",
+                                "text": "$61020.00",
+                                "type": "text"
+                              }
+                            ],
+                            "preset": {
+                              "display": "block"
+                            },
+                            "style": {
+                              "alignItems": "flex-start",
+                              "display": "flex",
+                              "flexDirection": "row",
+                              "paddingBottom": 5.333333333333333,
+                              "paddingTop": 5.333333333333333
+                            },
+                            "tagName": "div",
+                            "type": "container"
+                          }
+                        ],
+                        "preset": {
+                          "display": "block"
+                        },
+                        "style": {
+                          "display": "flex",
+                          "flexDirection": "column"
+                        },
+                        "tagName": "div",
+                        "type": "container"
+                      }
+                    ],
+                    "preset": {
+                      "display": "block"
+                    },
+                    "style": {
+                      "display": "flex",
+                      "flexDirection": "column",
+                      "width": 346.66666666666663
+                    },
+                    "tagName": "div",
+                    "type": "container"
+                  }
+                ],
+                "preset": {
+                  "display": "block"
+                },
+                "style": {
+                  "display": "flex",
+                  "flexDirection": "row",
+                  "justifyContent": "flex-end"
+                },
+                "tagName": "div",
+                "type": "container"
+              }
+            ],
+            "preset": {
+              "display": "block"
+            },
+            "style": {
+              "backgroundColor": "#f4f4f5",
+              "borderRadius": 5.333333333333333,
+              "display": "flex",
+              "flexDirection": "column",
+              "marginTop": 26.666666666666664,
+              "padding": 21.333333333333332
+            },
+            "tagName": "div",
+            "type": "container"
+          },
+          {
+            "children": [
+              {
+                "style": {
+                  "color": "#71717a",
+                  "flex": 1,
+                  "fontFamily": "Helvetica",
+                  "fontSize": 13.333333333333332,
+                  "lineHeight": 1.6
+                },
+                "tagName": "span",
+                "text": "Corporate billing – Net 30 terms apply. For inquiries, contact accounts@pdfcn.app",
+                "type": "text"
+              },
+              {
+                "style": {
+                  "color": "#71717a",
+                  "fontFamily": "Helvetica",
+                  "fontSize": 13.333333333333332,
+                  "lineHeight": 1.6,
+                  "textAlign": "right"
+                },
+                "tagName": "span",
+                "text": "Page 1 of 1",
+                "type": "text"
+              }
+            ],
+            "preset": {
+              "display": "block"
+            },
+            "style": {
+              "alignItems": "center",
+              "borderTopColor": "#e4e4e7",
+              "borderTopStyle": "solid",
+              "borderTopWidth": 2.6666666666666665,
+              "bottom": 33.33333333333333,
+              "breakInside": "avoid",
+              "display": "flex",
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "left": 33.33333333333333,
+              "marginTop": 0,
+              "paddingTop": 16,
+              "position": "absolute",
+              "right": 33.33333333333333
+            },
+            "tagName": "div",
+            "type": "container"
+          }
+        ],
+        "preset": {
+          "display": "block"
+        },
+        "style": {
+          "backgroundColor": "#ffffff",
+          "boxSizing": "border-box",
+          "display": "flex",
+          "flexDirection": "column",
+          "minHeight": 1121.3333333333333,
+          "padding": 74.66666666666666,
+          "paddingBottom": 74.66666666666666,
+          "position": "relative"
+        },
+        "tagName": "div",
+        "type": "container"
+      }
+    ],
+    "preset": {
+      "display": "block"
+    },
+    "style": {
+      "display": "flex",
+      "flexDirection": "column"
+    },
+    "tagName": "div",
+    "type": "container"
+  },
+  "stylesheets": []
+}

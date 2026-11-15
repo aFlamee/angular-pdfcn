@@ -1,0 +1,2453 @@
+{
+  "document": {
+    "children": [
+      {
+        "children": [
+          {
+            "children": [],
+            "kind": {
+              "position": "Footer",
+              "type": "Fixed"
+            },
+            "style": {
+              "alignItems": "Center",
+              "borderColor": {
+                "bottom": {
+                  "a": 1,
+                  "b": 0,
+                  "g": 0,
+                  "r": 0
+                },
+                "left": {
+                  "a": 1,
+                  "b": 0,
+                  "g": 0,
+                  "r": 0
+                },
+                "right": {
+                  "a": 1,
+                  "b": 0,
+                  "g": 0,
+                  "r": 0
+                },
+                "top": {
+                  "a": 1,
+                  "b": 0.9058823529411765,
+                  "g": 0.8941176470588236,
+                  "r": 0.8941176470588236
+                }
+              },
+              "borderWidth": {
+                "bottom": 0,
+                "left": 0,
+                "right": 0,
+                "top": 2
+              },
+              "display": "Flex",
+              "flexDirection": "Column",
+              "margin": {
+                "bottom": -31,
+                "left": 0,
+                "right": 0,
+                "top": 0
+              },
+              "padding": {
+                "bottom": 0,
+                "left": 0,
+                "right": 0,
+                "top": 12
+              }
+            }
+          },
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "children": [],
+                            "kind": {
+                              "content": "pdfcn",
+                              "type": "Text"
+                            },
+                            "style": {
+                              "color": {
+                                "a": 1,
+                                "b": 0.10588235294117647,
+                                "g": 0.09411764705882353,
+                                "r": 0.09411764705882353
+                              },
+                              "fontFamily": "Times-Roman",
+                              "fontSize": 20,
+                              "fontWeight": 700,
+                              "lineHeight": 1.25,
+                              "margin": {
+                                "bottom": 0,
+                                "left": 0,
+                                "right": 0,
+                                "top": 0
+                              },
+                              "textAlign": "Center"
+                            }
+                          },
+                          {
+                            "children": [],
+                            "kind": {
+                              "content": "Innovative PDF Solutions  ·  Nagpur, IN · hello@pdfcn.app",
+                              "type": "Text"
+                            },
+                            "style": {
+                              "color": {
+                                "a": 1,
+                                "b": 0.47843137254901963,
+                                "g": 0.44313725490196076,
+                                "r": 0.44313725490196076
+                              },
+                              "fontFamily": "Helvetica",
+                              "fontSize": 11,
+                              "lineHeight": 1.6,
+                              "margin": {
+                                "bottom": 0,
+                                "left": 0,
+                                "right": 0,
+                                "top": 4
+                              },
+                              "textAlign": "Center"
+                            }
+                          }
+                        ],
+                        "kind": {
+                          "type": "View"
+                        },
+                        "style": {
+                          "alignItems": "Center",
+                          "borderColor": {
+                            "bottom": {
+                              "a": 1,
+                              "b": 0.9058823529411765,
+                              "g": 0.8941176470588236,
+                              "r": 0.8941176470588236
+                            },
+                            "left": {
+                              "a": 1,
+                              "b": 0,
+                              "g": 0,
+                              "r": 0
+                            },
+                            "right": {
+                              "a": 1,
+                              "b": 0,
+                              "g": 0,
+                              "r": 0
+                            },
+                            "top": {
+                              "a": 1,
+                              "b": 0,
+                              "g": 0,
+                              "r": 0
+                            }
+                          },
+                          "borderWidth": {
+                            "bottom": 2,
+                            "left": 0,
+                            "right": 0,
+                            "top": 0
+                          },
+                          "display": "Flex",
+                          "flexDirection": "Column",
+                          "margin": {
+                            "bottom": 0,
+                            "left": 0,
+                            "right": 0,
+                            "top": 0
+                          },
+                          "padding": {
+                            "bottom": 16,
+                            "left": 0,
+                            "right": 0,
+                            "top": 0
+                          },
+                          "wrap": false
+                        }
+                      }
+                    ],
+                    "kind": {
+                      "type": "View"
+                    },
+                    "style": {
+                      "flexBasis": {
+                        "Pt": 0
+                      },
+                      "flexGrow": 1,
+                      "flexShrink": 1
+                    }
+                  },
+                  {
+                    "children": [
+                      {
+                        "children": [],
+                        "kind": {
+                          "content": "Invoice",
+                          "type": "Text"
+                        },
+                        "style": {
+                          "color": {
+                            "a": 1,
+                            "b": 1,
+                            "g": 1,
+                            "r": 1
+                          },
+                          "fontFamily": "Helvetica",
+                          "fontSize": 8,
+                          "fontWeight": 700,
+                          "letterSpacing": 1.2,
+                          "lineHeight": 1.6,
+                          "margin": {
+                            "bottom": 2,
+                            "left": 0,
+                            "right": 0,
+                            "top": 0
+                          },
+                          "textTransform": "Uppercase"
+                        }
+                      },
+                      {
+                        "children": [],
+                        "kind": {
+                          "content": "INV-2026-005",
+                          "type": "Text"
+                        },
+                        "style": {
+                          "color": {
+                            "a": 1,
+                            "b": 1,
+                            "g": 1,
+                            "r": 1
+                          },
+                          "fontFamily": "Helvetica",
+                          "fontSize": 16,
+                          "fontWeight": 700,
+                          "lineHeight": 1.6,
+                          "margin": {
+                            "bottom": 0,
+                            "left": 0,
+                            "right": 0,
+                            "top": 0
+                          }
+                        }
+                      }
+                    ],
+                    "kind": {
+                      "type": "View"
+                    },
+                    "style": {
+                      "alignItems": "Center",
+                      "backgroundColor": {
+                        "a": 1,
+                        "b": 0.10588235294117647,
+                        "g": 0.09411764705882353,
+                        "r": 0.09411764705882353
+                      },
+                      "borderRadius": {
+                        "bottom_left": 4,
+                        "bottom_right": 4,
+                        "top_left": 4,
+                        "top_right": 4
+                      },
+                      "padding": {
+                        "bottom": 14,
+                        "left": 20,
+                        "right": 20,
+                        "top": 14
+                      }
+                    }
+                  }
+                ],
+                "kind": {
+                  "type": "View"
+                },
+                "style": {
+                  "alignItems": "Center",
+                  "flexDirection": "Row",
+                  "justifyContent": "SpaceBetween",
+                  "margin": {
+                    "bottom": 28,
+                    "left": 0,
+                    "right": 0,
+                    "top": 0
+                  }
+                }
+              },
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "children": [],
+                            "kind": {
+                              "content": "Billed To",
+                              "type": "Text"
+                            },
+                            "style": {
+                              "color": {
+                                "a": 1,
+                                "b": 0.9647058823529412,
+                                "g": 0.5098039215686274,
+                                "r": 0.23137254901960785
+                              },
+                              "fontFamily": "Helvetica",
+                              "fontSize": 8,
+                              "fontWeight": 700,
+                              "letterSpacing": 0.8,
+                              "lineHeight": 1.6,
+                              "margin": {
+                                "bottom": 6,
+                                "left": 0,
+                                "right": 0,
+                                "top": 0
+                              },
+                              "textTransform": "Uppercase"
+                            }
+                          },
+                          {
+                            "children": [],
+                            "kind": {
+                              "content": "Creative Agency Co.",
+                              "type": "Text"
+                            },
+                            "style": {
+                              "color": {
+                                "a": 1,
+                                "b": 0.10588235294117647,
+                                "g": 0.09411764705882353,
+                                "r": 0.09411764705882353
+                              },
+                              "fontFamily": "Helvetica",
+                              "fontSize": 12,
+                              "fontWeight": 600,
+                              "lineHeight": 1.6,
+                              "margin": {
+                                "bottom": 0,
+                                "left": 0,
+                                "right": 0,
+                                "top": 0
+                              }
+                            }
+                          },
+                          {
+                            "children": [],
+                            "kind": {
+                              "content": "250 Design District, Loft 5",
+                              "type": "Text"
+                            },
+                            "style": {
+                              "color": {
+                                "a": 1,
+                                "b": 0.47843137254901963,
+                                "g": 0.44313725490196076,
+                                "r": 0.44313725490196076
+                              },
+                              "fontFamily": "Helvetica",
+                              "fontSize": 10,
+                              "lineHeight": 1.6,
+                              "margin": {
+                                "bottom": 0,
+                                "left": 0,
+                                "right": 0,
+                                "top": 0
+                              }
+                            }
+                          },
+                          {
+                            "children": [],
+                            "kind": {
+                              "content": "studio@creativeagency.co · +1 (555) 321-7654",
+                              "type": "Text"
+                            },
+                            "style": {
+                              "color": {
+                                "a": 1,
+                                "b": 0.47843137254901963,
+                                "g": 0.44313725490196076,
+                                "r": 0.44313725490196076
+                              },
+                              "fontFamily": "Helvetica",
+                              "fontSize": 10,
+                              "lineHeight": 1.6,
+                              "margin": {
+                                "bottom": 0,
+                                "left": 0,
+                                "right": 0,
+                                "top": 0
+                              }
+                            }
+                          }
+                        ],
+                        "kind": {
+                          "type": "View"
+                        },
+                        "style": {
+                          "flexBasis": {
+                            "Pt": 0
+                          },
+                          "flexGrow": 1,
+                          "flexShrink": 1
+                        }
+                      },
+                      {
+                        "children": [
+                          {
+                            "children": [],
+                            "kind": {
+                              "content": "Invoice Info",
+                              "type": "Text"
+                            },
+                            "style": {
+                              "color": {
+                                "a": 1,
+                                "b": 0.9647058823529412,
+                                "g": 0.5098039215686274,
+                                "r": 0.23137254901960785
+                              },
+                              "fontFamily": "Helvetica",
+                              "fontSize": 8,
+                              "fontWeight": 700,
+                              "letterSpacing": 0.8,
+                              "lineHeight": 1.6,
+                              "margin": {
+                                "bottom": 6,
+                                "left": 0,
+                                "right": 0,
+                                "top": 0
+                              },
+                              "textTransform": "Uppercase"
+                            }
+                          },
+                          {
+                            "children": [
+                              {
+                                "children": [
+                                  {
+                                    "children": [],
+                                    "kind": {
+                                      "content": "Issue Date",
+                                      "type": "Text"
+                                    },
+                                    "style": {
+                                      "color": {
+                                        "a": 1,
+                                        "b": 0.47843137254901963,
+                                        "g": 0.44313725490196076,
+                                        "r": 0.44313725490196076
+                                      },
+                                      "flexBasis": {
+                                        "Pt": 0
+                                      },
+                                      "flexGrow": 1,
+                                      "flexShrink": 1,
+                                      "fontFamily": "Helvetica",
+                                      "fontSize": 10,
+                                      "fontWeight": 500
+                                    }
+                                  },
+                                  {
+                                    "children": [],
+                                    "kind": {
+                                      "content": "February 24, 2026",
+                                      "type": "Text"
+                                    },
+                                    "style": {
+                                      "color": {
+                                        "a": 1,
+                                        "b": 0.10588235294117647,
+                                        "g": 0.09411764705882353,
+                                        "r": 0.09411764705882353
+                                      },
+                                      "flexBasis": {
+                                        "Pt": 0
+                                      },
+                                      "flexGrow": 1,
+                                      "flexShrink": 1,
+                                      "fontFamily": "Helvetica",
+                                      "fontSize": 10,
+                                      "fontWeight": 400,
+                                      "textAlign": "Right"
+                                    }
+                                  }
+                                ],
+                                "kind": {
+                                  "type": "View"
+                                },
+                                "style": {
+                                  "alignItems": "FlexStart",
+                                  "flexDirection": "Row",
+                                  "padding": {
+                                    "bottom": 4,
+                                    "left": 0,
+                                    "right": 0,
+                                    "top": 4
+                                  },
+                                  "width": {
+                                    "Percent": 100
+                                  }
+                                }
+                              },
+                              {
+                                "children": [
+                                  {
+                                    "children": [],
+                                    "kind": {
+                                      "content": "Due Date",
+                                      "type": "Text"
+                                    },
+                                    "style": {
+                                      "color": {
+                                        "a": 1,
+                                        "b": 0.47843137254901963,
+                                        "g": 0.44313725490196076,
+                                        "r": 0.44313725490196076
+                                      },
+                                      "flexBasis": {
+                                        "Pt": 0
+                                      },
+                                      "flexGrow": 1,
+                                      "flexShrink": 1,
+                                      "fontFamily": "Helvetica",
+                                      "fontSize": 10,
+                                      "fontWeight": 500
+                                    }
+                                  },
+                                  {
+                                    "children": [],
+                                    "kind": {
+                                      "content": "March 26, 2026",
+                                      "type": "Text"
+                                    },
+                                    "style": {
+                                      "color": {
+                                        "a": 1,
+                                        "b": 0.10588235294117647,
+                                        "g": 0.09411764705882353,
+                                        "r": 0.09411764705882353
+                                      },
+                                      "flexBasis": {
+                                        "Pt": 0
+                                      },
+                                      "flexGrow": 1,
+                                      "flexShrink": 1,
+                                      "fontFamily": "Helvetica",
+                                      "fontSize": 10,
+                                      "fontWeight": 400,
+                                      "textAlign": "Right"
+                                    }
+                                  }
+                                ],
+                                "kind": {
+                                  "type": "View"
+                                },
+                                "style": {
+                                  "alignItems": "FlexStart",
+                                  "flexDirection": "Row",
+                                  "padding": {
+                                    "bottom": 4,
+                                    "left": 0,
+                                    "right": 0,
+                                    "top": 4
+                                  },
+                                  "width": {
+                                    "Percent": 100
+                                  }
+                                }
+                              },
+                              {
+                                "children": [
+                                  {
+                                    "children": [],
+                                    "kind": {
+                                      "content": "Payment",
+                                      "type": "Text"
+                                    },
+                                    "style": {
+                                      "color": {
+                                        "a": 1,
+                                        "b": 0.47843137254901963,
+                                        "g": 0.44313725490196076,
+                                        "r": 0.44313725490196076
+                                      },
+                                      "flexBasis": {
+                                        "Pt": 0
+                                      },
+                                      "flexGrow": 1,
+                                      "flexShrink": 1,
+                                      "fontFamily": "Helvetica",
+                                      "fontSize": 10,
+                                      "fontWeight": 500
+                                    }
+                                  },
+                                  {
+                                    "children": [],
+                                    "kind": {
+                                      "content": "Credit Card / PayPal / Stripe",
+                                      "type": "Text"
+                                    },
+                                    "style": {
+                                      "color": {
+                                        "a": 1,
+                                        "b": 0.10588235294117647,
+                                        "g": 0.09411764705882353,
+                                        "r": 0.09411764705882353
+                                      },
+                                      "flexBasis": {
+                                        "Pt": 0
+                                      },
+                                      "flexGrow": 1,
+                                      "flexShrink": 1,
+                                      "fontFamily": "Helvetica",
+                                      "fontSize": 10,
+                                      "fontWeight": 400,
+                                      "textAlign": "Right"
+                                    }
+                                  }
+                                ],
+                                "kind": {
+                                  "type": "View"
+                                },
+                                "style": {
+                                  "alignItems": "FlexStart",
+                                  "flexDirection": "Row",
+                                  "padding": {
+                                    "bottom": 4,
+                                    "left": 0,
+                                    "right": 0,
+                                    "top": 4
+                                  },
+                                  "width": {
+                                    "Percent": 100
+                                  }
+                                }
+                              }
+                            ],
+                            "kind": {
+                              "type": "View"
+                            },
+                            "style": {
+                              "flexDirection": "Column",
+                              "width": {
+                                "Percent": 100
+                              },
+                              "wrap": true
+                            }
+                          }
+                        ],
+                        "kind": {
+                          "type": "View"
+                        },
+                        "style": {
+                          "flexBasis": {
+                            "Pt": 0
+                          },
+                          "flexGrow": 1,
+                          "flexShrink": 1
+                        }
+                      }
+                    ],
+                    "kind": {
+                      "type": "View"
+                    },
+                    "style": {
+                      "flexDirection": "Row",
+                      "gap": 32
+                    }
+                  }
+                ],
+                "kind": {
+                  "type": "View"
+                },
+                "style": {
+                  "backgroundColor": {
+                    "a": 1,
+                    "b": 0.9607843137254902,
+                    "g": 0.9568627450980393,
+                    "r": 0.9568627450980393
+                  },
+                  "borderColor": {
+                    "bottom": {
+                      "a": 1,
+                      "b": 0,
+                      "g": 0,
+                      "r": 0
+                    },
+                    "left": {
+                      "a": 1,
+                      "b": 0.9647058823529412,
+                      "g": 0.5098039215686274,
+                      "r": 0.23137254901960785
+                    },
+                    "right": {
+                      "a": 1,
+                      "b": 0,
+                      "g": 0,
+                      "r": 0
+                    },
+                    "top": {
+                      "a": 1,
+                      "b": 0,
+                      "g": 0,
+                      "r": 0
+                    }
+                  },
+                  "borderWidth": {
+                    "bottom": 0,
+                    "left": 4,
+                    "right": 0,
+                    "top": 0
+                  },
+                  "margin": {
+                    "bottom": 28,
+                    "left": 0,
+                    "right": 0,
+                    "top": 0
+                  },
+                  "padding": {
+                    "bottom": 10,
+                    "left": 14,
+                    "right": 0,
+                    "top": 10
+                  }
+                }
+              },
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "children": [
+                              {
+                                "children": [],
+                                "kind": {
+                                  "content": "Deliverable",
+                                  "type": "Text"
+                                },
+                                "style": {
+                                  "color": {
+                                    "a": 1,
+                                    "b": 0.10588235294117647,
+                                    "g": 0.09411764705882353,
+                                    "r": 0.09411764705882353
+                                  },
+                                  "fontFamily": "Helvetica",
+                                  "fontSize": 11,
+                                  "fontWeight": 600,
+                                  "lineHeight": 1.2,
+                                  "margin": {
+                                    "bottom": 0,
+                                    "left": 0,
+                                    "right": 0,
+                                    "top": 0
+                                  },
+                                  "padding": {
+                                    "bottom": 0,
+                                    "left": 0,
+                                    "right": 0,
+                                    "top": 0
+                                  }
+                                }
+                              }
+                            ],
+                            "kind": {
+                              "type": "View"
+                            },
+                            "style": {
+                              "flexBasis": {
+                                "Pt": 0
+                              },
+                              "flexGrow": 1,
+                              "flexShrink": 1,
+                              "justifyContent": "Center",
+                              "padding": {
+                                "bottom": 6,
+                                "left": 10,
+                                "right": 10,
+                                "top": 6
+                              }
+                            }
+                          },
+                          {
+                            "children": [
+                              {
+                                "children": [],
+                                "kind": {
+                                  "content": "Qty",
+                                  "type": "Text"
+                                },
+                                "style": {
+                                  "color": {
+                                    "a": 1,
+                                    "b": 0.10588235294117647,
+                                    "g": 0.09411764705882353,
+                                    "r": 0.09411764705882353
+                                  },
+                                  "fontFamily": "Helvetica",
+                                  "fontSize": 11,
+                                  "fontWeight": 600,
+                                  "lineHeight": 1.2,
+                                  "margin": {
+                                    "bottom": 0,
+                                    "left": 0,
+                                    "right": 0,
+                                    "top": 0
+                                  },
+                                  "padding": {
+                                    "bottom": 0,
+                                    "left": 0,
+                                    "right": 0,
+                                    "top": 0
+                                  },
+                                  "textAlign": "Center"
+                                }
+                              }
+                            ],
+                            "kind": {
+                              "type": "View"
+                            },
+                            "style": {
+                              "flexBasis": {
+                                "Pt": 0
+                              },
+                              "flexGrow": 1,
+                              "flexShrink": 1,
+                              "justifyContent": "Center",
+                              "padding": {
+                                "bottom": 6,
+                                "left": 10,
+                                "right": 10,
+                                "top": 6
+                              },
+                              "textAlign": "Center"
+                            }
+                          },
+                          {
+                            "children": [
+                              {
+                                "children": [],
+                                "kind": {
+                                  "content": "Rate",
+                                  "type": "Text"
+                                },
+                                "style": {
+                                  "color": {
+                                    "a": 1,
+                                    "b": 0.10588235294117647,
+                                    "g": 0.09411764705882353,
+                                    "r": 0.09411764705882353
+                                  },
+                                  "fontFamily": "Helvetica",
+                                  "fontSize": 11,
+                                  "fontWeight": 600,
+                                  "lineHeight": 1.2,
+                                  "margin": {
+                                    "bottom": 0,
+                                    "left": 0,
+                                    "right": 0,
+                                    "top": 0
+                                  },
+                                  "padding": {
+                                    "bottom": 0,
+                                    "left": 0,
+                                    "right": 0,
+                                    "top": 0
+                                  },
+                                  "textAlign": "Right"
+                                }
+                              }
+                            ],
+                            "kind": {
+                              "type": "View"
+                            },
+                            "style": {
+                              "flexBasis": {
+                                "Pt": 0
+                              },
+                              "flexGrow": 1,
+                              "flexShrink": 1,
+                              "justifyContent": "Center",
+                              "padding": {
+                                "bottom": 6,
+                                "left": 10,
+                                "right": 10,
+                                "top": 6
+                              },
+                              "textAlign": "Right"
+                            }
+                          },
+                          {
+                            "children": [
+                              {
+                                "children": [],
+                                "kind": {
+                                  "content": "Amount",
+                                  "type": "Text"
+                                },
+                                "style": {
+                                  "color": {
+                                    "a": 1,
+                                    "b": 0.10588235294117647,
+                                    "g": 0.09411764705882353,
+                                    "r": 0.09411764705882353
+                                  },
+                                  "fontFamily": "Helvetica",
+                                  "fontSize": 11,
+                                  "fontWeight": 600,
+                                  "lineHeight": 1.2,
+                                  "margin": {
+                                    "bottom": 0,
+                                    "left": 0,
+                                    "right": 0,
+                                    "top": 0
+                                  },
+                                  "padding": {
+                                    "bottom": 0,
+                                    "left": 0,
+                                    "right": 0,
+                                    "top": 0
+                                  },
+                                  "textAlign": "Right"
+                                }
+                              }
+                            ],
+                            "kind": {
+                              "type": "View"
+                            },
+                            "style": {
+                              "flexBasis": {
+                                "Pt": 0
+                              },
+                              "flexGrow": 1,
+                              "flexShrink": 1,
+                              "justifyContent": "Center",
+                              "padding": {
+                                "bottom": 6,
+                                "left": 10,
+                                "right": 10,
+                                "top": 6
+                              },
+                              "textAlign": "Right"
+                            }
+                          }
+                        ],
+                        "kind": {
+                          "type": "View"
+                        },
+                        "style": {
+                          "backgroundColor": {
+                            "a": 1,
+                            "b": 0.9607843137254902,
+                            "g": 0.9568627450980393,
+                            "r": 0.9568627450980393
+                          },
+                          "borderColor": {
+                            "bottom": {
+                              "a": 1,
+                              "b": 0.9058823529411765,
+                              "g": 0.8941176470588236,
+                              "r": 0.8941176470588236
+                            },
+                            "left": {
+                              "a": 1,
+                              "b": 0,
+                              "g": 0,
+                              "r": 0
+                            },
+                            "right": {
+                              "a": 1,
+                              "b": 0,
+                              "g": 0,
+                              "r": 0
+                            },
+                            "top": {
+                              "a": 1,
+                              "b": 0,
+                              "g": 0,
+                              "r": 0
+                            }
+                          },
+                          "borderWidth": {
+                            "bottom": 1,
+                            "left": 0,
+                            "right": 0,
+                            "top": 0
+                          },
+                          "display": "Flex",
+                          "flexDirection": "Row",
+                          "wrap": false
+                        }
+                      }
+                    ],
+                    "kind": {
+                      "type": "View"
+                    },
+                    "style": {}
+                  },
+                  {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "children": [
+                              {
+                                "children": [],
+                                "kind": {
+                                  "content": "Brand Identity Design",
+                                  "type": "Text"
+                                },
+                                "style": {
+                                  "color": {
+                                    "a": 1,
+                                    "b": 0.10588235294117647,
+                                    "g": 0.09411764705882353,
+                                    "r": 0.09411764705882353
+                                  },
+                                  "fontFamily": "Helvetica",
+                                  "fontSize": 11,
+                                  "lineHeight": 1.2,
+                                  "margin": {
+                                    "bottom": 0,
+                                    "left": 0,
+                                    "right": 0,
+                                    "top": 0
+                                  },
+                                  "padding": {
+                                    "bottom": 0,
+                                    "left": 0,
+                                    "right": 0,
+                                    "top": 0
+                                  }
+                                }
+                              }
+                            ],
+                            "kind": {
+                              "type": "View"
+                            },
+                            "style": {
+                              "flexBasis": {
+                                "Pt": 0
+                              },
+                              "flexGrow": 1,
+                              "flexShrink": 1,
+                              "justifyContent": "Center",
+                              "padding": {
+                                "bottom": 6,
+                                "left": 10,
+                                "right": 10,
+                                "top": 6
+                              }
+                            }
+                          },
+                          {
+                            "children": [
+                              {
+                                "children": [],
+                                "kind": {
+                                  "content": "1",
+                                  "type": "Text"
+                                },
+                                "style": {
+                                  "color": {
+                                    "a": 1,
+                                    "b": 0.10588235294117647,
+                                    "g": 0.09411764705882353,
+                                    "r": 0.09411764705882353
+                                  },
+                                  "fontFamily": "Helvetica",
+                                  "fontSize": 11,
+                                  "lineHeight": 1.2,
+                                  "margin": {
+                                    "bottom": 0,
+                                    "left": 0,
+                                    "right": 0,
+                                    "top": 0
+                                  },
+                                  "padding": {
+                                    "bottom": 0,
+                                    "left": 0,
+                                    "right": 0,
+                                    "top": 0
+                                  },
+                                  "textAlign": "Center"
+                                }
+                              }
+                            ],
+                            "kind": {
+                              "type": "View"
+                            },
+                            "style": {
+                              "flexBasis": {
+                                "Pt": 0
+                              },
+                              "flexGrow": 1,
+                              "flexShrink": 1,
+                              "justifyContent": "Center",
+                              "padding": {
+                                "bottom": 6,
+                                "left": 10,
+                                "right": 10,
+                                "top": 6
+                              },
+                              "textAlign": "Center"
+                            }
+                          },
+                          {
+                            "children": [
+                              {
+                                "children": [],
+                                "kind": {
+                                  "content": "$8,500",
+                                  "type": "Text"
+                                },
+                                "style": {
+                                  "color": {
+                                    "a": 1,
+                                    "b": 0.10588235294117647,
+                                    "g": 0.09411764705882353,
+                                    "r": 0.09411764705882353
+                                  },
+                                  "fontFamily": "Helvetica",
+                                  "fontSize": 11,
+                                  "lineHeight": 1.2,
+                                  "margin": {
+                                    "bottom": 0,
+                                    "left": 0,
+                                    "right": 0,
+                                    "top": 0
+                                  },
+                                  "padding": {
+                                    "bottom": 0,
+                                    "left": 0,
+                                    "right": 0,
+                                    "top": 0
+                                  },
+                                  "textAlign": "Right"
+                                }
+                              }
+                            ],
+                            "kind": {
+                              "type": "View"
+                            },
+                            "style": {
+                              "flexBasis": {
+                                "Pt": 0
+                              },
+                              "flexGrow": 1,
+                              "flexShrink": 1,
+                              "justifyContent": "Center",
+                              "padding": {
+                                "bottom": 6,
+                                "left": 10,
+                                "right": 10,
+                                "top": 6
+                              },
+                              "textAlign": "Right"
+                            }
+                          },
+                          {
+                            "children": [
+                              {
+                                "children": [],
+                                "kind": {
+                                  "content": "$8,500",
+                                  "type": "Text"
+                                },
+                                "style": {
+                                  "color": {
+                                    "a": 1,
+                                    "b": 0.10588235294117647,
+                                    "g": 0.09411764705882353,
+                                    "r": 0.09411764705882353
+                                  },
+                                  "fontFamily": "Helvetica",
+                                  "fontSize": 11,
+                                  "lineHeight": 1.2,
+                                  "margin": {
+                                    "bottom": 0,
+                                    "left": 0,
+                                    "right": 0,
+                                    "top": 0
+                                  },
+                                  "padding": {
+                                    "bottom": 0,
+                                    "left": 0,
+                                    "right": 0,
+                                    "top": 0
+                                  },
+                                  "textAlign": "Right"
+                                }
+                              }
+                            ],
+                            "kind": {
+                              "type": "View"
+                            },
+                            "style": {
+                              "flexBasis": {
+                                "Pt": 0
+                              },
+                              "flexGrow": 1,
+                              "flexShrink": 1,
+                              "justifyContent": "Center",
+                              "padding": {
+                                "bottom": 6,
+                                "left": 10,
+                                "right": 10,
+                                "top": 6
+                              },
+                              "textAlign": "Right"
+                            }
+                          }
+                        ],
+                        "kind": {
+                          "type": "View"
+                        },
+                        "style": {
+                          "display": "Flex",
+                          "flexDirection": "Row",
+                          "wrap": false
+                        }
+                      },
+                      {
+                        "children": [
+                          {
+                            "children": [
+                              {
+                                "children": [],
+                                "kind": {
+                                  "content": "Marketing Collateral Package",
+                                  "type": "Text"
+                                },
+                                "style": {
+                                  "color": {
+                                    "a": 1,
+                                    "b": 0.10588235294117647,
+                                    "g": 0.09411764705882353,
+                                    "r": 0.09411764705882353
+                                  },
+                                  "fontFamily": "Helvetica",
+                                  "fontSize": 11,
+                                  "lineHeight": 1.2,
+                                  "margin": {
+                                    "bottom": 0,
+                                    "left": 0,
+                                    "right": 0,
+                                    "top": 0
+                                  },
+                                  "padding": {
+                                    "bottom": 0,
+                                    "left": 0,
+                                    "right": 0,
+                                    "top": 0
+                                  }
+                                }
+                              }
+                            ],
+                            "kind": {
+                              "type": "View"
+                            },
+                            "style": {
+                              "flexBasis": {
+                                "Pt": 0
+                              },
+                              "flexGrow": 1,
+                              "flexShrink": 1,
+                              "justifyContent": "Center",
+                              "padding": {
+                                "bottom": 6,
+                                "left": 10,
+                                "right": 10,
+                                "top": 6
+                              }
+                            }
+                          },
+                          {
+                            "children": [
+                              {
+                                "children": [],
+                                "kind": {
+                                  "content": "1",
+                                  "type": "Text"
+                                },
+                                "style": {
+                                  "color": {
+                                    "a": 1,
+                                    "b": 0.10588235294117647,
+                                    "g": 0.09411764705882353,
+                                    "r": 0.09411764705882353
+                                  },
+                                  "fontFamily": "Helvetica",
+                                  "fontSize": 11,
+                                  "lineHeight": 1.2,
+                                  "margin": {
+                                    "bottom": 0,
+                                    "left": 0,
+                                    "right": 0,
+                                    "top": 0
+                                  },
+                                  "padding": {
+                                    "bottom": 0,
+                                    "left": 0,
+                                    "right": 0,
+                                    "top": 0
+                                  },
+                                  "textAlign": "Center"
+                                }
+                              }
+                            ],
+                            "kind": {
+                              "type": "View"
+                            },
+                            "style": {
+                              "flexBasis": {
+                                "Pt": 0
+                              },
+                              "flexGrow": 1,
+                              "flexShrink": 1,
+                              "justifyContent": "Center",
+                              "padding": {
+                                "bottom": 6,
+                                "left": 10,
+                                "right": 10,
+                                "top": 6
+                              },
+                              "textAlign": "Center"
+                            }
+                          },
+                          {
+                            "children": [
+                              {
+                                "children": [],
+                                "kind": {
+                                  "content": "$4,200",
+                                  "type": "Text"
+                                },
+                                "style": {
+                                  "color": {
+                                    "a": 1,
+                                    "b": 0.10588235294117647,
+                                    "g": 0.09411764705882353,
+                                    "r": 0.09411764705882353
+                                  },
+                                  "fontFamily": "Helvetica",
+                                  "fontSize": 11,
+                                  "lineHeight": 1.2,
+                                  "margin": {
+                                    "bottom": 0,
+                                    "left": 0,
+                                    "right": 0,
+                                    "top": 0
+                                  },
+                                  "padding": {
+                                    "bottom": 0,
+                                    "left": 0,
+                                    "right": 0,
+                                    "top": 0
+                                  },
+                                  "textAlign": "Right"
+                                }
+                              }
+                            ],
+                            "kind": {
+                              "type": "View"
+                            },
+                            "style": {
+                              "flexBasis": {
+                                "Pt": 0
+                              },
+                              "flexGrow": 1,
+                              "flexShrink": 1,
+                              "justifyContent": "Center",
+                              "padding": {
+                                "bottom": 6,
+                                "left": 10,
+                                "right": 10,
+                                "top": 6
+                              },
+                              "textAlign": "Right"
+                            }
+                          },
+                          {
+                            "children": [
+                              {
+                                "children": [],
+                                "kind": {
+                                  "content": "$4,200",
+                                  "type": "Text"
+                                },
+                                "style": {
+                                  "color": {
+                                    "a": 1,
+                                    "b": 0.10588235294117647,
+                                    "g": 0.09411764705882353,
+                                    "r": 0.09411764705882353
+                                  },
+                                  "fontFamily": "Helvetica",
+                                  "fontSize": 11,
+                                  "lineHeight": 1.2,
+                                  "margin": {
+                                    "bottom": 0,
+                                    "left": 0,
+                                    "right": 0,
+                                    "top": 0
+                                  },
+                                  "padding": {
+                                    "bottom": 0,
+                                    "left": 0,
+                                    "right": 0,
+                                    "top": 0
+                                  },
+                                  "textAlign": "Right"
+                                }
+                              }
+                            ],
+                            "kind": {
+                              "type": "View"
+                            },
+                            "style": {
+                              "flexBasis": {
+                                "Pt": 0
+                              },
+                              "flexGrow": 1,
+                              "flexShrink": 1,
+                              "justifyContent": "Center",
+                              "padding": {
+                                "bottom": 6,
+                                "left": 10,
+                                "right": 10,
+                                "top": 6
+                              },
+                              "textAlign": "Right"
+                            }
+                          }
+                        ],
+                        "kind": {
+                          "type": "View"
+                        },
+                        "style": {
+                          "backgroundColor": {
+                            "a": 1,
+                            "b": 0.9607843137254902,
+                            "g": 0.9568627450980393,
+                            "r": 0.9568627450980393
+                          },
+                          "display": "Flex",
+                          "flexDirection": "Row",
+                          "wrap": false
+                        }
+                      },
+                      {
+                        "children": [
+                          {
+                            "children": [
+                              {
+                                "children": [],
+                                "kind": {
+                                  "content": "Social Media Assets (per set)",
+                                  "type": "Text"
+                                },
+                                "style": {
+                                  "color": {
+                                    "a": 1,
+                                    "b": 0.10588235294117647,
+                                    "g": 0.09411764705882353,
+                                    "r": 0.09411764705882353
+                                  },
+                                  "fontFamily": "Helvetica",
+                                  "fontSize": 11,
+                                  "lineHeight": 1.2,
+                                  "margin": {
+                                    "bottom": 0,
+                                    "left": 0,
+                                    "right": 0,
+                                    "top": 0
+                                  },
+                                  "padding": {
+                                    "bottom": 0,
+                                    "left": 0,
+                                    "right": 0,
+                                    "top": 0
+                                  }
+                                }
+                              }
+                            ],
+                            "kind": {
+                              "type": "View"
+                            },
+                            "style": {
+                              "flexBasis": {
+                                "Pt": 0
+                              },
+                              "flexGrow": 1,
+                              "flexShrink": 1,
+                              "justifyContent": "Center",
+                              "padding": {
+                                "bottom": 6,
+                                "left": 10,
+                                "right": 10,
+                                "top": 6
+                              }
+                            }
+                          },
+                          {
+                            "children": [
+                              {
+                                "children": [],
+                                "kind": {
+                                  "content": "4",
+                                  "type": "Text"
+                                },
+                                "style": {
+                                  "color": {
+                                    "a": 1,
+                                    "b": 0.10588235294117647,
+                                    "g": 0.09411764705882353,
+                                    "r": 0.09411764705882353
+                                  },
+                                  "fontFamily": "Helvetica",
+                                  "fontSize": 11,
+                                  "lineHeight": 1.2,
+                                  "margin": {
+                                    "bottom": 0,
+                                    "left": 0,
+                                    "right": 0,
+                                    "top": 0
+                                  },
+                                  "padding": {
+                                    "bottom": 0,
+                                    "left": 0,
+                                    "right": 0,
+                                    "top": 0
+                                  },
+                                  "textAlign": "Center"
+                                }
+                              }
+                            ],
+                            "kind": {
+                              "type": "View"
+                            },
+                            "style": {
+                              "flexBasis": {
+                                "Pt": 0
+                              },
+                              "flexGrow": 1,
+                              "flexShrink": 1,
+                              "justifyContent": "Center",
+                              "padding": {
+                                "bottom": 6,
+                                "left": 10,
+                                "right": 10,
+                                "top": 6
+                              },
+                              "textAlign": "Center"
+                            }
+                          },
+                          {
+                            "children": [
+                              {
+                                "children": [],
+                                "kind": {
+                                  "content": "$750",
+                                  "type": "Text"
+                                },
+                                "style": {
+                                  "color": {
+                                    "a": 1,
+                                    "b": 0.10588235294117647,
+                                    "g": 0.09411764705882353,
+                                    "r": 0.09411764705882353
+                                  },
+                                  "fontFamily": "Helvetica",
+                                  "fontSize": 11,
+                                  "lineHeight": 1.2,
+                                  "margin": {
+                                    "bottom": 0,
+                                    "left": 0,
+                                    "right": 0,
+                                    "top": 0
+                                  },
+                                  "padding": {
+                                    "bottom": 0,
+                                    "left": 0,
+                                    "right": 0,
+                                    "top": 0
+                                  },
+                                  "textAlign": "Right"
+                                }
+                              }
+                            ],
+                            "kind": {
+                              "type": "View"
+                            },
+                            "style": {
+                              "flexBasis": {
+                                "Pt": 0
+                              },
+                              "flexGrow": 1,
+                              "flexShrink": 1,
+                              "justifyContent": "Center",
+                              "padding": {
+                                "bottom": 6,
+                                "left": 10,
+                                "right": 10,
+                                "top": 6
+                              },
+                              "textAlign": "Right"
+                            }
+                          },
+                          {
+                            "children": [
+                              {
+                                "children": [],
+                                "kind": {
+                                  "content": "$3,000",
+                                  "type": "Text"
+                                },
+                                "style": {
+                                  "color": {
+                                    "a": 1,
+                                    "b": 0.10588235294117647,
+                                    "g": 0.09411764705882353,
+                                    "r": 0.09411764705882353
+                                  },
+                                  "fontFamily": "Helvetica",
+                                  "fontSize": 11,
+                                  "lineHeight": 1.2,
+                                  "margin": {
+                                    "bottom": 0,
+                                    "left": 0,
+                                    "right": 0,
+                                    "top": 0
+                                  },
+                                  "padding": {
+                                    "bottom": 0,
+                                    "left": 0,
+                                    "right": 0,
+                                    "top": 0
+                                  },
+                                  "textAlign": "Right"
+                                }
+                              }
+                            ],
+                            "kind": {
+                              "type": "View"
+                            },
+                            "style": {
+                              "flexBasis": {
+                                "Pt": 0
+                              },
+                              "flexGrow": 1,
+                              "flexShrink": 1,
+                              "justifyContent": "Center",
+                              "padding": {
+                                "bottom": 6,
+                                "left": 10,
+                                "right": 10,
+                                "top": 6
+                              },
+                              "textAlign": "Right"
+                            }
+                          }
+                        ],
+                        "kind": {
+                          "type": "View"
+                        },
+                        "style": {
+                          "display": "Flex",
+                          "flexDirection": "Row",
+                          "wrap": false
+                        }
+                      },
+                      {
+                        "children": [
+                          {
+                            "children": [
+                              {
+                                "children": [],
+                                "kind": {
+                                  "content": "Motion Graphics (30s)",
+                                  "type": "Text"
+                                },
+                                "style": {
+                                  "color": {
+                                    "a": 1,
+                                    "b": 0.10588235294117647,
+                                    "g": 0.09411764705882353,
+                                    "r": 0.09411764705882353
+                                  },
+                                  "fontFamily": "Helvetica",
+                                  "fontSize": 11,
+                                  "lineHeight": 1.2,
+                                  "margin": {
+                                    "bottom": 0,
+                                    "left": 0,
+                                    "right": 0,
+                                    "top": 0
+                                  },
+                                  "padding": {
+                                    "bottom": 0,
+                                    "left": 0,
+                                    "right": 0,
+                                    "top": 0
+                                  }
+                                }
+                              }
+                            ],
+                            "kind": {
+                              "type": "View"
+                            },
+                            "style": {
+                              "flexBasis": {
+                                "Pt": 0
+                              },
+                              "flexGrow": 1,
+                              "flexShrink": 1,
+                              "justifyContent": "Center",
+                              "padding": {
+                                "bottom": 6,
+                                "left": 10,
+                                "right": 10,
+                                "top": 6
+                              }
+                            }
+                          },
+                          {
+                            "children": [
+                              {
+                                "children": [],
+                                "kind": {
+                                  "content": "2",
+                                  "type": "Text"
+                                },
+                                "style": {
+                                  "color": {
+                                    "a": 1,
+                                    "b": 0.10588235294117647,
+                                    "g": 0.09411764705882353,
+                                    "r": 0.09411764705882353
+                                  },
+                                  "fontFamily": "Helvetica",
+                                  "fontSize": 11,
+                                  "lineHeight": 1.2,
+                                  "margin": {
+                                    "bottom": 0,
+                                    "left": 0,
+                                    "right": 0,
+                                    "top": 0
+                                  },
+                                  "padding": {
+                                    "bottom": 0,
+                                    "left": 0,
+                                    "right": 0,
+                                    "top": 0
+                                  },
+                                  "textAlign": "Center"
+                                }
+                              }
+                            ],
+                            "kind": {
+                              "type": "View"
+                            },
+                            "style": {
+                              "flexBasis": {
+                                "Pt": 0
+                              },
+                              "flexGrow": 1,
+                              "flexShrink": 1,
+                              "justifyContent": "Center",
+                              "padding": {
+                                "bottom": 6,
+                                "left": 10,
+                                "right": 10,
+                                "top": 6
+                              },
+                              "textAlign": "Center"
+                            }
+                          },
+                          {
+                            "children": [
+                              {
+                                "children": [],
+                                "kind": {
+                                  "content": "$3,500",
+                                  "type": "Text"
+                                },
+                                "style": {
+                                  "color": {
+                                    "a": 1,
+                                    "b": 0.10588235294117647,
+                                    "g": 0.09411764705882353,
+                                    "r": 0.09411764705882353
+                                  },
+                                  "fontFamily": "Helvetica",
+                                  "fontSize": 11,
+                                  "lineHeight": 1.2,
+                                  "margin": {
+                                    "bottom": 0,
+                                    "left": 0,
+                                    "right": 0,
+                                    "top": 0
+                                  },
+                                  "padding": {
+                                    "bottom": 0,
+                                    "left": 0,
+                                    "right": 0,
+                                    "top": 0
+                                  },
+                                  "textAlign": "Right"
+                                }
+                              }
+                            ],
+                            "kind": {
+                              "type": "View"
+                            },
+                            "style": {
+                              "flexBasis": {
+                                "Pt": 0
+                              },
+                              "flexGrow": 1,
+                              "flexShrink": 1,
+                              "justifyContent": "Center",
+                              "padding": {
+                                "bottom": 6,
+                                "left": 10,
+                                "right": 10,
+                                "top": 6
+                              },
+                              "textAlign": "Right"
+                            }
+                          },
+                          {
+                            "children": [
+                              {
+                                "children": [],
+                                "kind": {
+                                  "content": "$7,000",
+                                  "type": "Text"
+                                },
+                                "style": {
+                                  "color": {
+                                    "a": 1,
+                                    "b": 0.10588235294117647,
+                                    "g": 0.09411764705882353,
+                                    "r": 0.09411764705882353
+                                  },
+                                  "fontFamily": "Helvetica",
+                                  "fontSize": 11,
+                                  "lineHeight": 1.2,
+                                  "margin": {
+                                    "bottom": 0,
+                                    "left": 0,
+                                    "right": 0,
+                                    "top": 0
+                                  },
+                                  "padding": {
+                                    "bottom": 0,
+                                    "left": 0,
+                                    "right": 0,
+                                    "top": 0
+                                  },
+                                  "textAlign": "Right"
+                                }
+                              }
+                            ],
+                            "kind": {
+                              "type": "View"
+                            },
+                            "style": {
+                              "flexBasis": {
+                                "Pt": 0
+                              },
+                              "flexGrow": 1,
+                              "flexShrink": 1,
+                              "justifyContent": "Center",
+                              "padding": {
+                                "bottom": 6,
+                                "left": 10,
+                                "right": 10,
+                                "top": 6
+                              },
+                              "textAlign": "Right"
+                            }
+                          }
+                        ],
+                        "kind": {
+                          "type": "View"
+                        },
+                        "style": {
+                          "backgroundColor": {
+                            "a": 1,
+                            "b": 0.9607843137254902,
+                            "g": 0.9568627450980393,
+                            "r": 0.9568627450980393
+                          },
+                          "display": "Flex",
+                          "flexDirection": "Row",
+                          "wrap": false
+                        }
+                      }
+                    ],
+                    "kind": {
+                      "type": "View"
+                    },
+                    "style": {}
+                  }
+                ],
+                "kind": {
+                  "type": "View"
+                },
+                "style": {
+                  "borderColor": {
+                    "bottom": {
+                      "a": 1,
+                      "b": 0.9058823529411765,
+                      "g": 0.8941176470588236,
+                      "r": 0.8941176470588236
+                    },
+                    "left": {
+                      "a": 1,
+                      "b": 0,
+                      "g": 0,
+                      "r": 0
+                    },
+                    "right": {
+                      "a": 1,
+                      "b": 0,
+                      "g": 0,
+                      "r": 0
+                    },
+                    "top": {
+                      "a": 1,
+                      "b": 0.9058823529411765,
+                      "g": 0.8941176470588236,
+                      "r": 0.8941176470588236
+                    }
+                  },
+                  "borderWidth": {
+                    "bottom": 0.5,
+                    "left": 0,
+                    "right": 0,
+                    "top": 0.5
+                  },
+                  "display": "Flex",
+                  "flexDirection": "Column",
+                  "margin": {
+                    "bottom": 14,
+                    "left": 0,
+                    "right": 0,
+                    "top": 0
+                  },
+                  "width": {
+                    "Percent": 100
+                  }
+                }
+              },
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "children": [],
+                        "kind": {
+                          "content": "Notes & Terms",
+                          "type": "Text"
+                        },
+                        "style": {
+                          "color": {
+                            "a": 1,
+                            "b": 0.9647058823529412,
+                            "g": 0.5098039215686274,
+                            "r": 0.23137254901960785
+                          },
+                          "fontFamily": "Helvetica",
+                          "fontSize": 8,
+                          "fontWeight": 700,
+                          "letterSpacing": 0.8,
+                          "lineHeight": 1.6,
+                          "margin": {
+                            "bottom": 6,
+                            "left": 0,
+                            "right": 0,
+                            "top": 0
+                          },
+                          "textTransform": "Uppercase"
+                        }
+                      },
+                      {
+                        "children": [],
+                        "kind": {
+                          "content": "Creative work is protected under copyright. Full usage rights transfer upon payment.",
+                          "type": "Text"
+                        },
+                        "style": {
+                          "color": {
+                            "a": 1,
+                            "b": 0.47843137254901963,
+                            "g": 0.44313725490196076,
+                            "r": 0.44313725490196076
+                          },
+                          "fontFamily": "Helvetica",
+                          "fontSize": 10,
+                          "lineHeight": 1.6,
+                          "margin": {
+                            "bottom": 10,
+                            "left": 0,
+                            "right": 0,
+                            "top": 0
+                          }
+                        }
+                      },
+                      {
+                        "children": [],
+                        "kind": {
+                          "content": "GST: GSTIN 456789123",
+                          "type": "Text"
+                        },
+                        "style": {
+                          "color": {
+                            "a": 1,
+                            "b": 0.47843137254901963,
+                            "g": 0.44313725490196076,
+                            "r": 0.44313725490196076
+                          },
+                          "fontFamily": "Helvetica",
+                          "fontSize": 10,
+                          "lineHeight": 1.6,
+                          "margin": {
+                            "bottom": 10,
+                            "left": 0,
+                            "right": 0,
+                            "top": 4
+                          }
+                        }
+                      }
+                    ],
+                    "kind": {
+                      "type": "View"
+                    },
+                    "style": {
+                      "flexBasis": {
+                        "Pt": 0
+                      },
+                      "flexGrow": 1,
+                      "flexShrink": 1,
+                      "padding": {
+                        "bottom": 0,
+                        "left": 0,
+                        "right": 20,
+                        "top": 0
+                      }
+                    }
+                  },
+                  {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "children": [
+                              {
+                                "children": [],
+                                "kind": {
+                                  "content": "Subtotal",
+                                  "type": "Text"
+                                },
+                                "style": {
+                                  "color": {
+                                    "a": 1,
+                                    "b": 0.47843137254901963,
+                                    "g": 0.44313725490196076,
+                                    "r": 0.44313725490196076
+                                  },
+                                  "flexBasis": {
+                                    "Pt": 0
+                                  },
+                                  "flexGrow": 1,
+                                  "flexShrink": 1,
+                                  "fontFamily": "Helvetica",
+                                  "fontSize": 10,
+                                  "fontWeight": 500
+                                }
+                              },
+                              {
+                                "children": [],
+                                "kind": {
+                                  "content": "$22,700",
+                                  "type": "Text"
+                                },
+                                "style": {
+                                  "color": {
+                                    "a": 1,
+                                    "b": 0.10588235294117647,
+                                    "g": 0.09411764705882353,
+                                    "r": 0.09411764705882353
+                                  },
+                                  "flexBasis": {
+                                    "Pt": 0
+                                  },
+                                  "flexGrow": 1,
+                                  "flexShrink": 1,
+                                  "fontFamily": "Helvetica",
+                                  "fontSize": 10,
+                                  "fontWeight": 400,
+                                  "textAlign": "Right"
+                                }
+                              }
+                            ],
+                            "kind": {
+                              "type": "View"
+                            },
+                            "style": {
+                              "alignItems": "FlexStart",
+                              "borderColor": {
+                                "bottom": {
+                                  "a": 1,
+                                  "b": 0.9058823529411765,
+                                  "g": 0.8941176470588236,
+                                  "r": 0.8941176470588236
+                                },
+                                "left": {
+                                  "a": 1,
+                                  "b": 0,
+                                  "g": 0,
+                                  "r": 0
+                                },
+                                "right": {
+                                  "a": 1,
+                                  "b": 0,
+                                  "g": 0,
+                                  "r": 0
+                                },
+                                "top": {
+                                  "a": 1,
+                                  "b": 0,
+                                  "g": 0,
+                                  "r": 0
+                                }
+                              },
+                              "borderWidth": {
+                                "bottom": 1,
+                                "left": 0,
+                                "right": 0,
+                                "top": 0
+                              },
+                              "flexDirection": "Row",
+                              "padding": {
+                                "bottom": 4,
+                                "left": 0,
+                                "right": 0,
+                                "top": 4
+                              },
+                              "width": {
+                                "Percent": 100
+                              }
+                            }
+                          },
+                          {
+                            "children": [
+                              {
+                                "children": [],
+                                "kind": {
+                                  "content": "Tax (6.5%)",
+                                  "type": "Text"
+                                },
+                                "style": {
+                                  "color": {
+                                    "a": 1,
+                                    "b": 0.47843137254901963,
+                                    "g": 0.44313725490196076,
+                                    "r": 0.44313725490196076
+                                  },
+                                  "flexBasis": {
+                                    "Pt": 0
+                                  },
+                                  "flexGrow": 1,
+                                  "flexShrink": 1,
+                                  "fontFamily": "Helvetica",
+                                  "fontSize": 10,
+                                  "fontWeight": 500
+                                }
+                              },
+                              {
+                                "children": [],
+                                "kind": {
+                                  "content": "$1475.50",
+                                  "type": "Text"
+                                },
+                                "style": {
+                                  "color": {
+                                    "a": 1,
+                                    "b": 0.10588235294117647,
+                                    "g": 0.09411764705882353,
+                                    "r": 0.09411764705882353
+                                  },
+                                  "flexBasis": {
+                                    "Pt": 0
+                                  },
+                                  "flexGrow": 1,
+                                  "flexShrink": 1,
+                                  "fontFamily": "Helvetica",
+                                  "fontSize": 10,
+                                  "fontWeight": 400,
+                                  "textAlign": "Right"
+                                }
+                              }
+                            ],
+                            "kind": {
+                              "type": "View"
+                            },
+                            "style": {
+                              "alignItems": "FlexStart",
+                              "borderColor": {
+                                "bottom": {
+                                  "a": 1,
+                                  "b": 0.9058823529411765,
+                                  "g": 0.8941176470588236,
+                                  "r": 0.8941176470588236
+                                },
+                                "left": {
+                                  "a": 1,
+                                  "b": 0,
+                                  "g": 0,
+                                  "r": 0
+                                },
+                                "right": {
+                                  "a": 1,
+                                  "b": 0,
+                                  "g": 0,
+                                  "r": 0
+                                },
+                                "top": {
+                                  "a": 1,
+                                  "b": 0,
+                                  "g": 0,
+                                  "r": 0
+                                }
+                              },
+                              "borderWidth": {
+                                "bottom": 1,
+                                "left": 0,
+                                "right": 0,
+                                "top": 0
+                              },
+                              "flexDirection": "Row",
+                              "padding": {
+                                "bottom": 4,
+                                "left": 0,
+                                "right": 0,
+                                "top": 4
+                              },
+                              "width": {
+                                "Percent": 100
+                              }
+                            }
+                          },
+                          {
+                            "children": [
+                              {
+                                "children": [],
+                                "kind": {
+                                  "content": "Total",
+                                  "type": "Text"
+                                },
+                                "style": {
+                                  "color": {
+                                    "a": 1,
+                                    "b": 0.47843137254901963,
+                                    "g": 0.44313725490196076,
+                                    "r": 0.44313725490196076
+                                  },
+                                  "flexBasis": {
+                                    "Pt": 0
+                                  },
+                                  "flexGrow": 1,
+                                  "flexShrink": 1,
+                                  "fontFamily": "Helvetica",
+                                  "fontSize": 13,
+                                  "fontWeight": 700
+                                }
+                              },
+                              {
+                                "children": [],
+                                "kind": {
+                                  "content": "$24175.50",
+                                  "type": "Text"
+                                },
+                                "style": {
+                                  "color": {
+                                    "a": 1,
+                                    "b": 0.9647058823529412,
+                                    "g": 0.5098039215686274,
+                                    "r": 0.23137254901960785
+                                  },
+                                  "flexBasis": {
+                                    "Pt": 0
+                                  },
+                                  "flexGrow": 1,
+                                  "flexShrink": 1,
+                                  "fontFamily": "Helvetica",
+                                  "fontSize": 14,
+                                  "fontWeight": 700,
+                                  "textAlign": "Right"
+                                }
+                              }
+                            ],
+                            "kind": {
+                              "type": "View"
+                            },
+                            "style": {
+                              "alignItems": "FlexStart",
+                              "borderColor": {
+                                "bottom": {
+                                  "a": 1,
+                                  "b": 1,
+                                  "g": 1,
+                                  "r": 1
+                                },
+                                "left": {
+                                  "a": 1,
+                                  "b": 0,
+                                  "g": 0,
+                                  "r": 0
+                                },
+                                "right": {
+                                  "a": 1,
+                                  "b": 0,
+                                  "g": 0,
+                                  "r": 0
+                                },
+                                "top": {
+                                  "a": 1,
+                                  "b": 0,
+                                  "g": 0,
+                                  "r": 0
+                                }
+                              },
+                              "borderWidth": {
+                                "bottom": 0.01,
+                                "left": 0,
+                                "right": 0,
+                                "top": 0
+                              },
+                              "flexDirection": "Row",
+                              "padding": {
+                                "bottom": 4,
+                                "left": 0,
+                                "right": 0,
+                                "top": 4
+                              },
+                              "width": {
+                                "Percent": 100
+                              }
+                            }
+                          }
+                        ],
+                        "kind": {
+                          "type": "View"
+                        },
+                        "style": {
+                          "flexDirection": "Column",
+                          "width": {
+                            "Percent": 100
+                          },
+                          "wrap": true
+                        }
+                      }
+                    ],
+                    "kind": {
+                      "type": "View"
+                    },
+                    "style": {
+                      "backgroundColor": {
+                        "a": 1,
+                        "b": 0.9607843137254902,
+                        "g": 0.9568627450980393,
+                        "r": 0.9568627450980393
+                      },
+                      "borderRadius": {
+                        "bottom_left": 2,
+                        "bottom_right": 2,
+                        "top_left": 2,
+                        "top_right": 2
+                      },
+                      "padding": {
+                        "bottom": 14,
+                        "left": 14,
+                        "right": 14,
+                        "top": 14
+                      },
+                      "width": {
+                        "Pt": 240
+                      }
+                    }
+                  }
+                ],
+                "kind": {
+                  "type": "View"
+                },
+                "style": {
+                  "flexDirection": "Row",
+                  "margin": {
+                    "bottom": 28,
+                    "left": 0,
+                    "right": 0,
+                    "top": 24
+                  },
+                  "wrap": false
+                }
+              }
+            ],
+            "kind": {
+              "type": "View"
+            },
+            "style": {
+              "backgroundColor": {
+                "a": 1,
+                "b": 1,
+                "g": 1,
+                "r": 1
+              }
+            }
+          }
+        ],
+        "kind": {
+          "config": {
+            "margin": {
+              "bottom": 25,
+              "left": 56,
+              "right": 56,
+              "top": 56
+            },
+            "size": "A4",
+            "wrap": true
+          },
+          "type": "Page"
+        },
+        "style": {}
+      }
+    ],
+    "defaultPage": {
+      "margin": {
+        "bottom": 54,
+        "left": 54,
+        "right": 54,
+        "top": 54
+      },
+      "size": "A4",
+      "wrap": true
+    },
+    "metadata": {
+      "title": "Invoice INV-2026-005"
+    }
+  }
+}

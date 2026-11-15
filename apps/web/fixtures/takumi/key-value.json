@@ -1,0 +1,262 @@
+{
+  "node": {
+    "children": [
+      {
+        "attributes": {
+          "data-pdf-page": ""
+        },
+        "children": [
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "style": {
+                      "color": "#71717a",
+                      "flex": 1,
+                      "fontFamily": "Helvetica",
+                      "fontSize": 14.666666666666666,
+                      "fontWeight": 500
+                    },
+                    "tagName": "span",
+                    "text": "Invoice #",
+                    "type": "text"
+                  },
+                  {
+                    "style": {
+                      "color": "#18181b",
+                      "flex": 1,
+                      "fontFamily": "Helvetica",
+                      "fontSize": 14.666666666666666,
+                      "fontWeight": 400,
+                      "textAlign": "right"
+                    },
+                    "tagName": "span",
+                    "text": "INV-2026-0042",
+                    "type": "text"
+                  }
+                ],
+                "preset": {
+                  "display": "block"
+                },
+                "style": {
+                  "alignItems": "flex-start",
+                  "borderBottomColor": "#e4e4e7",
+                  "borderBottomStyle": "solid",
+                  "borderBottomWidth": 2.6666666666666665,
+                  "display": "flex",
+                  "flexDirection": "row",
+                  "paddingBottom": 5.333333333333333,
+                  "paddingTop": 5.333333333333333
+                },
+                "tagName": "div",
+                "type": "container"
+              },
+              {
+                "children": [
+                  {
+                    "style": {
+                      "color": "#71717a",
+                      "flex": 1,
+                      "fontFamily": "Helvetica",
+                      "fontSize": 14.666666666666666,
+                      "fontWeight": 500
+                    },
+                    "tagName": "span",
+                    "text": "Issue Date",
+                    "type": "text"
+                  },
+                  {
+                    "style": {
+                      "color": "#18181b",
+                      "flex": 1,
+                      "fontFamily": "Helvetica",
+                      "fontSize": 14.666666666666666,
+                      "fontWeight": 400,
+                      "textAlign": "right"
+                    },
+                    "tagName": "span",
+                    "text": "15 February 2026",
+                    "type": "text"
+                  }
+                ],
+                "preset": {
+                  "display": "block"
+                },
+                "style": {
+                  "alignItems": "flex-start",
+                  "borderBottomColor": "#e4e4e7",
+                  "borderBottomStyle": "solid",
+                  "borderBottomWidth": 2.6666666666666665,
+                  "display": "flex",
+                  "flexDirection": "row",
+                  "paddingBottom": 5.333333333333333,
+                  "paddingTop": 5.333333333333333
+                },
+                "tagName": "div",
+                "type": "container"
+              },
+              {
+                "children": [
+                  {
+                    "style": {
+                      "color": "#71717a",
+                      "flex": 1,
+                      "fontFamily": "Helvetica",
+                      "fontSize": 14.666666666666666,
+                      "fontWeight": 500
+                    },
+                    "tagName": "span",
+                    "text": "Due Date",
+                    "type": "text"
+                  },
+                  {
+                    "style": {
+                      "color": "#18181b",
+                      "flex": 1,
+                      "fontFamily": "Helvetica",
+                      "fontSize": 14.666666666666666,
+                      "fontWeight": 400,
+                      "textAlign": "right"
+                    },
+                    "tagName": "span",
+                    "text": "17 March 2026",
+                    "type": "text"
+                  }
+                ],
+                "preset": {
+                  "display": "block"
+                },
+                "style": {
+                  "alignItems": "flex-start",
+                  "borderBottomColor": "#e4e4e7",
+                  "borderBottomStyle": "solid",
+                  "borderBottomWidth": 2.6666666666666665,
+                  "display": "flex",
+                  "flexDirection": "row",
+                  "paddingBottom": 5.333333333333333,
+                  "paddingTop": 5.333333333333333
+                },
+                "tagName": "div",
+                "type": "container"
+              },
+              {
+                "children": [
+                  {
+                    "style": {
+                      "color": "#71717a",
+                      "flex": 1,
+                      "fontFamily": "Helvetica",
+                      "fontSize": 14.666666666666666,
+                      "fontWeight": 500
+                    },
+                    "tagName": "span",
+                    "text": "Status",
+                    "type": "text"
+                  },
+                  {
+                    "style": {
+                      "color": "#dc2626",
+                      "flex": 1,
+                      "fontFamily": "Helvetica",
+                      "fontSize": 14.666666666666666,
+                      "fontWeight": 400,
+                      "textAlign": "right"
+                    },
+                    "tagName": "span",
+                    "text": "Unpaid",
+                    "type": "text"
+                  }
+                ],
+                "preset": {
+                  "display": "block"
+                },
+                "style": {
+                  "alignItems": "flex-start",
+                  "borderBottomColor": "#e4e4e7",
+                  "borderBottomStyle": "solid",
+                  "borderBottomWidth": 2.6666666666666665,
+                  "display": "flex",
+                  "flexDirection": "row",
+                  "paddingBottom": 5.333333333333333,
+                  "paddingTop": 5.333333333333333
+                },
+                "tagName": "div",
+                "type": "container"
+              },
+              {
+                "children": [
+                  {
+                    "style": {
+                      "color": "#71717a",
+                      "flex": 1,
+                      "fontFamily": "Helvetica",
+                      "fontSize": 14.666666666666666,
+                      "fontWeight": 500
+                    },
+                    "tagName": "span",
+                    "text": "Total",
+                    "type": "text"
+                  },
+                  {
+                    "style": {
+                      "color": "#18181b",
+                      "flex": 1,
+                      "fontFamily": "Helvetica",
+                      "fontSize": 14.666666666666666,
+                      "fontWeight": 400,
+                      "textAlign": "right"
+                    },
+                    "tagName": "span",
+                    "text": "$4,200.00",
+                    "type": "text"
+                  }
+                ],
+                "preset": {
+                  "display": "block"
+                },
+                "style": {
+                  "alignItems": "flex-start",
+                  "display": "flex",
+                  "flexDirection": "row",
+                  "paddingBottom": 5.333333333333333,
+                  "paddingTop": 5.333333333333333
+                },
+                "tagName": "div",
+                "type": "container"
+              }
+            ],
+            "preset": {
+              "display": "block"
+            },
+            "style": {
+              "display": "flex",
+              "flexDirection": "column"
+            },
+            "tagName": "div",
+            "type": "container"
+          }
+        ],
+        "preset": {
+          "display": "block"
+        },
+        "style": {
+          "display": "flex",
+          "flexDirection": "column"
+        },
+        "tagName": "div",
+        "type": "container"
+      }
+    ],
+    "preset": {
+      "display": "block"
+    },
+    "style": {
+      "display": "flex",
+      "flexDirection": "column"
+    },
+    "tagName": "div",
+    "type": "container"
+  },
+  "stylesheets": []
+}

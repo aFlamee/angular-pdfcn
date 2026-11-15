@@ -1,0 +1,33 @@
+{
+  "name": "angular-pdfcn",
+  "private": true,
+  "workspaces": [
+    "apps/*"
+  ],
+  "type": "module",
+  "scripts": {
+    "dev": "turbo run dev --filter=web",
+    "build": "turbo run build --filter=web",
+    "typecheck": "turbo run typecheck",
+    "test": "pnpm --filter web test",
+    "registry:build": "turbo run registry:build --filter=web",
+    "install:check": "pnpm --filter web install:check",
+    "verify": "node scripts/verify.mjs",
+    "check": "ultracite check",
+    "fix": "ultracite fix",
+    "prepare": "lefthook install"
+  },
+  "devDependencies": {
+    "lefthook": "^2.1.6",
+    "oxfmt": "^0.46.0",
+    "oxlint": "^1.61.0",
+    "turbo": "^2.10.2",
+    "typescript": "^6.0.3",
+    "ultracite": "7.6.1"
+  },
+  "engines": {
+    "node": ">=22.22.0",
+    "pnpm": ">=10.0.0"
+  },
+  "packageManager": "pnpm@10.28.2"
+}

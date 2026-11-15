@@ -1,0 +1,11 @@
+pre-commit:
+  jobs:
+    - run: pnpm fix {staged_files}
+      glob:
+        - "**/*.js"
+        - "**/*.mjs"
+        - "**/*.ts"
+        - "**/*.json"
+        - "**/*.jsonc"
+        - "**/*.css"
+      stage_fixed: true

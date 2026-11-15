@@ -1,0 +1,358 @@
+{
+  "document": {
+    "children": [
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "children": [],
+                            "kind": {
+                              "type": "View"
+                            },
+                            "style": {
+                              "backgroundColor": {
+                                "a": 1,
+                                "b": 0.10588235294117647,
+                                "g": 0.09411764705882353,
+                                "r": 0.09411764705882353
+                              },
+                              "borderRadius": {
+                                "bottom_left": 3,
+                                "bottom_right": 3,
+                                "top_left": 3,
+                                "top_right": 3
+                              },
+                              "height": {
+                                "Pt": 5
+                              },
+                              "width": {
+                                "Pt": 5
+                              }
+                            }
+                          }
+                        ],
+                        "kind": {
+                          "type": "View"
+                        },
+                        "style": {
+                          "alignItems": "Center",
+                          "justifyContent": "FlexStart",
+                          "margin": {
+                            "bottom": 0,
+                            "left": 0,
+                            "right": 0,
+                            "top": 4
+                          },
+                          "width": {
+                            "Pt": 16
+                          }
+                        }
+                      },
+                      {
+                        "children": [
+                          {
+                            "children": [],
+                            "kind": {
+                              "content": "Design system alignment",
+                              "type": "Text"
+                            },
+                            "style": {
+                              "color": {
+                                "a": 1,
+                                "b": 0.10588235294117647,
+                                "g": 0.09411764705882353,
+                                "r": 0.09411764705882353
+                              },
+                              "fontFamily": "Helvetica",
+                              "fontSize": 11,
+                              "lineHeight": 1.6
+                            }
+                          }
+                        ],
+                        "kind": {
+                          "type": "View"
+                        },
+                        "style": {
+                          "flexBasis": {
+                            "Pt": 0
+                          },
+                          "flexGrow": 1,
+                          "flexShrink": 1
+                        }
+                      }
+                    ],
+                    "kind": {
+                      "type": "View"
+                    },
+                    "style": {
+                      "alignItems": "FlexStart",
+                      "flexDirection": "Row",
+                      "margin": {
+                        "bottom": 8,
+                        "left": 0,
+                        "right": 0,
+                        "top": 0
+                      }
+                    }
+                  }
+                ],
+                "kind": {
+                  "type": "View"
+                },
+                "style": {}
+              },
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "children": [],
+                            "kind": {
+                              "type": "View"
+                            },
+                            "style": {
+                              "backgroundColor": {
+                                "a": 1,
+                                "b": 0.10588235294117647,
+                                "g": 0.09411764705882353,
+                                "r": 0.09411764705882353
+                              },
+                              "borderRadius": {
+                                "bottom_left": 3,
+                                "bottom_right": 3,
+                                "top_left": 3,
+                                "top_right": 3
+                              },
+                              "height": {
+                                "Pt": 5
+                              },
+                              "width": {
+                                "Pt": 5
+                              }
+                            }
+                          }
+                        ],
+                        "kind": {
+                          "type": "View"
+                        },
+                        "style": {
+                          "alignItems": "Center",
+                          "justifyContent": "FlexStart",
+                          "margin": {
+                            "bottom": 0,
+                            "left": 0,
+                            "right": 0,
+                            "top": 4
+                          },
+                          "width": {
+                            "Pt": 16
+                          }
+                        }
+                      },
+                      {
+                        "children": [
+                          {
+                            "children": [],
+                            "kind": {
+                              "content": "Component implementation",
+                              "type": "Text"
+                            },
+                            "style": {
+                              "color": {
+                                "a": 1,
+                                "b": 0.10588235294117647,
+                                "g": 0.09411764705882353,
+                                "r": 0.09411764705882353
+                              },
+                              "fontFamily": "Helvetica",
+                              "fontSize": 11,
+                              "lineHeight": 1.6
+                            }
+                          }
+                        ],
+                        "kind": {
+                          "type": "View"
+                        },
+                        "style": {
+                          "flexBasis": {
+                            "Pt": 0
+                          },
+                          "flexGrow": 1,
+                          "flexShrink": 1
+                        }
+                      }
+                    ],
+                    "kind": {
+                      "type": "View"
+                    },
+                    "style": {
+                      "alignItems": "FlexStart",
+                      "flexDirection": "Row",
+                      "margin": {
+                        "bottom": 8,
+                        "left": 0,
+                        "right": 0,
+                        "top": 0
+                      }
+                    }
+                  }
+                ],
+                "kind": {
+                  "type": "View"
+                },
+                "style": {}
+              },
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "children": [],
+                            "kind": {
+                              "type": "View"
+                            },
+                            "style": {
+                              "backgroundColor": {
+                                "a": 1,
+                                "b": 0.10588235294117647,
+                                "g": 0.09411764705882353,
+                                "r": 0.09411764705882353
+                              },
+                              "borderRadius": {
+                                "bottom_left": 3,
+                                "bottom_right": 3,
+                                "top_left": 3,
+                                "top_right": 3
+                              },
+                              "height": {
+                                "Pt": 5
+                              },
+                              "width": {
+                                "Pt": 5
+                              }
+                            }
+                          }
+                        ],
+                        "kind": {
+                          "type": "View"
+                        },
+                        "style": {
+                          "alignItems": "Center",
+                          "justifyContent": "FlexStart",
+                          "margin": {
+                            "bottom": 0,
+                            "left": 0,
+                            "right": 0,
+                            "top": 4
+                          },
+                          "width": {
+                            "Pt": 16
+                          }
+                        }
+                      },
+                      {
+                        "children": [
+                          {
+                            "children": [],
+                            "kind": {
+                              "content": "Write unit tests",
+                              "type": "Text"
+                            },
+                            "style": {
+                              "color": {
+                                "a": 1,
+                                "b": 0.10588235294117647,
+                                "g": 0.09411764705882353,
+                                "r": 0.09411764705882353
+                              },
+                              "fontFamily": "Helvetica",
+                              "fontSize": 11,
+                              "lineHeight": 1.6
+                            }
+                          }
+                        ],
+                        "kind": {
+                          "type": "View"
+                        },
+                        "style": {
+                          "flexBasis": {
+                            "Pt": 0
+                          },
+                          "flexGrow": 1,
+                          "flexShrink": 1
+                        }
+                      }
+                    ],
+                    "kind": {
+                      "type": "View"
+                    },
+                    "style": {
+                      "alignItems": "FlexStart",
+                      "flexDirection": "Row"
+                    }
+                  }
+                ],
+                "kind": {
+                  "type": "View"
+                },
+                "style": {}
+              }
+            ],
+            "kind": {
+              "type": "View"
+            },
+            "style": {
+              "display": "Flex",
+              "flexDirection": "Column",
+              "margin": {
+                "bottom": 14,
+                "left": 0,
+                "right": 0,
+                "top": 0
+              },
+              "width": {
+                "Percent": 100
+              }
+            }
+          }
+        ],
+        "kind": {
+          "config": {
+            "margin": {
+              "bottom": 40,
+              "left": 40,
+              "right": 40,
+              "top": 40
+            },
+            "size": "A4",
+            "wrap": true
+          },
+          "type": "Page"
+        },
+        "style": {}
+      }
+    ],
+    "defaultPage": {
+      "margin": {
+        "bottom": 54,
+        "left": 54,
+        "right": 54,
+        "top": 54
+      },
+      "size": "A4",
+      "wrap": true
+    },
+    "metadata": {}
+  }
+}

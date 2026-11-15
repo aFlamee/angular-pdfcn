@@ -1,0 +1,131 @@
+{
+  "node": {
+    "children": [
+      {
+        "attributes": {
+          "data-pdf-page": ""
+        },
+        "children": [
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "style": {
+                      "color": "#18181b",
+                      "fontFamily": "Times-Roman",
+                      "fontSize": 32,
+                      "fontWeight": 700,
+                      "lineHeight": 1.25,
+                      "marginBottom": 13.333333333333332,
+                      "marginTop": 37.33333333333333
+                    },
+                    "tagName": "span",
+                    "text": "Introduction",
+                    "type": "text"
+                  },
+                  {
+                    "style": {
+                      "color": "#18181b",
+                      "fontFamily": "Helvetica",
+                      "fontSize": 14.666666666666666,
+                      "lineHeight": 1.6,
+                      "marginBottom": 13.333333333333332,
+                      "marginTop": 0
+                    },
+                    "tagName": "span",
+                    "text": "This section uses generous spacing for a primary document area.",
+                    "type": "text"
+                  }
+                ],
+                "preset": {
+                  "display": "block"
+                },
+                "style": {
+                  "display": "flex",
+                  "flexDirection": "column",
+                  "marginBottom": 42.666666666666664,
+                  "marginTop": 42.666666666666664
+                },
+                "tagName": "div",
+                "type": "container"
+              },
+              {
+                "children": [
+                  {
+                    "style": {
+                      "color": "#18181b",
+                      "fontFamily": "Times-Roman",
+                      "fontSize": 32,
+                      "fontWeight": 700,
+                      "lineHeight": 1.25,
+                      "marginBottom": 13.333333333333332,
+                      "marginTop": 37.33333333333333
+                    },
+                    "tagName": "span",
+                    "text": "Details",
+                    "type": "text"
+                  },
+                  {
+                    "style": {
+                      "color": "#18181b",
+                      "fontFamily": "Helvetica",
+                      "fontSize": 14.666666666666666,
+                      "lineHeight": 1.6,
+                      "marginBottom": 13.333333333333332,
+                      "marginTop": 0
+                    },
+                    "tagName": "span",
+                    "text": "This section groups related content with medium spacing.",
+                    "type": "text"
+                  }
+                ],
+                "preset": {
+                  "display": "block"
+                },
+                "style": {
+                  "display": "flex",
+                  "flexDirection": "column",
+                  "marginBottom": 37.33333333333333,
+                  "marginTop": 37.33333333333333
+                },
+                "tagName": "div",
+                "type": "container"
+              }
+            ],
+            "preset": {
+              "display": "block"
+            },
+            "style": {
+              "display": "flex",
+              "flexDirection": "column",
+              "marginBottom": 0,
+              "marginTop": 0
+            },
+            "tagName": "div",
+            "type": "container"
+          }
+        ],
+        "preset": {
+          "display": "block"
+        },
+        "style": {
+          "display": "flex",
+          "flexDirection": "column"
+        },
+        "tagName": "div",
+        "type": "container"
+      }
+    ],
+    "preset": {
+      "display": "block"
+    },
+    "style": {
+      "display": "flex",
+      "flexDirection": "column"
+    },
+    "tagName": "div",
+    "type": "container"
+  },
+  "stylesheets": []
+}

@@ -1,0 +1,782 @@
+{
+  "document": {
+    "children": [
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "children": [],
+                "kind": {
+                  "content": "123 Market St, San Francisco, CA 94103",
+                  "type": "Text"
+                },
+                "style": {
+                  "color": {
+                    "a": 1,
+                    "b": 0.47843137254901963,
+                    "g": 0.44313725490196076,
+                    "r": 0.44313725490196076
+                  },
+                  "fontFamily": "Helvetica",
+                  "fontSize": 10,
+                  "lineHeight": 1.6,
+                  "width": {
+                    "Pt": 360
+                  }
+                }
+              },
+              {
+                "children": [],
+                "kind": {
+                  "content": "GitHub · X",
+                  "type": "Text"
+                },
+                "style": {
+                  "color": {
+                    "a": 1,
+                    "b": 0.47843137254901963,
+                    "g": 0.44313725490196076,
+                    "r": 0.44313725490196076
+                  },
+                  "fontFamily": "Helvetica",
+                  "fontSize": 10,
+                  "lineHeight": 1.6,
+                  "textAlign": "Right",
+                  "width": {
+                    "Pt": 120
+                  }
+                }
+              }
+            ],
+            "kind": {
+              "position": "Footer",
+              "type": "Fixed"
+            },
+            "style": {
+              "alignItems": "Center",
+              "borderColor": {
+                "bottom": {
+                  "a": 1,
+                  "b": 0,
+                  "g": 0,
+                  "r": 0
+                },
+                "left": {
+                  "a": 1,
+                  "b": 0,
+                  "g": 0,
+                  "r": 0
+                },
+                "right": {
+                  "a": 1,
+                  "b": 0,
+                  "g": 0,
+                  "r": 0
+                },
+                "top": {
+                  "a": 1,
+                  "b": 0.9058823529411765,
+                  "g": 0.8941176470588236,
+                  "r": 0.8941176470588236
+                }
+              },
+              "borderWidth": {
+                "bottom": 0,
+                "left": 0,
+                "right": 0,
+                "top": 2
+              },
+              "display": "Flex",
+              "flexDirection": "Row",
+              "justifyContent": "SpaceBetween",
+              "margin": {
+                "bottom": -31,
+                "left": 0,
+                "right": 0,
+                "top": 0
+              },
+              "padding": {
+                "bottom": 0,
+                "left": 0,
+                "right": 0,
+                "top": 12
+              }
+            }
+          },
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "children": [],
+                        "kind": {
+                          "content": "Acme Corp",
+                          "type": "Text"
+                        },
+                        "style": {
+                          "color": {
+                            "a": 1,
+                            "b": 0.10588235294117647,
+                            "g": 0.09411764705882353,
+                            "r": 0.09411764705882353
+                          },
+                          "fontFamily": "Times-Roman",
+                          "fontSize": 20,
+                          "fontWeight": 700,
+                          "lineHeight": 1.25,
+                          "margin": {
+                            "bottom": 0,
+                            "left": 0,
+                            "right": 0,
+                            "top": 0
+                          }
+                        }
+                      }
+                    ],
+                    "kind": {
+                      "type": "View"
+                    },
+                    "style": {
+                      "display": "Flex",
+                      "flexBasis": {
+                        "Pt": 0
+                      },
+                      "flexDirection": "Column",
+                      "flexGrow": 1,
+                      "flexShrink": 1,
+                      "padding": {
+                        "bottom": 0,
+                        "left": 16,
+                        "right": 0,
+                        "top": 0
+                      }
+                    }
+                  },
+                  {
+                    "children": [
+                      {
+                        "children": [],
+                        "kind": {
+                          "content": "September 10, 2026",
+                          "type": "Text"
+                        },
+                        "style": {
+                          "color": {
+                            "a": 1,
+                            "b": 0.10588235294117647,
+                            "g": 0.09411764705882353,
+                            "r": 0.09411764705882353
+                          },
+                          "fontFamily": "Helvetica",
+                          "fontSize": 11,
+                          "fontWeight": 500,
+                          "textAlign": "Right"
+                        }
+                      }
+                    ],
+                    "kind": {
+                      "type": "View"
+                    },
+                    "style": {
+                      "alignItems": "FlexEnd",
+                      "display": "Flex",
+                      "flexDirection": "Column"
+                    }
+                  }
+                ],
+                "kind": {
+                  "type": "View"
+                },
+                "style": {
+                  "alignItems": "Center",
+                  "borderColor": {
+                    "bottom": {
+                      "a": 1,
+                      "b": 0.9058823529411765,
+                      "g": 0.8941176470588236,
+                      "r": 0.8941176470588236
+                    },
+                    "left": {
+                      "a": 1,
+                      "b": 0,
+                      "g": 0,
+                      "r": 0
+                    },
+                    "right": {
+                      "a": 1,
+                      "b": 0,
+                      "g": 0,
+                      "r": 0
+                    },
+                    "top": {
+                      "a": 1,
+                      "b": 0,
+                      "g": 0,
+                      "r": 0
+                    }
+                  },
+                  "borderWidth": {
+                    "bottom": 2,
+                    "left": 0,
+                    "right": 0,
+                    "top": 0
+                  },
+                  "display": "Flex",
+                  "flexDirection": "Row",
+                  "margin": {
+                    "bottom": 0,
+                    "left": 0,
+                    "right": 0,
+                    "top": 0
+                  },
+                  "padding": {
+                    "bottom": 16,
+                    "left": 0,
+                    "right": 0,
+                    "top": 0
+                  },
+                  "wrap": false
+                }
+              },
+              {
+                "children": [
+                  {
+                    "children": [],
+                    "kind": {
+                      "content": "For Immediate Release",
+                      "type": "Text"
+                    },
+                    "style": {
+                      "color": {
+                        "a": 1,
+                        "b": 0.6862745098039216,
+                        "g": 0.25098039215686274,
+                        "r": 0.11764705882352941
+                      },
+                      "fontFamily": "Helvetica",
+                      "fontSize": 10,
+                      "fontWeight": 700,
+                      "letterSpacing": 0.5,
+                      "lineHeight": 1.6,
+                      "margin": {
+                        "bottom": 0,
+                        "left": 0,
+                        "right": 0,
+                        "top": 0
+                      },
+                      "textTransform": "Uppercase"
+                    }
+                  },
+                  {
+                    "children": [],
+                    "kind": {
+                      "content": "Acme Corp Launches Revolutionary PDF Toolkit for Developers",
+                      "type": "Text"
+                    },
+                    "style": {
+                      "color": {
+                        "a": 1,
+                        "b": 0.10588235294117647,
+                        "g": 0.09411764705882353,
+                        "r": 0.09411764705882353
+                      },
+                      "fontFamily": "Helvetica",
+                      "fontSize": 28,
+                      "fontWeight": 700,
+                      "lineHeight": 1.6,
+                      "margin": {
+                        "bottom": 0,
+                        "left": 0,
+                        "right": 0,
+                        "top": 0
+                      }
+                    }
+                  },
+                  {
+                    "children": [],
+                    "kind": {
+                      "content": "New open-source library makes generating professional PDFs in React effortless",
+                      "type": "Text"
+                    },
+                    "style": {
+                      "color": {
+                        "a": 1,
+                        "b": 0.47843137254901963,
+                        "g": 0.44313725490196076,
+                        "r": 0.44313725490196076
+                      },
+                      "fontFamily": "Helvetica",
+                      "fontSize": 18,
+                      "lineHeight": 1.6,
+                      "margin": {
+                        "bottom": 0,
+                        "left": 0,
+                        "right": 0,
+                        "top": 0
+                      }
+                    }
+                  }
+                ],
+                "kind": {
+                  "type": "View"
+                },
+                "style": {
+                  "flexDirection": "Column",
+                  "margin": {
+                    "bottom": 0,
+                    "left": 0,
+                    "right": 0,
+                    "top": 0
+                  }
+                }
+              },
+              {
+                "children": [
+                  {
+                    "children": [],
+                    "kind": {
+                      "content": "San Francisco, CA — September 10, 2026",
+                      "type": "Text"
+                    },
+                    "style": {
+                      "color": {
+                        "a": 1,
+                        "b": 0.10588235294117647,
+                        "g": 0.09411764705882353,
+                        "r": 0.09411764705882353
+                      },
+                      "fontFamily": "Helvetica",
+                      "fontSize": 12,
+                      "fontWeight": 600,
+                      "letterSpacing": 0.5,
+                      "lineHeight": 1.6,
+                      "margin": {
+                        "bottom": 0,
+                        "left": 0,
+                        "right": 0,
+                        "top": 0
+                      },
+                      "textTransform": "Uppercase"
+                    }
+                  },
+                  {
+                    "children": [],
+                    "kind": {
+                      "content": "Acme Corp today announced the launch of pdfcn, an open-source React component library for generating professional PDF documents.",
+                      "type": "Text"
+                    },
+                    "style": {
+                      "color": {
+                        "a": 1,
+                        "b": 0.10588235294117647,
+                        "g": 0.09411764705882353,
+                        "r": 0.09411764705882353
+                      },
+                      "fontFamily": "Helvetica",
+                      "fontSize": 12,
+                      "lineHeight": 1.6,
+                      "margin": {
+                        "bottom": 10,
+                        "left": 0,
+                        "right": 0,
+                        "top": 0
+                      }
+                    }
+                  },
+                  {
+                    "children": [],
+                    "kind": {
+                      "content": "pdfcn is designed to work seamlessly with shadcn/ui and follows the same registry-based distribution model, letting developers add print-ready document blocks with a single CLI command.",
+                      "type": "Text"
+                    },
+                    "style": {
+                      "color": {
+                        "a": 1,
+                        "b": 0.10588235294117647,
+                        "g": 0.09411764705882353,
+                        "r": 0.09411764705882353
+                      },
+                      "fontFamily": "Helvetica",
+                      "fontSize": 12,
+                      "lineHeight": 1.6,
+                      "margin": {
+                        "bottom": 10,
+                        "left": 0,
+                        "right": 0,
+                        "top": 0
+                      }
+                    }
+                  }
+                ],
+                "kind": {
+                  "type": "View"
+                },
+                "style": {
+                  "flexDirection": "Column",
+                  "margin": {
+                    "bottom": 16,
+                    "left": 0,
+                    "right": 0,
+                    "top": 16
+                  }
+                }
+              },
+              {
+                "children": [
+                  {
+                    "children": [],
+                    "kind": {
+                      "content": "“We built pdfcn because generating PDFs in React was unnecessarily painful. Now it feels like writing any other component.”",
+                      "type": "Text"
+                    },
+                    "style": {
+                      "color": {
+                        "a": 1,
+                        "b": 0.10588235294117647,
+                        "g": 0.09411764705882353,
+                        "r": 0.09411764705882353
+                      },
+                      "fontFamily": "Helvetica",
+                      "fontSize": 15,
+                      "fontStyle": "Italic",
+                      "lineHeight": 1.6,
+                      "margin": {
+                        "bottom": 0,
+                        "left": 0,
+                        "right": 0,
+                        "top": 0
+                      }
+                    }
+                  },
+                  {
+                    "children": [],
+                    "kind": {
+                      "content": "— Jane Doe, CTO, Acme Corp",
+                      "type": "Text"
+                    },
+                    "style": {
+                      "color": {
+                        "a": 1,
+                        "b": 0.47843137254901963,
+                        "g": 0.44313725490196076,
+                        "r": 0.44313725490196076
+                      },
+                      "fontFamily": "Helvetica",
+                      "fontSize": 10,
+                      "lineHeight": 1.6,
+                      "margin": {
+                        "bottom": 0,
+                        "left": 0,
+                        "right": 0,
+                        "top": 0
+                      }
+                    }
+                  }
+                ],
+                "kind": {
+                  "type": "View"
+                },
+                "style": {
+                  "borderColor": {
+                    "bottom": {
+                      "a": 1,
+                      "b": 0,
+                      "g": 0,
+                      "r": 0
+                    },
+                    "left": {
+                      "a": 1,
+                      "b": 0.6862745098039216,
+                      "g": 0.25098039215686274,
+                      "r": 0.11764705882352941
+                    },
+                    "right": {
+                      "a": 1,
+                      "b": 0,
+                      "g": 0,
+                      "r": 0
+                    },
+                    "top": {
+                      "a": 1,
+                      "b": 0,
+                      "g": 0,
+                      "r": 0
+                    }
+                  },
+                  "borderWidth": {
+                    "bottom": 0,
+                    "left": 4,
+                    "right": 0,
+                    "top": 0
+                  },
+                  "flexDirection": "Column",
+                  "margin": {
+                    "bottom": 16,
+                    "left": 0,
+                    "right": 0,
+                    "top": 16
+                  },
+                  "padding": {
+                    "bottom": 8,
+                    "left": 16,
+                    "right": 0,
+                    "top": 8
+                  }
+                }
+              },
+              {
+                "children": [
+                  {
+                    "children": [],
+                    "kind": {
+                      "content": "About Acme Corp",
+                      "type": "Text"
+                    },
+                    "style": {
+                      "color": {
+                        "a": 1,
+                        "b": 0.47843137254901963,
+                        "g": 0.44313725490196076,
+                        "r": 0.44313725490196076
+                      },
+                      "fontFamily": "Helvetica",
+                      "fontSize": 9,
+                      "fontWeight": 700,
+                      "letterSpacing": 0.5,
+                      "lineHeight": 1.6,
+                      "margin": {
+                        "bottom": 2,
+                        "left": 0,
+                        "right": 0,
+                        "top": 0
+                      },
+                      "textTransform": "Uppercase"
+                    }
+                  },
+                  {
+                    "children": [],
+                    "kind": {
+                      "content": "Acme Corp is a leading provider of developer tools and open-source software.",
+                      "type": "Text"
+                    },
+                    "style": {
+                      "color": {
+                        "a": 1,
+                        "b": 0.10588235294117647,
+                        "g": 0.09411764705882353,
+                        "r": 0.09411764705882353
+                      },
+                      "fontFamily": "Helvetica",
+                      "fontSize": 12,
+                      "lineHeight": 1.6,
+                      "margin": {
+                        "bottom": 0,
+                        "left": 0,
+                        "right": 0,
+                        "top": 0
+                      }
+                    }
+                  }
+                ],
+                "kind": {
+                  "type": "View"
+                },
+                "style": {
+                  "flexDirection": "Column",
+                  "margin": {
+                    "bottom": 16,
+                    "left": 0,
+                    "right": 0,
+                    "top": 16
+                  }
+                }
+              },
+              {
+                "children": [
+                  {
+                    "children": [],
+                    "kind": {
+                      "content": "Media Contact",
+                      "type": "Text"
+                    },
+                    "style": {
+                      "color": {
+                        "a": 1,
+                        "b": 0.47843137254901963,
+                        "g": 0.44313725490196076,
+                        "r": 0.44313725490196076
+                      },
+                      "fontFamily": "Helvetica",
+                      "fontSize": 9,
+                      "fontWeight": 700,
+                      "letterSpacing": 0.5,
+                      "lineHeight": 1.6,
+                      "margin": {
+                        "bottom": 2,
+                        "left": 0,
+                        "right": 0,
+                        "top": 0
+                      },
+                      "textTransform": "Uppercase"
+                    }
+                  },
+                  {
+                    "children": [],
+                    "kind": {
+                      "content": "Press Team",
+                      "type": "Text"
+                    },
+                    "style": {
+                      "color": {
+                        "a": 1,
+                        "b": 0.10588235294117647,
+                        "g": 0.09411764705882353,
+                        "r": 0.09411764705882353
+                      },
+                      "fontFamily": "Helvetica",
+                      "fontSize": 10,
+                      "lineHeight": 1.6,
+                      "margin": {
+                        "bottom": 0,
+                        "left": 0,
+                        "right": 0,
+                        "top": 0
+                      }
+                    }
+                  },
+                  {
+                    "children": [],
+                    "kind": {
+                      "content": "press@acme.com",
+                      "type": "Text"
+                    },
+                    "style": {
+                      "color": {
+                        "a": 1,
+                        "b": 0.10588235294117647,
+                        "g": 0.09411764705882353,
+                        "r": 0.09411764705882353
+                      },
+                      "fontFamily": "Helvetica",
+                      "fontSize": 10,
+                      "lineHeight": 1.6,
+                      "margin": {
+                        "bottom": 0,
+                        "left": 0,
+                        "right": 0,
+                        "top": 0
+                      }
+                    }
+                  },
+                  {
+                    "children": [],
+                    "kind": {
+                      "content": "(555) 123-4567",
+                      "type": "Text"
+                    },
+                    "style": {
+                      "color": {
+                        "a": 1,
+                        "b": 0.10588235294117647,
+                        "g": 0.09411764705882353,
+                        "r": 0.09411764705882353
+                      },
+                      "fontFamily": "Helvetica",
+                      "fontSize": 10,
+                      "lineHeight": 1.6,
+                      "margin": {
+                        "bottom": 0,
+                        "left": 0,
+                        "right": 0,
+                        "top": 0
+                      }
+                    }
+                  }
+                ],
+                "kind": {
+                  "type": "View"
+                },
+                "style": {
+                  "flexDirection": "Column",
+                  "margin": {
+                    "bottom": 0,
+                    "left": 0,
+                    "right": 0,
+                    "top": 0
+                  }
+                }
+              },
+              {
+                "children": [],
+                "kind": {
+                  "content": "###",
+                  "type": "Text"
+                },
+                "style": {
+                  "color": {
+                    "a": 1,
+                    "b": 0.10588235294117647,
+                    "g": 0.09411764705882353,
+                    "r": 0.09411764705882353
+                  },
+                  "fontFamily": "Helvetica",
+                  "fontSize": 12,
+                  "fontWeight": 500,
+                  "lineHeight": 1.6,
+                  "margin": {
+                    "bottom": 0,
+                    "left": 0,
+                    "right": 0,
+                    "top": 0
+                  },
+                  "textAlign": "Center"
+                }
+              }
+            ],
+            "kind": {
+              "type": "View"
+            },
+            "style": {
+              "backgroundColor": {
+                "a": 1,
+                "b": 1,
+                "g": 1,
+                "r": 1
+              }
+            }
+          }
+        ],
+        "kind": {
+          "config": {
+            "margin": {
+              "bottom": 25,
+              "left": 56,
+              "right": 56,
+              "top": 56
+            },
+            "size": "A4",
+            "wrap": true
+          },
+          "type": "Page"
+        },
+        "style": {}
+      }
+    ],
+    "defaultPage": {
+      "margin": {
+        "bottom": 54,
+        "left": 54,
+        "right": 54,
+        "top": 54
+      },
+      "size": "A4",
+      "wrap": true
+    },
+    "metadata": {
+      "title": "Press Release — Acme Corp"
+    }
+  }
+}

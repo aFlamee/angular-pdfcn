@@ -1,0 +1,4297 @@
+{
+  "node": {
+    "attributes": {
+      "data-pdf-document": "Sunrise Family Medicine — Patient Intake Form"
+    },
+    "children": [
+      {
+        "attributes": {
+          "data-pdf-page": ""
+        },
+        "children": [
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "style": {
+                      "color": "#18181b",
+                      "fontFamily": "Times-Roman",
+                      "fontSize": 26.666666666666664,
+                      "fontWeight": 700,
+                      "lineHeight": 1.25,
+                      "marginBottom": 0
+                    },
+                    "tagName": "span",
+                    "text": "Sunrise Family Medicine",
+                    "type": "text"
+                  },
+                  {
+                    "style": {
+                      "color": "#71717a",
+                      "fontFamily": "Helvetica",
+                      "fontSize": 14.666666666666666,
+                      "lineHeight": 1.6,
+                      "marginTop": 5.333333333333333
+                    },
+                    "tagName": "span",
+                    "text": "Patient Intake Form",
+                    "type": "text"
+                  }
+                ],
+                "preset": {
+                  "display": "block"
+                },
+                "style": {
+                  "display": "flex",
+                  "flex": 1,
+                  "flexDirection": "column"
+                },
+                "tagName": "div",
+                "type": "container"
+              },
+              {
+                "children": [
+                  {
+                    "style": {
+                      "color": "#18181b",
+                      "fontFamily": "Helvetica",
+                      "fontSize": 14.666666666666666,
+                      "fontWeight": 500,
+                      "textAlign": "right"
+                    },
+                    "tagName": "span",
+                    "text": "(303) 555-0180",
+                    "type": "text"
+                  },
+                  {
+                    "style": {
+                      "color": "#71717a",
+                      "fontFamily": "Helvetica",
+                      "fontSize": 13.333333333333332,
+                      "marginTop": 5.333333333333333,
+                      "textAlign": "right"
+                    },
+                    "tagName": "span",
+                    "text": "200 Health Plaza, Denver, CO 80202",
+                    "type": "text"
+                  }
+                ],
+                "preset": {
+                  "display": "block"
+                },
+                "style": {
+                  "alignItems": "flex-end",
+                  "display": "flex",
+                  "flexDirection": "column"
+                },
+                "tagName": "div",
+                "type": "container"
+              }
+            ],
+            "preset": {
+              "display": "block"
+            },
+            "style": {
+              "alignItems": "center",
+              "borderBottomColor": "#e4e4e7",
+              "borderBottomStyle": "solid",
+              "borderBottomWidth": 2.6666666666666665,
+              "breakInside": "avoid",
+              "display": "flex",
+              "flexDirection": "row",
+              "marginBottom": 21.333333333333332,
+              "paddingBottom": 21.333333333333332
+            },
+            "tagName": "div",
+            "type": "container"
+          },
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "style": {
+                      "color": "#71717a",
+                      "fontFamily": "Helvetica",
+                      "fontSize": 13.333333333333332,
+                      "fontWeight": 600,
+                      "letterSpacing": 1.0666666666666667,
+                      "lineHeight": 1.2,
+                      "marginBottom": 16,
+                      "textTransform": "uppercase"
+                    },
+                    "tagName": "span",
+                    "text": "Patient Information",
+                    "type": "text"
+                  },
+                  {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "children": [
+                              {
+                                "style": {
+                                  "color": "#71717a",
+                                  "fontFamily": "Helvetica",
+                                  "fontSize": 13.333333333333332,
+                                  "fontWeight": 500,
+                                  "letterSpacing": 0.6666666666666666,
+                                  "lineHeight": 1.2,
+                                  "marginBottom": 5.333333333333333,
+                                  "textTransform": "uppercase"
+                                },
+                                "tagName": "span",
+                                "text": "Full Name",
+                                "type": "text"
+                              },
+                              {
+                                "children": [],
+                                "preset": {
+                                  "display": "block"
+                                },
+                                "style": {
+                                  "borderBottomColor": "#e4e4e7",
+                                  "borderBottomStyle": "solid",
+                                  "borderBottomWidth": 1.3333333333333333,
+                                  "display": "flex",
+                                  "flexDirection": "column",
+                                  "minHeight": 18.666666666666664,
+                                  "width": "100%"
+                                },
+                                "tagName": "div",
+                                "type": "container"
+                              }
+                            ],
+                            "preset": {
+                              "display": "block"
+                            },
+                            "style": {
+                              "display": "flex",
+                              "flexDirection": "column",
+                              "marginBottom": 16,
+                              "width": "100%"
+                            },
+                            "tagName": "div",
+                            "type": "container"
+                          },
+                          {
+                            "children": [
+                              {
+                                "style": {
+                                  "color": "#71717a",
+                                  "fontFamily": "Helvetica",
+                                  "fontSize": 13.333333333333332,
+                                  "fontWeight": 500,
+                                  "letterSpacing": 0.6666666666666666,
+                                  "lineHeight": 1.2,
+                                  "marginBottom": 5.333333333333333,
+                                  "textTransform": "uppercase"
+                                },
+                                "tagName": "span",
+                                "text": "Date of Birth",
+                                "type": "text"
+                              },
+                              {
+                                "children": [
+                                  {
+                                    "style": {
+                                      "color": "#71717a",
+                                      "fontFamily": "Helvetica",
+                                      "fontSize": 13.333333333333332,
+                                      "opacity": 0.14,
+                                      "paddingBottom": 0,
+                                      "paddingLeft": 0,
+                                      "paddingRight": 0,
+                                      "paddingTop": 2.6666666666666665
+                                    },
+                                    "tagName": "span",
+                                    "text": "DD / MM / YYYY",
+                                    "type": "text"
+                                  }
+                                ],
+                                "preset": {
+                                  "display": "block"
+                                },
+                                "style": {
+                                  "borderBottomColor": "#e4e4e7",
+                                  "borderBottomStyle": "solid",
+                                  "borderBottomWidth": 1.3333333333333333,
+                                  "display": "flex",
+                                  "flexDirection": "column",
+                                  "minHeight": 18.666666666666664,
+                                  "width": "100%"
+                                },
+                                "tagName": "div",
+                                "type": "container"
+                              }
+                            ],
+                            "preset": {
+                              "display": "block"
+                            },
+                            "style": {
+                              "display": "flex",
+                              "flexDirection": "column",
+                              "marginBottom": 16,
+                              "width": "100%"
+                            },
+                            "tagName": "div",
+                            "type": "container"
+                          },
+                          {
+                            "children": [
+                              {
+                                "style": {
+                                  "color": "#71717a",
+                                  "fontFamily": "Helvetica",
+                                  "fontSize": 13.333333333333332,
+                                  "fontWeight": 500,
+                                  "letterSpacing": 0.6666666666666666,
+                                  "lineHeight": 1.2,
+                                  "marginBottom": 5.333333333333333,
+                                  "textTransform": "uppercase"
+                                },
+                                "tagName": "span",
+                                "text": "Gender",
+                                "type": "text"
+                              },
+                              {
+                                "children": [],
+                                "preset": {
+                                  "display": "block"
+                                },
+                                "style": {
+                                  "borderBottomColor": "#e4e4e7",
+                                  "borderBottomStyle": "solid",
+                                  "borderBottomWidth": 1.3333333333333333,
+                                  "display": "flex",
+                                  "flexDirection": "column",
+                                  "minHeight": 18.666666666666664,
+                                  "width": "100%"
+                                },
+                                "tagName": "div",
+                                "type": "container"
+                              }
+                            ],
+                            "preset": {
+                              "display": "block"
+                            },
+                            "style": {
+                              "display": "flex",
+                              "flexDirection": "column",
+                              "marginBottom": 16,
+                              "width": "100%"
+                            },
+                            "tagName": "div",
+                            "type": "container"
+                          }
+                        ],
+                        "preset": {
+                          "display": "block"
+                        },
+                        "style": {
+                          "display": "flex",
+                          "flex": 1,
+                          "flexDirection": "column"
+                        },
+                        "tagName": "div",
+                        "type": "container"
+                      },
+                      {
+                        "children": [
+                          {
+                            "children": [
+                              {
+                                "style": {
+                                  "color": "#71717a",
+                                  "fontFamily": "Helvetica",
+                                  "fontSize": 13.333333333333332,
+                                  "fontWeight": 500,
+                                  "letterSpacing": 0.6666666666666666,
+                                  "lineHeight": 1.2,
+                                  "marginBottom": 5.333333333333333,
+                                  "textTransform": "uppercase"
+                                },
+                                "tagName": "span",
+                                "text": "Phone Number",
+                                "type": "text"
+                              },
+                              {
+                                "children": [
+                                  {
+                                    "style": {
+                                      "color": "#71717a",
+                                      "fontFamily": "Helvetica",
+                                      "fontSize": 13.333333333333332,
+                                      "opacity": 0.14,
+                                      "paddingBottom": 0,
+                                      "paddingLeft": 0,
+                                      "paddingRight": 0,
+                                      "paddingTop": 2.6666666666666665
+                                    },
+                                    "tagName": "span",
+                                    "text": "+1 (555) 000-0000",
+                                    "type": "text"
+                                  }
+                                ],
+                                "preset": {
+                                  "display": "block"
+                                },
+                                "style": {
+                                  "borderBottomColor": "#e4e4e7",
+                                  "borderBottomStyle": "solid",
+                                  "borderBottomWidth": 1.3333333333333333,
+                                  "display": "flex",
+                                  "flexDirection": "column",
+                                  "minHeight": 18.666666666666664,
+                                  "width": "100%"
+                                },
+                                "tagName": "div",
+                                "type": "container"
+                              }
+                            ],
+                            "preset": {
+                              "display": "block"
+                            },
+                            "style": {
+                              "display": "flex",
+                              "flexDirection": "column",
+                              "marginBottom": 16,
+                              "width": "100%"
+                            },
+                            "tagName": "div",
+                            "type": "container"
+                          },
+                          {
+                            "children": [
+                              {
+                                "style": {
+                                  "color": "#71717a",
+                                  "fontFamily": "Helvetica",
+                                  "fontSize": 13.333333333333332,
+                                  "fontWeight": 500,
+                                  "letterSpacing": 0.6666666666666666,
+                                  "lineHeight": 1.2,
+                                  "marginBottom": 5.333333333333333,
+                                  "textTransform": "uppercase"
+                                },
+                                "tagName": "span",
+                                "text": "Email Address",
+                                "type": "text"
+                              },
+                              {
+                                "children": [],
+                                "preset": {
+                                  "display": "block"
+                                },
+                                "style": {
+                                  "borderBottomColor": "#e4e4e7",
+                                  "borderBottomStyle": "solid",
+                                  "borderBottomWidth": 1.3333333333333333,
+                                  "display": "flex",
+                                  "flexDirection": "column",
+                                  "minHeight": 18.666666666666664,
+                                  "width": "100%"
+                                },
+                                "tagName": "div",
+                                "type": "container"
+                              }
+                            ],
+                            "preset": {
+                              "display": "block"
+                            },
+                            "style": {
+                              "display": "flex",
+                              "flexDirection": "column",
+                              "marginBottom": 16,
+                              "width": "100%"
+                            },
+                            "tagName": "div",
+                            "type": "container"
+                          }
+                        ],
+                        "preset": {
+                          "display": "block"
+                        },
+                        "style": {
+                          "display": "flex",
+                          "flex": 1,
+                          "flexDirection": "column"
+                        },
+                        "tagName": "div",
+                        "type": "container"
+                      }
+                    ],
+                    "preset": {
+                      "display": "block"
+                    },
+                    "style": {
+                      "display": "flex",
+                      "flexDirection": "row",
+                      "gap": 21.333333333333332
+                    },
+                    "tagName": "div",
+                    "type": "container"
+                  }
+                ],
+                "preset": {
+                  "display": "block"
+                },
+                "style": {
+                  "display": "flex",
+                  "flexDirection": "column",
+                  "marginBottom": 26.666666666666664
+                },
+                "tagName": "div",
+                "type": "container"
+              },
+              {
+                "children": [
+                  {
+                    "style": {
+                      "color": "#71717a",
+                      "fontFamily": "Helvetica",
+                      "fontSize": 13.333333333333332,
+                      "fontWeight": 600,
+                      "letterSpacing": 1.0666666666666667,
+                      "lineHeight": 1.2,
+                      "marginBottom": 16,
+                      "textTransform": "uppercase"
+                    },
+                    "tagName": "span",
+                    "text": "Address",
+                    "type": "text"
+                  },
+                  {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "children": [
+                              {
+                                "style": {
+                                  "color": "#71717a",
+                                  "fontFamily": "Helvetica",
+                                  "fontSize": 13.333333333333332,
+                                  "fontWeight": 500,
+                                  "letterSpacing": 0.6666666666666666,
+                                  "lineHeight": 1.2,
+                                  "marginBottom": 5.333333333333333,
+                                  "textTransform": "uppercase"
+                                },
+                                "tagName": "span",
+                                "text": "Street Address",
+                                "type": "text"
+                              },
+                              {
+                                "children": [],
+                                "preset": {
+                                  "display": "block"
+                                },
+                                "style": {
+                                  "borderBottomColor": "#e4e4e7",
+                                  "borderBottomStyle": "solid",
+                                  "borderBottomWidth": 1.3333333333333333,
+                                  "display": "flex",
+                                  "flexDirection": "column",
+                                  "minHeight": 18.666666666666664,
+                                  "width": "100%"
+                                },
+                                "tagName": "div",
+                                "type": "container"
+                              }
+                            ],
+                            "preset": {
+                              "display": "block"
+                            },
+                            "style": {
+                              "display": "flex",
+                              "flexDirection": "column",
+                              "marginBottom": 16,
+                              "width": "100%"
+                            },
+                            "tagName": "div",
+                            "type": "container"
+                          },
+                          {
+                            "children": [
+                              {
+                                "style": {
+                                  "color": "#71717a",
+                                  "fontFamily": "Helvetica",
+                                  "fontSize": 13.333333333333332,
+                                  "fontWeight": 500,
+                                  "letterSpacing": 0.6666666666666666,
+                                  "lineHeight": 1.2,
+                                  "marginBottom": 5.333333333333333,
+                                  "textTransform": "uppercase"
+                                },
+                                "tagName": "span",
+                                "text": "City",
+                                "type": "text"
+                              },
+                              {
+                                "children": [],
+                                "preset": {
+                                  "display": "block"
+                                },
+                                "style": {
+                                  "borderBottomColor": "#e4e4e7",
+                                  "borderBottomStyle": "solid",
+                                  "borderBottomWidth": 1.3333333333333333,
+                                  "display": "flex",
+                                  "flexDirection": "column",
+                                  "minHeight": 18.666666666666664,
+                                  "width": "100%"
+                                },
+                                "tagName": "div",
+                                "type": "container"
+                              }
+                            ],
+                            "preset": {
+                              "display": "block"
+                            },
+                            "style": {
+                              "display": "flex",
+                              "flexDirection": "column",
+                              "marginBottom": 16,
+                              "width": "100%"
+                            },
+                            "tagName": "div",
+                            "type": "container"
+                          }
+                        ],
+                        "preset": {
+                          "display": "block"
+                        },
+                        "style": {
+                          "display": "flex",
+                          "flex": 1,
+                          "flexDirection": "column"
+                        },
+                        "tagName": "div",
+                        "type": "container"
+                      },
+                      {
+                        "children": [
+                          {
+                            "children": [
+                              {
+                                "style": {
+                                  "color": "#71717a",
+                                  "fontFamily": "Helvetica",
+                                  "fontSize": 13.333333333333332,
+                                  "fontWeight": 500,
+                                  "letterSpacing": 0.6666666666666666,
+                                  "lineHeight": 1.2,
+                                  "marginBottom": 5.333333333333333,
+                                  "textTransform": "uppercase"
+                                },
+                                "tagName": "span",
+                                "text": "State / Province",
+                                "type": "text"
+                              },
+                              {
+                                "children": [],
+                                "preset": {
+                                  "display": "block"
+                                },
+                                "style": {
+                                  "borderBottomColor": "#e4e4e7",
+                                  "borderBottomStyle": "solid",
+                                  "borderBottomWidth": 1.3333333333333333,
+                                  "display": "flex",
+                                  "flexDirection": "column",
+                                  "minHeight": 18.666666666666664,
+                                  "width": "100%"
+                                },
+                                "tagName": "div",
+                                "type": "container"
+                              }
+                            ],
+                            "preset": {
+                              "display": "block"
+                            },
+                            "style": {
+                              "display": "flex",
+                              "flexDirection": "column",
+                              "marginBottom": 16,
+                              "width": "100%"
+                            },
+                            "tagName": "div",
+                            "type": "container"
+                          },
+                          {
+                            "children": [
+                              {
+                                "style": {
+                                  "color": "#71717a",
+                                  "fontFamily": "Helvetica",
+                                  "fontSize": 13.333333333333332,
+                                  "fontWeight": 500,
+                                  "letterSpacing": 0.6666666666666666,
+                                  "lineHeight": 1.2,
+                                  "marginBottom": 5.333333333333333,
+                                  "textTransform": "uppercase"
+                                },
+                                "tagName": "span",
+                                "text": "Postal Code",
+                                "type": "text"
+                              },
+                              {
+                                "children": [],
+                                "preset": {
+                                  "display": "block"
+                                },
+                                "style": {
+                                  "borderBottomColor": "#e4e4e7",
+                                  "borderBottomStyle": "solid",
+                                  "borderBottomWidth": 1.3333333333333333,
+                                  "display": "flex",
+                                  "flexDirection": "column",
+                                  "minHeight": 18.666666666666664,
+                                  "width": "100%"
+                                },
+                                "tagName": "div",
+                                "type": "container"
+                              }
+                            ],
+                            "preset": {
+                              "display": "block"
+                            },
+                            "style": {
+                              "display": "flex",
+                              "flexDirection": "column",
+                              "marginBottom": 16,
+                              "width": "100%"
+                            },
+                            "tagName": "div",
+                            "type": "container"
+                          }
+                        ],
+                        "preset": {
+                          "display": "block"
+                        },
+                        "style": {
+                          "display": "flex",
+                          "flex": 1,
+                          "flexDirection": "column"
+                        },
+                        "tagName": "div",
+                        "type": "container"
+                      }
+                    ],
+                    "preset": {
+                      "display": "block"
+                    },
+                    "style": {
+                      "display": "flex",
+                      "flexDirection": "row",
+                      "gap": 21.333333333333332
+                    },
+                    "tagName": "div",
+                    "type": "container"
+                  }
+                ],
+                "preset": {
+                  "display": "block"
+                },
+                "style": {
+                  "display": "flex",
+                  "flexDirection": "column",
+                  "marginBottom": 26.666666666666664
+                },
+                "tagName": "div",
+                "type": "container"
+              }
+            ],
+            "preset": {
+              "display": "block"
+            },
+            "style": {
+              "display": "flex",
+              "flexDirection": "column",
+              "marginBottom": 0,
+              "width": "100%"
+            },
+            "tagName": "div",
+            "type": "container"
+          },
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "style": {
+                      "color": "#71717a",
+                      "fontFamily": "Helvetica",
+                      "fontSize": 13.333333333333332,
+                      "fontWeight": 600,
+                      "letterSpacing": 1.0666666666666667,
+                      "lineHeight": 1.2,
+                      "marginBottom": 16,
+                      "textTransform": "uppercase"
+                    },
+                    "tagName": "span",
+                    "text": "Emergency Contact",
+                    "type": "text"
+                  },
+                  {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "children": [
+                              {
+                                "style": {
+                                  "color": "#71717a",
+                                  "fontFamily": "Helvetica",
+                                  "fontSize": 13.333333333333332,
+                                  "fontWeight": 500,
+                                  "letterSpacing": 0.6666666666666666,
+                                  "lineHeight": 1.2,
+                                  "marginBottom": 5.333333333333333,
+                                  "textTransform": "uppercase"
+                                },
+                                "tagName": "span",
+                                "text": "Emergency Contact Name",
+                                "type": "text"
+                              },
+                              {
+                                "children": [],
+                                "preset": {
+                                  "display": "block"
+                                },
+                                "style": {
+                                  "borderBottomColor": "#e4e4e7",
+                                  "borderBottomStyle": "solid",
+                                  "borderBottomWidth": 1.3333333333333333,
+                                  "display": "flex",
+                                  "flexDirection": "column",
+                                  "minHeight": 18.666666666666664,
+                                  "width": "100%"
+                                },
+                                "tagName": "div",
+                                "type": "container"
+                              }
+                            ],
+                            "preset": {
+                              "display": "block"
+                            },
+                            "style": {
+                              "display": "flex",
+                              "flexDirection": "column",
+                              "marginBottom": 16,
+                              "width": "100%"
+                            },
+                            "tagName": "div",
+                            "type": "container"
+                          },
+                          {
+                            "children": [
+                              {
+                                "style": {
+                                  "color": "#71717a",
+                                  "fontFamily": "Helvetica",
+                                  "fontSize": 13.333333333333332,
+                                  "fontWeight": 500,
+                                  "letterSpacing": 0.6666666666666666,
+                                  "lineHeight": 1.2,
+                                  "marginBottom": 5.333333333333333,
+                                  "textTransform": "uppercase"
+                                },
+                                "tagName": "span",
+                                "text": "Relationship",
+                                "type": "text"
+                              },
+                              {
+                                "children": [],
+                                "preset": {
+                                  "display": "block"
+                                },
+                                "style": {
+                                  "borderBottomColor": "#e4e4e7",
+                                  "borderBottomStyle": "solid",
+                                  "borderBottomWidth": 1.3333333333333333,
+                                  "display": "flex",
+                                  "flexDirection": "column",
+                                  "minHeight": 18.666666666666664,
+                                  "width": "100%"
+                                },
+                                "tagName": "div",
+                                "type": "container"
+                              }
+                            ],
+                            "preset": {
+                              "display": "block"
+                            },
+                            "style": {
+                              "display": "flex",
+                              "flexDirection": "column",
+                              "marginBottom": 16,
+                              "width": "100%"
+                            },
+                            "tagName": "div",
+                            "type": "container"
+                          }
+                        ],
+                        "preset": {
+                          "display": "block"
+                        },
+                        "style": {
+                          "display": "flex",
+                          "flex": 1,
+                          "flexDirection": "column"
+                        },
+                        "tagName": "div",
+                        "type": "container"
+                      },
+                      {
+                        "children": [
+                          {
+                            "children": [
+                              {
+                                "style": {
+                                  "color": "#71717a",
+                                  "fontFamily": "Helvetica",
+                                  "fontSize": 13.333333333333332,
+                                  "fontWeight": 500,
+                                  "letterSpacing": 0.6666666666666666,
+                                  "lineHeight": 1.2,
+                                  "marginBottom": 5.333333333333333,
+                                  "textTransform": "uppercase"
+                                },
+                                "tagName": "span",
+                                "text": "Phone Number",
+                                "type": "text"
+                              },
+                              {
+                                "children": [],
+                                "preset": {
+                                  "display": "block"
+                                },
+                                "style": {
+                                  "borderBottomColor": "#e4e4e7",
+                                  "borderBottomStyle": "solid",
+                                  "borderBottomWidth": 1.3333333333333333,
+                                  "display": "flex",
+                                  "flexDirection": "column",
+                                  "minHeight": 18.666666666666664,
+                                  "width": "100%"
+                                },
+                                "tagName": "div",
+                                "type": "container"
+                              }
+                            ],
+                            "preset": {
+                              "display": "block"
+                            },
+                            "style": {
+                              "display": "flex",
+                              "flexDirection": "column",
+                              "marginBottom": 16,
+                              "width": "100%"
+                            },
+                            "tagName": "div",
+                            "type": "container"
+                          }
+                        ],
+                        "preset": {
+                          "display": "block"
+                        },
+                        "style": {
+                          "display": "flex",
+                          "flex": 1,
+                          "flexDirection": "column"
+                        },
+                        "tagName": "div",
+                        "type": "container"
+                      }
+                    ],
+                    "preset": {
+                      "display": "block"
+                    },
+                    "style": {
+                      "display": "flex",
+                      "flexDirection": "row",
+                      "gap": 21.333333333333332
+                    },
+                    "tagName": "div",
+                    "type": "container"
+                  }
+                ],
+                "preset": {
+                  "display": "block"
+                },
+                "style": {
+                  "display": "flex",
+                  "flexDirection": "column",
+                  "marginBottom": 26.666666666666664
+                },
+                "tagName": "div",
+                "type": "container"
+              }
+            ],
+            "preset": {
+              "display": "block"
+            },
+            "style": {
+              "display": "flex",
+              "flexDirection": "column",
+              "marginBottom": 0,
+              "width": "100%"
+            },
+            "tagName": "div",
+            "type": "container"
+          },
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "style": {
+                      "color": "#71717a",
+                      "fontFamily": "Helvetica",
+                      "fontSize": 13.333333333333332,
+                      "fontWeight": 600,
+                      "letterSpacing": 1.0666666666666667,
+                      "lineHeight": 1.2,
+                      "marginBottom": 16,
+                      "textTransform": "uppercase"
+                    },
+                    "tagName": "span",
+                    "text": "Insurance",
+                    "type": "text"
+                  },
+                  {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "children": [
+                              {
+                                "style": {
+                                  "color": "#71717a",
+                                  "fontFamily": "Helvetica",
+                                  "fontSize": 13.333333333333332,
+                                  "fontWeight": 500,
+                                  "letterSpacing": 0.6666666666666666,
+                                  "lineHeight": 1.2,
+                                  "marginBottom": 5.333333333333333,
+                                  "textTransform": "uppercase"
+                                },
+                                "tagName": "span",
+                                "text": "Insurance Provider",
+                                "type": "text"
+                              },
+                              {
+                                "children": [],
+                                "preset": {
+                                  "display": "block"
+                                },
+                                "style": {
+                                  "borderBottomColor": "#e4e4e7",
+                                  "borderBottomStyle": "solid",
+                                  "borderBottomWidth": 1.3333333333333333,
+                                  "display": "flex",
+                                  "flexDirection": "column",
+                                  "minHeight": 18.666666666666664,
+                                  "width": "100%"
+                                },
+                                "tagName": "div",
+                                "type": "container"
+                              }
+                            ],
+                            "preset": {
+                              "display": "block"
+                            },
+                            "style": {
+                              "display": "flex",
+                              "flexDirection": "column",
+                              "marginBottom": 16,
+                              "width": "100%"
+                            },
+                            "tagName": "div",
+                            "type": "container"
+                          },
+                          {
+                            "children": [
+                              {
+                                "style": {
+                                  "color": "#71717a",
+                                  "fontFamily": "Helvetica",
+                                  "fontSize": 13.333333333333332,
+                                  "fontWeight": 500,
+                                  "letterSpacing": 0.6666666666666666,
+                                  "lineHeight": 1.2,
+                                  "marginBottom": 5.333333333333333,
+                                  "textTransform": "uppercase"
+                                },
+                                "tagName": "span",
+                                "text": "Policy Number",
+                                "type": "text"
+                              },
+                              {
+                                "children": [],
+                                "preset": {
+                                  "display": "block"
+                                },
+                                "style": {
+                                  "borderBottomColor": "#e4e4e7",
+                                  "borderBottomStyle": "solid",
+                                  "borderBottomWidth": 1.3333333333333333,
+                                  "display": "flex",
+                                  "flexDirection": "column",
+                                  "minHeight": 18.666666666666664,
+                                  "width": "100%"
+                                },
+                                "tagName": "div",
+                                "type": "container"
+                              }
+                            ],
+                            "preset": {
+                              "display": "block"
+                            },
+                            "style": {
+                              "display": "flex",
+                              "flexDirection": "column",
+                              "marginBottom": 16,
+                              "width": "100%"
+                            },
+                            "tagName": "div",
+                            "type": "container"
+                          }
+                        ],
+                        "preset": {
+                          "display": "block"
+                        },
+                        "style": {
+                          "display": "flex",
+                          "flex": 1,
+                          "flexDirection": "column"
+                        },
+                        "tagName": "div",
+                        "type": "container"
+                      },
+                      {
+                        "children": [
+                          {
+                            "children": [
+                              {
+                                "style": {
+                                  "color": "#71717a",
+                                  "fontFamily": "Helvetica",
+                                  "fontSize": 13.333333333333332,
+                                  "fontWeight": 500,
+                                  "letterSpacing": 0.6666666666666666,
+                                  "lineHeight": 1.2,
+                                  "marginBottom": 5.333333333333333,
+                                  "textTransform": "uppercase"
+                                },
+                                "tagName": "span",
+                                "text": "Group Number",
+                                "type": "text"
+                              },
+                              {
+                                "children": [],
+                                "preset": {
+                                  "display": "block"
+                                },
+                                "style": {
+                                  "borderBottomColor": "#e4e4e7",
+                                  "borderBottomStyle": "solid",
+                                  "borderBottomWidth": 1.3333333333333333,
+                                  "display": "flex",
+                                  "flexDirection": "column",
+                                  "minHeight": 18.666666666666664,
+                                  "width": "100%"
+                                },
+                                "tagName": "div",
+                                "type": "container"
+                              }
+                            ],
+                            "preset": {
+                              "display": "block"
+                            },
+                            "style": {
+                              "display": "flex",
+                              "flexDirection": "column",
+                              "marginBottom": 16,
+                              "width": "100%"
+                            },
+                            "tagName": "div",
+                            "type": "container"
+                          },
+                          {
+                            "children": [
+                              {
+                                "style": {
+                                  "color": "#71717a",
+                                  "fontFamily": "Helvetica",
+                                  "fontSize": 13.333333333333332,
+                                  "fontWeight": 500,
+                                  "letterSpacing": 0.6666666666666666,
+                                  "lineHeight": 1.2,
+                                  "marginBottom": 5.333333333333333,
+                                  "textTransform": "uppercase"
+                                },
+                                "tagName": "span",
+                                "text": "Subscriber Name",
+                                "type": "text"
+                              },
+                              {
+                                "children": [],
+                                "preset": {
+                                  "display": "block"
+                                },
+                                "style": {
+                                  "borderBottomColor": "#e4e4e7",
+                                  "borderBottomStyle": "solid",
+                                  "borderBottomWidth": 1.3333333333333333,
+                                  "display": "flex",
+                                  "flexDirection": "column",
+                                  "minHeight": 18.666666666666664,
+                                  "width": "100%"
+                                },
+                                "tagName": "div",
+                                "type": "container"
+                              }
+                            ],
+                            "preset": {
+                              "display": "block"
+                            },
+                            "style": {
+                              "display": "flex",
+                              "flexDirection": "column",
+                              "marginBottom": 16,
+                              "width": "100%"
+                            },
+                            "tagName": "div",
+                            "type": "container"
+                          }
+                        ],
+                        "preset": {
+                          "display": "block"
+                        },
+                        "style": {
+                          "display": "flex",
+                          "flex": 1,
+                          "flexDirection": "column"
+                        },
+                        "tagName": "div",
+                        "type": "container"
+                      }
+                    ],
+                    "preset": {
+                      "display": "block"
+                    },
+                    "style": {
+                      "display": "flex",
+                      "flexDirection": "row",
+                      "gap": 21.333333333333332
+                    },
+                    "tagName": "div",
+                    "type": "container"
+                  }
+                ],
+                "preset": {
+                  "display": "block"
+                },
+                "style": {
+                  "display": "flex",
+                  "flexDirection": "column",
+                  "marginBottom": 26.666666666666664
+                },
+                "tagName": "div",
+                "type": "container"
+              }
+            ],
+            "preset": {
+              "display": "block"
+            },
+            "style": {
+              "display": "flex",
+              "flexDirection": "column",
+              "marginBottom": 0,
+              "width": "100%"
+            },
+            "tagName": "div",
+            "type": "container"
+          },
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "style": {
+                      "color": "#18181b",
+                      "fontFamily": "Helvetica",
+                      "fontSize": 13.333333333333332,
+                      "fontWeight": 500,
+                      "lineHeight": 1.6
+                    },
+                    "tagName": "span",
+                    "text": "Form v1.0 · Revised 09/2026",
+                    "type": "text"
+                  },
+                  {
+                    "style": {
+                      "color": "#71717a",
+                      "flex": 1,
+                      "fontFamily": "Helvetica",
+                      "fontSize": 13.333333333333332,
+                      "lineHeight": 1.6
+                    },
+                    "tagName": "span",
+                    "text": "200 Health Plaza, Denver, CO 80202",
+                    "type": "text"
+                  }
+                ],
+                "preset": {
+                  "display": "block"
+                },
+                "style": {
+                  "display": "flex",
+                  "flex": 1,
+                  "flexDirection": "column"
+                },
+                "tagName": "div",
+                "type": "container"
+              },
+              {
+                "children": [
+                  {
+                    "style": {
+                      "color": "#71717a",
+                      "fontFamily": "Helvetica",
+                      "fontSize": 12,
+                      "lineHeight": 1.6,
+                      "marginTop": 2.6666666666666665,
+                      "textAlign": "center"
+                    },
+                    "tagName": "span",
+                    "text": "(303) 555-0180",
+                    "type": "text"
+                  }
+                ],
+                "preset": {
+                  "display": "block"
+                },
+                "style": {
+                  "alignItems": "center",
+                  "display": "flex",
+                  "flex": 1,
+                  "flexDirection": "column"
+                },
+                "tagName": "div",
+                "type": "container"
+              },
+              {
+                "children": [
+                  {
+                    "style": {
+                      "color": "#71717a",
+                      "fontFamily": "Helvetica",
+                      "fontSize": 13.333333333333332,
+                      "lineHeight": 1.6,
+                      "textAlign": "right"
+                    },
+                    "tagName": "span",
+                    "text": "Page 1 of 2",
+                    "type": "text"
+                  }
+                ],
+                "preset": {
+                  "display": "block"
+                },
+                "style": {
+                  "alignItems": "flex-end",
+                  "display": "flex",
+                  "flex": 1,
+                  "flexDirection": "column"
+                },
+                "tagName": "div",
+                "type": "container"
+              }
+            ],
+            "preset": {
+              "display": "block"
+            },
+            "style": {
+              "alignItems": "flex-start",
+              "borderTopColor": "#e4e4e7",
+              "borderTopStyle": "solid",
+              "borderTopWidth": 2.6666666666666665,
+              "bottom": 64,
+              "breakInside": "avoid",
+              "display": "flex",
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "left": 64,
+              "marginTop": 0,
+              "paddingTop": 16,
+              "position": "absolute",
+              "right": 64
+            },
+            "tagName": "div",
+            "type": "container"
+          }
+        ],
+        "preset": {
+          "display": "block"
+        },
+        "style": {
+          "backgroundColor": "#ffffff",
+          "boxSizing": "border-box",
+          "breakAfter": "page",
+          "display": "flex",
+          "flexDirection": "column",
+          "minHeight": 1121.3333333333333,
+          "paddingBottom": 74.66666666666666,
+          "paddingLeft": 64,
+          "paddingRight": 64,
+          "paddingTop": 74.66666666666666,
+          "position": "relative"
+        },
+        "tagName": "div",
+        "type": "container"
+      },
+      {
+        "attributes": {
+          "data-pdf-page": ""
+        },
+        "children": [
+          {
+            "children": [
+              {
+                "style": {
+                  "color": "#18181b",
+                  "fontFamily": "Helvetica",
+                  "fontSize": 17.333333333333332,
+                  "fontWeight": "bold",
+                  "lineHeight": 1.6,
+                  "marginBottom": 0,
+                  "marginTop": 0
+                },
+                "tagName": "span",
+                "text": "Sunrise Family Medicine — Patient Intake Form (continued)",
+                "type": "text"
+              },
+              {
+                "style": {
+                  "color": "#71717a",
+                  "fontFamily": "Helvetica",
+                  "fontSize": 13.333333333333332,
+                  "lineHeight": 1.6,
+                  "marginBottom": 0,
+                  "marginTop": 0
+                },
+                "tagName": "span",
+                "text": "(303) 555-0180",
+                "type": "text"
+              }
+            ],
+            "preset": {
+              "display": "block"
+            },
+            "style": {
+              "alignItems": "flex-end",
+              "display": "flex",
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "marginBottom": 10.666666666666666
+            },
+            "tagName": "div",
+            "type": "container"
+          },
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "style": {
+                      "color": "#18181b",
+                      "fontFamily": "Helvetica",
+                      "fontSize": 12,
+                      "fontWeight": "bold",
+                      "letterSpacing": 0.7999999999999999,
+                      "lineHeight": 1.6,
+                      "marginBottom": 0,
+                      "marginTop": 0,
+                      "textTransform": "uppercase"
+                    },
+                    "tagName": "span",
+                    "text": "Medical History",
+                    "type": "text"
+                  }
+                ],
+                "preset": {
+                  "display": "block"
+                },
+                "style": {
+                  "borderBottomColor": "#0d9488",
+                  "borderBottomStyle": "solid",
+                  "borderBottomWidth": 1.3333333333333333,
+                  "display": "flex",
+                  "flexDirection": "column",
+                  "marginBottom": 5.333333333333333,
+                  "paddingBottom": 2.6666666666666665
+                },
+                "tagName": "div",
+                "type": "container"
+              },
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "children": [
+                              {
+                                "children": [],
+                                "preset": {
+                                  "display": "block"
+                                },
+                                "style": {
+                                  "alignItems": "center",
+                                  "backgroundColor": "#ffffff",
+                                  "borderColor": "#e4e4e7",
+                                  "borderRadius": 4,
+                                  "borderStyle": "solid",
+                                  "borderWidth": 2,
+                                  "display": "flex",
+                                  "flexDirection": "column",
+                                  "height": 21.333333333333332,
+                                  "justifyContent": "center",
+                                  "marginRight": 10.666666666666666,
+                                  "width": 21.333333333333332
+                                },
+                                "tagName": "div",
+                                "type": "container"
+                              },
+                              {
+                                "children": [
+                                  {
+                                    "style": {
+                                      "color": "#18181b",
+                                      "fontFamily": "Helvetica",
+                                      "fontSize": 14.666666666666666,
+                                      "lineHeight": 1.6
+                                    },
+                                    "tagName": "span",
+                                    "text": "Diabetes",
+                                    "type": "text"
+                                  }
+                                ],
+                                "preset": {
+                                  "display": "block"
+                                },
+                                "style": {
+                                  "display": "flex",
+                                  "flex": 1,
+                                  "flexDirection": "column"
+                                },
+                                "tagName": "div",
+                                "type": "container"
+                              }
+                            ],
+                            "preset": {
+                              "display": "block"
+                            },
+                            "style": {
+                              "alignItems": "center",
+                              "display": "flex",
+                              "flexDirection": "row",
+                              "marginBottom": 5.333333333333333
+                            },
+                            "tagName": "div",
+                            "type": "container"
+                          },
+                          {
+                            "children": [
+                              {
+                                "children": [],
+                                "preset": {
+                                  "display": "block"
+                                },
+                                "style": {
+                                  "alignItems": "center",
+                                  "backgroundColor": "#ffffff",
+                                  "borderColor": "#e4e4e7",
+                                  "borderRadius": 4,
+                                  "borderStyle": "solid",
+                                  "borderWidth": 2,
+                                  "display": "flex",
+                                  "flexDirection": "column",
+                                  "height": 21.333333333333332,
+                                  "justifyContent": "center",
+                                  "marginRight": 10.666666666666666,
+                                  "width": 21.333333333333332
+                                },
+                                "tagName": "div",
+                                "type": "container"
+                              },
+                              {
+                                "children": [
+                                  {
+                                    "style": {
+                                      "color": "#18181b",
+                                      "fontFamily": "Helvetica",
+                                      "fontSize": 14.666666666666666,
+                                      "lineHeight": 1.6
+                                    },
+                                    "tagName": "span",
+                                    "text": "High Blood Pressure",
+                                    "type": "text"
+                                  }
+                                ],
+                                "preset": {
+                                  "display": "block"
+                                },
+                                "style": {
+                                  "display": "flex",
+                                  "flex": 1,
+                                  "flexDirection": "column"
+                                },
+                                "tagName": "div",
+                                "type": "container"
+                              }
+                            ],
+                            "preset": {
+                              "display": "block"
+                            },
+                            "style": {
+                              "alignItems": "center",
+                              "display": "flex",
+                              "flexDirection": "row",
+                              "marginBottom": 5.333333333333333
+                            },
+                            "tagName": "div",
+                            "type": "container"
+                          },
+                          {
+                            "children": [
+                              {
+                                "children": [],
+                                "preset": {
+                                  "display": "block"
+                                },
+                                "style": {
+                                  "alignItems": "center",
+                                  "backgroundColor": "#ffffff",
+                                  "borderColor": "#e4e4e7",
+                                  "borderRadius": 4,
+                                  "borderStyle": "solid",
+                                  "borderWidth": 2,
+                                  "display": "flex",
+                                  "flexDirection": "column",
+                                  "height": 21.333333333333332,
+                                  "justifyContent": "center",
+                                  "marginRight": 10.666666666666666,
+                                  "width": 21.333333333333332
+                                },
+                                "tagName": "div",
+                                "type": "container"
+                              },
+                              {
+                                "children": [
+                                  {
+                                    "style": {
+                                      "color": "#18181b",
+                                      "fontFamily": "Helvetica",
+                                      "fontSize": 14.666666666666666,
+                                      "lineHeight": 1.6
+                                    },
+                                    "tagName": "span",
+                                    "text": "Heart Disease",
+                                    "type": "text"
+                                  }
+                                ],
+                                "preset": {
+                                  "display": "block"
+                                },
+                                "style": {
+                                  "display": "flex",
+                                  "flex": 1,
+                                  "flexDirection": "column"
+                                },
+                                "tagName": "div",
+                                "type": "container"
+                              }
+                            ],
+                            "preset": {
+                              "display": "block"
+                            },
+                            "style": {
+                              "alignItems": "center",
+                              "display": "flex",
+                              "flexDirection": "row",
+                              "marginBottom": 5.333333333333333
+                            },
+                            "tagName": "div",
+                            "type": "container"
+                          },
+                          {
+                            "children": [
+                              {
+                                "children": [],
+                                "preset": {
+                                  "display": "block"
+                                },
+                                "style": {
+                                  "alignItems": "center",
+                                  "backgroundColor": "#ffffff",
+                                  "borderColor": "#e4e4e7",
+                                  "borderRadius": 4,
+                                  "borderStyle": "solid",
+                                  "borderWidth": 2,
+                                  "display": "flex",
+                                  "flexDirection": "column",
+                                  "height": 21.333333333333332,
+                                  "justifyContent": "center",
+                                  "marginRight": 10.666666666666666,
+                                  "width": 21.333333333333332
+                                },
+                                "tagName": "div",
+                                "type": "container"
+                              },
+                              {
+                                "children": [
+                                  {
+                                    "style": {
+                                      "color": "#18181b",
+                                      "fontFamily": "Helvetica",
+                                      "fontSize": 14.666666666666666,
+                                      "lineHeight": 1.6
+                                    },
+                                    "tagName": "span",
+                                    "text": "Asthma",
+                                    "type": "text"
+                                  }
+                                ],
+                                "preset": {
+                                  "display": "block"
+                                },
+                                "style": {
+                                  "display": "flex",
+                                  "flex": 1,
+                                  "flexDirection": "column"
+                                },
+                                "tagName": "div",
+                                "type": "container"
+                              }
+                            ],
+                            "preset": {
+                              "display": "block"
+                            },
+                            "style": {
+                              "alignItems": "center",
+                              "display": "flex",
+                              "flexDirection": "row"
+                            },
+                            "tagName": "div",
+                            "type": "container"
+                          }
+                        ],
+                        "preset": {
+                          "display": "block"
+                        },
+                        "style": {
+                          "display": "flex",
+                          "flexDirection": "column",
+                          "marginBottom": 18.666666666666664,
+                          "width": "100%"
+                        },
+                        "tagName": "div",
+                        "type": "container"
+                      }
+                    ],
+                    "preset": {
+                      "display": "block"
+                    },
+                    "style": {
+                      "display": "flex",
+                      "flex": 1,
+                      "flexDirection": "column"
+                    },
+                    "tagName": "div",
+                    "type": "container"
+                  },
+                  {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "children": [
+                              {
+                                "children": [],
+                                "preset": {
+                                  "display": "block"
+                                },
+                                "style": {
+                                  "alignItems": "center",
+                                  "backgroundColor": "#ffffff",
+                                  "borderColor": "#e4e4e7",
+                                  "borderRadius": 4,
+                                  "borderStyle": "solid",
+                                  "borderWidth": 2,
+                                  "display": "flex",
+                                  "flexDirection": "column",
+                                  "height": 21.333333333333332,
+                                  "justifyContent": "center",
+                                  "marginRight": 10.666666666666666,
+                                  "width": 21.333333333333332
+                                },
+                                "tagName": "div",
+                                "type": "container"
+                              },
+                              {
+                                "children": [
+                                  {
+                                    "style": {
+                                      "color": "#18181b",
+                                      "fontFamily": "Helvetica",
+                                      "fontSize": 14.666666666666666,
+                                      "lineHeight": 1.6
+                                    },
+                                    "tagName": "span",
+                                    "text": "COPD",
+                                    "type": "text"
+                                  }
+                                ],
+                                "preset": {
+                                  "display": "block"
+                                },
+                                "style": {
+                                  "display": "flex",
+                                  "flex": 1,
+                                  "flexDirection": "column"
+                                },
+                                "tagName": "div",
+                                "type": "container"
+                              }
+                            ],
+                            "preset": {
+                              "display": "block"
+                            },
+                            "style": {
+                              "alignItems": "center",
+                              "display": "flex",
+                              "flexDirection": "row",
+                              "marginBottom": 5.333333333333333
+                            },
+                            "tagName": "div",
+                            "type": "container"
+                          },
+                          {
+                            "children": [
+                              {
+                                "children": [],
+                                "preset": {
+                                  "display": "block"
+                                },
+                                "style": {
+                                  "alignItems": "center",
+                                  "backgroundColor": "#ffffff",
+                                  "borderColor": "#e4e4e7",
+                                  "borderRadius": 4,
+                                  "borderStyle": "solid",
+                                  "borderWidth": 2,
+                                  "display": "flex",
+                                  "flexDirection": "column",
+                                  "height": 21.333333333333332,
+                                  "justifyContent": "center",
+                                  "marginRight": 10.666666666666666,
+                                  "width": 21.333333333333332
+                                },
+                                "tagName": "div",
+                                "type": "container"
+                              },
+                              {
+                                "children": [
+                                  {
+                                    "style": {
+                                      "color": "#18181b",
+                                      "fontFamily": "Helvetica",
+                                      "fontSize": 14.666666666666666,
+                                      "lineHeight": 1.6
+                                    },
+                                    "tagName": "span",
+                                    "text": "Cancer",
+                                    "type": "text"
+                                  }
+                                ],
+                                "preset": {
+                                  "display": "block"
+                                },
+                                "style": {
+                                  "display": "flex",
+                                  "flex": 1,
+                                  "flexDirection": "column"
+                                },
+                                "tagName": "div",
+                                "type": "container"
+                              }
+                            ],
+                            "preset": {
+                              "display": "block"
+                            },
+                            "style": {
+                              "alignItems": "center",
+                              "display": "flex",
+                              "flexDirection": "row",
+                              "marginBottom": 5.333333333333333
+                            },
+                            "tagName": "div",
+                            "type": "container"
+                          },
+                          {
+                            "children": [
+                              {
+                                "children": [],
+                                "preset": {
+                                  "display": "block"
+                                },
+                                "style": {
+                                  "alignItems": "center",
+                                  "backgroundColor": "#ffffff",
+                                  "borderColor": "#e4e4e7",
+                                  "borderRadius": 4,
+                                  "borderStyle": "solid",
+                                  "borderWidth": 2,
+                                  "display": "flex",
+                                  "flexDirection": "column",
+                                  "height": 21.333333333333332,
+                                  "justifyContent": "center",
+                                  "marginRight": 10.666666666666666,
+                                  "width": 21.333333333333332
+                                },
+                                "tagName": "div",
+                                "type": "container"
+                              },
+                              {
+                                "children": [
+                                  {
+                                    "style": {
+                                      "color": "#18181b",
+                                      "fontFamily": "Helvetica",
+                                      "fontSize": 14.666666666666666,
+                                      "lineHeight": 1.6
+                                    },
+                                    "tagName": "span",
+                                    "text": "Stroke",
+                                    "type": "text"
+                                  }
+                                ],
+                                "preset": {
+                                  "display": "block"
+                                },
+                                "style": {
+                                  "display": "flex",
+                                  "flex": 1,
+                                  "flexDirection": "column"
+                                },
+                                "tagName": "div",
+                                "type": "container"
+                              }
+                            ],
+                            "preset": {
+                              "display": "block"
+                            },
+                            "style": {
+                              "alignItems": "center",
+                              "display": "flex",
+                              "flexDirection": "row",
+                              "marginBottom": 5.333333333333333
+                            },
+                            "tagName": "div",
+                            "type": "container"
+                          },
+                          {
+                            "children": [
+                              {
+                                "children": [],
+                                "preset": {
+                                  "display": "block"
+                                },
+                                "style": {
+                                  "alignItems": "center",
+                                  "backgroundColor": "#ffffff",
+                                  "borderColor": "#e4e4e7",
+                                  "borderRadius": 4,
+                                  "borderStyle": "solid",
+                                  "borderWidth": 2,
+                                  "display": "flex",
+                                  "flexDirection": "column",
+                                  "height": 21.333333333333332,
+                                  "justifyContent": "center",
+                                  "marginRight": 10.666666666666666,
+                                  "width": 21.333333333333332
+                                },
+                                "tagName": "div",
+                                "type": "container"
+                              },
+                              {
+                                "children": [
+                                  {
+                                    "style": {
+                                      "color": "#18181b",
+                                      "fontFamily": "Helvetica",
+                                      "fontSize": 14.666666666666666,
+                                      "lineHeight": 1.6
+                                    },
+                                    "tagName": "span",
+                                    "text": "Thyroid Disorder",
+                                    "type": "text"
+                                  }
+                                ],
+                                "preset": {
+                                  "display": "block"
+                                },
+                                "style": {
+                                  "display": "flex",
+                                  "flex": 1,
+                                  "flexDirection": "column"
+                                },
+                                "tagName": "div",
+                                "type": "container"
+                              }
+                            ],
+                            "preset": {
+                              "display": "block"
+                            },
+                            "style": {
+                              "alignItems": "center",
+                              "display": "flex",
+                              "flexDirection": "row"
+                            },
+                            "tagName": "div",
+                            "type": "container"
+                          }
+                        ],
+                        "preset": {
+                          "display": "block"
+                        },
+                        "style": {
+                          "display": "flex",
+                          "flexDirection": "column",
+                          "marginBottom": 18.666666666666664,
+                          "width": "100%"
+                        },
+                        "tagName": "div",
+                        "type": "container"
+                      }
+                    ],
+                    "preset": {
+                      "display": "block"
+                    },
+                    "style": {
+                      "display": "flex",
+                      "flex": 1,
+                      "flexDirection": "column"
+                    },
+                    "tagName": "div",
+                    "type": "container"
+                  },
+                  {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "children": [
+                              {
+                                "children": [],
+                                "preset": {
+                                  "display": "block"
+                                },
+                                "style": {
+                                  "alignItems": "center",
+                                  "backgroundColor": "#ffffff",
+                                  "borderColor": "#e4e4e7",
+                                  "borderRadius": 4,
+                                  "borderStyle": "solid",
+                                  "borderWidth": 2,
+                                  "display": "flex",
+                                  "flexDirection": "column",
+                                  "height": 21.333333333333332,
+                                  "justifyContent": "center",
+                                  "marginRight": 10.666666666666666,
+                                  "width": 21.333333333333332
+                                },
+                                "tagName": "div",
+                                "type": "container"
+                              },
+                              {
+                                "children": [
+                                  {
+                                    "style": {
+                                      "color": "#18181b",
+                                      "fontFamily": "Helvetica",
+                                      "fontSize": 14.666666666666666,
+                                      "lineHeight": 1.6
+                                    },
+                                    "tagName": "span",
+                                    "text": "Kidney Disease",
+                                    "type": "text"
+                                  }
+                                ],
+                                "preset": {
+                                  "display": "block"
+                                },
+                                "style": {
+                                  "display": "flex",
+                                  "flex": 1,
+                                  "flexDirection": "column"
+                                },
+                                "tagName": "div",
+                                "type": "container"
+                              }
+                            ],
+                            "preset": {
+                              "display": "block"
+                            },
+                            "style": {
+                              "alignItems": "center",
+                              "display": "flex",
+                              "flexDirection": "row",
+                              "marginBottom": 5.333333333333333
+                            },
+                            "tagName": "div",
+                            "type": "container"
+                          },
+                          {
+                            "children": [
+                              {
+                                "children": [],
+                                "preset": {
+                                  "display": "block"
+                                },
+                                "style": {
+                                  "alignItems": "center",
+                                  "backgroundColor": "#ffffff",
+                                  "borderColor": "#e4e4e7",
+                                  "borderRadius": 4,
+                                  "borderStyle": "solid",
+                                  "borderWidth": 2,
+                                  "display": "flex",
+                                  "flexDirection": "column",
+                                  "height": 21.333333333333332,
+                                  "justifyContent": "center",
+                                  "marginRight": 10.666666666666666,
+                                  "width": 21.333333333333332
+                                },
+                                "tagName": "div",
+                                "type": "container"
+                              },
+                              {
+                                "children": [
+                                  {
+                                    "style": {
+                                      "color": "#18181b",
+                                      "fontFamily": "Helvetica",
+                                      "fontSize": 14.666666666666666,
+                                      "lineHeight": 1.6
+                                    },
+                                    "tagName": "span",
+                                    "text": "Liver Disease",
+                                    "type": "text"
+                                  }
+                                ],
+                                "preset": {
+                                  "display": "block"
+                                },
+                                "style": {
+                                  "display": "flex",
+                                  "flex": 1,
+                                  "flexDirection": "column"
+                                },
+                                "tagName": "div",
+                                "type": "container"
+                              }
+                            ],
+                            "preset": {
+                              "display": "block"
+                            },
+                            "style": {
+                              "alignItems": "center",
+                              "display": "flex",
+                              "flexDirection": "row",
+                              "marginBottom": 5.333333333333333
+                            },
+                            "tagName": "div",
+                            "type": "container"
+                          },
+                          {
+                            "children": [
+                              {
+                                "children": [],
+                                "preset": {
+                                  "display": "block"
+                                },
+                                "style": {
+                                  "alignItems": "center",
+                                  "backgroundColor": "#ffffff",
+                                  "borderColor": "#e4e4e7",
+                                  "borderRadius": 4,
+                                  "borderStyle": "solid",
+                                  "borderWidth": 2,
+                                  "display": "flex",
+                                  "flexDirection": "column",
+                                  "height": 21.333333333333332,
+                                  "justifyContent": "center",
+                                  "marginRight": 10.666666666666666,
+                                  "width": 21.333333333333332
+                                },
+                                "tagName": "div",
+                                "type": "container"
+                              },
+                              {
+                                "children": [
+                                  {
+                                    "style": {
+                                      "color": "#18181b",
+                                      "fontFamily": "Helvetica",
+                                      "fontSize": 14.666666666666666,
+                                      "lineHeight": 1.6
+                                    },
+                                    "tagName": "span",
+                                    "text": "Seizures / Epilepsy",
+                                    "type": "text"
+                                  }
+                                ],
+                                "preset": {
+                                  "display": "block"
+                                },
+                                "style": {
+                                  "display": "flex",
+                                  "flex": 1,
+                                  "flexDirection": "column"
+                                },
+                                "tagName": "div",
+                                "type": "container"
+                              }
+                            ],
+                            "preset": {
+                              "display": "block"
+                            },
+                            "style": {
+                              "alignItems": "center",
+                              "display": "flex",
+                              "flexDirection": "row",
+                              "marginBottom": 5.333333333333333
+                            },
+                            "tagName": "div",
+                            "type": "container"
+                          },
+                          {
+                            "children": [
+                              {
+                                "children": [],
+                                "preset": {
+                                  "display": "block"
+                                },
+                                "style": {
+                                  "alignItems": "center",
+                                  "backgroundColor": "#ffffff",
+                                  "borderColor": "#e4e4e7",
+                                  "borderRadius": 4,
+                                  "borderStyle": "solid",
+                                  "borderWidth": 2,
+                                  "display": "flex",
+                                  "flexDirection": "column",
+                                  "height": 21.333333333333332,
+                                  "justifyContent": "center",
+                                  "marginRight": 10.666666666666666,
+                                  "width": 21.333333333333332
+                                },
+                                "tagName": "div",
+                                "type": "container"
+                              },
+                              {
+                                "children": [
+                                  {
+                                    "style": {
+                                      "color": "#18181b",
+                                      "fontFamily": "Helvetica",
+                                      "fontSize": 14.666666666666666,
+                                      "lineHeight": 1.6
+                                    },
+                                    "tagName": "span",
+                                    "text": "Other",
+                                    "type": "text"
+                                  }
+                                ],
+                                "preset": {
+                                  "display": "block"
+                                },
+                                "style": {
+                                  "display": "flex",
+                                  "flex": 1,
+                                  "flexDirection": "column"
+                                },
+                                "tagName": "div",
+                                "type": "container"
+                              }
+                            ],
+                            "preset": {
+                              "display": "block"
+                            },
+                            "style": {
+                              "alignItems": "center",
+                              "display": "flex",
+                              "flexDirection": "row"
+                            },
+                            "tagName": "div",
+                            "type": "container"
+                          }
+                        ],
+                        "preset": {
+                          "display": "block"
+                        },
+                        "style": {
+                          "display": "flex",
+                          "flexDirection": "column",
+                          "marginBottom": 18.666666666666664,
+                          "width": "100%"
+                        },
+                        "tagName": "div",
+                        "type": "container"
+                      }
+                    ],
+                    "preset": {
+                      "display": "block"
+                    },
+                    "style": {
+                      "display": "flex",
+                      "flex": 1,
+                      "flexDirection": "column"
+                    },
+                    "tagName": "div",
+                    "type": "container"
+                  }
+                ],
+                "preset": {
+                  "display": "block"
+                },
+                "style": {
+                  "display": "flex",
+                  "flexDirection": "row",
+                  "gap": 26.666666666666664
+                },
+                "tagName": "div",
+                "type": "container"
+              }
+            ],
+            "preset": {
+              "display": "block"
+            },
+            "style": {
+              "display": "flex",
+              "flexDirection": "column",
+              "marginBottom": 5.333333333333333
+            },
+            "tagName": "div",
+            "type": "container"
+          },
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "style": {
+                      "color": "#18181b",
+                      "fontFamily": "Helvetica",
+                      "fontSize": 12,
+                      "fontWeight": "bold",
+                      "letterSpacing": 0.7999999999999999,
+                      "lineHeight": 1.6,
+                      "marginBottom": 0,
+                      "marginTop": 0,
+                      "textTransform": "uppercase"
+                    },
+                    "tagName": "span",
+                    "text": "Current Medications",
+                    "type": "text"
+                  }
+                ],
+                "preset": {
+                  "display": "block"
+                },
+                "style": {
+                  "borderBottomColor": "#0d9488",
+                  "borderBottomStyle": "solid",
+                  "borderBottomWidth": 1.3333333333333333,
+                  "display": "flex",
+                  "flexDirection": "column",
+                  "marginBottom": 5.333333333333333,
+                  "paddingBottom": 2.6666666666666665
+                },
+                "tagName": "div",
+                "type": "container"
+              },
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "children": [
+                              {
+                                "style": {
+                                  "color": "#18181b",
+                                  "fontFamily": "Helvetica",
+                                  "fontSize": 14.666666666666666,
+                                  "fontWeight": 600,
+                                  "lineHeight": 1.2,
+                                  "margin": 0,
+                                  "padding": 0
+                                },
+                                "tagName": "span",
+                                "text": "Medication",
+                                "type": "text"
+                              }
+                            ],
+                            "preset": {
+                              "display": "block"
+                            },
+                            "style": {
+                              "borderRightColor": "#e4e4e7",
+                              "borderRightStyle": "solid",
+                              "borderRightWidth": 0.6666666666666666,
+                              "display": "flex",
+                              "flex": 1,
+                              "flexDirection": "column",
+                              "justifyContent": "center",
+                              "paddingBottom": 8,
+                              "paddingLeft": 13.333333333333332,
+                              "paddingRight": 13.333333333333332,
+                              "paddingTop": 8
+                            },
+                            "tagName": "div",
+                            "type": "container"
+                          },
+                          {
+                            "children": [
+                              {
+                                "style": {
+                                  "color": "#18181b",
+                                  "fontFamily": "Helvetica",
+                                  "fontSize": 14.666666666666666,
+                                  "fontWeight": 600,
+                                  "lineHeight": 1.2,
+                                  "margin": 0,
+                                  "padding": 0
+                                },
+                                "tagName": "span",
+                                "text": "Dosage",
+                                "type": "text"
+                              }
+                            ],
+                            "preset": {
+                              "display": "block"
+                            },
+                            "style": {
+                              "borderRightColor": "#e4e4e7",
+                              "borderRightStyle": "solid",
+                              "borderRightWidth": 0.6666666666666666,
+                              "display": "flex",
+                              "flex": 1,
+                              "flexDirection": "column",
+                              "justifyContent": "center",
+                              "paddingBottom": 8,
+                              "paddingLeft": 13.333333333333332,
+                              "paddingRight": 13.333333333333332,
+                              "paddingTop": 8
+                            },
+                            "tagName": "div",
+                            "type": "container"
+                          },
+                          {
+                            "children": [
+                              {
+                                "style": {
+                                  "color": "#18181b",
+                                  "fontFamily": "Helvetica",
+                                  "fontSize": 14.666666666666666,
+                                  "fontWeight": 600,
+                                  "lineHeight": 1.2,
+                                  "margin": 0,
+                                  "padding": 0
+                                },
+                                "tagName": "span",
+                                "text": "Frequency",
+                                "type": "text"
+                              }
+                            ],
+                            "preset": {
+                              "display": "block"
+                            },
+                            "style": {
+                              "borderRightColor": "#e4e4e7",
+                              "borderRightStyle": "solid",
+                              "borderRightWidth": 0.6666666666666666,
+                              "display": "flex",
+                              "flex": 1,
+                              "flexDirection": "column",
+                              "justifyContent": "center",
+                              "paddingBottom": 8,
+                              "paddingLeft": 13.333333333333332,
+                              "paddingRight": 13.333333333333332,
+                              "paddingTop": 8
+                            },
+                            "tagName": "div",
+                            "type": "container"
+                          },
+                          {
+                            "children": [
+                              {
+                                "style": {
+                                  "color": "#18181b",
+                                  "fontFamily": "Helvetica",
+                                  "fontSize": 14.666666666666666,
+                                  "fontWeight": 600,
+                                  "lineHeight": 1.2,
+                                  "margin": 0,
+                                  "padding": 0
+                                },
+                                "tagName": "span",
+                                "text": "Prescribing Doctor",
+                                "type": "text"
+                              }
+                            ],
+                            "preset": {
+                              "display": "block"
+                            },
+                            "style": {
+                              "display": "flex",
+                              "flex": 1,
+                              "flexDirection": "column",
+                              "justifyContent": "center",
+                              "paddingBottom": 8,
+                              "paddingLeft": 13.333333333333332,
+                              "paddingRight": 13.333333333333332,
+                              "paddingTop": 8
+                            },
+                            "tagName": "div",
+                            "type": "container"
+                          }
+                        ],
+                        "preset": {
+                          "display": "block"
+                        },
+                        "style": {
+                          "backgroundColor": "#f4f4f5",
+                          "borderBottomColor": "#e4e4e7",
+                          "borderBottomStyle": "solid",
+                          "borderBottomWidth": 1.3333333333333333,
+                          "breakInside": "avoid",
+                          "display": "flex",
+                          "flexDirection": "row"
+                        },
+                        "tagName": "div",
+                        "type": "container"
+                      }
+                    ],
+                    "preset": {
+                      "display": "block"
+                    },
+                    "style": {
+                      "display": "flex",
+                      "flexDirection": "column"
+                    },
+                    "tagName": "div",
+                    "type": "container"
+                  },
+                  {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "children": [
+                              {
+                                "children": [],
+                                "preset": {
+                                  "display": "block"
+                                },
+                                "style": {
+                                  "display": "flex",
+                                  "flexDirection": "column",
+                                  "minHeight": 18.666666666666664
+                                },
+                                "tagName": "div",
+                                "type": "container"
+                              }
+                            ],
+                            "preset": {
+                              "display": "block"
+                            },
+                            "style": {
+                              "borderRightColor": "#e4e4e7",
+                              "borderRightStyle": "solid",
+                              "borderRightWidth": 0.6666666666666666,
+                              "display": "flex",
+                              "flex": 1,
+                              "flexDirection": "column",
+                              "justifyContent": "center",
+                              "paddingBottom": 8,
+                              "paddingLeft": 13.333333333333332,
+                              "paddingRight": 13.333333333333332,
+                              "paddingTop": 8
+                            },
+                            "tagName": "div",
+                            "type": "container"
+                          },
+                          {
+                            "children": [
+                              {
+                                "children": [],
+                                "preset": {
+                                  "display": "block"
+                                },
+                                "style": {
+                                  "display": "flex",
+                                  "flexDirection": "column",
+                                  "minHeight": 18.666666666666664
+                                },
+                                "tagName": "div",
+                                "type": "container"
+                              }
+                            ],
+                            "preset": {
+                              "display": "block"
+                            },
+                            "style": {
+                              "borderRightColor": "#e4e4e7",
+                              "borderRightStyle": "solid",
+                              "borderRightWidth": 0.6666666666666666,
+                              "display": "flex",
+                              "flex": 1,
+                              "flexDirection": "column",
+                              "justifyContent": "center",
+                              "paddingBottom": 8,
+                              "paddingLeft": 13.333333333333332,
+                              "paddingRight": 13.333333333333332,
+                              "paddingTop": 8
+                            },
+                            "tagName": "div",
+                            "type": "container"
+                          },
+                          {
+                            "children": [
+                              {
+                                "children": [],
+                                "preset": {
+                                  "display": "block"
+                                },
+                                "style": {
+                                  "display": "flex",
+                                  "flexDirection": "column",
+                                  "minHeight": 18.666666666666664
+                                },
+                                "tagName": "div",
+                                "type": "container"
+                              }
+                            ],
+                            "preset": {
+                              "display": "block"
+                            },
+                            "style": {
+                              "borderRightColor": "#e4e4e7",
+                              "borderRightStyle": "solid",
+                              "borderRightWidth": 0.6666666666666666,
+                              "display": "flex",
+                              "flex": 1,
+                              "flexDirection": "column",
+                              "justifyContent": "center",
+                              "paddingBottom": 8,
+                              "paddingLeft": 13.333333333333332,
+                              "paddingRight": 13.333333333333332,
+                              "paddingTop": 8
+                            },
+                            "tagName": "div",
+                            "type": "container"
+                          },
+                          {
+                            "children": [
+                              {
+                                "children": [],
+                                "preset": {
+                                  "display": "block"
+                                },
+                                "style": {
+                                  "display": "flex",
+                                  "flexDirection": "column",
+                                  "minHeight": 18.666666666666664
+                                },
+                                "tagName": "div",
+                                "type": "container"
+                              }
+                            ],
+                            "preset": {
+                              "display": "block"
+                            },
+                            "style": {
+                              "display": "flex",
+                              "flex": 1,
+                              "flexDirection": "column",
+                              "justifyContent": "center",
+                              "paddingBottom": 8,
+                              "paddingLeft": 13.333333333333332,
+                              "paddingRight": 13.333333333333332,
+                              "paddingTop": 8
+                            },
+                            "tagName": "div",
+                            "type": "container"
+                          }
+                        ],
+                        "preset": {
+                          "display": "block"
+                        },
+                        "style": {
+                          "borderBottomColor": "#e4e4e7",
+                          "borderBottomStyle": "solid",
+                          "borderBottomWidth": 0.6666666666666666,
+                          "breakInside": "avoid",
+                          "display": "flex",
+                          "flexDirection": "row"
+                        },
+                        "tagName": "div",
+                        "type": "container"
+                      },
+                      {
+                        "children": [
+                          {
+                            "children": [
+                              {
+                                "children": [],
+                                "preset": {
+                                  "display": "block"
+                                },
+                                "style": {
+                                  "display": "flex",
+                                  "flexDirection": "column",
+                                  "minHeight": 18.666666666666664
+                                },
+                                "tagName": "div",
+                                "type": "container"
+                              }
+                            ],
+                            "preset": {
+                              "display": "block"
+                            },
+                            "style": {
+                              "borderRightColor": "#e4e4e7",
+                              "borderRightStyle": "solid",
+                              "borderRightWidth": 0.6666666666666666,
+                              "display": "flex",
+                              "flex": 1,
+                              "flexDirection": "column",
+                              "justifyContent": "center",
+                              "paddingBottom": 8,
+                              "paddingLeft": 13.333333333333332,
+                              "paddingRight": 13.333333333333332,
+                              "paddingTop": 8
+                            },
+                            "tagName": "div",
+                            "type": "container"
+                          },
+                          {
+                            "children": [
+                              {
+                                "children": [],
+                                "preset": {
+                                  "display": "block"
+                                },
+                                "style": {
+                                  "display": "flex",
+                                  "flexDirection": "column",
+                                  "minHeight": 18.666666666666664
+                                },
+                                "tagName": "div",
+                                "type": "container"
+                              }
+                            ],
+                            "preset": {
+                              "display": "block"
+                            },
+                            "style": {
+                              "borderRightColor": "#e4e4e7",
+                              "borderRightStyle": "solid",
+                              "borderRightWidth": 0.6666666666666666,
+                              "display": "flex",
+                              "flex": 1,
+                              "flexDirection": "column",
+                              "justifyContent": "center",
+                              "paddingBottom": 8,
+                              "paddingLeft": 13.333333333333332,
+                              "paddingRight": 13.333333333333332,
+                              "paddingTop": 8
+                            },
+                            "tagName": "div",
+                            "type": "container"
+                          },
+                          {
+                            "children": [
+                              {
+                                "children": [],
+                                "preset": {
+                                  "display": "block"
+                                },
+                                "style": {
+                                  "display": "flex",
+                                  "flexDirection": "column",
+                                  "minHeight": 18.666666666666664
+                                },
+                                "tagName": "div",
+                                "type": "container"
+                              }
+                            ],
+                            "preset": {
+                              "display": "block"
+                            },
+                            "style": {
+                              "borderRightColor": "#e4e4e7",
+                              "borderRightStyle": "solid",
+                              "borderRightWidth": 0.6666666666666666,
+                              "display": "flex",
+                              "flex": 1,
+                              "flexDirection": "column",
+                              "justifyContent": "center",
+                              "paddingBottom": 8,
+                              "paddingLeft": 13.333333333333332,
+                              "paddingRight": 13.333333333333332,
+                              "paddingTop": 8
+                            },
+                            "tagName": "div",
+                            "type": "container"
+                          },
+                          {
+                            "children": [
+                              {
+                                "children": [],
+                                "preset": {
+                                  "display": "block"
+                                },
+                                "style": {
+                                  "display": "flex",
+                                  "flexDirection": "column",
+                                  "minHeight": 18.666666666666664
+                                },
+                                "tagName": "div",
+                                "type": "container"
+                              }
+                            ],
+                            "preset": {
+                              "display": "block"
+                            },
+                            "style": {
+                              "display": "flex",
+                              "flex": 1,
+                              "flexDirection": "column",
+                              "justifyContent": "center",
+                              "paddingBottom": 8,
+                              "paddingLeft": 13.333333333333332,
+                              "paddingRight": 13.333333333333332,
+                              "paddingTop": 8
+                            },
+                            "tagName": "div",
+                            "type": "container"
+                          }
+                        ],
+                        "preset": {
+                          "display": "block"
+                        },
+                        "style": {
+                          "borderBottomColor": "#e4e4e7",
+                          "borderBottomStyle": "solid",
+                          "borderBottomWidth": 0.6666666666666666,
+                          "breakInside": "avoid",
+                          "display": "flex",
+                          "flexDirection": "row"
+                        },
+                        "tagName": "div",
+                        "type": "container"
+                      },
+                      {
+                        "children": [
+                          {
+                            "children": [
+                              {
+                                "children": [],
+                                "preset": {
+                                  "display": "block"
+                                },
+                                "style": {
+                                  "display": "flex",
+                                  "flexDirection": "column",
+                                  "minHeight": 18.666666666666664
+                                },
+                                "tagName": "div",
+                                "type": "container"
+                              }
+                            ],
+                            "preset": {
+                              "display": "block"
+                            },
+                            "style": {
+                              "borderRightColor": "#e4e4e7",
+                              "borderRightStyle": "solid",
+                              "borderRightWidth": 0.6666666666666666,
+                              "display": "flex",
+                              "flex": 1,
+                              "flexDirection": "column",
+                              "justifyContent": "center",
+                              "paddingBottom": 8,
+                              "paddingLeft": 13.333333333333332,
+                              "paddingRight": 13.333333333333332,
+                              "paddingTop": 8
+                            },
+                            "tagName": "div",
+                            "type": "container"
+                          },
+                          {
+                            "children": [
+                              {
+                                "children": [],
+                                "preset": {
+                                  "display": "block"
+                                },
+                                "style": {
+                                  "display": "flex",
+                                  "flexDirection": "column",
+                                  "minHeight": 18.666666666666664
+                                },
+                                "tagName": "div",
+                                "type": "container"
+                              }
+                            ],
+                            "preset": {
+                              "display": "block"
+                            },
+                            "style": {
+                              "borderRightColor": "#e4e4e7",
+                              "borderRightStyle": "solid",
+                              "borderRightWidth": 0.6666666666666666,
+                              "display": "flex",
+                              "flex": 1,
+                              "flexDirection": "column",
+                              "justifyContent": "center",
+                              "paddingBottom": 8,
+                              "paddingLeft": 13.333333333333332,
+                              "paddingRight": 13.333333333333332,
+                              "paddingTop": 8
+                            },
+                            "tagName": "div",
+                            "type": "container"
+                          },
+                          {
+                            "children": [
+                              {
+                                "children": [],
+                                "preset": {
+                                  "display": "block"
+                                },
+                                "style": {
+                                  "display": "flex",
+                                  "flexDirection": "column",
+                                  "minHeight": 18.666666666666664
+                                },
+                                "tagName": "div",
+                                "type": "container"
+                              }
+                            ],
+                            "preset": {
+                              "display": "block"
+                            },
+                            "style": {
+                              "borderRightColor": "#e4e4e7",
+                              "borderRightStyle": "solid",
+                              "borderRightWidth": 0.6666666666666666,
+                              "display": "flex",
+                              "flex": 1,
+                              "flexDirection": "column",
+                              "justifyContent": "center",
+                              "paddingBottom": 8,
+                              "paddingLeft": 13.333333333333332,
+                              "paddingRight": 13.333333333333332,
+                              "paddingTop": 8
+                            },
+                            "tagName": "div",
+                            "type": "container"
+                          },
+                          {
+                            "children": [
+                              {
+                                "children": [],
+                                "preset": {
+                                  "display": "block"
+                                },
+                                "style": {
+                                  "display": "flex",
+                                  "flexDirection": "column",
+                                  "minHeight": 18.666666666666664
+                                },
+                                "tagName": "div",
+                                "type": "container"
+                              }
+                            ],
+                            "preset": {
+                              "display": "block"
+                            },
+                            "style": {
+                              "display": "flex",
+                              "flex": 1,
+                              "flexDirection": "column",
+                              "justifyContent": "center",
+                              "paddingBottom": 8,
+                              "paddingLeft": 13.333333333333332,
+                              "paddingRight": 13.333333333333332,
+                              "paddingTop": 8
+                            },
+                            "tagName": "div",
+                            "type": "container"
+                          }
+                        ],
+                        "preset": {
+                          "display": "block"
+                        },
+                        "style": {
+                          "borderBottomColor": "#e4e4e7",
+                          "borderBottomStyle": "solid",
+                          "borderBottomWidth": 0.6666666666666666,
+                          "breakInside": "avoid",
+                          "display": "flex",
+                          "flexDirection": "row"
+                        },
+                        "tagName": "div",
+                        "type": "container"
+                      },
+                      {
+                        "children": [
+                          {
+                            "children": [
+                              {
+                                "children": [],
+                                "preset": {
+                                  "display": "block"
+                                },
+                                "style": {
+                                  "display": "flex",
+                                  "flexDirection": "column",
+                                  "minHeight": 18.666666666666664
+                                },
+                                "tagName": "div",
+                                "type": "container"
+                              }
+                            ],
+                            "preset": {
+                              "display": "block"
+                            },
+                            "style": {
+                              "borderRightColor": "#e4e4e7",
+                              "borderRightStyle": "solid",
+                              "borderRightWidth": 0.6666666666666666,
+                              "display": "flex",
+                              "flex": 1,
+                              "flexDirection": "column",
+                              "justifyContent": "center",
+                              "paddingBottom": 8,
+                              "paddingLeft": 13.333333333333332,
+                              "paddingRight": 13.333333333333332,
+                              "paddingTop": 8
+                            },
+                            "tagName": "div",
+                            "type": "container"
+                          },
+                          {
+                            "children": [
+                              {
+                                "children": [],
+                                "preset": {
+                                  "display": "block"
+                                },
+                                "style": {
+                                  "display": "flex",
+                                  "flexDirection": "column",
+                                  "minHeight": 18.666666666666664
+                                },
+                                "tagName": "div",
+                                "type": "container"
+                              }
+                            ],
+                            "preset": {
+                              "display": "block"
+                            },
+                            "style": {
+                              "borderRightColor": "#e4e4e7",
+                              "borderRightStyle": "solid",
+                              "borderRightWidth": 0.6666666666666666,
+                              "display": "flex",
+                              "flex": 1,
+                              "flexDirection": "column",
+                              "justifyContent": "center",
+                              "paddingBottom": 8,
+                              "paddingLeft": 13.333333333333332,
+                              "paddingRight": 13.333333333333332,
+                              "paddingTop": 8
+                            },
+                            "tagName": "div",
+                            "type": "container"
+                          },
+                          {
+                            "children": [
+                              {
+                                "children": [],
+                                "preset": {
+                                  "display": "block"
+                                },
+                                "style": {
+                                  "display": "flex",
+                                  "flexDirection": "column",
+                                  "minHeight": 18.666666666666664
+                                },
+                                "tagName": "div",
+                                "type": "container"
+                              }
+                            ],
+                            "preset": {
+                              "display": "block"
+                            },
+                            "style": {
+                              "borderRightColor": "#e4e4e7",
+                              "borderRightStyle": "solid",
+                              "borderRightWidth": 0.6666666666666666,
+                              "display": "flex",
+                              "flex": 1,
+                              "flexDirection": "column",
+                              "justifyContent": "center",
+                              "paddingBottom": 8,
+                              "paddingLeft": 13.333333333333332,
+                              "paddingRight": 13.333333333333332,
+                              "paddingTop": 8
+                            },
+                            "tagName": "div",
+                            "type": "container"
+                          },
+                          {
+                            "children": [
+                              {
+                                "children": [],
+                                "preset": {
+                                  "display": "block"
+                                },
+                                "style": {
+                                  "display": "flex",
+                                  "flexDirection": "column",
+                                  "minHeight": 18.666666666666664
+                                },
+                                "tagName": "div",
+                                "type": "container"
+                              }
+                            ],
+                            "preset": {
+                              "display": "block"
+                            },
+                            "style": {
+                              "display": "flex",
+                              "flex": 1,
+                              "flexDirection": "column",
+                              "justifyContent": "center",
+                              "paddingBottom": 8,
+                              "paddingLeft": 13.333333333333332,
+                              "paddingRight": 13.333333333333332,
+                              "paddingTop": 8
+                            },
+                            "tagName": "div",
+                            "type": "container"
+                          }
+                        ],
+                        "preset": {
+                          "display": "block"
+                        },
+                        "style": {
+                          "borderBottomColor": "#e4e4e7",
+                          "borderBottomStyle": "solid",
+                          "borderBottomWidth": 0.6666666666666666,
+                          "breakInside": "avoid",
+                          "display": "flex",
+                          "flexDirection": "row"
+                        },
+                        "tagName": "div",
+                        "type": "container"
+                      }
+                    ],
+                    "preset": {
+                      "display": "block"
+                    },
+                    "style": {
+                      "display": "flex",
+                      "flexDirection": "column"
+                    },
+                    "tagName": "div",
+                    "type": "container"
+                  }
+                ],
+                "preset": {
+                  "display": "block"
+                },
+                "style": {
+                  "borderBottomLeftRadius": 5.333333333333333,
+                  "borderBottomRightRadius": 5.333333333333333,
+                  "borderColor": "#e4e4e7",
+                  "borderStyle": "solid",
+                  "borderTopLeftRadius": 5.333333333333333,
+                  "borderTopRightRadius": 5.333333333333333,
+                  "borderWidth": 2,
+                  "display": "flex",
+                  "flexDirection": "column",
+                  "marginBottom": 18.666666666666664,
+                  "overflow": "hidden",
+                  "width": "100%"
+                },
+                "tagName": "div",
+                "type": "container"
+              }
+            ],
+            "preset": {
+              "display": "block"
+            },
+            "style": {
+              "display": "flex",
+              "flexDirection": "column",
+              "marginBottom": 5.333333333333333
+            },
+            "tagName": "div",
+            "type": "container"
+          },
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "style": {
+                      "color": "#18181b",
+                      "fontFamily": "Helvetica",
+                      "fontSize": 12,
+                      "fontWeight": "bold",
+                      "letterSpacing": 0.7999999999999999,
+                      "lineHeight": 1.6,
+                      "marginBottom": 0,
+                      "marginTop": 0,
+                      "textTransform": "uppercase"
+                    },
+                    "tagName": "span",
+                    "text": "Allergies",
+                    "type": "text"
+                  }
+                ],
+                "preset": {
+                  "display": "block"
+                },
+                "style": {
+                  "borderBottomColor": "#0d9488",
+                  "borderBottomStyle": "solid",
+                  "borderBottomWidth": 1.3333333333333333,
+                  "display": "flex",
+                  "flexDirection": "column",
+                  "marginBottom": 5.333333333333333,
+                  "paddingBottom": 2.6666666666666665
+                },
+                "tagName": "div",
+                "type": "container"
+              },
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "children": [
+                              {
+                                "style": {
+                                  "color": "#18181b",
+                                  "fontFamily": "Helvetica",
+                                  "fontSize": 14.666666666666666,
+                                  "fontWeight": 600,
+                                  "lineHeight": 1.2,
+                                  "margin": 0,
+                                  "padding": 0
+                                },
+                                "tagName": "span",
+                                "text": "Allergen",
+                                "type": "text"
+                              }
+                            ],
+                            "preset": {
+                              "display": "block"
+                            },
+                            "style": {
+                              "borderRightColor": "#e4e4e7",
+                              "borderRightStyle": "solid",
+                              "borderRightWidth": 0.6666666666666666,
+                              "display": "flex",
+                              "flex": 1,
+                              "flexDirection": "column",
+                              "justifyContent": "center",
+                              "paddingBottom": 8,
+                              "paddingLeft": 13.333333333333332,
+                              "paddingRight": 13.333333333333332,
+                              "paddingTop": 8
+                            },
+                            "tagName": "div",
+                            "type": "container"
+                          },
+                          {
+                            "children": [
+                              {
+                                "style": {
+                                  "color": "#18181b",
+                                  "fontFamily": "Helvetica",
+                                  "fontSize": 14.666666666666666,
+                                  "fontWeight": 600,
+                                  "lineHeight": 1.2,
+                                  "margin": 0,
+                                  "padding": 0
+                                },
+                                "tagName": "span",
+                                "text": "Reaction",
+                                "type": "text"
+                              }
+                            ],
+                            "preset": {
+                              "display": "block"
+                            },
+                            "style": {
+                              "borderRightColor": "#e4e4e7",
+                              "borderRightStyle": "solid",
+                              "borderRightWidth": 0.6666666666666666,
+                              "display": "flex",
+                              "flex": 1,
+                              "flexDirection": "column",
+                              "justifyContent": "center",
+                              "paddingBottom": 8,
+                              "paddingLeft": 13.333333333333332,
+                              "paddingRight": 13.333333333333332,
+                              "paddingTop": 8
+                            },
+                            "tagName": "div",
+                            "type": "container"
+                          },
+                          {
+                            "children": [
+                              {
+                                "style": {
+                                  "color": "#18181b",
+                                  "fontFamily": "Helvetica",
+                                  "fontSize": 14.666666666666666,
+                                  "fontWeight": 600,
+                                  "lineHeight": 1.2,
+                                  "margin": 0,
+                                  "padding": 0
+                                },
+                                "tagName": "span",
+                                "text": "Severity",
+                                "type": "text"
+                              }
+                            ],
+                            "preset": {
+                              "display": "block"
+                            },
+                            "style": {
+                              "display": "flex",
+                              "flex": 1,
+                              "flexDirection": "column",
+                              "justifyContent": "center",
+                              "paddingBottom": 8,
+                              "paddingLeft": 13.333333333333332,
+                              "paddingRight": 13.333333333333332,
+                              "paddingTop": 8
+                            },
+                            "tagName": "div",
+                            "type": "container"
+                          }
+                        ],
+                        "preset": {
+                          "display": "block"
+                        },
+                        "style": {
+                          "backgroundColor": "#f4f4f5",
+                          "borderBottomColor": "#e4e4e7",
+                          "borderBottomStyle": "solid",
+                          "borderBottomWidth": 1.3333333333333333,
+                          "breakInside": "avoid",
+                          "display": "flex",
+                          "flexDirection": "row"
+                        },
+                        "tagName": "div",
+                        "type": "container"
+                      }
+                    ],
+                    "preset": {
+                      "display": "block"
+                    },
+                    "style": {
+                      "display": "flex",
+                      "flexDirection": "column"
+                    },
+                    "tagName": "div",
+                    "type": "container"
+                  },
+                  {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "children": [
+                              {
+                                "children": [],
+                                "preset": {
+                                  "display": "block"
+                                },
+                                "style": {
+                                  "display": "flex",
+                                  "flexDirection": "column",
+                                  "minHeight": 18.666666666666664
+                                },
+                                "tagName": "div",
+                                "type": "container"
+                              }
+                            ],
+                            "preset": {
+                              "display": "block"
+                            },
+                            "style": {
+                              "borderRightColor": "#e4e4e7",
+                              "borderRightStyle": "solid",
+                              "borderRightWidth": 0.6666666666666666,
+                              "display": "flex",
+                              "flex": 1,
+                              "flexDirection": "column",
+                              "justifyContent": "center",
+                              "paddingBottom": 8,
+                              "paddingLeft": 13.333333333333332,
+                              "paddingRight": 13.333333333333332,
+                              "paddingTop": 8
+                            },
+                            "tagName": "div",
+                            "type": "container"
+                          },
+                          {
+                            "children": [
+                              {
+                                "children": [],
+                                "preset": {
+                                  "display": "block"
+                                },
+                                "style": {
+                                  "display": "flex",
+                                  "flexDirection": "column",
+                                  "minHeight": 18.666666666666664
+                                },
+                                "tagName": "div",
+                                "type": "container"
+                              }
+                            ],
+                            "preset": {
+                              "display": "block"
+                            },
+                            "style": {
+                              "borderRightColor": "#e4e4e7",
+                              "borderRightStyle": "solid",
+                              "borderRightWidth": 0.6666666666666666,
+                              "display": "flex",
+                              "flex": 1,
+                              "flexDirection": "column",
+                              "justifyContent": "center",
+                              "paddingBottom": 8,
+                              "paddingLeft": 13.333333333333332,
+                              "paddingRight": 13.333333333333332,
+                              "paddingTop": 8
+                            },
+                            "tagName": "div",
+                            "type": "container"
+                          },
+                          {
+                            "children": [
+                              {
+                                "children": [],
+                                "preset": {
+                                  "display": "block"
+                                },
+                                "style": {
+                                  "display": "flex",
+                                  "flexDirection": "column",
+                                  "minHeight": 18.666666666666664
+                                },
+                                "tagName": "div",
+                                "type": "container"
+                              }
+                            ],
+                            "preset": {
+                              "display": "block"
+                            },
+                            "style": {
+                              "display": "flex",
+                              "flex": 1,
+                              "flexDirection": "column",
+                              "justifyContent": "center",
+                              "paddingBottom": 8,
+                              "paddingLeft": 13.333333333333332,
+                              "paddingRight": 13.333333333333332,
+                              "paddingTop": 8
+                            },
+                            "tagName": "div",
+                            "type": "container"
+                          }
+                        ],
+                        "preset": {
+                          "display": "block"
+                        },
+                        "style": {
+                          "borderBottomColor": "#e4e4e7",
+                          "borderBottomStyle": "solid",
+                          "borderBottomWidth": 0.6666666666666666,
+                          "breakInside": "avoid",
+                          "display": "flex",
+                          "flexDirection": "row"
+                        },
+                        "tagName": "div",
+                        "type": "container"
+                      },
+                      {
+                        "children": [
+                          {
+                            "children": [
+                              {
+                                "children": [],
+                                "preset": {
+                                  "display": "block"
+                                },
+                                "style": {
+                                  "display": "flex",
+                                  "flexDirection": "column",
+                                  "minHeight": 18.666666666666664
+                                },
+                                "tagName": "div",
+                                "type": "container"
+                              }
+                            ],
+                            "preset": {
+                              "display": "block"
+                            },
+                            "style": {
+                              "borderRightColor": "#e4e4e7",
+                              "borderRightStyle": "solid",
+                              "borderRightWidth": 0.6666666666666666,
+                              "display": "flex",
+                              "flex": 1,
+                              "flexDirection": "column",
+                              "justifyContent": "center",
+                              "paddingBottom": 8,
+                              "paddingLeft": 13.333333333333332,
+                              "paddingRight": 13.333333333333332,
+                              "paddingTop": 8
+                            },
+                            "tagName": "div",
+                            "type": "container"
+                          },
+                          {
+                            "children": [
+                              {
+                                "children": [],
+                                "preset": {
+                                  "display": "block"
+                                },
+                                "style": {
+                                  "display": "flex",
+                                  "flexDirection": "column",
+                                  "minHeight": 18.666666666666664
+                                },
+                                "tagName": "div",
+                                "type": "container"
+                              }
+                            ],
+                            "preset": {
+                              "display": "block"
+                            },
+                            "style": {
+                              "borderRightColor": "#e4e4e7",
+                              "borderRightStyle": "solid",
+                              "borderRightWidth": 0.6666666666666666,
+                              "display": "flex",
+                              "flex": 1,
+                              "flexDirection": "column",
+                              "justifyContent": "center",
+                              "paddingBottom": 8,
+                              "paddingLeft": 13.333333333333332,
+                              "paddingRight": 13.333333333333332,
+                              "paddingTop": 8
+                            },
+                            "tagName": "div",
+                            "type": "container"
+                          },
+                          {
+                            "children": [
+                              {
+                                "children": [],
+                                "preset": {
+                                  "display": "block"
+                                },
+                                "style": {
+                                  "display": "flex",
+                                  "flexDirection": "column",
+                                  "minHeight": 18.666666666666664
+                                },
+                                "tagName": "div",
+                                "type": "container"
+                              }
+                            ],
+                            "preset": {
+                              "display": "block"
+                            },
+                            "style": {
+                              "display": "flex",
+                              "flex": 1,
+                              "flexDirection": "column",
+                              "justifyContent": "center",
+                              "paddingBottom": 8,
+                              "paddingLeft": 13.333333333333332,
+                              "paddingRight": 13.333333333333332,
+                              "paddingTop": 8
+                            },
+                            "tagName": "div",
+                            "type": "container"
+                          }
+                        ],
+                        "preset": {
+                          "display": "block"
+                        },
+                        "style": {
+                          "borderBottomColor": "#e4e4e7",
+                          "borderBottomStyle": "solid",
+                          "borderBottomWidth": 0.6666666666666666,
+                          "breakInside": "avoid",
+                          "display": "flex",
+                          "flexDirection": "row"
+                        },
+                        "tagName": "div",
+                        "type": "container"
+                      },
+                      {
+                        "children": [
+                          {
+                            "children": [
+                              {
+                                "children": [],
+                                "preset": {
+                                  "display": "block"
+                                },
+                                "style": {
+                                  "display": "flex",
+                                  "flexDirection": "column",
+                                  "minHeight": 18.666666666666664
+                                },
+                                "tagName": "div",
+                                "type": "container"
+                              }
+                            ],
+                            "preset": {
+                              "display": "block"
+                            },
+                            "style": {
+                              "borderRightColor": "#e4e4e7",
+                              "borderRightStyle": "solid",
+                              "borderRightWidth": 0.6666666666666666,
+                              "display": "flex",
+                              "flex": 1,
+                              "flexDirection": "column",
+                              "justifyContent": "center",
+                              "paddingBottom": 8,
+                              "paddingLeft": 13.333333333333332,
+                              "paddingRight": 13.333333333333332,
+                              "paddingTop": 8
+                            },
+                            "tagName": "div",
+                            "type": "container"
+                          },
+                          {
+                            "children": [
+                              {
+                                "children": [],
+                                "preset": {
+                                  "display": "block"
+                                },
+                                "style": {
+                                  "display": "flex",
+                                  "flexDirection": "column",
+                                  "minHeight": 18.666666666666664
+                                },
+                                "tagName": "div",
+                                "type": "container"
+                              }
+                            ],
+                            "preset": {
+                              "display": "block"
+                            },
+                            "style": {
+                              "borderRightColor": "#e4e4e7",
+                              "borderRightStyle": "solid",
+                              "borderRightWidth": 0.6666666666666666,
+                              "display": "flex",
+                              "flex": 1,
+                              "flexDirection": "column",
+                              "justifyContent": "center",
+                              "paddingBottom": 8,
+                              "paddingLeft": 13.333333333333332,
+                              "paddingRight": 13.333333333333332,
+                              "paddingTop": 8
+                            },
+                            "tagName": "div",
+                            "type": "container"
+                          },
+                          {
+                            "children": [
+                              {
+                                "children": [],
+                                "preset": {
+                                  "display": "block"
+                                },
+                                "style": {
+                                  "display": "flex",
+                                  "flexDirection": "column",
+                                  "minHeight": 18.666666666666664
+                                },
+                                "tagName": "div",
+                                "type": "container"
+                              }
+                            ],
+                            "preset": {
+                              "display": "block"
+                            },
+                            "style": {
+                              "display": "flex",
+                              "flex": 1,
+                              "flexDirection": "column",
+                              "justifyContent": "center",
+                              "paddingBottom": 8,
+                              "paddingLeft": 13.333333333333332,
+                              "paddingRight": 13.333333333333332,
+                              "paddingTop": 8
+                            },
+                            "tagName": "div",
+                            "type": "container"
+                          }
+                        ],
+                        "preset": {
+                          "display": "block"
+                        },
+                        "style": {
+                          "borderBottomColor": "#e4e4e7",
+                          "borderBottomStyle": "solid",
+                          "borderBottomWidth": 0.6666666666666666,
+                          "breakInside": "avoid",
+                          "display": "flex",
+                          "flexDirection": "row"
+                        },
+                        "tagName": "div",
+                        "type": "container"
+                      }
+                    ],
+                    "preset": {
+                      "display": "block"
+                    },
+                    "style": {
+                      "display": "flex",
+                      "flexDirection": "column"
+                    },
+                    "tagName": "div",
+                    "type": "container"
+                  }
+                ],
+                "preset": {
+                  "display": "block"
+                },
+                "style": {
+                  "borderBottomLeftRadius": 5.333333333333333,
+                  "borderBottomRightRadius": 5.333333333333333,
+                  "borderColor": "#e4e4e7",
+                  "borderStyle": "solid",
+                  "borderTopLeftRadius": 5.333333333333333,
+                  "borderTopRightRadius": 5.333333333333333,
+                  "borderWidth": 2,
+                  "display": "flex",
+                  "flexDirection": "column",
+                  "marginBottom": 18.666666666666664,
+                  "overflow": "hidden",
+                  "width": "100%"
+                },
+                "tagName": "div",
+                "type": "container"
+              }
+            ],
+            "preset": {
+              "display": "block"
+            },
+            "style": {
+              "display": "flex",
+              "flexDirection": "column",
+              "marginBottom": 5.333333333333333
+            },
+            "tagName": "div",
+            "type": "container"
+          },
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "style": {
+                      "color": "#18181b",
+                      "fontFamily": "Helvetica",
+                      "fontSize": 12,
+                      "fontWeight": "bold",
+                      "letterSpacing": 0.7999999999999999,
+                      "lineHeight": 1.6,
+                      "marginBottom": 0,
+                      "marginTop": 0,
+                      "textTransform": "uppercase"
+                    },
+                    "tagName": "span",
+                    "text": "Reason for Visit",
+                    "type": "text"
+                  }
+                ],
+                "preset": {
+                  "display": "block"
+                },
+                "style": {
+                  "borderBottomColor": "#0d9488",
+                  "borderBottomStyle": "solid",
+                  "borderBottomWidth": 1.3333333333333333,
+                  "display": "flex",
+                  "flexDirection": "column",
+                  "marginBottom": 5.333333333333333,
+                  "paddingBottom": 2.6666666666666665
+                },
+                "tagName": "div",
+                "type": "container"
+              },
+              {
+                "children": [],
+                "preset": {
+                  "display": "block"
+                },
+                "style": {
+                  "borderColor": "#e4e4e7",
+                  "borderRadius": 2.6666666666666665,
+                  "borderStyle": "solid",
+                  "borderWidth": 1.3333333333333333,
+                  "display": "flex",
+                  "flexDirection": "column",
+                  "minHeight": 53.33333333333333
+                },
+                "tagName": "div",
+                "type": "container"
+              }
+            ],
+            "preset": {
+              "display": "block"
+            },
+            "style": {
+              "display": "flex",
+              "flexDirection": "column",
+              "marginBottom": 5.333333333333333
+            },
+            "tagName": "div",
+            "type": "container"
+          },
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "style": {
+                      "color": "#18181b",
+                      "fontFamily": "Helvetica",
+                      "fontSize": 12,
+                      "fontWeight": "bold",
+                      "letterSpacing": 0.7999999999999999,
+                      "lineHeight": 1.6,
+                      "marginBottom": 0,
+                      "marginTop": 0,
+                      "textTransform": "uppercase"
+                    },
+                    "tagName": "span",
+                    "text": "Consent & Authorization",
+                    "type": "text"
+                  }
+                ],
+                "preset": {
+                  "display": "block"
+                },
+                "style": {
+                  "borderBottomColor": "#0d9488",
+                  "borderBottomStyle": "solid",
+                  "borderBottomWidth": 1.3333333333333333,
+                  "display": "flex",
+                  "flexDirection": "column",
+                  "marginBottom": 5.333333333333333,
+                  "paddingBottom": 2.6666666666666665
+                },
+                "tagName": "div",
+                "type": "container"
+              },
+              {
+                "children": [
+                  {
+                    "style": {
+                      "color": "#71717a",
+                      "fontFamily": "Helvetica",
+                      "fontSize": 13.333333333333332,
+                      "lineHeight": 1.4,
+                      "marginBottom": 8,
+                      "marginTop": 0
+                    },
+                    "tagName": "span",
+                    "text": "I authorize Sunrise Family Medicine to provide treatment and to release the information required to process insurance claims for this visit, and I acknowledge that I have received the Notice of Privacy Practices (HIPAA) explaining how my health information may be used.",
+                    "type": "text"
+                  },
+                  {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "children": [],
+                            "preset": {
+                              "display": "block"
+                            },
+                            "style": {
+                              "alignItems": "center",
+                              "backgroundColor": "#ffffff",
+                              "borderColor": "#e4e4e7",
+                              "borderRadius": 4,
+                              "borderStyle": "solid",
+                              "borderWidth": 2,
+                              "display": "flex",
+                              "flexDirection": "column",
+                              "height": 21.333333333333332,
+                              "justifyContent": "center",
+                              "marginRight": 10.666666666666666,
+                              "width": 21.333333333333332
+                            },
+                            "tagName": "div",
+                            "type": "container"
+                          },
+                          {
+                            "children": [
+                              {
+                                "style": {
+                                  "color": "#18181b",
+                                  "fontFamily": "Helvetica",
+                                  "fontSize": 14.666666666666666,
+                                  "lineHeight": 1.6
+                                },
+                                "tagName": "span",
+                                "text": "I have read and understand the consent above.",
+                                "type": "text"
+                              }
+                            ],
+                            "preset": {
+                              "display": "block"
+                            },
+                            "style": {
+                              "display": "flex",
+                              "flex": 1,
+                              "flexDirection": "column"
+                            },
+                            "tagName": "div",
+                            "type": "container"
+                          }
+                        ],
+                        "preset": {
+                          "display": "block"
+                        },
+                        "style": {
+                          "alignItems": "center",
+                          "display": "flex",
+                          "flexDirection": "row",
+                          "marginBottom": 5.333333333333333
+                        },
+                        "tagName": "div",
+                        "type": "container"
+                      },
+                      {
+                        "children": [
+                          {
+                            "children": [],
+                            "preset": {
+                              "display": "block"
+                            },
+                            "style": {
+                              "alignItems": "center",
+                              "backgroundColor": "#ffffff",
+                              "borderColor": "#e4e4e7",
+                              "borderRadius": 4,
+                              "borderStyle": "solid",
+                              "borderWidth": 2,
+                              "display": "flex",
+                              "flexDirection": "column",
+                              "height": 21.333333333333332,
+                              "justifyContent": "center",
+                              "marginRight": 10.666666666666666,
+                              "width": 21.333333333333332
+                            },
+                            "tagName": "div",
+                            "type": "container"
+                          },
+                          {
+                            "children": [
+                              {
+                                "style": {
+                                  "color": "#18181b",
+                                  "fontFamily": "Helvetica",
+                                  "fontSize": 14.666666666666666,
+                                  "lineHeight": 1.6
+                                },
+                                "tagName": "span",
+                                "text": "I have received the Notice of Privacy Practices.",
+                                "type": "text"
+                              }
+                            ],
+                            "preset": {
+                              "display": "block"
+                            },
+                            "style": {
+                              "display": "flex",
+                              "flex": 1,
+                              "flexDirection": "column"
+                            },
+                            "tagName": "div",
+                            "type": "container"
+                          }
+                        ],
+                        "preset": {
+                          "display": "block"
+                        },
+                        "style": {
+                          "alignItems": "center",
+                          "display": "flex",
+                          "flexDirection": "row"
+                        },
+                        "tagName": "div",
+                        "type": "container"
+                      }
+                    ],
+                    "preset": {
+                      "display": "block"
+                    },
+                    "style": {
+                      "display": "flex",
+                      "flexDirection": "column",
+                      "marginBottom": 18.666666666666664,
+                      "width": "100%"
+                    },
+                    "tagName": "div",
+                    "type": "container"
+                  }
+                ],
+                "preset": {
+                  "display": "block"
+                },
+                "style": {
+                  "backgroundColor": "#f4f4f5",
+                  "borderLeftColor": "#0d9488",
+                  "borderLeftStyle": "solid",
+                  "borderLeftWidth": 5.333333333333333,
+                  "display": "flex",
+                  "flexDirection": "column",
+                  "marginBottom": 0,
+                  "marginTop": 0,
+                  "padding": 16
+                },
+                "tagName": "div",
+                "type": "container"
+              },
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "style": {
+                              "color": "#71717a",
+                              "fontFamily": "Helvetica",
+                              "fontSize": 16,
+                              "marginBottom": 5.333333333333333
+                            },
+                            "tagName": "span",
+                            "text": "Patient / Guardian Signature",
+                            "type": "text"
+                          },
+                          {
+                            "children": [],
+                            "preset": {
+                              "display": "block"
+                            },
+                            "style": {
+                              "borderBottomColor": "#18181b",
+                              "borderBottomStyle": "solid",
+                              "borderBottomWidth": 1.3333333333333333,
+                              "display": "flex",
+                              "flexDirection": "column",
+                              "marginBottom": 5.333333333333333,
+                              "minHeight": 32
+                            },
+                            "tagName": "div",
+                            "type": "container"
+                          }
+                        ],
+                        "preset": {
+                          "display": "block"
+                        },
+                        "style": {
+                          "display": "flex",
+                          "flex": 1,
+                          "flexDirection": "column",
+                          "minWidth": 186.66666666666666
+                        },
+                        "tagName": "div",
+                        "type": "container"
+                      },
+                      {
+                        "children": [
+                          {
+                            "style": {
+                              "color": "#71717a",
+                              "fontFamily": "Helvetica",
+                              "fontSize": 16,
+                              "marginBottom": 5.333333333333333
+                            },
+                            "tagName": "span",
+                            "text": "Date",
+                            "type": "text"
+                          },
+                          {
+                            "children": [],
+                            "preset": {
+                              "display": "block"
+                            },
+                            "style": {
+                              "borderBottomColor": "#18181b",
+                              "borderBottomStyle": "solid",
+                              "borderBottomWidth": 1.3333333333333333,
+                              "display": "flex",
+                              "flexDirection": "column",
+                              "marginBottom": 5.333333333333333,
+                              "minHeight": 32
+                            },
+                            "tagName": "div",
+                            "type": "container"
+                          }
+                        ],
+                        "preset": {
+                          "display": "block"
+                        },
+                        "style": {
+                          "display": "flex",
+                          "flex": 1,
+                          "flexDirection": "column",
+                          "minWidth": 186.66666666666666
+                        },
+                        "tagName": "div",
+                        "type": "container"
+                      }
+                    ],
+                    "preset": {
+                      "display": "block"
+                    },
+                    "style": {
+                      "display": "flex",
+                      "flexDirection": "row",
+                      "gap": 42.666666666666664,
+                      "justifyContent": "space-between"
+                    },
+                    "tagName": "div",
+                    "type": "container"
+                  }
+                ],
+                "preset": {
+                  "display": "block"
+                },
+                "style": {
+                  "breakInside": "avoid",
+                  "display": "flex",
+                  "flexDirection": "column",
+                  "marginBottom": 0,
+                  "marginTop": 10.666666666666666
+                },
+                "tagName": "div",
+                "type": "container"
+              }
+            ],
+            "preset": {
+              "display": "block"
+            },
+            "style": {
+              "display": "flex",
+              "flexDirection": "column",
+              "marginBottom": 5.333333333333333
+            },
+            "tagName": "div",
+            "type": "container"
+          },
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "style": {
+                      "color": "#18181b",
+                      "fontFamily": "Helvetica",
+                      "fontSize": 13.333333333333332,
+                      "fontWeight": 500,
+                      "lineHeight": 1.6
+                    },
+                    "tagName": "span",
+                    "text": "Form v1.0 · Revised 09/2026",
+                    "type": "text"
+                  },
+                  {
+                    "style": {
+                      "color": "#71717a",
+                      "flex": 1,
+                      "fontFamily": "Helvetica",
+                      "fontSize": 13.333333333333332,
+                      "lineHeight": 1.6
+                    },
+                    "tagName": "span",
+                    "text": "200 Health Plaza, Denver, CO 80202",
+                    "type": "text"
+                  }
+                ],
+                "preset": {
+                  "display": "block"
+                },
+                "style": {
+                  "display": "flex",
+                  "flex": 1,
+                  "flexDirection": "column"
+                },
+                "tagName": "div",
+                "type": "container"
+              },
+              {
+                "children": [
+                  {
+                    "style": {
+                      "color": "#71717a",
+                      "fontFamily": "Helvetica",
+                      "fontSize": 12,
+                      "lineHeight": 1.6,
+                      "marginTop": 2.6666666666666665,
+                      "textAlign": "center"
+                    },
+                    "tagName": "span",
+                    "text": "(303) 555-0180",
+                    "type": "text"
+                  }
+                ],
+                "preset": {
+                  "display": "block"
+                },
+                "style": {
+                  "alignItems": "center",
+                  "display": "flex",
+                  "flex": 1,
+                  "flexDirection": "column"
+                },
+                "tagName": "div",
+                "type": "container"
+              },
+              {
+                "children": [
+                  {
+                    "style": {
+                      "color": "#71717a",
+                      "fontFamily": "Helvetica",
+                      "fontSize": 13.333333333333332,
+                      "lineHeight": 1.6,
+                      "textAlign": "right"
+                    },
+                    "tagName": "span",
+                    "text": "Page 2 of 2",
+                    "type": "text"
+                  }
+                ],
+                "preset": {
+                  "display": "block"
+                },
+                "style": {
+                  "alignItems": "flex-end",
+                  "display": "flex",
+                  "flex": 1,
+                  "flexDirection": "column"
+                },
+                "tagName": "div",
+                "type": "container"
+              }
+            ],
+            "preset": {
+              "display": "block"
+            },
+            "style": {
+              "alignItems": "flex-start",
+              "borderTopColor": "#e4e4e7",
+              "borderTopStyle": "solid",
+              "borderTopWidth": 2.6666666666666665,
+              "bottom": 64,
+              "breakInside": "avoid",
+              "display": "flex",
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "left": 64,
+              "marginTop": 0,
+              "paddingTop": 16,
+              "position": "absolute",
+              "right": 64
+            },
+            "tagName": "div",
+            "type": "container"
+          }
+        ],
+        "preset": {
+          "display": "block"
+        },
+        "style": {
+          "backgroundColor": "#ffffff",
+          "boxSizing": "border-box",
+          "display": "flex",
+          "flexDirection": "column",
+          "minHeight": 1121.3333333333333,
+          "paddingBottom": 58.666666666666664,
+          "paddingLeft": 64,
+          "paddingRight": 64,
+          "paddingTop": 32,
+          "position": "relative"
+        },
+        "tagName": "div",
+        "type": "container"
+      }
+    ],
+    "preset": {
+      "display": "block"
+    },
+    "style": {
+      "display": "flex",
+      "flexDirection": "column"
+    },
+    "tagName": "div",
+    "type": "container"
+  },
+  "stylesheets": []
+}

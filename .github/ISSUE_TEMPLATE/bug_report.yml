@@ -1,0 +1,78 @@
+name: Bug report
+description: Report a reproducible bug in angular-pdfcn.
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to file a bug report. Before you open a new issue:
+
+        - [Search existing issues](https://github.com/aFlamee/angular-pdfcn/issues) and upvote instead of opening a duplicate.
+        - Check that the bug still happens with the item as it is on `main`. Add it again with `npx shadcn@latest add` to get the latest version.
+  - type: input
+    id: reproduction
+    attributes:
+      label: Link to a minimal reproduction
+      description: |
+        A link to a **public** GitHub repository with an Angular app that shows the bug. Include only the code needed to trigger it.
+
+        Issues without a reproduction may be closed.
+      placeholder: "https://github.com/user/angular-pdfcn-bug"
+    validations:
+      required: true
+  - type: input
+    id: items
+    attributes:
+      label: Registry items
+      description: The items involved, with their base.
+      placeholder: "@angular-pdfcn/forme/invoice-classic"
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: How to trigger the bug in the linked reproduction.
+      placeholder: |
+        1. Clone the reproduction repo
+        2. Run `npm install && npm test`
+        3. Open the rendered PDF
+    validations:
+      required: true
+  - type: textarea
+    id: behavior
+    attributes:
+      label: Current vs. expected behavior
+      description: What happens, including the exact error output, and what you expected instead.
+      placeholder: "Following the steps above, I expected A, but observed B instead."
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Your OS, Node.js version, Angular version, package manager, and the engine version (`@formepdf/core` or `takumi-pdf`) from your lockfile.
+      render: shell
+      placeholder: |
+        OS: macOS 15.5 (arm64)
+        Node: v24.1.0
+        Angular: 22.2.6
+        Package manager: npm 11.4.0
+        Engine: @formepdf/core 0.25.0
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs
+      description: The build or runtime output around the failure.
+      render: shell
+    validations:
+      required: false
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Anything else that helps, such as whether the bug happens in the browser, during server rendering, or in tests.
+    validations:
+      required: false

@@ -1,0 +1,212 @@
+{
+  "node": {
+    "children": [
+      {
+        "attributes": {
+          "data-pdf-page": ""
+        },
+        "children": [
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "style": {
+                      "color": "#18181b",
+                      "fontFamily": "Times-Roman",
+                      "fontSize": 32,
+                      "fontWeight": 700,
+                      "lineHeight": 1.25,
+                      "marginBottom": 13.333333333333332,
+                      "marginTop": 37.33333333333333
+                    },
+                    "tagName": "span",
+                    "text": "Section Title",
+                    "type": "text"
+                  },
+                  {
+                    "children": [
+                      {
+                        "style": {
+                          "color": "#18181b",
+                          "fontFamily": "Helvetica",
+                          "fontSize": 14.666666666666666,
+                          "lineHeight": 1.6,
+                          "marginBottom": 0,
+                          "marginTop": 0
+                        },
+                        "tagName": "span",
+                        "text": "This heading and callout stay together as one atomic block when the document flows onto another page.",
+                        "type": "text"
+                      }
+                    ],
+                    "preset": {
+                      "display": "block"
+                    },
+                    "style": {
+                      "borderLeftColor": "#18181b",
+                      "borderLeftStyle": "solid",
+                      "borderLeftWidth": 5.333333333333333,
+                      "display": "flex",
+                      "flexDirection": "column",
+                      "marginBottom": 37.33333333333333,
+                      "marginTop": 37.33333333333333,
+                      "padding": 16,
+                      "paddingBottom": 10.666666666666666,
+                      "paddingLeft": 21.333333333333332,
+                      "paddingTop": 10.666666666666666
+                    },
+                    "tagName": "div",
+                    "type": "container"
+                  }
+                ],
+                "preset": {
+                  "display": "block"
+                },
+                "style": {
+                  "breakInside": "avoid",
+                  "display": "flex",
+                  "flexDirection": "column"
+                },
+                "tagName": "div",
+                "type": "container"
+              },
+              {
+                "children": [
+                  {
+                    "style": {
+                      "color": "#18181b",
+                      "fontFamily": "Times-Roman",
+                      "fontSize": 26.666666666666664,
+                      "fontWeight": 700,
+                      "lineHeight": 1.25,
+                      "marginBottom": 13.333333333333332,
+                      "marginTop": 18.666666666666664
+                    },
+                    "tagName": "span",
+                    "text": "Subsection Heading",
+                    "type": "text"
+                  },
+                  {
+                    "style": {
+                      "color": "#18181b",
+                      "fontFamily": "Helvetica",
+                      "fontSize": 14.666666666666666,
+                      "lineHeight": 1.6,
+                      "marginBottom": 13.333333333333332,
+                      "marginTop": 0
+                    },
+                    "tagName": "span",
+                    "text": "Reserve enough room before starting this subsection so its heading is never stranded at the bottom of a page.",
+                    "type": "text"
+                  }
+                ],
+                "preset": {
+                  "display": "block"
+                },
+                "style": {
+                  "breakInside": "avoid",
+                  "display": "flex",
+                  "flexDirection": "column"
+                },
+                "tagName": "div",
+                "type": "container"
+              },
+              {
+                "children": [
+                  {
+                    "style": {
+                      "color": "#18181b",
+                      "fontFamily": "Times-Roman",
+                      "fontSize": 21.333333333333332,
+                      "fontWeight": 700,
+                      "lineHeight": 1.25,
+                      "marginBottom": 13.333333333333332,
+                      "marginTop": 13.333333333333332
+                    },
+                    "tagName": "span",
+                    "text": "Signature Block",
+                    "type": "text"
+                  },
+                  {
+                    "children": [
+                      {
+                        "style": {
+                          "color": "#18181b",
+                          "fontFamily": "Helvetica",
+                          "fontSize": 14.666666666666666,
+                          "lineHeight": 1.6,
+                          "marginBottom": 0,
+                          "marginTop": 0
+                        },
+                        "tagName": "span",
+                        "text": "Approved by: ____________________",
+                        "type": "text"
+                      }
+                    ],
+                    "preset": {
+                      "display": "block"
+                    },
+                    "style": {
+                      "borderColor": "#e4e4e7",
+                      "borderRadius": 5.333333333333333,
+                      "borderStyle": "solid",
+                      "borderWidth": 2.6666666666666665,
+                      "display": "flex",
+                      "flexDirection": "column",
+                      "marginBottom": 37.33333333333333,
+                      "marginTop": 37.33333333333333,
+                      "padding": 16
+                    },
+                    "tagName": "div",
+                    "type": "container"
+                  }
+                ],
+                "preset": {
+                  "display": "block"
+                },
+                "style": {
+                  "breakInside": "avoid",
+                  "display": "flex",
+                  "flexDirection": "column"
+                },
+                "tagName": "div",
+                "type": "container"
+              }
+            ],
+            "preset": {
+              "display": "block"
+            },
+            "style": {
+              "display": "flex",
+              "flexDirection": "column",
+              "marginBottom": 0,
+              "marginTop": 0
+            },
+            "tagName": "div",
+            "type": "container"
+          }
+        ],
+        "preset": {
+          "display": "block"
+        },
+        "style": {
+          "display": "flex",
+          "flexDirection": "column"
+        },
+        "tagName": "div",
+        "type": "container"
+      }
+    ],
+    "preset": {
+      "display": "block"
+    },
+    "style": {
+      "display": "flex",
+      "flexDirection": "column"
+    },
+    "tagName": "div",
+    "type": "container"
+  },
+  "stylesheets": []
+}

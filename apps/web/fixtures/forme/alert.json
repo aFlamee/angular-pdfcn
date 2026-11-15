@@ -1,0 +1,756 @@
+{
+  "document": {
+    "children": [
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "children": [],
+                "kind": {
+                  "content": "Document Alerts",
+                  "type": "Text"
+                },
+                "style": {
+                  "color": {
+                    "a": 1,
+                    "b": 0.10588235294117647,
+                    "g": 0.09411764705882353,
+                    "r": 0.09411764705882353
+                  },
+                  "fontFamily": "Times-Roman",
+                  "fontSize": 32,
+                  "fontWeight": 700,
+                  "lineHeight": 1.25,
+                  "margin": {
+                    "bottom": 10,
+                    "left": 0,
+                    "right": 0,
+                    "top": 0
+                  }
+                }
+              },
+              {
+                "children": [],
+                "kind": {
+                  "content": "The PdfAlert component displays callout boxes with different severity levels.",
+                  "type": "Text"
+                },
+                "style": {
+                  "color": {
+                    "a": 1,
+                    "b": 0.10588235294117647,
+                    "g": 0.09411764705882353,
+                    "r": 0.09411764705882353
+                  },
+                  "fontFamily": "Helvetica",
+                  "fontSize": 11,
+                  "lineHeight": 1.6,
+                  "margin": {
+                    "bottom": 10,
+                    "left": 0,
+                    "right": 0,
+                    "top": 0
+                  }
+                }
+              },
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "children": [],
+                            "kind": {
+                              "content": "<circle cx=\"8\" cy=\"8\" r=\"7\" fill=\"none\" stroke=\"#0ea5e9\" stroke-width=\"1.5\"/><circle cx=\"8\" cy=\"4.5\" r=\"1\" fill=\"#0ea5e9\"/><line x1=\"8\" y1=\"7\" x2=\"8\" y2=\"11.5\" stroke=\"#0ea5e9\" stroke-width=\"1.5\" stroke-linecap=\"round\"/>",
+                              "height": 16,
+                              "type": "Svg",
+                              "view_box": "0 0 16 16",
+                              "width": 16
+                            },
+                            "style": {}
+                          }
+                        ],
+                        "kind": {
+                          "type": "View"
+                        },
+                        "style": {
+                          "alignItems": "Center",
+                          "justifyContent": "FlexStart",
+                          "margin": {
+                            "bottom": 0,
+                            "left": 0,
+                            "right": 10,
+                            "top": 0
+                          },
+                          "padding": {
+                            "bottom": 0,
+                            "left": 0,
+                            "right": 0,
+                            "top": 2
+                          },
+                          "width": {
+                            "Pt": 20
+                          }
+                        }
+                      },
+                      {
+                        "children": [
+                          {
+                            "children": [],
+                            "kind": {
+                              "content": "Information",
+                              "type": "Text"
+                            },
+                            "style": {
+                              "color": {
+                                "a": 1,
+                                "b": 0.10588235294117647,
+                                "g": 0.09411764705882353,
+                                "r": 0.09411764705882353
+                              },
+                              "fontFamily": "Times-Roman",
+                              "fontSize": 12,
+                              "fontWeight": 600,
+                              "margin": {
+                                "bottom": 4,
+                                "left": 0,
+                                "right": 0,
+                                "top": 0
+                              }
+                            }
+                          },
+                          {
+                            "children": [],
+                            "kind": {
+                              "content": "This document contains important information about your account.",
+                              "type": "Text"
+                            },
+                            "style": {
+                              "color": {
+                                "a": 1,
+                                "b": 0.47843137254901963,
+                                "g": 0.44313725490196076,
+                                "r": 0.44313725490196076
+                              },
+                              "fontFamily": "Helvetica",
+                              "fontSize": 12,
+                              "lineHeight": 1.6
+                            }
+                          }
+                        ],
+                        "kind": {
+                          "type": "View"
+                        },
+                        "style": {
+                          "flexBasis": {
+                            "Pt": 0
+                          },
+                          "flexGrow": 1,
+                          "flexShrink": 1
+                        }
+                      }
+                    ],
+                    "kind": {
+                      "type": "View"
+                    },
+                    "style": {
+                      "backgroundColor": {
+                        "a": 1,
+                        "b": 0.9607843137254902,
+                        "g": 0.9568627450980393,
+                        "r": 0.9568627450980393
+                      },
+                      "borderColor": {
+                        "bottom": {
+                          "a": 1,
+                          "b": 0,
+                          "g": 0,
+                          "r": 0
+                        },
+                        "left": {
+                          "a": 1,
+                          "b": 0.9137254901960784,
+                          "g": 0.6470588235294118,
+                          "r": 0.054901960784313725
+                        },
+                        "right": {
+                          "a": 1,
+                          "b": 0,
+                          "g": 0,
+                          "r": 0
+                        },
+                        "top": {
+                          "a": 1,
+                          "b": 0,
+                          "g": 0,
+                          "r": 0
+                        }
+                      },
+                      "borderRadius": {
+                        "bottom_left": 4,
+                        "bottom_right": 4,
+                        "top_left": 4,
+                        "top_right": 4
+                      },
+                      "borderWidth": {
+                        "bottom": 0,
+                        "left": 4,
+                        "right": 0,
+                        "top": 0
+                      },
+                      "flexDirection": "Row",
+                      "margin": {
+                        "bottom": 14,
+                        "left": 0,
+                        "right": 0,
+                        "top": 0
+                      },
+                      "padding": {
+                        "bottom": 12,
+                        "left": 12,
+                        "right": 12,
+                        "top": 12
+                      },
+                      "wrap": false
+                    }
+                  },
+                  {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "children": [],
+                            "kind": {
+                              "content": "<circle cx=\"8\" cy=\"8\" r=\"7\" fill=\"none\" stroke=\"#16a34a\" stroke-width=\"1.5\"/><path d=\"M5 8 L7 10 L11 6\" fill=\"none\" stroke=\"#16a34a\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>",
+                              "height": 16,
+                              "type": "Svg",
+                              "view_box": "0 0 16 16",
+                              "width": 16
+                            },
+                            "style": {}
+                          }
+                        ],
+                        "kind": {
+                          "type": "View"
+                        },
+                        "style": {
+                          "alignItems": "Center",
+                          "justifyContent": "FlexStart",
+                          "margin": {
+                            "bottom": 0,
+                            "left": 0,
+                            "right": 10,
+                            "top": 0
+                          },
+                          "padding": {
+                            "bottom": 0,
+                            "left": 0,
+                            "right": 0,
+                            "top": 2
+                          },
+                          "width": {
+                            "Pt": 20
+                          }
+                        }
+                      },
+                      {
+                        "children": [
+                          {
+                            "children": [],
+                            "kind": {
+                              "content": "Success",
+                              "type": "Text"
+                            },
+                            "style": {
+                              "color": {
+                                "a": 1,
+                                "b": 0.10588235294117647,
+                                "g": 0.09411764705882353,
+                                "r": 0.09411764705882353
+                              },
+                              "fontFamily": "Times-Roman",
+                              "fontSize": 12,
+                              "fontWeight": 600,
+                              "margin": {
+                                "bottom": 4,
+                                "left": 0,
+                                "right": 0,
+                                "top": 0
+                              }
+                            }
+                          },
+                          {
+                            "children": [],
+                            "kind": {
+                              "content": "Your payment has been processed successfully.",
+                              "type": "Text"
+                            },
+                            "style": {
+                              "color": {
+                                "a": 1,
+                                "b": 0.47843137254901963,
+                                "g": 0.44313725490196076,
+                                "r": 0.44313725490196076
+                              },
+                              "fontFamily": "Helvetica",
+                              "fontSize": 12,
+                              "lineHeight": 1.6
+                            }
+                          }
+                        ],
+                        "kind": {
+                          "type": "View"
+                        },
+                        "style": {
+                          "flexBasis": {
+                            "Pt": 0
+                          },
+                          "flexGrow": 1,
+                          "flexShrink": 1
+                        }
+                      }
+                    ],
+                    "kind": {
+                      "type": "View"
+                    },
+                    "style": {
+                      "backgroundColor": {
+                        "a": 1,
+                        "b": 0.9607843137254902,
+                        "g": 0.9568627450980393,
+                        "r": 0.9568627450980393
+                      },
+                      "borderColor": {
+                        "bottom": {
+                          "a": 1,
+                          "b": 0,
+                          "g": 0,
+                          "r": 0
+                        },
+                        "left": {
+                          "a": 1,
+                          "b": 0.2901960784313726,
+                          "g": 0.6392156862745098,
+                          "r": 0.08627450980392157
+                        },
+                        "right": {
+                          "a": 1,
+                          "b": 0,
+                          "g": 0,
+                          "r": 0
+                        },
+                        "top": {
+                          "a": 1,
+                          "b": 0,
+                          "g": 0,
+                          "r": 0
+                        }
+                      },
+                      "borderRadius": {
+                        "bottom_left": 4,
+                        "bottom_right": 4,
+                        "top_left": 4,
+                        "top_right": 4
+                      },
+                      "borderWidth": {
+                        "bottom": 0,
+                        "left": 4,
+                        "right": 0,
+                        "top": 0
+                      },
+                      "flexDirection": "Row",
+                      "margin": {
+                        "bottom": 14,
+                        "left": 0,
+                        "right": 0,
+                        "top": 0
+                      },
+                      "padding": {
+                        "bottom": 12,
+                        "left": 12,
+                        "right": 12,
+                        "top": 12
+                      },
+                      "wrap": false
+                    }
+                  },
+                  {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "children": [],
+                            "kind": {
+                              "content": "<path d=\"M8 1.5 L15 14.5 L1 14.5 Z\" fill=\"none\" stroke=\"#d97706\" stroke-width=\"1.5\" stroke-linejoin=\"round\"/><line x1=\"8\" y1=\"6\" x2=\"8\" y2=\"10\" stroke=\"#d97706\" stroke-width=\"1.5\" stroke-linecap=\"round\"/><circle cx=\"8\" cy=\"12.5\" r=\"0.75\" fill=\"#d97706\"/>",
+                              "height": 16,
+                              "type": "Svg",
+                              "view_box": "0 0 16 16",
+                              "width": 16
+                            },
+                            "style": {}
+                          }
+                        ],
+                        "kind": {
+                          "type": "View"
+                        },
+                        "style": {
+                          "alignItems": "Center",
+                          "justifyContent": "FlexStart",
+                          "margin": {
+                            "bottom": 0,
+                            "left": 0,
+                            "right": 10,
+                            "top": 0
+                          },
+                          "padding": {
+                            "bottom": 0,
+                            "left": 0,
+                            "right": 0,
+                            "top": 2
+                          },
+                          "width": {
+                            "Pt": 20
+                          }
+                        }
+                      },
+                      {
+                        "children": [
+                          {
+                            "children": [],
+                            "kind": {
+                              "content": "Warning",
+                              "type": "Text"
+                            },
+                            "style": {
+                              "color": {
+                                "a": 1,
+                                "b": 0.10588235294117647,
+                                "g": 0.09411764705882353,
+                                "r": 0.09411764705882353
+                              },
+                              "fontFamily": "Times-Roman",
+                              "fontSize": 12,
+                              "fontWeight": 600,
+                              "margin": {
+                                "bottom": 4,
+                                "left": 0,
+                                "right": 0,
+                                "top": 0
+                              }
+                            }
+                          },
+                          {
+                            "children": [],
+                            "kind": {
+                              "content": "Please review the terms and conditions before proceeding.",
+                              "type": "Text"
+                            },
+                            "style": {
+                              "color": {
+                                "a": 1,
+                                "b": 0.47843137254901963,
+                                "g": 0.44313725490196076,
+                                "r": 0.44313725490196076
+                              },
+                              "fontFamily": "Helvetica",
+                              "fontSize": 12,
+                              "lineHeight": 1.6
+                            }
+                          }
+                        ],
+                        "kind": {
+                          "type": "View"
+                        },
+                        "style": {
+                          "flexBasis": {
+                            "Pt": 0
+                          },
+                          "flexGrow": 1,
+                          "flexShrink": 1
+                        }
+                      }
+                    ],
+                    "kind": {
+                      "type": "View"
+                    },
+                    "style": {
+                      "backgroundColor": {
+                        "a": 1,
+                        "b": 0.9607843137254902,
+                        "g": 0.9568627450980393,
+                        "r": 0.9568627450980393
+                      },
+                      "borderColor": {
+                        "bottom": {
+                          "a": 1,
+                          "b": 0,
+                          "g": 0,
+                          "r": 0
+                        },
+                        "left": {
+                          "a": 1,
+                          "b": 0.023529411764705882,
+                          "g": 0.4666666666666667,
+                          "r": 0.8509803921568627
+                        },
+                        "right": {
+                          "a": 1,
+                          "b": 0,
+                          "g": 0,
+                          "r": 0
+                        },
+                        "top": {
+                          "a": 1,
+                          "b": 0,
+                          "g": 0,
+                          "r": 0
+                        }
+                      },
+                      "borderRadius": {
+                        "bottom_left": 4,
+                        "bottom_right": 4,
+                        "top_left": 4,
+                        "top_right": 4
+                      },
+                      "borderWidth": {
+                        "bottom": 0,
+                        "left": 4,
+                        "right": 0,
+                        "top": 0
+                      },
+                      "flexDirection": "Row",
+                      "margin": {
+                        "bottom": 14,
+                        "left": 0,
+                        "right": 0,
+                        "top": 0
+                      },
+                      "padding": {
+                        "bottom": 12,
+                        "left": 12,
+                        "right": 12,
+                        "top": 12
+                      },
+                      "wrap": false
+                    }
+                  },
+                  {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "children": [],
+                            "kind": {
+                              "content": "<circle cx=\"8\" cy=\"8\" r=\"7\" fill=\"none\" stroke=\"#dc2626\" stroke-width=\"1.5\"/><line x1=\"5.5\" y1=\"5.5\" x2=\"10.5\" y2=\"10.5\" stroke=\"#dc2626\" stroke-width=\"1.5\" stroke-linecap=\"round\"/><line x1=\"10.5\" y1=\"5.5\" x2=\"5.5\" y2=\"10.5\" stroke=\"#dc2626\" stroke-width=\"1.5\" stroke-linecap=\"round\"/>",
+                              "height": 16,
+                              "type": "Svg",
+                              "view_box": "0 0 16 16",
+                              "width": 16
+                            },
+                            "style": {}
+                          }
+                        ],
+                        "kind": {
+                          "type": "View"
+                        },
+                        "style": {
+                          "alignItems": "Center",
+                          "justifyContent": "FlexStart",
+                          "margin": {
+                            "bottom": 0,
+                            "left": 0,
+                            "right": 10,
+                            "top": 0
+                          },
+                          "padding": {
+                            "bottom": 0,
+                            "left": 0,
+                            "right": 0,
+                            "top": 2
+                          },
+                          "width": {
+                            "Pt": 20
+                          }
+                        }
+                      },
+                      {
+                        "children": [
+                          {
+                            "children": [],
+                            "kind": {
+                              "content": "Error",
+                              "type": "Text"
+                            },
+                            "style": {
+                              "color": {
+                                "a": 1,
+                                "b": 0.10588235294117647,
+                                "g": 0.09411764705882353,
+                                "r": 0.09411764705882353
+                              },
+                              "fontFamily": "Times-Roman",
+                              "fontSize": 12,
+                              "fontWeight": 600,
+                              "margin": {
+                                "bottom": 4,
+                                "left": 0,
+                                "right": 0,
+                                "top": 0
+                              }
+                            }
+                          },
+                          {
+                            "children": [],
+                            "kind": {
+                              "content": "Missing required fields. Please complete all sections.",
+                              "type": "Text"
+                            },
+                            "style": {
+                              "color": {
+                                "a": 1,
+                                "b": 0.47843137254901963,
+                                "g": 0.44313725490196076,
+                                "r": 0.44313725490196076
+                              },
+                              "fontFamily": "Helvetica",
+                              "fontSize": 12,
+                              "lineHeight": 1.6
+                            }
+                          }
+                        ],
+                        "kind": {
+                          "type": "View"
+                        },
+                        "style": {
+                          "flexBasis": {
+                            "Pt": 0
+                          },
+                          "flexGrow": 1,
+                          "flexShrink": 1
+                        }
+                      }
+                    ],
+                    "kind": {
+                      "type": "View"
+                    },
+                    "style": {
+                      "backgroundColor": {
+                        "a": 1,
+                        "b": 0.9607843137254902,
+                        "g": 0.9568627450980393,
+                        "r": 0.9568627450980393
+                      },
+                      "borderColor": {
+                        "bottom": {
+                          "a": 1,
+                          "b": 0,
+                          "g": 0,
+                          "r": 0
+                        },
+                        "left": {
+                          "a": 1,
+                          "b": 0.14901960784313725,
+                          "g": 0.14901960784313725,
+                          "r": 0.8627450980392157
+                        },
+                        "right": {
+                          "a": 1,
+                          "b": 0,
+                          "g": 0,
+                          "r": 0
+                        },
+                        "top": {
+                          "a": 1,
+                          "b": 0,
+                          "g": 0,
+                          "r": 0
+                        }
+                      },
+                      "borderRadius": {
+                        "bottom_left": 4,
+                        "bottom_right": 4,
+                        "top_left": 4,
+                        "top_right": 4
+                      },
+                      "borderWidth": {
+                        "bottom": 0,
+                        "left": 4,
+                        "right": 0,
+                        "top": 0
+                      },
+                      "flexDirection": "Row",
+                      "margin": {
+                        "bottom": 14,
+                        "left": 0,
+                        "right": 0,
+                        "top": 0
+                      },
+                      "padding": {
+                        "bottom": 12,
+                        "left": 12,
+                        "right": 12,
+                        "top": 12
+                      },
+                      "wrap": false
+                    }
+                  }
+                ],
+                "kind": {
+                  "type": "View"
+                },
+                "style": {
+                  "flexDirection": "Column",
+                  "margin": {
+                    "bottom": 28,
+                    "left": 0,
+                    "right": 0,
+                    "top": 28
+                  }
+                }
+              }
+            ],
+            "kind": {
+              "type": "View"
+            },
+            "style": {
+              "flexDirection": "Column",
+              "margin": {
+                "bottom": 0,
+                "left": 0,
+                "right": 0,
+                "top": 0
+              }
+            }
+          }
+        ],
+        "kind": {
+          "config": {
+            "margin": {
+              "bottom": 40,
+              "left": 40,
+              "right": 40,
+              "top": 40
+            },
+            "size": "A4",
+            "wrap": true
+          },
+          "type": "Page"
+        },
+        "style": {}
+      }
+    ],
+    "defaultPage": {
+      "margin": {
+        "bottom": 54,
+        "left": 54,
+        "right": 54,
+        "top": 54
+      },
+      "size": "A4",
+      "wrap": true
+    },
+    "metadata": {}
+  }
+}
