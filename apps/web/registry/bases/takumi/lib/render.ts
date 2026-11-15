@@ -60,7 +60,7 @@ const escape = (value: string) =>
     .replaceAll("<", "&lt;")
     .replaceAll(">", "&gt;");
 
-/** Primitive props become string attributes, as Takumi's JSX reader does. */
+/** Primitive props become string attributes, as Takumi's element reader does. */
 const attributesOf = (props: Record<string, unknown>) => {
   let attributes: Record<string, string> | undefined;
   for (const [name, value] of Object.entries(props)) {

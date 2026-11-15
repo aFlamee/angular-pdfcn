@@ -26,10 +26,8 @@ export type BadgeSize = "sm" | "md" | "lg";
  * Inline label for status, tags, or categories.
  *
  * Accepts text via either `label` prop or `children` (string). `label` takes
- * precedence when both are provided. The children pattern (`<Badge>text</Badge>`)
- * is supported for compatibility with common React idioms, but note that
- * `Takumi primitives` doesn't support JSX children the way HTML does — only
- * string children are accepted.
+ * precedence when both are provided. Projected text (`<pdf-badge>text</pdf-badge>`)
+ * also works. Only text content is supported.
  *
  * Props - `label` | `children` | `variant` | `size` | `background` | `color` | `style`
  * @see {@link BadgeProps}

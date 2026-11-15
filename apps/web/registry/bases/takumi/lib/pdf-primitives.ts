@@ -161,7 +161,7 @@ export const flatten = (
   return normalizeTakumiStyle(style);
 };
 
-/** The element a primitive stands for, as Takumi's JSX reader would see it. */
+/** The tag and props a primitive stands for, as Takumi's element reader expects them. */
 export interface TakumiHost {
   tag: string;
   props: {

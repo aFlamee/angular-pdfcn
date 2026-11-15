@@ -769,33 +769,33 @@ const graphLayout = (
 
 /**
  * PdfGraph — renders bar, horizontal-bar, line, area, pie, and donut charts
- * natively inside react-pdf documents using SVG primitives.
+ * natively inside Forme documents using SVG primitives.
  *
  * No external chart libraries are required or used — all rendering is done via
- * react-pdf's built-in SVG support (`<Svg>`, `<Rect>`, `<Path>`, `<Line>`, etc.).
+ * Forme's SVG support (`<forme-svg>` with plain `<rect>`, `<path>`, `<line>`, and so on).
  *
  * @example Bar chart
- * ```tsx
- * <PdfGraph
+ * ```html
+ * <pdf-graph
  *   variant="bar"
  *   title="Monthly Revenue"
- *   data={[
+ *   [data]="[
  *     { label: 'Jan', value: 42000 },
  *     { label: 'Feb', value: 38000 },
  *     { label: 'Mar', value: 55000 },
- *   ]}
+ *   ]"
  * />
  * ```
  *
  * @example Donut chart with center label
- * ```tsx
- * <PdfGraph
+ * ```html
+ * <pdf-graph
  *   variant="donut"
- *   data={[
+ *   [data]="[
  *     { label: 'Product A', value: 45 },
  *     { label: 'Product B', value: 30 },
  *     { label: 'Other', value: 25 },
- *   ]}
+ *   ]"
  *   centerLabel="$1.2M"
  * />
  * ```
@@ -803,7 +803,7 @@ const graphLayout = (
  * **Limitations (by design):**
  * - No interactivity (PDFs are static)
  * - No animations
- * - SVG Text inside charts uses SVG font attributes (not react-pdf StyleSheet fonts)
+ * - SVG text inside charts uses SVG font attributes, not theme fonts
  * - For print PDFs use SVG-friendly fonts registered with Font.register()
  */
 @Component({

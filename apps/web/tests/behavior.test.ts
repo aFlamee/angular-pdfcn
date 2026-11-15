@@ -1,4 +1,4 @@
-// Behavior the React demos never exercise, so the parity suite can't see it.
+// Behavior the original demos never exercise, so the parity suite can't see it.
 import { Component } from "@angular/core";
 import { describe, expect, it } from "vitest";
 

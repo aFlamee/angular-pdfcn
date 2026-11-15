@@ -491,7 +491,7 @@ const pageHeaderStyles = (
   `,
 })
 export class PdfPageHeader {
-  /** Templates passed in resolve the theme from where they render, as React context did. */
+  /** Templates passed in resolve the theme from where they render, not where they are declared. */
   protected readonly injector = inject(Injector);
   readonly title = input.required<string>();
   readonly subtitle = input<string>();

@@ -306,7 +306,7 @@ const eventAgendaLayout = (theme: PdfcnTheme, data: EventAgendaProps) => {
                 >
                 @for (track of data.tracks; track track.name) {
                   <forme-view [style]="styles.legendItem">
-                    <!-- React's raw @formepdf/react View drops style arrays -->
+                    <!-- The original drops this style array, and the fixture records it -->
                     <forme-view />
                     <pdf-text
                       [style]="{ fontSize: 7.5, fontWeight: 600 }"
@@ -403,7 +403,7 @@ const eventAgendaLayout = (theme: PdfcnTheme, data: EventAgendaProps) => {
                           session.track
                             ? trackColorMap.get(session.track.toLowerCase())
                             : undefined;
-                        <!-- React's raw @formepdf/react View drops style arrays -->
+                        <!-- The original drops this style array, and the fixture records it -->
                         <forme-view>
                           <!-- Track & Room Metadata -->
                           <forme-view
@@ -415,7 +415,7 @@ const eventAgendaLayout = (theme: PdfcnTheme, data: EventAgendaProps) => {
                             }"
                           >
                             @if (session.track) {
-                              <!-- React's raw @formepdf/react View drops style arrays -->
+                              <!-- The original drops this style array, and the fixture records it -->
                               <forme-view>
                                 <pdf-text
                                   [style]="{

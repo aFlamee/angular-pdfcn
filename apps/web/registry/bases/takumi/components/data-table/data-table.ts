@@ -77,7 +77,7 @@ const dataTableLayout = <T extends Record<string, unknown>>(
 };
 
 /**
- * Stands in for the React original's per-row `Fragment`, which hides body rows
+ * Matches the original pdfcn, where a per-row wrapper hides body rows
  * from `Table`: they keep the default variant and get no zebra stripes.
  */
 @Directive({
@@ -165,7 +165,7 @@ class DataTableRowFragment {}
   `,
 })
 export class PdfDataTable<T extends Record<string, unknown>> {
-  /** Templates passed in resolve the theme from where they render, as React context did. */
+  /** Templates passed in resolve the theme from where they render, not where they are declared. */
   protected readonly injector = inject(Injector);
   readonly columns = input.required<DataTableColumn<T>[]>();
   readonly data = input.required<T[]>();

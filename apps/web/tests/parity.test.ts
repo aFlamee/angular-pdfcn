@@ -53,7 +53,7 @@ const cases = (Object.keys(render) as BaseName[]).flatMap((base) =>
     .map((file) => ({ base, name: file.slice(0, -".json".length) }))
 );
 
-describe("document parity with the React reference", () => {
+describe("document parity with the original pdfcn", () => {
   const failures: string[] = [];
 
   afterAll(() => {

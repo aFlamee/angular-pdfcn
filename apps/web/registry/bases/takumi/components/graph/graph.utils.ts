@@ -32,7 +32,7 @@ export const GRAPH_SAFE_WIDTHS = {
  * - Wrapper padding (e.g., a bordered graphShell View)
  *
  * @example
- * ```tsx
+ * ```ts
  * const width = getGraphWidth(theme);
  * // For a graph inside a Section with padding="md" (12pt) and a graphShell (12pt):
  * const width = getGraphWidth(theme, { containerPadding: 12, wrapperPadding: 12 });
