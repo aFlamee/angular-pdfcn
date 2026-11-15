@@ -1,9 +1,11 @@
 import { Component } from "@angular/core";
 import { RouterOutlet } from "@angular/router";
 
+import { JsonLd } from "@/src/app/components/json-ld";
+
 @Component({
-  imports: [RouterOutlet],
+  imports: [JsonLd, RouterOutlet],
   selector: "app-root",
-  template: `<router-outlet />`,
+  template: `<app-json-ld /><router-outlet />`,
 })
 export class App {}
