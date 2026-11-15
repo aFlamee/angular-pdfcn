@@ -1,5 +1,9 @@
 // Behavior the original demos never exercise, so the parity suite can't see it.
-import { Component } from "@angular/core";
+import {
+  Component,
+  destroyPlatform,
+  ɵcreateOrReusePlatformInjector as createOrReusePlatformInjector,
+} from "@angular/core";
 import { describe, expect, it } from "vitest";
 
 import { PdfDataTable } from "@/registry/bases/forme/components/data-table/data-table";
@@ -12,6 +16,7 @@ import {
   FormePage,
 } from "@/registry/bases/forme/lib/pdf-primitives";
 import { renderFormeDocument } from "@/registry/bases/forme/lib/render";
+import { renderTree, textOf } from "@/registry/lib/pdf-renderer";
 import { modernTheme } from "@/registry/themes/modern";
 
 const texts = (node: unknown): string[] => {
@@ -105,5 +110,20 @@ describe("forme components", () => {
     expect(renderFormeDocument(Outside)).toStrictEqual(
       renderFormeDocument(Inside)
     );
+  });
+});
+
+describe(renderTree, () => {
+  it("renders in an app started with bootstrapApplication", () => {
+    @Component({ template: "Hallo" })
+    class Hello {}
+    // bootstrapApplication creates its platform this way.
+    destroyPlatform();
+    createOrReusePlatformInjector([]);
+    try {
+      expect(renderTree(Hello, {}, textOf)).toBe("Hallo");
+    } finally {
+      destroyPlatform();
+    }
   });
 });

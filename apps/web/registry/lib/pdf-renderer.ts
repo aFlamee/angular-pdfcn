@@ -4,6 +4,7 @@ import {
   RendererFactory2,
   createComponent,
   createEnvironmentInjector,
+  getPlatform,
   inject,
   platformCore,
 } from "@angular/core";
@@ -144,7 +145,8 @@ export const renderTree = <T, R>(
       { provide: DOCUMENT, useValue: { head: null } },
       ...providers,
     ],
-    platformCore().injector as EnvironmentInjector
+    // bootstrapApplication's platform lacks the marker platformCore() asserts in dev mode.
+    (getPlatform() ?? platformCore()).injector as EnvironmentInjector
   );
   const ref = createComponent(component, { environmentInjector });
   try {
