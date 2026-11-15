@@ -1,6 +1,6 @@
 import { ChangeDetectionStrategy, Component } from "@angular/core";
 
-import { LINK, ORIGINAL } from "@/constants/links";
+import { LINK, ORIGINAL, OWNER } from "@/constants/links";
 
 /** The footer, with the credit to the original pdfcn. */
 @Component({
@@ -17,7 +17,14 @@ import { LINK, ORIGINAL } from "@/constants/links";
         <div
           class="text-muted-foreground w-full px-1 text-center text-xs leading-loose sm:text-sm"
         >
-          A community Angular port of
+          Built by
+          <a
+            [href]="OWNER.URL"
+            target="_blank"
+            rel="noreferrer"
+            class="font-medium underline underline-offset-4"
+            >{{ OWNER.NAME }}</a
+          >. A community Angular port of
           <a
             [href]="ORIGINAL.GITHUB"
             target="_blank"
@@ -56,4 +63,5 @@ import { LINK, ORIGINAL } from "@/constants/links";
 export class SiteFooter {
   protected readonly LINK = LINK;
   protected readonly ORIGINAL = ORIGINAL;
+  protected readonly OWNER = OWNER;
 }

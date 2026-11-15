@@ -10,7 +10,7 @@ import type { ResolveFn } from "@angular/router";
 import { ActivatedRoute } from "@angular/router";
 import { ExternalLink, Heart, Star } from "lucide";
 
-import { LINK, ORIGINAL } from "@/constants/links";
+import { LINK, ORIGINAL, OWNER } from "@/constants/links";
 import { ROUTES } from "@/constants/routes";
 import { SITE } from "@/constants/site";
 import { getStargazers, tiers } from "@/lib/sponsors";
@@ -76,12 +76,11 @@ export const routeMeta: RouteMeta = {
           that's not changing.
         </p>
         <p class="text-sm text-muted-foreground text-balance">
-          The components, their design, and the registry come from
-          {{ ORIGINAL.NAME }}. Sponsorships on this page go to
-          {{ ORIGINAL.AUTHOR }}, its original author, not to this port. If
-          {{ SITE.NAME }} made your project better, sponsoring
-          {{ ORIGINAL.AUTHOR }} is a nice way to say so. It pays for real time
-          on {{ ORIGINAL.NAME }}, and this port follows its updates.
+          Sponsorships on this page go to {{ OWNER.NAME }}, who maintains
+          {{ SITE.NAME }}. They pay for time spent porting new
+          {{ ORIGINAL.NAME }} components to Angular and keeping the registry
+          working. If {{ SITE.NAME }} made your project better, sponsoring is a
+          nice way to say so.
         </p>
         <p class="text-sm text-muted-foreground text-balance">
           Any amount is genuinely appreciated. And if money's not your thing,
@@ -186,6 +185,7 @@ export default class SponsorPage {
   protected readonly Star = Star;
   protected readonly LINK = LINK;
   protected readonly ORIGINAL = ORIGINAL;
+  protected readonly OWNER = OWNER;
   protected readonly SITE = SITE;
   protected readonly tiers = tiers;
   protected readonly stargazers: Stargazer[] =
@@ -193,7 +193,7 @@ export default class SponsorPage {
 
   constructor() {
     inject(SeoService).setPage({
-      description: `Support ${ORIGINAL.NAME}, the PDF components ${SITE.NAME} ports to Angular. Sponsor tiers, stargazers, and how to contribute.`,
+      description: `Support ${SITE.NAME}, PDF components for Angular. Sponsor tiers, stargazers, and how to contribute.`,
       path: ROUTES.SPONSOR,
       title: "Sponsor",
     });
