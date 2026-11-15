@@ -57,11 +57,12 @@ describe("document parity with the React reference", () => {
   const failures: string[] = [];
 
   afterAll(() => {
-    console.log(
-      `\n${cases.length - failures.length}/${cases.length} demos match`
+    // Vitest hides console output from passing tests, so write directly.
+    process.stdout.write(
+      `\n${cases.length - failures.length}/${cases.length} demos match\n`
     );
     if (failures.length > 0) {
-      console.log(`First diff: ${failures[0]}`);
+      process.stdout.write(`First diff: ${failures[0]}\n`);
     }
   });
 

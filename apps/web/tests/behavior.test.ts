@@ -36,7 +36,7 @@ describe("forme components", () => {
       ></forme-document>`,
     })
     class Demo {
-      protected readonly columns = [{ header: "Name", key: "name" }];
+      protected readonly columns = [{ header: "Name", key: "name" as const }];
       protected readonly rows = [{ name: "Ada" }];
     }
     const document = renderFormeDocument(Demo);

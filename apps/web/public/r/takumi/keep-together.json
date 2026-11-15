@@ -1,0 +1,22 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "takumi/keep-together",
+  "title": "Keep Together",
+  "description": "Keep Together PDF component (takumi)",
+  "dependencies": [
+    "takumi-pdf@^0.11.0",
+    "@takumi-rs/helpers@^2.10.0"
+  ],
+  "registryDependencies": [
+    "@angular-pdfcn/takumi/utils"
+  ],
+  "files": [
+    {
+      "path": "registry/bases/takumi/components/keep-together/keep-together.ts",
+      "content": "import { Component, computed, input } from \"@angular/core\";\n\nimport { TakumiView } from \"@/lib/pdf-primitives\";\nimport type { Style } from \"@/types/pdf-components\";\n\nexport interface KeepTogetherProps {\n  minPresenceAhead?: number;\n  style?: Style;\n}\n\n@Component({\n  imports: [TakumiView],\n  selector: \"pdf-keep-together\",\n  template: `<takumi-view [style]=\"keepTogetherStyle()\"\n    ><ng-content\n  /></takumi-view>`,\n})\nexport class PdfKeepTogether {\n  readonly minPresenceAhead = input<number>();\n  readonly style = input<KeepTogetherProps[\"style\"]>();\n\n  protected readonly keepTogetherStyle = computed(\n    () => [{ breakInside: \"avoid\" }, this.style()].filter(Boolean) as never\n  );\n}\n",
+      "type": "registry:component",
+      "target": "components/pdf/keep-together/keep-together.ts"
+    }
+  ],
+  "type": "registry:ui"
+}

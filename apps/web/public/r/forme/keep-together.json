@@ -1,0 +1,22 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "forme/keep-together",
+  "title": "Keep Together",
+  "description": "Keep Together PDF component (forme)",
+  "dependencies": [
+    "@formepdf/core@^0.25.0",
+    "@formepdf/shared@^0.25.0"
+  ],
+  "registryDependencies": [
+    "@angular-pdfcn/forme/utils"
+  ],
+  "files": [
+    {
+      "path": "registry/bases/forme/components/keep-together/keep-together.ts",
+      "content": "import { Component, input } from \"@angular/core\";\n\nimport { FormeView } from \"@/lib/pdf-primitives\";\nimport type { Style } from \"@/types/pdf-components\";\n\nexport interface KeepTogetherProps {\n  minPresenceAhead?: number;\n  style?: Style;\n}\n\n@Component({\n  imports: [FormeView],\n  selector: \"pdf-keep-together\",\n  template: `<forme-view [wrap]=\"false\" [style]=\"$any(style())\"\n    ><ng-content\n  /></forme-view>`,\n})\nexport class PdfKeepTogether {\n  readonly minPresenceAhead = input<number>();\n  readonly style = input<KeepTogetherProps[\"style\"]>();\n}\n",
+      "type": "registry:component",
+      "target": "components/pdf/keep-together/keep-together.ts"
+    }
+  ],
+  "type": "registry:ui"
+}

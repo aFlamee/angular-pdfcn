@@ -1,0 +1,22 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "takumi/theme-provider",
+  "title": "Theme Provider",
+  "description": "Theme provider for the takumi base",
+  "dependencies": [
+    "takumi-pdf@^0.11.0",
+    "@takumi-rs/helpers@^2.10.0"
+  ],
+  "registryDependencies": [
+    "@angular-pdfcn/theme-professional"
+  ],
+  "files": [
+    {
+      "path": "registry/bases/takumi/components/theme-provider.ts",
+      "content": "import {\n  Component,\n  InjectionToken,\n  inject,\n  input,\n  signal,\n} from \"@angular/core\";\nimport type { Signal } from \"@angular/core\";\n\nimport { professionalTheme } from \"@/lib/pdf-themes/professional\";\nimport type { PdfcnTheme } from \"@/types/pdf-themes\";\n\nexport type { PdfcnTheme };\n\nexport const PDFCN_THEME = new InjectionToken<Signal<PdfcnTheme>>(\n  \"PDFCN_THEME\"\n);\n\nconst defaultTheme = signal(professionalTheme).asReadonly();\n\n/** The theme of the nearest `<pdf-theme-provider>`, or the professional theme. */\nexport const injectPdfcnTheme = (): Signal<PdfcnTheme> =>\n  inject(PDFCN_THEME, { optional: true }) ?? defaultTheme;\n\n/** Provides a theme to the components it wraps. */\n@Component({\n  providers: [\n    {\n      provide: PDFCN_THEME,\n      useFactory: () => inject(PdfcnThemeProvider).theme,\n    },\n  ],\n  selector: \"pdf-theme-provider\",\n  template: \"<ng-content />\",\n})\nexport class PdfcnThemeProvider {\n  readonly theme = input(professionalTheme, {\n    transform: (theme: PdfcnTheme | undefined) => theme ?? professionalTheme,\n  });\n}\n",
+      "type": "registry:lib",
+      "target": "components/pdf/theme-provider.ts"
+    }
+  ],
+  "type": "registry:lib"
+}
