@@ -1,5 +1,9 @@
 import { inject } from "@angular/core";
-import type { ActivatedRouteSnapshot, ResolveFn } from "@angular/router";
+import type {
+  ActivatedRouteSnapshot,
+  ResolveFn,
+  RunGuardsAndResolvers,
+} from "@angular/router";
 import { RedirectCommand, Router } from "@angular/router";
 import { loaders, pages, tree } from "virtual:docs";
 
@@ -22,6 +26,11 @@ const docsUrl = (route: ActivatedRouteSnapshot) => {
   );
   return `/${segments.join("/")}`.replace(/\/$/, "") || ROUTES.HOME;
 };
+
+// Analog puts routeMeta on an empty-path child of the `**` route, so built-in modes see no change between docs pages.
+/** Reruns the docs resolver when the docs url changes. */
+export const docsUrlChanged: RunGuardsAndResolvers = (from, to) =>
+  docsUrl(from) !== docsUrl(to);
 
 const flatten = (nodes: DocsTreeNode[]): string[] =>
   nodes.flatMap((node) =>
