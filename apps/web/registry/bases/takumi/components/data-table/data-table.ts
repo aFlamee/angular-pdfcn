@@ -5,6 +5,8 @@ import {
   computed,
   Directive,
   input,
+  inject,
+  Injector,
 } from "@angular/core";
 
 import {
@@ -151,16 +153,20 @@ class DataTableRowFragment {}
     </pdf-table>
     <ng-template #content let-cell let-render="render">
       @if (render) {
-        <ng-container *ngTemplateOutlet="render; context: cell.context" />
+        <ng-container
+          *ngTemplateOutlet="render; context: cell.context; injector: injector"
+        />
       } @else if (cell.textStyle) {
         <takumi-text [style]="cell.textStyle">{{ cell.text }}</takumi-text>
       } @else {
-        {{ cell.text }}
+        <ng-container>{{ cell.text }}</ng-container>
       }
     </ng-template>
   `,
 })
 export class PdfDataTable<T extends Record<string, unknown>> {
+  /** Templates passed in resolve the theme from where they render, as React context did. */
+  protected readonly injector = inject(Injector);
   readonly columns = input.required<DataTableColumn<T>[]>();
   readonly data = input.required<T[]>();
   readonly variant = input<NonNullable<DataTableProps<T>["variant"]>>("grid");

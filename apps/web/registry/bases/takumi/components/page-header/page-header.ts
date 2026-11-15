@@ -1,5 +1,12 @@
 import { NgTemplateOutlet } from "@angular/common";
-import { booleanAttribute, Component, computed, input } from "@angular/core";
+import {
+  booleanAttribute,
+  Component,
+  computed,
+  input,
+  inject,
+  Injector,
+} from "@angular/core";
 import type { TemplateRef } from "@angular/core";
 
 import { injectPdfcnTheme } from "@/registry/bases/takumi/components/theme-provider";
@@ -401,14 +408,14 @@ const pageHeaderStyles = (
             </takumi-view>
             @if (logo(); as logo) {
               <takumi-view [style]="s.logoRightLogoContainer"
-                ><ng-container *ngTemplateOutlet="logo"
+                ><ng-container *ngTemplateOutlet="logo; injector: injector"
               /></takumi-view>
             }
           }
           @case ("logo-left") {
             @if (logo(); as logo) {
               <takumi-view [style]="s.logoContainer"
-                ><ng-container *ngTemplateOutlet="logo"
+                ><ng-container *ngTemplateOutlet="logo; injector: injector"
               /></takumi-view>
             }
             <takumi-view [style]="s.logoContent">
@@ -484,6 +491,8 @@ const pageHeaderStyles = (
   `,
 })
 export class PdfPageHeader {
+  /** Templates passed in resolve the theme from where they render, as React context did. */
+  protected readonly injector = inject(Injector);
   readonly title = input.required<string>();
   readonly subtitle = input<string>();
   readonly rightText = input<string>();
@@ -496,6 +505,8 @@ export class PdfPageHeader {
   readonly phone = input<string>();
   readonly email = input<string>();
   readonly logo = input<TemplateRef<unknown>>();
+  /** Part of the props API but unused, as in the original. */
+  readonly fixed = input(false, { transform: booleanAttribute });
   readonly noWrap = input(true, { transform: booleanAttribute });
   readonly style = input<PageHeaderProps["style"]>();
 

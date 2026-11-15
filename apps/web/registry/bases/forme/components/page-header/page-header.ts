@@ -1,5 +1,12 @@
 import { NgTemplateOutlet } from "@angular/common";
-import { booleanAttribute, Component, computed, input } from "@angular/core";
+import {
+  booleanAttribute,
+  Component,
+  computed,
+  input,
+  inject,
+  Injector,
+} from "@angular/core";
 import type { TemplateRef } from "@angular/core";
 
 import { injectPdfcnTheme } from "@/registry/bases/forme/components/theme-provider";
@@ -412,14 +419,14 @@ const pageHeaderStyles = (
             </forme-view>
             @if (logo(); as logo) {
               <forme-view [style]="s.logoRightLogoContainer"
-                ><ng-container *ngTemplateOutlet="logo"
+                ><ng-container *ngTemplateOutlet="logo; injector: injector"
               /></forme-view>
             }
           }
           @case ("logo-left") {
             @if (logo(); as logo) {
               <forme-view [style]="s.logoContainer"
-                ><ng-container *ngTemplateOutlet="logo"
+                ><ng-container *ngTemplateOutlet="logo; injector: injector"
               /></forme-view>
             }
             <forme-view [style]="s.logoContent">
@@ -491,6 +498,8 @@ const pageHeaderStyles = (
   `,
 })
 export class PdfPageHeader {
+  /** Templates passed in resolve the theme from where they render, as React context did. */
+  protected readonly injector = inject(Injector);
   readonly title = input.required<string>();
   readonly subtitle = input<string>();
   readonly rightText = input<string>();

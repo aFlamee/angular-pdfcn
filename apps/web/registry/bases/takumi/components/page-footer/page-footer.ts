@@ -5,6 +5,8 @@ import {
   computed,
   input,
   TemplateRef,
+  inject,
+  Injector,
 } from "@angular/core";
 
 import { injectPdfcnTheme } from "@/registry/bases/takumi/components/theme-provider";
@@ -454,7 +456,7 @@ const pageFooterStyles = (
       @if (value) {
         <takumi-text [style]="style">
           @if (isTemplate(value)) {
-            <ng-container *ngTemplateOutlet="value" />
+            <ng-container *ngTemplateOutlet="value; injector: injector" />
           } @else {
             <ng-container>{{ value }}</ng-container>
           }
@@ -464,6 +466,8 @@ const pageFooterStyles = (
   `,
 })
 export class PdfPageFooter {
+  /** Templates passed in resolve the theme from where they render, as React context did. */
+  protected readonly injector = inject(Injector);
   readonly leftText = input<FooterSlot>();
   readonly rightText = input<FooterSlot>();
   readonly centerText = input<FooterSlot>();

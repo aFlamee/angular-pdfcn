@@ -268,9 +268,11 @@ export class PdfTableRow {
     rowStyle(this.theme(), {
       footer: this.footer(),
       header: this.header(),
-      stripe: this.table
-        ? this.table.zebra() && this.table.bodyRows().indexOf(this) % 2 === 1
-        : this.stripe(),
+      stripe:
+        this.stripe() ||
+        (this.table !== null &&
+          this.table.zebra() &&
+          this.table.bodyRows().indexOf(this) % 2 === 1),
       style: this.style(),
       variant: this.resolvedVariant(),
     })
