@@ -9,8 +9,10 @@ This guide covers how the port works, how to run it locally, and how to add a co
 
 ## Getting started
 
+Fork the repository on GitHub, then clone your fork:
+
 ```bash
-git clone https://github.com/aFlamee/angular-pdfcn.git
+git clone https://github.com/<your-username>/angular-pdfcn.git
 cd angular-pdfcn
 pnpm install
 pnpm dev
@@ -63,6 +65,7 @@ Add the component to each base separately. For a component named `badge` in the 
 
 ## Pull requests
 
+- Branch from `develop` and open the pull request against `develop`. `main` only receives merges from `develop`.
 - For a non-trivial change, open an issue first so we can agree on the direction.
 - Keep each pull request to one purpose.
 - Make sure `pnpm verify` passes and describe what you changed and how you checked it.

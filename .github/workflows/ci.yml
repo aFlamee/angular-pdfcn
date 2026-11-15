@@ -4,7 +4,7 @@ on:
   pull_request:
     branches: ["*"]
   push:
-    branches: ["main"]
+    branches: ["main", "develop"]
   merge_group:
   workflow_dispatch:
 
@@ -13,7 +13,7 @@ permissions:
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
-  cancel-in-progress: ${{ github.ref != 'refs/heads/main' }}
+  cancel-in-progress: ${{ github.ref != 'refs/heads/main' && github.ref != 'refs/heads/develop' }}
 
 jobs:
   verify:
