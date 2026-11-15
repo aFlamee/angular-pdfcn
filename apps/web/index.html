@@ -5,9 +5,33 @@
     <title>angular-pdfcn</title>
     <base href="/" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="icon" href="/favicon.ico" />
+    <meta name="theme-color" content="#ffffff" />
+    <link rel="icon" href="/favicon.ico" sizes="32x32" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="shortcut icon" href="/favicon-16x16.png" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="180x180" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <script>
+      // Applies the saved color mode before first paint, like next-themes.
+      try {
+        var theme = localStorage.theme;
+        var dark =
+          theme === "dark" ||
+          ((!theme || theme === "system") &&
+            matchMedia("(prefers-color-scheme: dark)").matches);
+        document.documentElement.classList.add(dark ? "dark" : "light");
+        document.documentElement.style.colorScheme = dark ? "dark" : "light";
+        if (dark)
+          document
+            .querySelector('meta[name="theme-color"]')
+            .setAttribute("content", "#09090b");
+      } catch (_) {}
+    </script>
+    <link rel="stylesheet" href="/src/styles.css" />
   </head>
-  <body>
+  <body
+    class="text-foreground group/body overscroll-none font-sans antialiased [--footer-height:--spacing(14)] [--header-height:--spacing(14)] xl:[--footer-height:--spacing(24)]"
+  >
     <app-root></app-root>
     <script type="module" src="/src/main.ts"></script>
   </body>
