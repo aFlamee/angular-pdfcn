@@ -5,12 +5,12 @@ import { ActivatedRoute } from "@angular/router";
 import { map } from "rxjs";
 
 import { DocsPage } from "@/src/app/components/docs/docs-page";
-import { resolveDoc } from "@/src/app/lib/docs-source";
+import { docsUrlChanged, resolveDoc } from "@/src/app/lib/docs-source";
 import type { ResolvedDoc } from "@/src/app/lib/docs-source";
 
 export const routeMeta: RouteMeta = {
   resolve: { doc: resolveDoc },
-  runGuardsAndResolvers: "pathParamsChange",
+  runGuardsAndResolvers: docsUrlChanged,
 };
 
 @Component({
