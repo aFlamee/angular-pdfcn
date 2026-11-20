@@ -2,7 +2,7 @@
 import { existsSync, readFileSync } from "node:fs";
 import path from "node:path";
 
-import { REGISTRY_NAMESPACE } from "../install";
+import { LICENSE_NOTICE, REGISTRY_NAMESPACE } from "../install";
 import { APP_ROOT } from "./source";
 
 interface RegistryItem {
@@ -70,10 +70,10 @@ export const installPlan = (itemName: string, docFile: string) => {
   ]
     .filter((file) => existsSync(path.join(APP_ROOT, file.path)))
     .map((file) => ({
-      code: toInstalledPaths(
+      code: `${toInstalledPaths(
         readFileSync(path.join(APP_ROOT, file.path), "utf-8"),
         targets
-      ).trim(),
+      ).trim()}\n\n${LICENSE_NOTICE}`,
       target: file.target,
     }));
   return { files, packages };

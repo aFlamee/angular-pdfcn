@@ -177,6 +177,12 @@ addEventListener("message", async ({ data, ports: [port] }) => {
 }
 ```
 
+The worker entry also imports `@formepdf/react`, which only Forme's React API uses. Add it to `externalDependencies` in the same build options, so `ng build` leaves it out of the bundle:
+
+```json title="angular.json"
+"externalDependencies": ["@formepdf/react"]
+```
+
 ```ts title="src/app/pdf.worker.ts"
 /// <reference lib="webworker" />
 import { init, renderSerializedDoc } from "@formepdf/core/worker";
@@ -197,51 +203,81 @@ addEventListener("message", async ({ data, ports: [port] }) => {
 :::
 ::::
 
-In your app, send each document to the worker with its own `MessageChannel`, so that concurrent renders get their own replies:
+In your app, start the worker and load the document on the first render. The engine and its `.wasm` file then download only when someone asks for a PDF. Send each document with its own `MessageChannel`, so that concurrent renders get their own replies:
 
 ::::tabs
 :::tab{value="takumi" label="Takumi"}
 
-```ts
-import { renderTakumiDocument } from "@/lib/render";
-import { Invoice } from "./invoice";
-
-const worker = new Worker(new URL("./pdf.worker", import.meta.url), {
-  type: "module",
-});
+```ts title="src/app/pdf.ts"
+let worker: Worker | undefined;
 
 const renderInWorker = (message: unknown) =>
   new Promise<Uint8Array>((resolve, reject) => {
+    worker ??= new Worker(new URL("./pdf.worker", import.meta.url), {
+      type: "module",
+    });
+    const current = worker;
+    // A worker that fails to load never replies, so reject instead of waiting.
+    const onError = (event: Event) => {
+      if (worker === current) {
+        worker = undefined;
+      }
+      reject(new Error("The PDF worker failed", { cause: event }));
+    };
+    current.addEventListener("error", onError);
     const { port1, port2 } = new MessageChannel();
-    port1.onmessage = ({ data }) =>
+    port1.onmessage = ({ data }) => {
+      current.removeEventListener("error", onError);
       data.error ? reject(data.error) : resolve(data.pdf);
-    worker.postMessage(message, [port2]);
+    };
+    current.postMessage(message, [port2]);
   });
 
-const { node } = renderTakumiDocument(Invoice);
-const pdf = await renderInWorker({ node, options: { size: "a4" } });
+export const renderInvoice = async () => {
+  const [{ renderTakumiDocument }, { Invoice }] = await Promise.all([
+    import("@/lib/render"),
+    import("./invoice"),
+  ]);
+  const { node } = renderTakumiDocument(Invoice);
+  return renderInWorker({ node, options: { size: "a4" } });
+};
 ```
 
 :::
 :::tab{value="forme" label="Forme"}
 
-```ts
-import { renderFormeDocument } from "@/lib/render";
-import { Invoice } from "./invoice";
-
-const worker = new Worker(new URL("./pdf.worker", import.meta.url), {
-  type: "module",
-});
+```ts title="src/app/pdf.ts"
+let worker: Worker | undefined;
 
 const renderInWorker = (message: unknown) =>
   new Promise<Uint8Array>((resolve, reject) => {
+    worker ??= new Worker(new URL("./pdf.worker", import.meta.url), {
+      type: "module",
+    });
+    const current = worker;
+    // A worker that fails to load never replies, so reject instead of waiting.
+    const onError = (event: Event) => {
+      if (worker === current) {
+        worker = undefined;
+      }
+      reject(new Error("The PDF worker failed", { cause: event }));
+    };
+    current.addEventListener("error", onError);
     const { port1, port2 } = new MessageChannel();
-    port1.onmessage = ({ data }) =>
+    port1.onmessage = ({ data }) => {
+      current.removeEventListener("error", onError);
       data.error ? reject(data.error) : resolve(data.pdf);
-    worker.postMessage(message, [port2]);
+    };
+    current.postMessage(message, [port2]);
   });
 
-const pdf = await renderInWorker(renderFormeDocument(Invoice));
+export const renderInvoice = async () => {
+  const [{ renderFormeDocument }, { Invoice }] = await Promise.all([
+    import("@/lib/render"),
+    import("./invoice"),
+  ]);
+  return renderInWorker(renderFormeDocument(Invoice));
+};
 ```
 
 :::
@@ -249,13 +285,14 @@ const pdf = await renderInWorker(renderFormeDocument(Invoice));
 
 ### Fonts
 
-Forme renders every font family you don't register with a standard PDF font: Helvetica, Times-Roman, or Courier. These cover Western European text such as ä, ß, „“, and €, and print other characters, such as ≥, →, and ✓, as `?`. Takumi rejects the render instead, with an error such as `No registered font covers ≥ (U+2265)`. Register a TrueType font that covers your text:
+Forme renders every font family you don't register with a standard PDF font: Helvetica, Times-Roman, or Courier. These cover Western European text such as ä, ß, „“, and €, and print other characters, such as ≥, →, and ✓, as `?`. Takumi rejects the render instead, with an error such as `No registered font covers ≥ (U+2265)`. Register a TrueType font that covers your text. In `renderInvoice`, replace the lines after the imports:
 
 ::::tabs
 :::tab{value="takumi" label="Takumi"}
 
 ```ts
-const pdf = await renderInWorker({
+const { node } = renderTakumiDocument(Invoice);
+return renderInWorker({
   node,
   options: { size: "a4", fonts: ["/fonts/NotoSans-Regular.ttf"] },
 });
@@ -263,6 +300,25 @@ const pdf = await renderInWorker({
 
 :::
 :::tab{value="forme" label="Forme"}
+
+Name the font in your theme's typography. Add the theme at the top of `src/app/pdf.ts`:
+
+```ts title="src/app/pdf.ts"
+import { professionalTheme } from "@/lib/pdf-themes/professional";
+
+const theme = {
+  ...professionalTheme,
+  typography: {
+    body: { ...professionalTheme.typography.body, fontFamily: "Noto Sans" },
+    heading: {
+      ...professionalTheme.typography.heading,
+      fontFamily: "Noto Sans",
+    },
+  },
+};
+```
+
+Pass it to the document and register the font:
 
 ```ts
 const doc = renderFormeDocument(Invoice, { inputs: { theme } });
@@ -275,10 +331,10 @@ doc.fonts = [
     italic: false,
   },
 ];
-const pdf = await renderInWorker(doc);
+return renderInWorker(doc);
 ```
 
-For Forme, `family` must match the font family that your theme's typography names. `src` takes a URL or a data URI. Forme embeds only the glyphs that the document uses.
+`Invoice` needs a `theme` input that it binds to `<pdf-theme-provider [theme]="theme()">`, as the blocks do. `family` must match the font family that the theme names. `src` takes a URL or a data URI. The worker fetches the file when it renders, so the font doesn't load with your app. Forme embeds only the glyphs that the document uses.
 
 :::
 ::::
