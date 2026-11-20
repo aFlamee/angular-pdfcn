@@ -13,7 +13,12 @@ import type { AddressInfo } from "node:net";
 import { tmpdir } from "node:os";
 import path from "node:path";
 
-import { addCommand, componentsJson, TSCONFIG_PATHS } from "../lib/install";
+import {
+  addCommand,
+  componentsJson,
+  LICENSE_NOTICE,
+  TSCONFIG_PATHS,
+} from "../lib/install";
 
 // Both bases install to the same paths, so each gets its own app.
 const BASES = {
@@ -125,6 +130,13 @@ try {
       .split(" ")
       .slice(3);
     await run(app, bin("shadcn"), ["add", ...names, "--yes"]);
+    if (
+      !readFileSync(path.join(app, "src/lib/render.ts"), "utf-8").includes(
+        LICENSE_NOTICE
+      )
+    ) {
+      throw new Error(`The installed ${base} files lack the license notice.`);
+    }
 
     writeFileSync(
       path.join(app, "src/app/invoice.pdf.spec.ts"),
