@@ -66,11 +66,11 @@ importers:
         specifier: ^5.3.0
         version: 5.3.0
       '@formepdf/core':
-        specifier: ^0.25.0
-        version: 0.25.0
+        specifier: ^0.32.0
+        version: 0.32.0
       '@formepdf/shared':
-        specifier: ^0.25.0
-        version: 0.25.0
+        specifier: ^0.32.0
+        version: 0.32.0
       '@takumi-rs/helpers':
         specifier: ^2.10.0
         version: 2.10.0
@@ -1149,13 +1149,13 @@ packages:
   '@fontsource-variable/inter@5.3.0':
     resolution: {integrity: sha512-OupL48va4JNofb97w6NYeF9S7W/kHNKM0Er8Dem5nqi4jeOLrVJDoE8tZEpnMJmtkvNbB1EIPPwHcdkF6b1oUA==}
 
-  '@formepdf/core@0.25.0':
-    resolution: {integrity: sha512-elxPOq5BT9X9vCBH9nx1Q9sYiizvRKu70cGRXC4nDOJGt482QcUye7R2OUHq5lCqoNTl3HElGhNcW0t/1Eh+PA==}
+  '@formepdf/core@0.32.0':
+    resolution: {integrity: sha512-DwfYj1e52JoWrnPhKQwEjsOnAoCymg3+2nrZML+pnAcroeDW4cPBMirhAEUmMvYZwS/vI76nuA/1jF+B1kjXqA==}
     peerDependencies:
       react: ^18 || ^19
 
-  '@formepdf/shared@0.25.0':
-    resolution: {integrity: sha512-0S3Vs3m6nev/XsDRR9LGmeZSXqFxCtHVnjVBTlyPhPQeeAPIE0S7DrvdneQqrhNMx2D6+58irR5eUOoyY3jsgg==}
+  '@formepdf/shared@0.32.0':
+    resolution: {integrity: sha512-GbbOLz8fWjng3gH4J7S4upc1SOfQi5PbtQrO6V6bXfmM8saXqYEWbi8mAhNwySZnSjOlcOrmMircfi3IFPdHUw==}
 
   '@harperfast/extended-iterable@1.0.5':
     resolution: {integrity: sha512-4ScXlphaKEa49RpHmqwATq9QI9aUTdWVYDlJkzxhsD7ShJP+pHCYLznMO9n/wREY8jPjRZ59wLJY6HM5yB5Gkw==}
@@ -7070,9 +7070,9 @@ snapshots:
 
   '@fontsource-variable/inter@5.3.0': {}
 
-  '@formepdf/core@0.25.0': {}
+  '@formepdf/core@0.32.0': {}
 
-  '@formepdf/shared@0.25.0':
+  '@formepdf/shared@0.32.0':
     dependencies:
       parse5: 7.3.0
 

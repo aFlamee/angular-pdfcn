@@ -5,6 +5,8 @@ import path from "node:path";
 
 import ts from "typescript";
 
+import { LICENSE_NOTICE } from "../lib/install";
+
 interface RegistryFile {
   path: string;
   target: string;
@@ -50,6 +52,8 @@ execFileSync("shadcn", ["build", registryFile, "-o", outputDir], {
 });
 const targets = new Map<string, string>();
 const publishedItems = new Map<string, PublishedItem>();
+// The installed files each item's own files import.
+const importedTargets = new Map<string, Set<string>>();
 
 for (const item of registry.items) {
   for (const file of item.files) {
@@ -73,6 +77,8 @@ const resolveSource = (importPath: string) => {
 
 let rewritten = 0;
 for (const item of registry.items) {
+  const imported = new Set<string>();
+  importedTargets.set(item.name, imported);
   const output = path.join(outputDir, `${item.name}.json`);
   const published = JSON.parse(
     await readFile(output, "utf-8")
@@ -93,13 +99,12 @@ for (const item of registry.items) {
         ts.isStringLiteral(node.moduleSpecifier) &&
         node.moduleSpecifier.text.startsWith("@/registry/")
       ) {
+        const target = resolveSource(node.moduleSpecifier.text) as string;
+        imported.add(target);
         replacements.push({
           end: node.moduleSpecifier.getEnd() - 1,
           start: node.moduleSpecifier.getStart(source) + 1,
-          value: `@/${resolveSource(node.moduleSpecifier.text)}`.replace(
-            /\.ts$/,
-            ""
-          ),
+          value: `@/${target}`.replace(/\.ts$/, ""),
         });
       }
       ts.forEachChild(node, visit);
@@ -111,6 +116,7 @@ for (const item of registry.items) {
         file.content.slice(0, start) + value + file.content.slice(end);
       rewritten += 1;
     }
+    file.content = `${file.content.trimEnd()}\n\n${LICENSE_NOTICE}\n`;
   }
   publishedItems.set(item.name, published);
 
@@ -118,6 +124,16 @@ for (const item of registry.items) {
 }
 
 for (const item of registry.items) {
+  const imported = importedTargets.get(item.name) as Set<string>;
+  for (const ref of item.registryDependencies ?? []) {
+    const dependency = publishedItems.get(ref.slice("@angular-pdfcn/".length));
+    if (!dependency?.files.some((file) => imported.has(file.target))) {
+      throw new Error(
+        `${item.name}: no file imports registry dependency ${ref}`
+      );
+    }
+  }
+
   const installed = new Map();
   const packages = new Set();
   const pending = [item.name];
