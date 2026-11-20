@@ -52,8 +52,8 @@ execFileSync("shadcn", ["build", registryFile, "-o", outputDir], {
 });
 const targets = new Map<string, string>();
 const publishedItems = new Map<string, PublishedItem>();
-// The installed files each item's own files import.
-const importedTargets = new Map<string, Set<string>>();
+// The registry source files each item's own files import.
+const importedSources = new Map<string, Set<string>>();
 
 for (const item of registry.items) {
   for (const file of item.files) {
@@ -69,7 +69,7 @@ const resolveSource = (importPath: string) => {
   const source = importPath.slice(2);
   for (const candidate of [source, `${source}.ts`, `${source}/index.ts`]) {
     if (targets.has(candidate)) {
-      return targets.get(candidate);
+      return candidate;
     }
   }
   throw new Error(`No registry destination for ${importPath}`);
@@ -78,7 +78,7 @@ const resolveSource = (importPath: string) => {
 let rewritten = 0;
 for (const item of registry.items) {
   const imported = new Set<string>();
-  importedTargets.set(item.name, imported);
+  importedSources.set(item.name, imported);
   const output = path.join(outputDir, `${item.name}.json`);
   const published = JSON.parse(
     await readFile(output, "utf-8")
@@ -99,12 +99,12 @@ for (const item of registry.items) {
         ts.isStringLiteral(node.moduleSpecifier) &&
         node.moduleSpecifier.text.startsWith("@/registry/")
       ) {
-        const target = resolveSource(node.moduleSpecifier.text) as string;
-        imported.add(target);
+        const sourcePath = resolveSource(node.moduleSpecifier.text);
+        imported.add(sourcePath);
         replacements.push({
           end: node.moduleSpecifier.getEnd() - 1,
           start: node.moduleSpecifier.getStart(source) + 1,
-          value: `@/${target}`.replace(/\.ts$/, ""),
+          value: `@/${targets.get(sourcePath)}`.replace(/\.ts$/, ""),
         });
       }
       ts.forEachChild(node, visit);
@@ -124,10 +124,10 @@ for (const item of registry.items) {
 }
 
 for (const item of registry.items) {
-  const imported = importedTargets.get(item.name) as Set<string>;
+  const imported = importedSources.get(item.name) as Set<string>;
   for (const ref of item.registryDependencies ?? []) {
     const dependency = publishedItems.get(ref.slice("@angular-pdfcn/".length));
-    if (!dependency?.files.some((file) => imported.has(file.target))) {
+    if (!dependency?.files.some((file) => imported.has(file.path))) {
       throw new Error(
         `${item.name}: no file imports registry dependency ${ref}`
       );

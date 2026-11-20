@@ -31,6 +31,6 @@ export const TSCONFIG_PATHS = { "@/*": ["./src/*"] };
 export const addCommand = (...names: string[]) =>
   `npx shadcn@latest add ${names.map((name) => `${REGISTRY_NAMESPACE}/${name}`).join(" ")}`;
 
-/** The last line of every installed file, as the MIT License requires. `shadcn add` strips leading comments. */
+/** The attribution line at the end of every installed file. `shadcn add` strips leading comments. */
 export const LICENSE_NOTICE =
   "// Copyright (c) 2026 Shadcn Labs and Ahmad El Mir. MIT License: https://github.com/aFlamee/angular-pdfcn/blob/main/LICENSE";

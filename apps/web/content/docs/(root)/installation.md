@@ -216,10 +216,21 @@ const renderInWorker = (message: unknown) =>
     worker ??= new Worker(new URL("./pdf.worker", import.meta.url), {
       type: "module",
     });
+    const current = worker;
+    // A worker that fails to load never replies, so reject instead of waiting.
+    const onError = (event: Event) => {
+      if (worker === current) {
+        worker = undefined;
+      }
+      reject(new Error("The PDF worker failed", { cause: event }));
+    };
+    current.addEventListener("error", onError);
     const { port1, port2 } = new MessageChannel();
-    port1.onmessage = ({ data }) =>
+    port1.onmessage = ({ data }) => {
+      current.removeEventListener("error", onError);
       data.error ? reject(data.error) : resolve(data.pdf);
-    worker.postMessage(message, [port2]);
+    };
+    current.postMessage(message, [port2]);
   });
 
 export const renderInvoice = async () => {
@@ -243,10 +254,21 @@ const renderInWorker = (message: unknown) =>
     worker ??= new Worker(new URL("./pdf.worker", import.meta.url), {
       type: "module",
     });
+    const current = worker;
+    // A worker that fails to load never replies, so reject instead of waiting.
+    const onError = (event: Event) => {
+      if (worker === current) {
+        worker = undefined;
+      }
+      reject(new Error("The PDF worker failed", { cause: event }));
+    };
+    current.addEventListener("error", onError);
     const { port1, port2 } = new MessageChannel();
-    port1.onmessage = ({ data }) =>
+    port1.onmessage = ({ data }) => {
+      current.removeEventListener("error", onError);
       data.error ? reject(data.error) : resolve(data.pdf);
-    worker.postMessage(message, [port2]);
+    };
+    current.postMessage(message, [port2]);
   });
 
 export const renderInvoice = async () => {
@@ -279,8 +301,27 @@ return renderInWorker({
 :::
 :::tab{value="forme" label="Forme"}
 
+Name the font in your theme's typography. Add the theme at the top of `src/app/pdf.ts`:
+
+```ts title="src/app/pdf.ts"
+import { professionalTheme } from "@/lib/pdf-themes/professional";
+
+const theme = {
+  ...professionalTheme,
+  typography: {
+    body: { ...professionalTheme.typography.body, fontFamily: "Noto Sans" },
+    heading: {
+      ...professionalTheme.typography.heading,
+      fontFamily: "Noto Sans",
+    },
+  },
+};
+```
+
+Pass it to the document and register the font:
+
 ```ts
-const doc = renderFormeDocument(Invoice);
+const doc = renderFormeDocument(Invoice, { inputs: { theme } });
 doc.fonts = [
   ...(doc.fonts ?? []),
   {
@@ -293,7 +334,7 @@ doc.fonts = [
 return renderInWorker(doc);
 ```
 
-For Forme, `family` must match the font family that your theme's typography names. `src` takes a URL or a data URI. The worker fetches the file when it renders, so the font doesn't load with your app. Forme embeds only the glyphs that the document uses.
+`Invoice` needs a `theme` input that it binds to `<pdf-theme-provider [theme]="theme()">`, as the blocks do. `family` must match the font family that the theme names. `src` takes a URL or a data URI. The worker fetches the file when it renders, so the font doesn't load with your app. Forme embeds only the glyphs that the document uses.
 
 :::
 ::::
